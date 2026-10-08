@@ -1,0 +1,5 @@
+# The pseudonym map is a secret and never belongs in this repository.
+tx_alias_map.json
+*alias_map*
+*.jsonl
+.DS_Store
