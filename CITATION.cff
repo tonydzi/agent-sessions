@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use agent-sessions in research or software, please cite it as below."
+title: "agent-sessions"
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: Dziatkovskii
+    given-names: Anton
+    orcid: "https://orcid.org/0000-0001-7408-3054"
+    affiliation: "Palo Alto AI Research Lab"
+repository-code: "https://github.com/tonydzi/agent-sessions"
+url: "https://github.com/tonydzi/agent-sessions"
+keywords:
+  - coding agents
+  - agent transcripts
+  - LLM agents
+  - corpus
+  - human-AI collaboration
+abstract: >-
+  An open corpus of full working sessions with a coding agent, published a week after
+  the fact with personal data replaced by stable pseudonyms. Each file is one complete
+  session: the request, the agent's reasoning, every tool call with its arguments, the
+  false assertions and the corrections. Selection is automated and fail-closed: sessions
+  that touch hiring, leads, investors or money are not published, and neither are
+  sessions where technical work overlaps with those topics.

@@ -1,0 +1,14 @@
+# GitHub Pages reader over index.md.
+# jekyll-relative-links ships enabled on GitHub Pages, so links written as *.md in
+# index.md resolve to the rendered pages here AND stay clickable on github.com.
+# One source, two readers, no duplicated link table.
+title: agent-sessions
+description: >-
+  An open corpus of full working sessions with a coding agent, published a week later
+  with personal data scrubbed.
+theme: jekyll-theme-cayman
+show_downloads: false
+exclude:
+  - FOR-ROBOTS.md
+  - CITATION.cff
+  - .gitignore
