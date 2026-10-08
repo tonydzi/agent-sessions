@@ -1,6 +1,6 @@
 # Index
 
-Every session published so far, newest first. 10 sessions, 108,470 words.
+Every session published so far, newest first. 10 sessions, 108,281 words.
 
 Each row is one full working session with a coding agent. Topics are named
 by hand after reading the session; everything else is read off the files.
@@ -14,9 +14,9 @@ by hand after reading the session; everything else is read off the files.
 | 2026-09-21 | [`ec0417c4`](sessions/2026-09/session-ec0417c4.md) | Adversarial review of a scripts+hooks change, against frozen commits | 15,140 |
 | 2026-09-21 | [`250a2057`](sessions/2026-09/session-250a2057.md) | Cross-vendor review of a two-repository change written by Codex | 13,403 |
 | 2026-09-20 | [`4feae8f1`](sessions/2026-09/session-4feae8f1.md) | Scheduled run: casebook drip, turning sessions into case notes | 8,668 |
-| 2026-09-09 | [`a223d227`](sessions/2026-09/session-a223d227.md) | Scheduled run: the deep-research runner on a crypto question | 7,964 |
 | 2026-09-04 | [`5406e99e`](sessions/2026-09/session-5406e99e.md) | Scheduled run: daily replies in other people's repositories | 14,729 |
 | 2026-09-03 | [`e8e87461`](sessions/2026-09/session-e8e87461.md) | Scheduled run: the CLI reaper, killing abandoned agent processes | 9,893 |
+| 2026-09-01 | [`bf95ea4f`](sessions/2026-09/session-bf95ea4f.md) | Scheduled run: folder cleanup on a peer node, acting on a stale order | 7,775 |
 
 Selection, scrubbing and the known blind spots of the gate are described in
 [README.md](README.md).
