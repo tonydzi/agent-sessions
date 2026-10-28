@@ -1,5 +1,7 @@
 # agent-sessions
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23712140.svg)](https://doi.org/10.5281/zenodo.23712140) [![Hugging Face](https://img.shields.io/badge/dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/TonyDzi/agent-sessions)
+
 An open corpus of full working sessions with a coding agent. Real transcripts from a
 running fleet of agents, published a week after the fact, with personal data scrubbed.
 

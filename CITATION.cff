@@ -2,6 +2,14 @@ cff-version: 1.2.0
 message: "If you use agent-sessions in research or software, please cite it as below."
 title: "agent-sessions"
 type: dataset
+doi: "10.5281/zenodo.23712140"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23712140"
+    description: "Zenodo snapshot, 2026-10 (349 judged-clean sessions)"
+  - type: url
+    value: "https://huggingface.co/datasets/TonyDzi/agent-sessions"
+    description: "Hugging Face dataset (moving version)"
 license: CC-BY-4.0
 authors:
   - family-names: Dziatkovskii
