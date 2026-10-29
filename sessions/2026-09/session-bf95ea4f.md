@@ -776,7 +776,7 @@ Sharp findings. #2 is a correctness bug I must check immediately — if the anch
 
 ---
 
-> `Bash` -- {"command": "timeout 180 ssh -o BatchMode=yes -o ConnectTimeout=15 mayak 'python3 -c \"\nimport json,io\nd=json.load(io.open(\\\"/home/anton/.claude/settings.json\\\",encoding=\\\"utf-8-sig\\\"))\nfor g in d[\\\"hooks\\\"][\\\"PostToolUse\\\"]:\n    for h in g.get(\\\"hooks\\\",[]):\n        if \\\"
+> `Bash` -- {"command": "timeout 180 ssh -o BatchMode=yes -o ConnectTimeout=15 mayak 'python3 -c \"\nimport json,io\nd=json.load(io.open(\\\"/home/dev/.claude/settings.json\\\",encoding=\\\"utf-8-sig\\\"))\nfor g in d[\\\"hooks\\\"][\\\"PostToolUse\\\"]:\n    for h in g.get(\\\"hooks\\\",[]):\n        if \\\"
 
 ---
 

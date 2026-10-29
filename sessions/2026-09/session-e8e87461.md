@@ -896,7 +896,7 @@ ON AIR по этой зоне я не объявил — моя ошибка, и
 
 ---
 
-> `Bash` -- {"command": "S=\"C:/Users/dev/AppData/Local/Temp/claude/E---CLAUDE-PaloAltoPC-June26/e8e87461-a8d2-4cdf-8468-24374a2815aa/scratchpad\"; cat > \"$S/probe_py.py\" <<'PYEOF'\nimport os, sys, subprocess\nsys.path.insert(0, r\"C:\\Users\\dev\\.claude\\scripts\")\nsys.path.insert(0, r\"C:\\Users\\Anto
+> `Bash` -- {"command": "S=\"C:/Users/dev/AppData/Local/Temp/claude/E---CLAUDE-PaloAltoPC-June26/e8e87461-a8d2-4cdf-8468-24374a2815aa/scratchpad\"; cat > \"$S/probe_py.py\" <<'PYEOF'\nimport os, sys, subprocess\nsys.path.insert(0, r\"C:\\Users\\dev\\.claude\\scripts\")\nsys.path.insert(0, r\"C:\\Users\\dev
 
 ---
 

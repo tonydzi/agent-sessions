@@ -15,7 +15,7 @@ VERDICT: APPROVE or REQUEST_CHANGES
 
 === SCRIPTS COMMIT ===
 commit e98a662cbb0d92e95dd528a19617e89c1d437db1
-Author:     Claude Config Snapshot (HUB-01) <claude-config@HUB-01.local>
+Author:     Claude Config Snapshot (HUB-01) <c***@H***.local>
 AuthorDate: Mon Sep 21 07:16:30 2026 +0100
 Commit:     claude-? <claude+?@local>
 CommitDate: Mon Sep 21 08:27:16 2026 +0100
@@ -2306,7 +2306,7 @@ index f0719abb3..849df3971 100644
 
 === HOOKS COMMIT ===
 commit d23e6c57d67ab6133bc2fa305306341affc93779
-Author:     Claude Config Snapshot (HUB-01) <claude-config@HUB-01.local>
+Author:     Claude Config Snapshot (HUB-01) <c***@H***.local>
 AuthorDate: Mon Sep 21 07:16:30 2026 +0100
 Commit:     claude-? <claude+?@local>
 CommitDate: Mon Sep 21 08:27:22 2026 +0100
