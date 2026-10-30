@@ -10,7 +10,7 @@ dataset: https://huggingface.co/datasets/tonydzi/agent-sessions
 
 # 2026-09-30 · Scheduled run: five-whys-deploy-register-gate
 
-_Full working session of an LLM coding agent, scrubbed by rule (names, e-mails, hosts, keys replaced by shape-preserving stand-ins). Row `s_cc8a1b5d` of the [dataset](https://huggingface.co/datasets/tonydzi/agent-sessions)._
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_cc8a1b5d` of the [dataset](https://huggingface.co/datasets/tonydzi/agent-sessions)._
 
 **User:**
 

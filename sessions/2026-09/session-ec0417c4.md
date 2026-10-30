@@ -15,7 +15,7 @@ VERDICT: APPROVE or REQUEST_CHANGES
 
 === SCRIPTS COMMIT ===
 commit e98a662cbb0d92e95dd528a19617e89c1d437db1
-Author:     Claude Config Snapshot (HUB-01) <c***@H***.local>
+Author:     Claude Config Snapshot (HUB-01) <[EMAIL]>
 AuthorDate: Mon Sep 21 07:16:30 2026 +0100
 Commit:     claude-? <claude+?@local>
 CommitDate: Mon Sep 21 08:27:16 2026 +0100
@@ -189,7 +189,7 @@ index 4d7d597e5..000000000
 -            wins, errors = _guard_race(race_root, race_target)
 -            check("параллельный hook: 8 turn -> ровно один проходит", wins == 1,
 -                  "wins=%d errors=%s" % (wins, errors))
--            patch = "*** Begin Patch\n*** Update File: %s\n@@\n-old\n+new\n*** End Patch" % target
+-            patch = "*** Begin Patch\[ФАМИЛИЯ] Update File: %s\n@@\n-old\n+new\[ФАМИЛИЯ] End Patch" % target
 -            p1 = {"session_id": "codex-A", "cwd": root, "tool_name": "apply_patch",
 -                  "tool_input": {"command": patch}}
 -            p2 = {"session_id": "claude-B", "cwd": root, "tool_name": "Edit",
@@ -682,7 +682,7 @@ index 000000000..6a5299c57
 +            check("параллельный hook: 8 turn -> один win, 7 доказанных BUSY",
 +                  wins == 1 and not errors,
 +                   "wins=%d errors=%s" % (wins, errors))
-+            patch = "*** Begin Patch\n*** Update File: %s\n@@\n-old\n+new\n*** End Patch" % target
++            patch = "*** Begin Patch\[ФАМИЛИЯ] Update File: %s\n@@\n-old\n+new\[ФАМИЛИЯ] End Patch" % target
 +            p1 = {"session_id": "codex-A", "turn_id": "turn-A",
 +                  "tool_use_id": "call-A", "cwd": root, "tool_name": "apply_patch",
 +                  "tool_input": {"command": patch}}
@@ -752,7 +752,7 @@ index 000000000..6a5299c57
 +            _run_guard({"session_id": "claude-B", "cwd": root}, "stop", env)
 +
 +            alias_target = os.path.join(root, "session-alias.md")
-+            alias_patch = ("*** Begin Patch\n*** Update File: %s\n@@\n-old\n+new\n"
++            alias_patch = ("*** Begin Patch\[ФАМИЛИЯ] Update File: %s\n@@\n-old\n+new\n"
 +                           "*** End Patch" % alias_target)
 +            alias_acquire = _run_guard({
 +                "session_id": "codex-alias", "turn_id": "turn-alias",
@@ -785,7 +785,7 @@ index 000000000..6a5299c57
 +            _run_guard({"session_id": "alias-challenger", "cwd": root}, "stop", env)
 +
 +            epoch_target = os.path.join(root, "epoch-fence.md")
-+            epoch_patch = "*** Begin Patch\n*** Update File: %s\n@@\n-old\n+new\n*** End Patch" % epoch_target
++            epoch_patch = "*** Begin Patch\[ФАМИЛИЯ] Update File: %s\n@@\n-old\n+new\[ФАМИЛИЯ] End Patch" % epoch_target
 +            old_turn = {"session_id": "codex-same", "turn_id": "turn-old",
 +                        "tool_use_id": "call-old", "cwd": root,
 +                        "tool_name": "apply_patch",
@@ -2306,7 +2306,7 @@ index f0719abb3..849df3971 100644
 
 === HOOKS COMMIT ===
 commit d23e6c57d67ab6133bc2fa305306341affc93779
-Author:     Claude Config Snapshot (HUB-01) <c***@H***.local>
+Author:     Claude Config Snapshot (HUB-01) <[EMAIL]>
 AuthorDate: Mon Sep 21 07:16:30 2026 +0100
 Commit:     claude-? <claude+?@local>
 CommitDate: Mon Sep 21 08:27:22 2026 +0100

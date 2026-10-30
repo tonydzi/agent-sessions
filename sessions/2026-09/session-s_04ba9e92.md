@@ -10,7 +10,7 @@ dataset: https://huggingface.co/datasets/tonydzi/agent-sessions
 
 # 2026-09-09 · Scheduled run: auto-hub-260824-dr-runner-crypto
 
-_Full working session of an LLM coding agent, scrubbed by rule (names, e-mails, hosts, keys replaced by shape-preserving stand-ins). Row `s_04ba9e92` of the [dataset](https://huggingface.co/datasets/tonydzi/agent-sessions)._
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_04ba9e92` of the [dataset](https://huggingface.co/datasets/tonydzi/agent-sessions)._
 
 **User:**
 
