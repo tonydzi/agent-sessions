@@ -84,6 +84,14 @@ will be.
 Anton is not pseudonymized. It is his corpus and he is publishing it under his name.
 Everyone else is.
 
+Personal fields are the exception to "same shape". Since 30 Oct 2026 (mask rule v2) no
+first letter survives, because a first letter plus context is enough to recognise someone:
+surnames become `[ФАМИЛИЯ]` (the author's own surname inside the text too), e-mail
+addresses `[EMAIL]`, phone numbers `[ТЕЛЕФОН]`, street addresses and postal codes
+`[АДРЕС]`, ages `[ВОЗРАСТ]`. First names stay as stable pseudonyms. Every earlier file was
+re-masked with the same rule. Workplaces, cities and other quasi-identifiers of third
+parties have no regex shape; an LLM reviewer flags them and the session is withheld.
+
 After scrubbing, a fail-closed gate re-reads the file and refuses to publish it if
 anything red survived: private keys, provider tokens, inline secrets, personal home
 paths, chat identifiers, phone numbers.
