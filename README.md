@@ -24,9 +24,15 @@ honest artifact a build produces.
 ## What is in here
 
 ```
-sessions/YYYY-MM/session-<id8>.md    one session, rendered from the raw log
-index.md                             table of everything published
+sessions/YYYY-MM/session-<id>.md     one session, rendered from the raw log
+sessions/YYYY-MM/README.md           full table of that month
+index.md                             totals by month and the latest 50 sessions
 ```
+
+Sessions are sharded by the month of their last message, so no single page or folder
+has to hold the whole corpus. Every file is plain markdown, well under GitHub's 100 MB
+file limit (the largest is a few hundred KB), so there is no Git LFS: Pages cannot
+serve LFS files, and readers should not need a special client to open a transcript.
 
 Each file is one session, start to finish. `**Anton:**` is the human (or the scheduled
 task that woke the agent), `**Claude:**` is the agent, and lines starting with `>` are
