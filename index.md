@@ -1,6 +1,6 @@
 # Index
 
-Every session published so far. 12,520 sessions, 30,404,538 words.
+Every session published so far. 12,558 sessions, 30,457,333 words.
 
 Each row is one full working session with a coding agent. Sessions are grouped by the
 month of their last message; each month has its own full table.
@@ -9,7 +9,7 @@ month of their last message; each month has its own full table.
 
 | month | sessions | words |
 |:---|---:|---:|
-| [2026-10](sessions/2026-10/README.md) | 5,699 | 19,789,096 |
+| [2026-10](sessions/2026-10/README.md) | 5,737 | 19,841,891 |
 | [2026-09](sessions/2026-09/README.md) | 6,641 | 10,090,205 |
 | [2026-08](sessions/2026-08/README.md) | 180 | 525,237 |
 
@@ -17,8 +17,46 @@ month of their last message; each month has its own full table.
 
 | date | session | topic | words |
 |---|---|---|---|
+| 2026-10-29 | [`s_b0830f21`](sessions/2026-10/session-s_b0830f21.md) | Scheduled run: chatgpt-token-guard-nightly | 6,226 |
+| 2026-10-29 | [`s_2edca7e2`](sessions/2026-10/session-s_2edca7e2.md) | Scheduled run: teach-podcast-queue | 5,581 |
+| 2026-10-29 | [`s_42c415fb`](sessions/2026-10/session-s_42c415fb.md) | Scheduled run: claudeai-sync-daily | 4,920 |
+| 2026-10-29 | [`s_8a039eca`](sessions/2026-10/session-s_8a039eca.md) | Scheduled run: content-lang-pairs-nightly | 4,453 |
+| 2026-10-29 | [`s_14a0b21c`](sessions/2026-10/session-s_14a0b21c.md) | Scheduled run: canon-writer-nightly | 3,797 |
+| 2026-10-29 | [`s_de0e7140`](sessions/2026-10/session-s_de0e7140.md) | Scheduled run: invite-autoconfirm-nightly | 2,954 |
+| 2026-10-29 | [`s_306efd94`](sessions/2026-10/session-s_306efd94.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,333 |
+| 2026-10-29 | [`s_1843c9a9`](sessions/2026-10/session-s_1843c9a9.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,058 |
+| 2026-10-29 | [`s_2e2a0bda`](sessions/2026-10/session-s_2e2a0bda.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,038 |
 | 2026-10-29 | [`s_00ec362c`](sessions/2026-10/session-s_00ec362c.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,025 |
+| 2026-10-29 | [`s_a5d0051f`](sessions/2026-10/session-s_a5d0051f.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 1,971 |
+| 2026-10-29 | [`s_dc740b44`](sessions/2026-10/session-s_dc740b44.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,962 |
+| 2026-10-29 | [`s_165cc7fd`](sessions/2026-10/session-s_165cc7fd.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,942 |
+| 2026-10-29 | [`s_91433d2e`](sessions/2026-10/session-s_91433d2e.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,938 |
+| 2026-10-29 | [`s_f42819cc`](sessions/2026-10/session-s_f42819cc.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,936 |
 | 2026-10-29 | [`s_016fa9b2`](sessions/2026-10/session-s_016fa9b2.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,915 |
+| 2026-10-29 | [`s_09500439`](sessions/2026-10/session-s_09500439.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,893 |
+| 2026-10-29 | [`s_30a5f9a8`](sessions/2026-10/session-s_30a5f9a8.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,739 |
+| 2026-10-29 | [`s_2ae1be3b`](sessions/2026-10/session-s_2ae1be3b.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 824 |
+| 2026-10-29 | [`s_d5af2ef1`](sessions/2026-10/session-s_d5af2ef1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 446 |
+| 2026-10-29 | [`s_b38f2a68`](sessions/2026-10/session-s_b38f2a68.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 378 |
+| 2026-10-29 | [`s_dfa6b5e2`](sessions/2026-10/session-s_dfa6b5e2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 375 |
+| 2026-10-29 | [`s_ee1c4d95`](sessions/2026-10/session-s_ee1c4d95.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 355 |
+| 2026-10-29 | [`s_886f983a`](sessions/2026-10/session-s_886f983a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 322 |
+| 2026-10-29 | [`s_4a0b57bd`](sessions/2026-10/session-s_4a0b57bd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 297 |
+| 2026-10-29 | [`s_47991764`](sessions/2026-10/session-s_47991764.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 265 |
+| 2026-10-29 | [`s_3c018d77`](sessions/2026-10/session-s_3c018d77.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 250 |
+| 2026-10-29 | [`s_265b3fc2`](sessions/2026-10/session-s_265b3fc2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 236 |
+| 2026-10-29 | [`s_1feeebc7`](sessions/2026-10/session-s_1feeebc7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 216 |
+| 2026-10-29 | [`s_66fa7caf`](sessions/2026-10/session-s_66fa7caf.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 199 |
+| 2026-10-29 | [`s_e54076ce`](sessions/2026-10/session-s_e54076ce.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 182 |
+| 2026-10-29 | [`s_97647c80`](sessions/2026-10/session-s_97647c80.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 181 |
+| 2026-10-29 | [`s_4087e745`](sessions/2026-10/session-s_4087e745.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 175 |
+| 2026-10-29 | [`s_e113790e`](sessions/2026-10/session-s_e113790e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 157 |
+| 2026-10-29 | [`s_dec07f16`](sessions/2026-10/session-s_dec07f16.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 137 |
+| 2026-10-29 | [`s_32383341`](sessions/2026-10/session-s_32383341.md) | reply with exactly: TOKSYNC_OK | 21 |
+| 2026-10-29 | [`s_4e5bf8e6`](sessions/2026-10/session-s_4e5bf8e6.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-29 | [`s_1a0007b9`](sessions/2026-10/session-s_1a0007b9.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-29 | [`s_17f04f0b`](sessions/2026-10/session-s_17f04f0b.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-29 | [`s_55e85770`](sessions/2026-10/session-s_55e85770.md) | reply with exactly: TOKSYNC_OK | 8 |
 | 2026-10-28 | [`s_4a883742`](sessions/2026-10/session-s_4a883742.md) | Пост для Норы: про память и про то, как сделать так, чтобы AI-агент / «второй мозг» помнил… | 73,144 |
 | 2026-10-28 | [`s_23f67cb2`](sessions/2026-10/session-s_23f67cb2.md) | Провести аудит всех сообщений, которые мы писали в Signal: проверить, насколько они были р… | 56,740 |
 | 2026-10-28 | [`s_d48c6a5c`](sessions/2026-10/session-s_d48c6a5c.md) | Для плауд дай мне инструкции | 55,056 |
@@ -29,44 +67,6 @@ month of their last message; each month has its own full table.
 | 2026-10-28 | [`s_9faed2a8`](sessions/2026-10/session-s_9faed2a8.md) | Дай ему скиллы все наши для плауд транскрибации и диаризации | 41,579 |
 | 2026-10-28 | [`s_44342a59`](sessions/2026-10/session-s_44342a59.md) | Прежде всего подними и проанализируй всё наше общение со школой Вилора и Александрой. Посм… | 41,513 |
 | 2026-10-28 | [`s_03dc7a97`](sessions/2026-10/session-s_03dc7a97.md) | Прежде всего проверь наше общение со школой Вилора и Александрой. Посмотри свежие письма о… | 40,678 |
-| 2026-10-28 | [`s_0c00dfb0`](sessions/2026-10/session-s_0c00dfb0.md) | Нужно провести deep research, как должна работать система обновлений между компьютерами | 40,427 |
-| 2026-10-28 | [`s_a75f141f`](sessions/2026-10/session-s_a75f141f.md) | Алиса хочет поехать во Францию, в Париж, в Диснейленд. Нужно спланировать гипотетическую п… | 40,320 |
-| 2026-10-28 | [`s_1a0e8773`](sessions/2026-10/session-s_1a0e8773.md) | Проверить по звонку с Айбеком Рахимовым: отправляли ли ему промпты для Claude, чтобы он на… | 39,694 |
-| 2026-10-28 | [`s_44fbe820`](sessions/2026-10/session-s_44fbe820.md) | В гостинице в Альгарве, где я сейчас живу, есть кулинарная школа/кукинг-классы Mimo Algarv… | 37,913 |
-| 2026-10-28 | [`s_c7778a3f`](sessions/2026-10/session-s_c7778a3f.md) | Прежде всего подними и проанализируй всё наше общение со школой Вилора и Александрой. Посм… | 37,781 |
-| 2026-10-28 | [`s_313f6c56`](sessions/2026-10/session-s_313f6c56.md) | Проведи исследование пользы для нас | 26,217 |
-| 2026-10-28 | [`s_65ce00b8`](sessions/2026-10/session-s_65ce00b8.md) | Проверь кодекс, перестал работать на хабе. Перезапусти кодекс. И все те сессии, с которыми… | 25,375 |
-| 2026-10-28 | [`s_abf0f3ac`](sessions/2026-10/session-s_abf0f3ac.md) | This session is being continued from a previous conversation that ran out of context. The… | 25,124 |
-| 2026-10-28 | [`s_2591e563`](sessions/2026-10/session-s_2591e563.md) | Scheduled run: auto-hub-261028-competitor-claude-code-workflows | 24,120 |
-| 2026-10-28 | [`s_6f80b8fa`](sessions/2026-10/session-s_6f80b8fa.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,885 |
-| 2026-10-28 | [`s_e8a44de1`](sessions/2026-10/session-s_e8a44de1.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,478 |
-| 2026-10-28 | [`s_ee7c8c93`](sessions/2026-10/session-s_ee7c8c93.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,463 |
-| 2026-10-28 | [`s_a8211aaf`](sessions/2026-10/session-s_a8211aaf.md) | Scheduled run: pipe-a-apply-daily | 22,181 |
-| 2026-10-28 | [`s_7158c54d`](sessions/2026-10/session-s_7158c54d.md) | Scheduled run: lead-thread-reply | 8,943 |
-| 2026-10-28 | [`s_0869e1fc`](sessions/2026-10/session-s_0869e1fc.md) | Scheduled run: voice-dispatcher | 7,526 |
-| 2026-10-28 | [`s_7857a949`](sessions/2026-10/session-s_7857a949.md) | Scheduled run: auto-hub-260824-nsfw-dr-posts | 7,121 |
-| 2026-10-28 | [`s_4f965535`](sessions/2026-10/session-s_4f965535.md) | Нужно найти рядом с местом проживания / гостиницей Valgarve фермерские рынки, фермы и bio-… | 5,329 |
-| 2026-10-28 | [`s_95e171eb`](sessions/2026-10/session-s_95e171eb.md) | Scheduled run: pipe-a-inbox-watch | 5,073 |
-| 2026-10-28 | [`s_62f59a80`](sessions/2026-10/session-s_62f59a80.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 5,058 |
-| 2026-10-28 | [`s_2c58e220`](sessions/2026-10/session-s_2c58e220.md) | Scheduled run: auto-hub-261028-dr-runner-audio-parts | 4,466 |
-| 2026-10-28 | [`s_9bf65370`](sessions/2026-10/session-s_9bf65370.md) | Scheduled run: teach-podcast-queue | 4,308 |
-| 2026-10-28 | [`s_e86f673a`](sessions/2026-10/session-s_e86f673a.md) | Нужно изучить, что говорят про предстоящую конференцию 10–12 ноября в Сан-Франциско, особе… | 4,282 |
-| 2026-10-28 | [`s_abe544d2`](sessions/2026-10/session-s_abe544d2.md) | Scheduled run: auto-hub-260811-retro-lost-nightly | 4,199 |
-| 2026-10-28 | [`s_9540e150`](sessions/2026-10/session-s_9540e150.md) | Scheduled run: auto-hub-261028-critic-loop-gauntlet-from-openflow | 4,158 |
-| 2026-10-28 | [`s_d0043707`](sessions/2026-10/session-s_d0043707.md) | Scheduled run: auto-hub-261028-competitor-superset | 4,155 |
-| 2026-10-28 | [`s_0cf187ef`](sessions/2026-10/session-s_0cf187ef.md) | Scheduled run: dr-teasers-daily | 4,131 |
-| 2026-10-28 | [`s_a7c5afe3`](sessions/2026-10/session-s_a7c5afe3.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 4,078 |
-| 2026-10-28 | [`s_d935c23e`](sessions/2026-10/session-s_d935c23e.md) | Scheduled run: day-summary-human-touch | 3,926 |
-| 2026-10-28 | [`s_ba734890`](sessions/2026-10/session-s_ba734890.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 3,872 |
-| 2026-10-28 | [`s_98ebb010`](sessions/2026-10/session-s_98ebb010.md) | Проверь шину 001, мне кажется, она глючит. Проверь чат 001 и посмотри, что происходит сейч… | 3,590 |
-| 2026-10-28 | [`s_2fdd3018`](sessions/2026-10/session-s_2fdd3018.md) | Scheduled run: preference-sweep-daily | 3,469 |
-| 2026-10-28 | [`s_0eefd2e5`](sessions/2026-10/session-s_0eefd2e5.md) | Scheduled run: five-whys-routine-runs-output-stale | 3,418 |
-| 2026-10-28 | [`s_65dbaf73`](sessions/2026-10/session-s_65dbaf73.md) | Scheduled run: robot-profile-scrub-nightly | 3,376 |
-| 2026-10-28 | [`s_a1230d2f`](sessions/2026-10/session-s_a1230d2f.md) | Scheduled run: hub-deploy-unpack-daily | 3,236 |
-| 2026-10-28 | [`s_36cb63ed`](sessions/2026-10/session-s_36cb63ed.md) | Нужно проверить, получилось ли забронировать fine dining ресторан рядом с жильём в Ольгаро… | 3,189 |
-| 2026-10-28 | [`s_a7476aa2`](sessions/2026-10/session-s_a7476aa2.md) | Scheduled run: recruiter-lane-build-20261001 | 3,080 |
-| 2026-10-28 | [`s_0d5ca9eb`](sessions/2026-10/session-s_0d5ca9eb.md) | Scheduled run: invite-autoconfirm-nightly | 3,053 |
-| 2026-10-28 | [`s_98dddeb5`](sessions/2026-10/session-s_98dddeb5.md) | Scheduled run: auto-hub-261028-collect-synthesize-dr-hub04-openflow | 3,009 |
 
 Selection, scrubbing and the known blind spots of the gate are described in
 [README.md](README.md).
