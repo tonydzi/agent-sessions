@@ -1,0 +1,40 @@
+---
+session: s_fd965c61
+date: 2026-09-24
+words: 98
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-24 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_fd965c61` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: PGS1
+username: paulgsc
+org: Wealthy Teds
+person_note: person-pablo-pgs1
+msg_sample: Yes sure | How are you | Ey bro | come to ibiza | after Paris? | How long in Paris ? | Now In Ibiza | How are you | Ey Anthony | how are you ? | ey Anthony | https://twitter.com/i/spaces/1MnxnkNAvbBKO
+
+---
+
+**Claude:**
+
+```json
+{
+  "role": "",
+  "company": "Wealthy Teds",
+  "topics": ["travel"],
+  "seniority": "unknown"
+}
+```
