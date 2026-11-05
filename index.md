@@ -1,6 +1,6 @@
 # Index
 
-Every session published so far. 520 sessions, 2,655,647 words.
+Every session published so far. 1,020 sessions, 5,105,390 words.
 
 Each row is one full working session with a coding agent. Sessions are grouped by the
 month of their last message; each month has its own full table.
@@ -9,7 +9,7 @@ month of their last message; each month has its own full table.
 
 | month | sessions | words |
 |:---|---:|---:|
-| [2026-09](sessions/2026-09/README.md) | 340 | 2,130,410 |
+| [2026-09](sessions/2026-09/README.md) | 840 | 4,580,153 |
 | [2026-08](sessions/2026-08/README.md) | 180 | 525,237 |
 
 ## Latest 50
@@ -29,43 +29,43 @@ month of their last message; each month has its own full table.
 | 2026-09-21 | [`s_36ea8714`](sessions/2026-09/session-s_36ea8714.md) | CONTENT_DRAIN_AUTORUN | 8,777 |
 | 2026-09-20 | [`4feae8f1`](sessions/2026-09/session-4feae8f1.md) | Scheduled run: casebook drip, turning sessions into case notes | 8,668 |
 | 2026-09-20 | [`s_6c3c06bd`](sessions/2026-09/session-s_6c3c06bd.md) | CONTENT_DRAIN_AUTORUN | 8,500 |
-| 2026-09-15 | [`s_ae558611`](sessions/2026-09/session-s_ae558611.md) | Scheduled run: casebook-drip-daily | 7,595 |
-| 2026-09-09 | [`s_04ba9e92`](sessions/2026-09/session-s_04ba9e92.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 7,964 |
-| 2026-09-08 | [`s_0c37d449`](sessions/2026-09/session-s_0c37d449.md) | Scheduled run: share-fix-daily | 3,835 |
-| 2026-09-08 | [`s_0c1ef06a`](sessions/2026-09/session-s_0c1ef06a.md) | Scheduled run: voice-triage | 3,068 |
-| 2026-09-08 | [`s_02e81547`](sessions/2026-09/session-s_02e81547.md) | Scheduled run: journey-day-close-morning | 2,982 |
-| 2026-09-08 | [`s_1fc47d6e`](sessions/2026-09/session-s_1fc47d6e.md) | Scheduled run: auto-hub-260811-retro-lost-nightly | 2,900 |
-| 2026-09-08 | [`s_078d001e`](sessions/2026-09/session-s_078d001e.md) | Scheduled run: lead-thread-reply | 2,176 |
-| 2026-09-08 | [`s_0e452a7d`](sessions/2026-09/session-s_0e452a7d.md) | Scheduled run: preference-sweep-daily | 1,137 |
-| 2026-09-08 | [`s_037ba9fc`](sessions/2026-09/session-s_037ba9fc.md) | Scheduled run: jobs-tg-nightly | 687 |
-| 2026-09-07 | [`s_9b6e1ac0`](sessions/2026-09/session-s_9b6e1ac0.md) | Исследование. Глубокое исследование. нам нужно глубокое исследование. Кто как обходит harn… | 15,168 |
-| 2026-09-07 | [`s_1d4d76bd`](sessions/2026-09/session-s_1d4d76bd.md) | Scheduled run: pipe-a-apply-daily | 13,510 |
-| 2026-09-07 | [`s_827db9fd`](sessions/2026-09/session-s_827db9fd.md) | https://getbb.app/ | 10,133 |
-| 2026-09-07 | [`s_9a8db2c8`](sessions/2026-09/session-s_9a8db2c8.md) | Погасить одну рутину, на нужно погасить одну рутину. Об этом просит мой мак. Посмотри, что… | 8,938 |
-| 2026-09-07 | [`s_0ff0d121`](sessions/2026-09/session-s_0ff0d121.md) | Scheduled run: auto-hub-260806-inbound-triage-daily | 5,408 |
-| 2026-09-07 | [`s_1af6ec96`](sessions/2026-09/session-s_1af6ec96.md) | Scheduled run: voice-triage | 5,318 |
-| 2026-09-07 | [`s_79f34b32`](sessions/2026-09/session-s_79f34b32.md) | Scheduled run: cv-outreach-executor | 5,218 |
-| 2026-09-07 | [`s_93cfc86b`](sessions/2026-09/session-s_93cfc86b.md) | Scheduled run: voice-dispatcher | 4,408 |
-| 2026-09-07 | [`s_a9358b52`](sessions/2026-09/session-s_a9358b52.md) | Scheduled run: shadow-harvest-daily | 4,027 |
-| 2026-09-07 | [`s_ccc9ecdb`](sessions/2026-09/session-s_ccc9ecdb.md) | Scheduled run: share-fix-daily | 3,893 |
-| 2026-09-07 | [`s_910e3d57`](sessions/2026-09/session-s_910e3d57.md) | Scheduled run: content-drain-live | 3,593 |
-| 2026-09-07 | [`s_0b668abc`](sessions/2026-09/session-s_0b668abc.md) | Scheduled run: auto-hub-260901-cv-rebuild-contacts | 3,462 |
-| 2026-09-07 | [`s_b4b9cc10`](sessions/2026-09/session-s_b4b9cc10.md) | Scheduled run: fb-reply-daily | 3,446 |
-| 2026-09-07 | [`s_bbfce8f6`](sessions/2026-09/session-s_bbfce8f6.md) | Scheduled run: auto-hub-260811-rep-reply-daily | 3,268 |
-| 2026-09-07 | [`s_0d78f80a`](sessions/2026-09/session-s_0d78f80a.md) | Scheduled run: pipe-a-inbox-watch | 3,162 |
-| 2026-09-07 | [`s_17fcca59`](sessions/2026-09/session-s_17fcca59.md) | Scheduled run: jobs-watch-daily | 2,940 |
-| 2026-09-07 | [`s_9d0beb66`](sessions/2026-09/session-s_9d0beb66.md) | Scheduled run: lead-thread-reply | 2,872 |
-| 2026-09-07 | [`s_2ae3904b`](sessions/2026-09/session-s_2ae3904b.md) | Scheduled run: touchbase-daily-runner | 2,826 |
-| 2026-09-07 | [`s_52f36b90`](sessions/2026-09/session-s_52f36b90.md) | Scheduled run: auto-hub-260811-retro-lost-nightly | 2,587 |
-| 2026-09-07 | [`s_4e817253`](sessions/2026-09/session-s_4e817253.md) | Scheduled run: chatgpt-token-guard-nightly | 2,475 |
-| 2026-09-07 | [`s_6b8ffa2a`](sessions/2026-09/session-s_6b8ffa2a.md) | Scheduled run: casebook-drip-daily | 2,433 |
-| 2026-09-07 | [`s_80ac49ed`](sessions/2026-09/session-s_80ac49ed.md) | Scheduled run: journey-day-close-morning | 2,344 |
-| 2026-09-07 | [`s_44e2b988`](sessions/2026-09/session-s_44e2b988.md) | Scheduled run: registry-dispatcher-daily | 2,326 |
-| 2026-09-07 | [`s_a83fe2fc`](sessions/2026-09/session-s_a83fe2fc.md) | Scheduled run: claudeai-sync-daily | 2,135 |
-| 2026-09-07 | [`s_eec9fd81`](sessions/2026-09/session-s_eec9fd81.md) | Scheduled run: hub-deploy-unpack-daily | 2,023 |
-| 2026-09-07 | [`s_32a1b77f`](sessions/2026-09/session-s_32a1b77f.md) | Scheduled run: hanging-tasks-digest | 1,636 |
-| 2026-09-07 | [`s_b6d936fc`](sessions/2026-09/session-s_b6d936fc.md) | Scheduled run: skill-gap-daily | 1,583 |
-| 2026-09-07 | [`s_7d390a78`](sessions/2026-09/session-s_7d390a78.md) | Scheduled run: auto-hub-260824-approve-probe | 1,285 |
+| 2026-09-17 | [`s_33f32be5`](sessions/2026-09/session-s_33f32be5.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 4,771 |
+| 2026-09-17 | [`s_14354b64`](sessions/2026-09/session-s_14354b64.md) | Scheduled run: casebook-drip-daily | 4,648 |
+| 2026-09-17 | [`s_0ce05b27`](sessions/2026-09/session-s_0ce05b27.md) | Scheduled run: voice-triage | 4,502 |
+| 2026-09-17 | [`s_22eab22e`](sessions/2026-09/session-s_22eab22e.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 4,424 |
+| 2026-09-17 | [`s_21a83737`](sessions/2026-09/session-s_21a83737.md) | Bash` -- {"command": "python ~/.claude/scripts/routine_runlog.py tail chatgpt-token-guard-… | 4,041 |
+| 2026-09-17 | [`s_2319dac4`](sessions/2026-09/session-s_2319dac4.md) | CONTENT_DRAIN_AUTORUN | 3,647 |
+| 2026-09-17 | [`s_15bba8a2`](sessions/2026-09/session-s_15bba8a2.md) | Scheduled run: pipe-a-inbox-watch | 3,316 |
+| 2026-09-17 | [`s_365eb5b7`](sessions/2026-09/session-s_365eb5b7.md) | Scheduled run: content-lang-pairs-nightly | 3,211 |
+| 2026-09-17 | [`s_42ff5a03`](sessions/2026-09/session-s_42ff5a03.md) | Scheduled run: voice-dispatcher | 2,909 |
+| 2026-09-17 | [`s_0a3e4fdb`](sessions/2026-09/session-s_0a3e4fdb.md) | Scheduled run: inbound-fb-messenger-daily | 2,900 |
+| 2026-09-17 | [`s_1404bed4`](sessions/2026-09/session-s_1404bed4.md) | FACEBOOK_DIARY_AUTORUN | 2,675 |
+| 2026-09-17 | [`s_03c0c31d`](sessions/2026-09/session-s_03c0c31d.md) | FACEBOOK_DIARY_AUTORUN | 2,675 |
+| 2026-09-17 | [`s_192f9b01`](sessions/2026-09/session-s_192f9b01.md) | Scheduled run: pipe-a-apply-daily | 2,472 |
+| 2026-09-17 | [`s_08fd4037`](sessions/2026-09/session-s_08fd4037.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,164 |
+| 2026-09-17 | [`s_34140029`](sessions/2026-09/session-s_34140029.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 1,971 |
+| 2026-09-17 | [`s_351931eb`](sessions/2026-09/session-s_351931eb.md) | Scheduled run: jobs-tg-nightly | 1,905 |
+| 2026-09-17 | [`s_3acbc46f`](sessions/2026-09/session-s_3acbc46f.md) | Scheduled run: jobs-watch-daily | 1,794 |
+| 2026-09-17 | [`s_42049d2f`](sessions/2026-09/session-s_42049d2f.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,282 |
+| 2026-09-17 | [`s_21cc5c09`](sessions/2026-09/session-s_21cc5c09.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 751 |
+| 2026-09-17 | [`s_410ac206`](sessions/2026-09/session-s_410ac206.md) | Another Claude session sent a message | 663 |
+| 2026-09-17 | [`s_0bf52130`](sessions/2026-09/session-s_0bf52130.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 655 |
+| 2026-09-17 | [`s_2144185b`](sessions/2026-09/session-s_2144185b.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 576 |
+| 2026-09-17 | [`s_43969f6b`](sessions/2026-09/session-s_43969f6b.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 529 |
+| 2026-09-17 | [`s_3f595d41`](sessions/2026-09/session-s_3f595d41.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 529 |
+| 2026-09-17 | [`s_30dc8983`](sessions/2026-09/session-s_30dc8983.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 471 |
+| 2026-09-17 | [`s_025d5073`](sessions/2026-09/session-s_025d5073.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 432 |
+| 2026-09-17 | [`s_146bf81e`](sessions/2026-09/session-s_146bf81e.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 340 |
+| 2026-09-17 | [`s_2d6c048c`](sessions/2026-09/session-s_2d6c048c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 181 |
+| 2026-09-17 | [`s_2c24912a`](sessions/2026-09/session-s_2c24912a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 175 |
+| 2026-09-17 | [`s_450a70af`](sessions/2026-09/session-s_450a70af.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 167 |
+| 2026-09-17 | [`s_0dea747b`](sessions/2026-09/session-s_0dea747b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 166 |
+| 2026-09-17 | [`s_32affcb2`](sessions/2026-09/session-s_32affcb2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 165 |
+| 2026-09-17 | [`s_1128a43c`](sessions/2026-09/session-s_1128a43c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 162 |
+| 2026-09-17 | [`s_004b5a79`](sessions/2026-09/session-s_004b5a79.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 150 |
+| 2026-09-17 | [`s_3e3f8f80`](sessions/2026-09/session-s_3e3f8f80.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 147 |
+| 2026-09-17 | [`s_2f310119`](sessions/2026-09/session-s_2f310119.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 138 |
+| 2026-09-17 | [`s_1e3facf2`](sessions/2026-09/session-s_1e3facf2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 102 |
 
 Selection, scrubbing and the known blind spots of the gate are described in
 [README.md](README.md).

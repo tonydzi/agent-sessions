@@ -1,0 +1,167 @@
+---
+session: s_f19bbe3b
+date: 2026-09-11
+words: 2143
+turns: 3
+tools: "Bash, ToolSearch, mcp__telegram__send_message"
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-11 · Scheduled run: fb-reply-daily
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_f19bbe3b` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+<scheduled-task name="fb-reply-daily" file="C:\Users\dev\.claude\scheduled-tasks\fb-reply-daily\SKILL.md">
+This is an automated run of a scheduled task. The user is not present to answer questions. For implementation details, execute autonomously without asking clarifying questions — make reasonable choices and note them in your output. "write" actions (e.g. MCP tools that send, post, create, update, or delete), only take them if the task file asks for that specific action. When in doubt, producing a report of what you found is the correct output.
+
+Суточный прогон ответов на комментарии под постами оператора в Facebook. Вся механика, грабли DOM и правила тона живут в одном месте: C:\Users\dev\.claude\skills\fb-reply\SKILL.md - прочитай его ЦЕЛИКОМ и следуй ему, здесь только каркас прогона. Прозу про код заново не писать.
+
+0. РЕЛЬСА = FIREFOX, И ЧТЕНИЕ, И ЗАПИСЬ (приказ оператора 01.09.2026 голосом трижды: «всегда работаем через Firefox»). Chrome-MCP из /fb-reply §3 - УСТАРЕВШИЙ путь: не звать, тулы не грузить, «расширение не подключено» больше не причина завершать прогон. Улика перевода: Chrome-рельса FB простояла разлогиненной 12 суток (19.08-01.09), живая FB-сессия всё это время лежала в Firefox; запись доказана 01.09 в 12:18 (ответ Fiona [ФАМИЛИЯ] опубликован и подтверждён после релоада).
+   Профиль: клон системного `646yqiss.default-release` в `~/.claude/browser-profiles/fbreply`. Обновить куки перед прогоном:
+   `python -c "import sys,os;sys.path.insert(0,os.path.expanduser('~/.claude/scripts/_shared'));import firefox_selenium as fs;print(fs.clone_profile(r'C:\Users\dev\AppData\Roaming\Mozilla\Firefox\Profiles\646yqiss.default-release', os.path.expanduser('~/.claude/browser-profiles/fbreply')))"`
+   Различай корни: (а) редирект на login.php / нет cookie c_user = FB-сессия разлогинена = руки оператора, аск класса D через approval.py в 02 (см. 0.5); (б) залогинен, но комментов ноль = так и доложи, это не сбой; (в) Firefox не поднялся = назови ошибку драйвера, не выдавай за «нет комментов».
+
+0.5 ПРЕДЧЕК ЖИВОСТИ FB-СЕССИИ (0 LLM, один GET -- ДО любого захода в браузер):
+   python "%USERPROFILE%/.claude/scripts/_shared/fb_session_check.py" --live
+   ⭐ ФЛАГ `--live` ОБЯЗАТЕЛЕН (поправка 09.09.2026, третий ложный зелёный подряд: 07, 08, 09.09).
+   БЕЗ него прибор читает только НАЛИЧИЕ и СРОК куки С ДИСКА и серверную инвалидацию не видит
+   by design: FB отвергает целые непросроченные c_user/xs, дисковый вердикт печатает ✅ ЖИВА,
+   сбор приезжает пустым, и прогон трактует это как 'комментов нет'. С `--live` прибор делает
+   один GET на facebook.com/notifications с куками с диска и различает три исхода:
+   200 = сессия принята · 302 на index.php = куки увидели и ОТВЕРГЛИ (экран 'Continue as
+   dev') · 302 на login.php = кук нет вовсе. Замер 09.09: дисковый сказал ЖИВА, живая проба
+   -- МЕРТВА, и браузер это подтвердил независимо (Selenium увёл на index.php, c_user пуст).
+   exit 0 = иди дальше · exit 1 = мертва · exit 2 = не определил (сеть/профиль) · exit 3 =
+   CHECKPOINT: это стоп-кран account-safety, роботом НЕ лечим и НЕ ретраим, сразу к оператору.
+   Пустой сбор при exit 0 всё равно остаётся уликой ПРО ПРИБОР, а не про мир: на первом заходе
+   в браузер сверь `location.href` (увело на `index.php` = корень (а) разлогин, а не (б) ноль
+   комментов). exit != 0 = СТОП ЗДЕСЬ, в браузер НЕ ходим (полный заход стоит прогона):
+     - подними аск класса D: python "%USERPROFILE%/.claude/scripts/approval.py" ask "FB-сессия
+       на хабе разлогинена (<вывод предчека>), FB-лейн стоит. Нужны руки: открыть Firefox на
+       хабе -> facebook.com -> войти." --cat D
+     - НЕ поднимай четвёртый одинаковый аск, если такой уже висит (кап 5, дубли 25.08/31.08);
+     - выполни FINAL STEP (heartbeat) и заверши прогон строкой о причине в 03.
+   ПОЧЕМУ ЭТОТ ШАГ ЕСТЬ: класс fb-session-logged-out, 7 датированных случаев (23.08, 25.08,
+   31.08, 01.09, 07.09, 08.09, 09.09) -- вердикт «класс закрыт» от 01.09 опровергнут: сторож
+   был построен на том же дисковом приборе, что и рутина, и ложный зелёный пропускал. Смерть сессии замечалась ТОЛЬКО полным браузерным заходом раз в сутки ->
+   FB-лейн простоял 19.08-01.09 (12 суток, 0 ответов). Сторож той же сессии живёт СНАРУЖИ,
+   в cron_watchdog.py (алерт в 03, если мертва >6ч) -- §5.5, сторож не в том, что сторожит.
+   Рельса чтения = Firefox (приказ оператора 01.09): куки лежат в cookies.sqlite открыто.
+   ТОЛЬКО ЧТЕНИЕ: логины/куки не трогаем.
+
+1. ПРЕДОХРАНИТЕЛЬ: python "%USERPROFILE%\.claude\scripts\fb_guard.py" status
+   reply на дневном лимите или на паузе = доложи и остановись.
+
+2. СБОР: вход через ленту уведомлений facebook.com/notifications (стена пермалинков не отдаёт - грабля 28.07). Собери посты с новыми комментами за последние ~48ч, по каждому посту - комментаторов через JS из /fb-reply §1.2, разверни свёрнутые ветки, отсей уже отвеченное (дедуп §1.4) и свои вчерашние ветки ПРОВЕРЬ на новые реплики - держать ветку 2-3 хода это штатная часть прогона.
+
+3. ЧЕРНОВИКИ строго по /fb-reply §2 (режим ПРОВОКАТОР): отвечаем на ВСЁ, 7 из 10 с возражением/подколом, каждый второй кончается вопросом, цель ≤5 слов (потолок 7), дерзость по тезису и никогда по человеку, хард-стопы §2.5 (деньги/юридическое/медицина/политика/чужие посты) - молчание.
+
+4. ГЕЙТ ПАЧКИ (обязателен, не на глаз): python ~/.claude/scripts/fb_reply_gate.py check <batch.json> --coverage-answered <N> --coverage-total <M>
+   FAIL = переписать пачку, не постить.
+
+5. ПОСТИНГ через готовый движок, прозу про DOM заново не писать:
+   `python "%USERPROFILE%\.claude\scripts\fb_reply_post.py" --plan <plan.json>`
+   plan.json = [{"author","url","text"}]; движок сам держит guard (check до, record после, пауза 300с), сам доказывает публикацию релоадом + развёрнутыми ветками + серверной меткой возраста (/fb-reply §3.8''), сам переживает три граблей Лисы (выбор композера, ввод через ActionChains, доразворачивание веток) - они описаны в его docstring. Сначала прогнать `--dry` на 2-3 позициях: прицел дешевле промаха. Судить по post_log.json (stage=done + proof), НЕ по коду возврата.
+   Автор в plan.json обязан быть привязан к ТОМУ посту, под которым лежит его коммент: один человек комментирует несколько постов, и автоподстановка «первый попавшийся пост этого автора» уводит ответ в чужой тред (поймано 01.09 на Tessa [ФАМИЛИЯ]).
+   Гейт Норы снят 06.08, "+" оператора на ответы под СВОИМИ постами не ждём (класс B, журналим постфактум); хард-стопы §2.5 и стоп-краны account-safety не ослаблены.
+
+6. ЛАЙК-ХВОСТ по /fb-reply §3-бис (like_own под guard, из JS, ≤5 лайков за вызов, сверка что мы на нужном посте).
+
+7. СОВЕТЫ ИЗ КОММЕНТОВ - в реестр кредита (alpha_credit.py add, /fb-reply §3-трис).
+
+8. ОТЧЁТ в 03 (chat_REDACTED) через python "%USERPROFILE%\.claude\scripts\bus_send.py": сколько комментов найдено / отвечено / отложено (лимит/пауза), reply N/40, like_own N/60, сколько веток продолжено, сколько советов в кредит. Сбой = назвать КОРЕНЬ, тихий ноль запрещён.
+
+Границы: только посты оператора; строго хаб HUB-01 (IP-гейт reglament-ip-sensitive-deystviya-tolko-s-haba); любое предупреждение FB / checkpoint = немедленный СТОП + доклад; Tier-2 - к оператору через approval.py; логин/2FA не трогаем.
+
+FINAL STEP (выполнять ВСЕГДА, даже при пустом/заблокированном прогоне - детерминированный heartbeat для крон-сторожа): python "%USERPROFILE%\.claude\scripts\cron_heartbeat.py" fb-reply-daily
+
+<!-- ROUTINE-TOKEN-DISCIPLINE v1 · 08.09.2026 · приказ оператора: все рутины на всех узлах — режем шаги и мусор в контексте, не качество. Замер NODE-0X 06–08.09: 71% недельного бака = перечитывание ~180k контекста на каждом из 60–200 вызовов за прогон; после блока в 20 лейнах вес прогона −31% за первый день -->
+🪙 ТОКЕН-ДИСЦИПЛИНА РУТИНЫ (стоимость прогона = контекст × число вызовов модели; качество результата НЕ режем):
+1. РАЗВЕДКА ОДНИМ ВЫЗОВОМ: журнал, реестры, списки целей, `gh`/API-выборки — собери в ОДИН скрипт с `--jq`/`head`, не 10–15 команд. Потолок разведки — 5 вызовов.
+2. НЕ ВЫВАЛИВАЙ: никогда `cat`/`Read` целого файла, треда или дампа в контекст — только нужные поля и строки (`--jq`, `sed -n`, `head -c 4000`). Большой объект читаешь ОДИН раз целиком в одном вызове, не по кусочкам.
+3. ЦИКЛ ПРОВЕРОК = ОДИН СКРИПТ: репро/тесты/мутации — один `.py`/`.sh`, запуск один раз, итог ≤20 строк. Серия из 30–90 микро-вызовов в scratchpad ⛔ (замер s9 06.09: 95 из 132 команд).
+4. ТЕКСТ ПИШЕШЬ ОДИН РАЗ через Write, правишь через Edit точечно; переписывать файл целиком ⛔.
+5. ПОТОЛОК ПРОГОНА — 60 вызовов модели. На 50-м не закончил — закрывай заход честной строкой в журнал («сделано X, не успел Y, причина»), не тяни до 200.
+6. МЫШЛЕНИЕ КОРОТКО: не пересказывай себе сид и правила; думай про предмет, не про регламент.
+7. ГРУНТ — СУБАГЕНТУ НА SONNET, СУЖДЕНИЕ — У СЕБЯ: чтение больших диффов/логов, разведку, репро отдавай `Agent(model="sonnet")` с ТЗ «верни ≤40 строк выжимки»; сам читаешь выжимку и пишешь то, что уходит наружу под именем оператора.
+8. ⛔ ОЖИДАНИЕ НЕ ЧЕРЕЗ МОДЕЛЬ (замер s7-fast 08.09: 87 из 138 команд = `sleep 1; echo idle`, каждый тик = вызов на 200k контекста, +39% веса прогона). Ждёшь сборку/тест/CI/синк — ОДИН Bash-вызов с блокирующим циклом внутри: `timeout 900 bash -c 'until <условие>; do sleep 20; done'` (Windows: `powershell -c "while(!(<условие>)){Start-Sleep 20}"`), либо run_in_background и ждёшь уведомления. Ручной цикл «sleep → посмотреть → ещё раз» ⛔. Дольше 15 минут — не жди: поставь на вахту (pr_watch / реестр) и закрой заход.
+Проверка постфактум: `python3 ~/.claude/scripts/usage_audit.py` (0 LLM): вызовов на прогон ≤60, вес прогона ≤½ от базы 06–07.09.
+
+<!-- RUNLOG-CONTRACT v1 · 09.09.2026 · приказ оператора (голосовая 09.09, хаб): каждая смена читает тетрадь предыдущих смен и оставляет свою. SKILL.md наследует ПРАВИЛА, RUNLOG наследует ИСТОРИЮ. -->
+📓 ВАХТЕННЫЙ ЖУРНАЛ РУТИНЫ (память между прогонами):
+ШАГ 0 — ПЕРВЫМ ДЕЛОМ, до любой работы: python ~/.claude/scripts/routine_runlog.py tail fb-reply-daily
+  Это записки последних 5 смен: что сделано, обо что споткнулись, что поменяли в этой инструкции, с чего начать. Не наступай на их грабли и не переделывай уже сделанное. Журнала нет — ты первая смена, работай по SKILL.md.
+ФИНАЛ — ВСЕГДА, даже на пустом/тихом прогоне: python ~/.claude/scripts/routine_runlog.py add fb-reply-daily "сделал: ...; споткнулся: ...; правил SKILL.md: да/нет+что; следующей смене: ..."
+  3-6 строк, только сигнал (не пересказ). Починил что-то в SKILL.md — напиши об этом ЯВНО: следующая смена обязана узнать о починке из журнала, а не открыть её заново.
+</scheduled-task>
+
+---
+
+**Claude:**
+
+**16:03, пятница, 11 сентября 2026**
+
+---
+
+> `Bash` -- {"command": "cd \"$USERPROFILE/.claude\" && echo \"=== RUNLOG ===\" && python ~/.claude/scripts/routine_runlog.py tail fb-reply-daily 2>&1 | head -60", "description": "Read routine runlog for fb-reply-daily"}
+
+---
+
+> `Bash` -- {"command": "python \"$USERPROFILE/.claude/scripts/_shared/fb_session_check.py\" --live 2>&1 | tail -20; echo \"EXIT=$?\"", "description": "Live FB session precheck"}
+
+---
+
+> `Bash` -- {"command": "python \"$USERPROFILE/.claude/scripts/_shared/fb_session_check.py\" --live >/dev/null 2>&1; echo \"REAL_EXIT=$?\"; echo \"--- approvals ---\"; python \"$USERPROFILE/.claude/scripts/approval.py\" list 2>&1 | grep -iE \"FB|118155a4|cat.?D\" | head -20; echo \"--- guard ---\"; python \"$US
+
+---
+
+> `Bash` -- {"command": "python \"$USERPROFILE/.claude/scripts/approval.py\" list 2>&1 | head -40", "description": "List pending approvals"}
+
+---
+
+> `Bash` -- {"command": "python \"$USERPROFILE/.claude/scripts/approval.py\" pending 2>&1 | head -40; echo \"--- DUE ---\"; python \"$USERPROFILE/.claude/scripts/approval.py\" due 2>&1 | head -c 1200", "description": "Check pending asks and due re-pings"}
+
+---
+
+> `Bash` -- {"command": "cd \"$USERPROFILE/.claude\" && python scripts/approval.py ask \"FB-лейн стоит ПЯТЫЙ день (с 07.09), 0 ответов. Живая проба 11.09 16:05: куки на диске целы, но FB их ОТВЕРГ -- редирект на 'Continue as dev' (index.php). Профиль Firefox m26xxxkf.dev-clean, последнее касание 220ч назад.
+
+---
+
+> `ToolSearch` -- {"query": "select:mcp__telegram__send_message", "max_results": 1}
+
+---
+
+> `mcp__telegram__send_message` -- {"chat_id": chat_REDACTED, "message": "🤖 [HUB-01 → dev] ❓ НУЖЕН ТВОЙ ОК #b9d5e71f\nАнтон, дай ОК: FB-лейн стоит ПЯТЫЙ день (с 07.09), 0 ответов. Живая проба 11.09 16:05: куки на диске целы, но FB их ОТВЕРГ -- редирект на 'Continue as dev' (index.php). Профиль Firefox m26xxxkf.dev-clean, п
+
+---
+
+> `mcp__telegram__send_message` -- {"chat_id": chat_REDACTED, "account": "tonyssd", "message": "🤖 [HUB-01 → dev] ❓ НУЖЕН ТВОЙ ОК #b9d5e71f\nАнтон, дай ОК: FB-лейн стоит ПЯТЫЙ день (с 07.09), 0 ответов. Живая проба 11.09 16:05: куки на диске целы, но FB их ОТВЕРГ -- редирект на 'Continue as dev' (index.php). Профиль Firefox m
+
+---
+
+> `Bash` -- {"command": "cd \"$USERPROFILE/.claude\" && python scripts/selfheal.py journal --class fb-session-logged-out --what \"11.09 прогон fb-reply-daily: живая проба exit 1 (куки отвергнуты, redirect index.php 'Continue as dev'), профиль m26xxxkf.dev-clean, последнее касание 220ч. 9-й датированный случ
+
+---
+
+> `Bash` -- {"command": "cd \"$USERPROFILE/.claude\" && python scripts/cron_heartbeat.py fb-reply-daily 2>&1 | tail -3; echo \"---RUNLOG---\"; python scripts/routine_runlog.py add fb-reply-daily \"сделал: 0 ответов, СТОП на шаге 0.5 -- FB-сессия мертва 5-е сутки (живая проба exit 1: куки целы, FB отверг, 302 ->
+
+---
+
+**Claude:**
+
+**Прогон fb-reply-daily 11.09 — 0 ответов, честный СТОП на шаге 0.5.**
+
+**Что нашёл.** Живая проба (`fb_session_check.py --live`, exit 1): куки на диске целы, но Facebook их **отверг** — 302 на `index.php` «Continue as dev». Это корень (а) — сессия разлогинена, не «комментов нет». Профиль Firefox `m26xxxkf.dev-clean`, последнее касание 220 часов назад. В браузер не ходил: полный заход стоит прогона, а вердикт уже однозначный.
+
+**Новое по сравнению со вчерашней сменой.** Вчера смена не подняла аск, сославшись на «висит #118155a4, четвёртый дубль не плоди». Я проверил фактом: **этот аск больше не висит** — `approval.py pending` его не показывает, движок его протух, и при капе 5 было `open=1`, то есть место свободно. Правило «не плоди дубль» вчера сработало против нас: очередь была пустая, а лейн молчал. Поднял новый аск **#b9d5e71f** и сам отправил его текст в 02 POLICE (`approval.py` только печатает текст, постить надо руками; у `send_message` обязателен `account=tonyssd`).
+
+**Счётчики.** reply 0/40, like_own 0/60, guard чистый; комментов не собирал, веток не продолжал, советов в кредит 0. Лейн стоит с 07.09 — пятые сутки, 9-й датированный случай класса `fb-session-logged-out`.
+
+**Одна вещь, которую не смог.** `selfheal.py journal` отбил строку 11.09 дедупом по классу, так что в журнале поломок счёт остался на 8 при фактических 9. Сам класс от этого не меняется, но цифра в приборе теперь врёт на один.
+
+**Что нужно от тебя (2 минуты).** Открыть Firefox на хабе → facebook.com → войти. Дальше лейн оживает сам, и первым делом смена проверит твои ветки от 01.09 на новые реплики.
+
+🧒 Простыми словами: Фейсбук забыл, что мы вошли, и пускать нас не хочет. Я туда постучался одним дешёвым стуком, понял, что дверь закрыта, и внутрь лезть не стал. Вчера робот решил, что записка тебе уже лежит, и промолчал — а записки на самом деле не было. Я проверил и положил новую: зайди в Фейсбук сам, и я снова начну отвечать людям.
