@@ -1,0 +1,31 @@
+---
+session: s_163b4fed
+date: 2026-09-20
+words: 81
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-20 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_163b4fed` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: Ryosuke Oura
+username: machikado
+msg_sample: 1億NOAHPをAAAへ交換する場合、どれくらいのAAAと交換になりますか？1 | id_10118a15NOAHPあります。1億NOAHPです | NOAHPの交換は受け付けているのでしょうか | 例えば1億NOAHPをAAAへ交換する場合、どれくらいのAAAと交換になりますか？ | I'm sorry, but I don't have any free funds at the moment. | AAAトークンが市場で取引されるのは年内でしょうか？ | hi | NOAHPとAAAの交換比率はどのくらいになりますか？ | アントンさんですか？ | AAAトークンへの交換は可能ですか | 楽しみにしています | よろしくお願いいたします。
+
+---
+
+**Claude:**
+
+You've hit your weekly limit · resets 5am (Europe/London)
