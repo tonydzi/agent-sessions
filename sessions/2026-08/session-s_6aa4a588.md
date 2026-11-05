@@ -1,0 +1,166 @@
+---
+session: s_6aa4a588
+date: 2026-08-26
+words: 1329
+turns: 1
+tools: "Bash, Grep, ToolSearch, mcp__scheduled-tasks__create_scheduled_task, mcp__scheduled-tasks__list_scheduled_tasks, mcp__scheduled-tasks__update_scheduled_task"
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-08-26 · Scheduled run: voice-dispatcher
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_6aa4a588` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+<scheduled-task name="voice-dispatcher" file="C:\Users\dev\.claude\scheduled-tasks\voice-dispatcher\SKILL.md">
+This is an automated run of a scheduled task. The user is not present to answer questions. For implementation details, execute autonomously without asking clarifying questions — make reasonable choices and note them in your output. "write" actions (e.g. MCP tools that send, post, create, update, or delete), only take them if the task file asks for that specific action. When in doubt, producing a report of what you found is the correct output.
+
+---
+name: voice-dispatcher
+description: ДЕЖУРНЫЙ стадии «голосовая → сессия» (2 раза в сутки: 09:00 и 21:00 Лиссабон — приказ оператора 21.08.2026). Предгейт за 0 токенов: пусто → мгновенный выход. Груз есть → по КАЖДОЙ новой голосовой RECALL + подъём ВИДИМОЙ сессии + mark в реестр. Лечит корень 06.08: движок voice_sessions построен 05.08, за 48ч разложено 0 из 27 — у стадии не было хозяина. [HUB HUB-01]
+---
+
+⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет.
+Работай сам ТОЛЬКО если сессия уже на Sonnet. Если сессия стартовала на Opus/Fable — не жги
+умный бак: передай ВСЮ содержательную работу субагенту через инструмент Agent с
+`model: 'sonnet'` (промпт = шаги ниже целиком), а сам только прими его отчёт и заверши.
+Детерминированные python-вызовы делай напрямую в любом случае — они 0 токенов.
+Канон: CLAUDE.md §6.2 (маршрутизация), §6.3 (жечь оплаченные лимиты).
+
+Ты — ДЕЖУРНЫЙ стадии «голосовая оператора → отдельная рабочая сессия». Ты и есть эта рутина; выполняй шаги полностью, не отказывайся и не «избегай дублирования».
+
+Причина твоего существования (замер 06.08.2026): движок `voice_sessions.py` построен 05.08 и исправно работает, но за 48 часов из 27 голосовых в сессии разложено НОЛЬ. Ни одна рутина его не звала — у стадии конвейера не было хозяина. Ты этот хозяин.
+
+## Шаг 0 — ПРЕДГЕЙТ (обязательно первым, экономит токены)
+
+```
+python C:\Users\dev\.claude\scripts\voice_dispatch.py check --hours 14
+```
+
+- exit 0 («груза нет») → НЕМЕДЛЕННО закончи работу. Ничего не пиши, никуда не отчитывайся, никаких сессий. Это нормальный тихий исход, он и есть основной.
+- exit 2 («РЕЛЬСА СЛОМАНА») → не молчи: одной строкой напиши в Telegram чат 03 (chat_REDACTED), что дежурный голосовых не может прочитать чат, и приложи текст ошибки. Дальше не иди.
+- exit 9 («ГРУЗ ЕСТЬ») → работай дальше.
+
+## Шаг 1 — взять груз
+
+Запусти скилл `/voice-sessions` и следуй ему как единственному источнику логики (он лежит в `~/.claude/skills/voice-sessions/SKILL.md`). Ключевое из него, что нарушать нельзя:
+
+- Работай с полем `transcript` (полная расшифровка), НИКОГДА с `summary` — выжимка бота приглаживает слова оператора и однажды выдумала за него объяснение.
+- ⭐ ЖЕЛЕЗНОЕ ПРАВИЛО: одна голосовая = одна сессия, ВСЕГДА. «Мы это уже делали» — не повод промолчать: то, что уже сделано, уезжает в сид отдельным блоком «⚠️ ЧАСТЬ ЭТОГО УЖЕ СДЕЛАНА РАНЬШЕ — не строй заново, закрой дельту, факт проверь сам».
+- По КАЖДОЙ голосовой сперва RECALL (память, волт, CLAUDE.md, список скиллов, реестр задач, реестр ДР) и проверка, ЖИВО ли найденное — по `enabled`/`lastRunAt`/возрасту выхода, а не по описанию.
+- Тип случая (post / build / rule / research / delegate / fragment) задаёт форму сида; `fragment` сессию не получает — про него просто скажи оператору, что мысль оборвалась.
+
+## Шаг 2 — поднять ВИДИМЫЕ сессии
+
+По каждой голосовой (кроме `fragment`) подними отдельную сессию через `create_scheduled_task`:
+
+- `taskId` строго вида `auto-hub-<ГГММДД>-<короткая-суть>` — узнаваемое имя обязательно;
+- аргументы времени бери у скрипта, НЕ считай руками:
+  `python C:\Users\dev\.claude\scripts\routine_rights_census.py spawn-args --in 2`
+  (он отдаёт корректный `fireAt` от локальных часов и `notifyOnCompletion: false` — в рутинном прогоне подписка на уведомление невозможна и уронит вызов). ⭐ С 21.08 скрипт сам ставит время ЛЕСЕНКОЙ за хвостом живой очереди auto-задач (+12 мин): залп из многих сессий не упирается в потолок одновременных сессий приложения. Поэтому НЕСКОЛЬКО сессий = вызывай spawn-args заново ПЕРЕД КАЖДЫМ create, а не одним махом на всех;
+- сид самодостаточный: у сессии не будет твоего контекста.
+
+⛔ Не создавай немые чипы вместо сессий и не запускай ничего «в чёрную» — сессия обязана быть видна оператору в списке приложения.
+
+⭐ ЛИМИТА НА ЧИСЛО СЕССИЙ НЕТ (приказ оператора 21.08.2026, дословно: «что ты можешь создавать любое количество сессий из голосовых. Нет ограничения»). Разбирай ВЕСЬ груз за один прогон, сколько бы голосовых ни пришло: 3, 10, 30. Прежний кап 6/прогон СНЯТ — он превращал очередь в долг, а рутина теперь ходит всего 2 раза в сутки (09:00 и 21:00), и оставленное «на следующий тик» лежало бы 12 часов.
+
+⭐ ЗАСТОПОРИВШИЕСЯ СЕССИИ ПОВТОРЯЙ (тот же приказ): подъём сессии не равен её выполнению — сессия может встать из-за лимитов модели/подписки. В КАЖДОМ прогоне, до разбора нового груза, проверь ранее поднятые `auto-*` сессии голосовых: если задача выстрелила, но работа не выполнена (нет артефакта, нет записи в реестре, задача упала или висит), подними её ЗАНОВО новым прогоном — с тем же сидом. Дубля контента бояться не нужно: сид сам несёт RECALL-блок «часть уже сделана — закрой дельту».
+
+## Шаг 3 — закрыть петлю
+
+Каждую разложенную голосовую отметь в реестре, иначе следующий тик заведёт её заново:
+
+```
+python C:\Users\dev\.claude\scripts\voice_sessions.py mark --voice <ID> --session <taskId> --kind <post|build|rule|research|delegate|fragment> --note "<одна строка>"
+```
+
+Затем одним коротким сообщением в Telegram чат 03 (chat_REDACTED) отчитайся: сколько голосовых разобрано, какие сессии подняты (id + суть одной строкой), что осталось в очереди. Если всё разобрано и очередь пуста — так и скажи одной строкой.
+
+Хард-стопы прежние: наружу от лица оператора ничего не публикуешь, деньги/секреты/необратимое — не твоё, такое уходит оператору в чат 02 через `approval.py ask`.
+</scheduled-task>
+
+---
+
+> `Bash` -- {"command": "cd \"C:/Users/dev/.claude/scripts\" && python voice_dispatch.py check --hours 14; echo \"EXIT=$?\"", "description": "Предгейт дежурного голосовых"}
+
+---
+
+> `Bash` -- {"command": "cd \"C:/Users/dev/.claude\" && sed -n '1,200p' skills/voice-sessions/SKILL.md", "description": "Читаю скилл voice-sessions"}
+
+---
+
+> `Bash` -- {"command": "cd \"C:/Users/dev/.claude/scripts\" && python voice_sessions.py pull --hours 16 --json > /c/Users/dev/AppData/Local/Temp/claude/P---WORKDIR-HUB/s_6aa4a588/scratchpad/voices.json 2>&1; echo \"EXIT=$?\"; wc -c /c/Users/dev/AppData/Local/Temp/cl
+
+---
+
+> `ToolSearch` -- {"query": "select:mcp__scheduled-tasks__list_scheduled_tasks,mcp__scheduled-tasks__create_scheduled_task,mcp__ccd_session_mgmt__set_session_title", "max_results": 3}
+
+---
+
+> `Bash` -- {"command": "cd /c/Users/dev/AppData/Local/Temp/claude/P---WORKDIR-HUB/s_6aa4a588/scratchpad && python -c \"\nimport json,io,sys\nsys.stdout.reconfigure(encoding='utf-8')\nd=json.load(open('voices.json',encoding='utf-8'))\nif isinstance(d,dict):\n    print(li
+
+---
+
+> `mcp__scheduled-tasks__list_scheduled_tasks` -- {}
+
+---
+
+> `Bash` -- {"command": "cd \"C:/Users/dev/.claude/scripts\" && python voice_sessions.py status --days 4 2>&1 | head -40; echo \"---GREP MEMORY---\"; grep -ril \"догм\\|dogma\" /c/Users/dev/.claude/projects/*/memory/ 2>/dev/null | head -20", "description": "Статус реестра голосовых + греп памяти по догме"}
+
+---
+
+> `Bash` -- {"command": "cd /c/Users/dev/.claude/projects/P---WORKDIR-HUB/memory && grep -ril \"epistemic\\|неортодокс\\|уверен\" . 2>/dev/null | grep -v stversions | head -20; echo \"=== BIBLE ===\"; ls /e/Obsidian/Vault-Knowledge/ 2>/dev/null | head; echo \"=== reglament grep ===\"; ls /e/Obsid
+
+---
+
+> `Grep` -- {"pattern": "epistemic|эпистем|догм", "path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory", "output_mode": "files_with_matches", "head_limit": 15}
+
+---
+
+> `Bash` -- {"command": "cd /c/Users/dev/.claude/projects/P---WORKDIR-HUB/memory && grep -ih -A2 -B2 \"догм\" cofounder-growth-log.md ask-voice-per-content-type.md 2>/dev/null | head -40; echo \"=== epistemic-neutrality file? ===\"; ls | grep -i \"epist\\|neutral\\|prichina\\|claim\\|ban-is\" ", 
+
+---
+
+> `Bash` -- {"command": "head -25 epistemic-neutrality.md; echo \"===============\"; head -20 epistemic-decay-layer.md", "description": "Читаю память по эпистемике"}
+
+---
+
+> `Grep` -- {"pattern": "Брно|Brno|Чехи", "path": "D:\\Vault\\Vault-Knowledge", "output_mode": "files_with_matches", "head_limit": 12}
+
+---
+
+> `Bash` -- {"command": "ls | grep -i \"review\\|airbnb\\|booking\\|otzyv\\|travel\\|housing\\|rent\" ; echo \"---grep---\"; grep -ril \"airbnb\\|booking.com\" . 2>/dev/null | grep -v stversions | grep -v bak | head", "description": "RECALL: отзывы/аренда в памяти"}
+
+---
+
+> `Bash` -- {"command": "cd /c/Users/dev/.claude/scripts && python spawn_slot_guard.py --help 2>&1 | head -30; echo \"=== POOL ===\"; python spawn_slot_guard.py 2>&1 | head -30", "description": "Смотрю гард слотов"}
+
+---
+
+> `Bash` -- {"command": "cd /c/Users/dev/.claude && sed -n '1,80p' skills/slot/SKILL.md 2>/dev/null", "description": "Читаю скилл slot"}
+
+---
+
+> `Bash` -- {"command": "cd /c/Users/dev/.claude/scripts && python session_slot.py --list 2>&1 | head -25", "description": "Список свободных слотов"}
+
+---
+
+> `Bash` -- {"command": "python session_slot.py --claim \"правило: не догма, самопроверка убеждений\" 2>&1 | tail -5; echo \"EXIT=$?\"", "description": "Беру слот под голосовую 5796"}
+
+---
+
+> `Bash` -- {"command": "python voice_sessions.py take --voice 5796 --session auto-hub-260824-NODE-0X-folder-cleanup 2>&1 | tail -3; echo \"EXIT=$?\"", "description": "Захватываю голосовую 5796"}
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "auto-hub-260824-NODE-0X-folder-cleanup", "description": "AUTO 26.08 — правило «НЕ ДОГМА»: самопроверка догматических убеждений + триггер на веерный DR по вендорам разных стран (из голосовой hub:5796)", "fireAt": "2026-08-26T22:17:29+01:00", "notifyOnCompletion": false, "prompt": "ПЕРВЫМ ДЕЛ
+
+---
+
+> `ToolSearch` -- {"query": "select:mcp__scheduled-tasks__update_scheduled_task", "max_results": 1}
+
+---
+
+> `mcp__scheduled-tasks__update_scheduled_task` -- {"taskId": "auto-hub-260824-NODE-0X-folder-cleanup", "description": "AUTO 26.08 — правило «НЕ ДОГМА»: самопроверка догматических убеждений + триггер на веерный DR по вендорам разных стран (голосовая hub:5796)", "fireAt": "2026-08-26T22:20:00+01:00", "notifyOnCompletion": false, "prompt": "ПЕРВЫМ ДЕЛОМ
