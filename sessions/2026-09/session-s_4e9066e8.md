@@ -1,0 +1,46 @@
+---
+session: s_4e9066e8
+date: 2026-09-26
+words: 161
+turns: 2
+tools: "Bash, Read"
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-26 · Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b…
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_4e9066e8` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step by step, on THIS machine. The work-list JSON is at C:\Users\dev\AppData\Local\Temp/dr_robot_work.json.
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\scripts\\dr_robot_prompt.md"}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\AppData\\Local\\Temp\\dr_robot_work.json"}
+
+---
+
+> `Bash` -- {"command": "cd \"/e/Obsidian/Vault-Knowledge/_machine-bus/_dr/queue\" 2>/dev/null && pwd && ls | head -5", "description": "Check DR queue directory exists"}
+
+---
+
+> `Bash` -- {"command": "cd \"/e/Obsidian/Vault-Knowledge/_machine-bus/_dr/queue\"\nids=\"DR26-09-22-HUB-05-1433 DR26-09-24-HUB-02-1344 DR26-09-24-HUB-03-1604 DR26-09-24-HUB-05-1604 DR26-09-24-HUB-06-1604 DR26-09-24-HUB-07-1604 DR26-09-24-HUB-08-1604 DR26-09-24-HUB-09-1604 DR26-09-24-HUB-10-1604 DR26-09-24-HUB-
+
+---
+
+**Claude:**
+
+Прогнал робота dr_robot_prompt.md по work-list:
+
+- **dispatch** — пусто, ничего слать не нужно.
+- **collect** (21 запись) — у 20 из 21 уже стоит `reminded.txt` (реминдер уже отправлен раньше) → пропущено молча по правилу «один reminder, не на каждый прогон». У `DR26-09-25-HUB-01-1226` `dispatched.txt` свежий (5ч < порога 24ч) → реминдер не положен.
+- **deliver** — пусто.
+- **close** (41 долг реестра) — не трогаю, это не работа этого робота (нужен Alpha Protocol synthesis, не механическая рассылка).
+
+Никаких bus_send не потребовалось — всё уже было обработано предыдущими прогонами. Робот завершён без действий.
