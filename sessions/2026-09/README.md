@@ -1,231 +1,703 @@
 # Sessions, 2026-09
 
-4,340 sessions, 6,983,852 words in this month. Newest first.
+4,840 sessions, 7,814,594 words in this month. Newest first.
 Back to the [index](../../index.md).
 
 | date | session | topic | words |
 |---|---|---|---|
 | 2026-09-30 | [`s_cc8a1b5d`](session-s_cc8a1b5d.md) | Scheduled run: five-whys-deploy-register-gate | 6,399 |
 | 2026-09-28 | [`3851a4bd`](session-3851a4bd.md) | Scheduled run: building the history of routine executions | 9,933 |
+| 2026-09-24 | [`s_5e6d9668`](session-s_5e6d9668.md) | Это задача от оператора. Она пришла голосом в Telegram-группу «001 СЕССИЯ НОВАЯ» | 15,623 |
+| 2026-09-24 | [`s_1fa10d0a`](session-s_1fa10d0a.md) | CONTENT_DRAIN_AUTORUN | 12,456 |
+| 2026-09-24 | [`s_065a80ed`](session-s_065a80ed.md) | CONTENT_DRAIN_AUTORUN | 10,675 |
+| 2026-09-24 | [`s_006bd8e9`](session-s_006bd8e9.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 8,795 |
+| 2026-09-24 | [`s_623dd706`](session-s_623dd706.md) | [СКРЫТО] --- | 8,711 |
+| 2026-09-24 | [`s_27e4f4b0`](session-s_27e4f4b0.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 6,620 |
+| 2026-09-24 | [`s_3c5c1e7c`](session-s_3c5c1e7c.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 6,602 |
+| 2026-09-24 | [`s_40da28b7`](session-s_40da28b7.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 4,062 |
+| 2026-09-24 | [`s_40c49c88`](session-s_40c49c88.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 2,719 |
+| 2026-09-24 | [`s_14cc1c3a`](session-s_14cc1c3a.md) | Scheduled run: pipe-a-apply-daily | 2,583 |
+| 2026-09-24 | [`s_70e160d4`](session-s_70e160d4.md) | Scheduled run: hub-deploy-unpack-daily | 2,167 |
+| 2026-09-24 | [`s_5a7076ee`](session-s_5a7076ee.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,057 |
+| 2026-09-24 | [`s_55b3b5b7`](session-s_55b3b5b7.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,972 |
+| 2026-09-24 | [`s_2eeafca5`](session-s_2eeafca5.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,957 |
+| 2026-09-24 | [`s_60eb66bf`](session-s_60eb66bf.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,950 |
+| 2026-09-24 | [`s_58e8dd29`](session-s_58e8dd29.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,928 |
+| 2026-09-24 | [`s_3141e217`](session-s_3141e217.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 1,881 |
+| 2026-09-24 | [`s_5855d392`](session-s_5855d392.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,822 |
+| 2026-09-24 | [`s_6521d580`](session-s_6521d580.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 1,740 |
+| 2026-09-24 | [`s_66e3314b`](session-s_66e3314b.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,212 |
+| 2026-09-24 | [`s_56ed44d9`](session-s_56ed44d9.md) | INTENTION_LANE_AUTORUN | 821 |
+| 2026-09-24 | [`s_648a07fe`](session-s_648a07fe.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 747 |
+| 2026-09-24 | [`s_72dbba94`](session-s_72dbba94.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 725 |
+| 2026-09-24 | [`s_07cc26d8`](session-s_07cc26d8.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 670 |
+| 2026-09-24 | [`s_16dda1bc`](session-s_16dda1bc.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 653 |
+| 2026-09-24 | [`s_2e01df50`](session-s_2e01df50.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 618 |
+| 2026-09-24 | [`s_48fc59f0`](session-s_48fc59f0.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 606 |
+| 2026-09-24 | [`s_28626bd6`](session-s_28626bd6.md) | Bash` -- {"command": "echo done", "description": "noop"} | 590 |
+| 2026-09-24 | [`s_4c09322a`](session-s_4c09322a.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 587 |
+| 2026-09-24 | [`s_05b320e8`](session-s_05b320e8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 575 |
+| 2026-09-24 | [`s_38045ec1`](session-s_38045ec1.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 565 |
+| 2026-09-24 | [`s_683fba7e`](session-s_683fba7e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 556 |
+| 2026-09-24 | [`s_5877ba78`](session-s_5877ba78.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 556 |
+| 2026-09-24 | [`s_722d55ed`](session-s_722d55ed.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 529 |
+| 2026-09-24 | [`s_3f37a2a5`](session-s_3f37a2a5.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 521 |
+| 2026-09-24 | [`s_5d5627b3`](session-s_5d5627b3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 514 |
+| 2026-09-24 | [`s_69142622`](session-s_69142622.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 509 |
+| 2026-09-24 | [`s_43eade8f`](session-s_43eade8f.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 506 |
+| 2026-09-24 | [`s_2371fd76`](session-s_2371fd76.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 503 |
+| 2026-09-24 | [`s_11671e6e`](session-s_11671e6e.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 494 |
+| 2026-09-24 | [`s_304ec839`](session-s_304ec839.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 434 |
+| 2026-09-24 | [`s_0272abae`](session-s_0272abae.md) | You are the LOBSTERDAO ALPHA-JUDGE running unattended. UNATTENDED MEANS: there is NO human… | 411 |
+| 2026-09-24 | [`s_64065856`](session-s_64065856.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 400 |
+| 2026-09-24 | [`s_265569aa`](session-s_265569aa.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 396 |
+| 2026-09-24 | [`s_522ddf14`](session-s_522ddf14.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 367 |
+| 2026-09-24 | [`s_4ccb1af5`](session-s_4ccb1af5.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 356 |
+| 2026-09-24 | [`s_4a10e1fe`](session-s_4a10e1fe.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 356 |
+| 2026-09-24 | [`s_7208c0a7`](session-s_7208c0a7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 336 |
+| 2026-09-24 | [`s_498e6bb5`](session-s_498e6bb5.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 325 |
+| 2026-09-24 | [`s_307003c2`](session-s_307003c2.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 325 |
+| 2026-09-24 | [`s_340b5c71`](session-s_340b5c71.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 309 |
+| 2026-09-24 | [`s_360794e6`](session-s_360794e6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 296 |
+| 2026-09-24 | [`s_5ceb645c`](session-s_5ceb645c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 286 |
+| 2026-09-24 | [`s_1cfa746f`](session-s_1cfa746f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 286 |
+| 2026-09-24 | [`s_2d7bb823`](session-s_2d7bb823.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 281 |
+| 2026-09-24 | [`s_1a8dff87`](session-s_1a8dff87.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 281 |
+| 2026-09-24 | [`s_2cd0a2b2`](session-s_2cd0a2b2.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 272 |
+| 2026-09-24 | [`s_5946b90a`](session-s_5946b90a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 270 |
+| 2026-09-24 | [`s_1152fb6e`](session-s_1152fb6e.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 265 |
+| 2026-09-24 | [`s_0616b43c`](session-s_0616b43c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 265 |
+| 2026-09-24 | [`s_5a1ecd8c`](session-s_5a1ecd8c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 262 |
+| 2026-09-24 | [`s_0e98dc47`](session-s_0e98dc47.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 262 |
+| 2026-09-24 | [`s_3ff700ab`](session-s_3ff700ab.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 260 |
+| 2026-09-24 | [`s_2776f753`](session-s_2776f753.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 260 |
+| 2026-09-24 | [`s_3ec692e6`](session-s_3ec692e6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 258 |
+| 2026-09-24 | [`s_219fbee5`](session-s_219fbee5.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 257 |
+| 2026-09-24 | [`s_1b2460b0`](session-s_1b2460b0.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 257 |
+| 2026-09-24 | [`s_4ecf7f67`](session-s_4ecf7f67.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 256 |
+| 2026-09-24 | [`s_1679edda`](session-s_1679edda.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 255 |
+| 2026-09-24 | [`s_04bc71f6`](session-s_04bc71f6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 253 |
+| 2026-09-24 | [`s_4ba61217`](session-s_4ba61217.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 252 |
+| 2026-09-24 | [`s_06c3c6d2`](session-s_06c3c6d2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 247 |
+| 2026-09-24 | [`s_3a2f935d`](session-s_3a2f935d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 246 |
+| 2026-09-24 | [`s_3c9ae4db`](session-s_3c9ae4db.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 245 |
+| 2026-09-24 | [`s_059406e5`](session-s_059406e5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 243 |
+| 2026-09-24 | [`s_3ca70e02`](session-s_3ca70e02.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 242 |
+| 2026-09-24 | [`s_1ffb0c1a`](session-s_1ffb0c1a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 241 |
+| 2026-09-24 | [`s_04219bda`](session-s_04219bda.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 237 |
+| 2026-09-24 | [`s_33e7e29c`](session-s_33e7e29c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 235 |
+| 2026-09-24 | [`s_40f4d203`](session-s_40f4d203.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 227 |
+| 2026-09-24 | [`s_08a3da96`](session-s_08a3da96.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 227 |
+| 2026-09-24 | [`s_36ab854a`](session-s_36ab854a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 220 |
+| 2026-09-24 | [`s_54731cc4`](session-s_54731cc4.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 218 |
+| 2026-09-24 | [`s_23180601`](session-s_23180601.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 216 |
+| 2026-09-24 | [`s_33e46d21`](session-s_33e46d21.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 215 |
+| 2026-09-24 | [`s_16bbdb73`](session-s_16bbdb73.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 210 |
+| 2026-09-24 | [`s_30ffc37e`](session-s_30ffc37e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 208 |
+| 2026-09-24 | [`s_47b0e2ae`](session-s_47b0e2ae.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 201 |
+| 2026-09-24 | [`s_4027258e`](session-s_4027258e.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 201 |
+| 2026-09-24 | [`s_1bcab579`](session-s_1bcab579.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 199 |
+| 2026-09-24 | [`s_00bcbeb4`](session-s_00bcbeb4.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 195 |
+| 2026-09-24 | [`s_654b38a3`](session-s_654b38a3.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 188 |
+| 2026-09-24 | [`s_69aad3db`](session-s_69aad3db.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 184 |
+| 2026-09-24 | [`s_6729b2b4`](session-s_6729b2b4.md) | [СКРЫТО] --- | 183 |
+| 2026-09-24 | [`s_40d7c498`](session-s_40d7c498.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 181 |
+| 2026-09-24 | [`s_395e85f9`](session-s_395e85f9.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 179 |
+| 2026-09-24 | [`s_39db8d74`](session-s_39db8d74.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 178 |
+| 2026-09-24 | [`s_4f5b3ef4`](session-s_4f5b3ef4.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 177 |
+| 2026-09-24 | [`s_39e522e7`](session-s_39e522e7.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 176 |
+| 2026-09-24 | [`s_3de1bda1`](session-s_3de1bda1.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 175 |
+| 2026-09-24 | [`s_6b2acaae`](session-s_6b2acaae.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 174 |
+| 2026-09-24 | [`s_37fba1e9`](session-s_37fba1e9.md) | You are drafting dev's daily short messages for his closed club SOSTAV, running unattended… | 174 |
+| 2026-09-24 | [`s_3b66d3de`](session-s_3b66d3de.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 171 |
+| 2026-09-24 | [`s_19b708da`](session-s_19b708da.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 171 |
+| 2026-09-24 | [`s_5cd60f48`](session-s_5cd60f48.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 167 |
+| 2026-09-24 | [`s_378afbbf`](session-s_378afbbf.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 165 |
+| 2026-09-24 | [`s_42fe0df2`](session-s_42fe0df2.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 164 |
+| 2026-09-24 | [`s_54db7a2a`](session-s_54db7a2a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 160 |
+| 2026-09-24 | [`s_68884564`](session-s_68884564.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 159 |
+| 2026-09-24 | [`s_46960bd9`](session-s_46960bd9.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 159 |
+| 2026-09-24 | [`s_5a09e424`](session-s_5a09e424.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 156 |
+| 2026-09-24 | [`s_262e7f98`](session-s_262e7f98.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 156 |
+| 2026-09-24 | [`s_08cebbfb`](session-s_08cebbfb.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 153 |
+| 2026-09-24 | [`s_6a4547d2`](session-s_6a4547d2.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 150 |
+| 2026-09-24 | [`s_35ef25fe`](session-s_35ef25fe.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 146 |
+| 2026-09-24 | [`s_12f314d5`](session-s_12f314d5.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 146 |
+| 2026-09-24 | [`s_4cc4346d`](session-s_4cc4346d.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 144 |
+| 2026-09-24 | [`s_61f85f79`](session-s_61f85f79.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 143 |
+| 2026-09-24 | [`s_116bf024`](session-s_116bf024.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 143 |
+| 2026-09-24 | [`s_6f8b7157`](session-s_6f8b7157.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 140 |
+| 2026-09-24 | [`s_6eb24d5a`](session-s_6eb24d5a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
+| 2026-09-24 | [`s_6c53bd00`](session-s_6c53bd00.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
+| 2026-09-24 | [`s_653964d9`](session-s_653964d9.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
+| 2026-09-24 | [`s_40c2e4ed`](session-s_40c2e4ed.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
+| 2026-09-24 | [`s_31d98907`](session-s_31d98907.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 140 |
+| 2026-09-24 | [`s_46345427`](session-s_46345427.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 139 |
+| 2026-09-24 | [`s_653810dc`](session-s_653810dc.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 138 |
+| 2026-09-24 | [`s_2c60024b`](session-s_2c60024b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 138 |
+| 2026-09-24 | [`s_12236ef3`](session-s_12236ef3.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 138 |
+| 2026-09-24 | [`s_4ecc346c`](session-s_4ecc346c.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 137 |
+| 2026-09-24 | [`s_3f453406`](session-s_3f453406.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 136 |
+| 2026-09-24 | [`s_1d3566a3`](session-s_1d3566a3.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 136 |
+| 2026-09-24 | [`s_66eda556`](session-s_66eda556.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 135 |
+| 2026-09-24 | [`s_39aeaed2`](session-s_39aeaed2.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 135 |
+| 2026-09-24 | [`s_4ddb02fc`](session-s_4ddb02fc.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 134 |
+| 2026-09-24 | [`s_6012430a`](session-s_6012430a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
+| 2026-09-24 | [`s_5a347015`](session-s_5a347015.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
+| 2026-09-24 | [`s_336b323c`](session-s_336b323c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 133 |
+| 2026-09-24 | [`s_0300497a`](session-s_0300497a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
+| 2026-09-24 | [`s_70c3f712`](session-s_70c3f712.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 132 |
+| 2026-09-24 | [`s_53860aa3`](session-s_53860aa3.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 132 |
+| 2026-09-24 | [`s_3ac40d14`](session-s_3ac40d14.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 132 |
+| 2026-09-24 | [`s_39c7789d`](session-s_39c7789d.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 132 |
+| 2026-09-24 | [`s_198a9fd1`](session-s_198a9fd1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 132 |
+| 2026-09-24 | [`s_4c5e2575`](session-s_4c5e2575.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
+| 2026-09-24 | [`s_44beace7`](session-s_44beace7.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
+| 2026-09-24 | [`s_3c21eee8`](session-s_3c21eee8.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
+| 2026-09-24 | [`s_09f43540`](session-s_09f43540.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
+| 2026-09-24 | [`s_4ee7c79c`](session-s_4ee7c79c.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 129 |
+| 2026-09-24 | [`s_4964eea4`](session-s_4964eea4.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 129 |
+| 2026-09-24 | [`s_0193f07a`](session-s_0193f07a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 129 |
+| 2026-09-24 | [`s_4de885e5`](session-s_4de885e5.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
+| 2026-09-24 | [`s_3ce2ea16`](session-s_3ce2ea16.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
+| 2026-09-24 | [`s_3cdfd4e6`](session-s_3cdfd4e6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 128 |
+| 2026-09-24 | [`s_38343435`](session-s_38343435.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
+| 2026-09-24 | [`s_37bd277f`](session-s_37bd277f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
+| 2026-09-24 | [`s_7073b4a4`](session-s_7073b4a4.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 127 |
+| 2026-09-24 | [`s_54f852cb`](session-s_54f852cb.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 127 |
+| 2026-09-24 | [`s_530face4`](session-s_530face4.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 127 |
+| 2026-09-24 | [`s_2822829c`](session-s_2822829c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 127 |
+| 2026-09-24 | [`s_097d7a7b`](session-s_097d7a7b.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 126 |
+| 2026-09-24 | [`s_51b425f1`](session-s_51b425f1.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 125 |
+| 2026-09-24 | [`s_487f3329`](session-s_487f3329.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 125 |
+| 2026-09-24 | [`s_22aa0c28`](session-s_22aa0c28.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 125 |
+| 2026-09-24 | [`s_08cb9831`](session-s_08cb9831.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 125 |
+| 2026-09-24 | [`s_44e9a1eb`](session-s_44e9a1eb.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 124 |
+| 2026-09-24 | [`s_432dbe24`](session-s_432dbe24.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 124 |
+| 2026-09-24 | [`s_6a273d8a`](session-s_6a273d8a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 123 |
+| 2026-09-24 | [`s_698a2215`](session-s_698a2215.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 123 |
+| 2026-09-24 | [`s_084f3a54`](session-s_084f3a54.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 123 |
+| 2026-09-24 | [`s_6fee37e4`](session-s_6fee37e4.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
+| 2026-09-24 | [`s_5ee91520`](session-s_5ee91520.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
+| 2026-09-24 | [`s_4b49d6a1`](session-s_4b49d6a1.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
+| 2026-09-24 | [`s_0d8727f1`](session-s_0d8727f1.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
+| 2026-09-24 | [`s_64327961`](session-s_64327961.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 121 |
+| 2026-09-24 | [`s_572da062`](session-s_572da062.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 121 |
+| 2026-09-24 | [`s_517caff5`](session-s_517caff5.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 120 |
+| 2026-09-24 | [`s_511e12f6`](session-s_511e12f6.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 120 |
+| 2026-09-24 | [`s_29e0540e`](session-s_29e0540e.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 120 |
+| 2026-09-24 | [`s_6d4182bd`](session-s_6d4182bd.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
+| 2026-09-24 | [`s_6b65b108`](session-s_6b65b108.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
+| 2026-09-24 | [`s_69598099`](session-s_69598099.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
+| 2026-09-24 | [`s_45de65e5`](session-s_45de65e5.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
+| 2026-09-24 | [`s_17cf4024`](session-s_17cf4024.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
+| 2026-09-24 | [`s_06153a47`](session-s_06153a47.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
+| 2026-09-24 | [`s_46fa835c`](session-s_46fa835c.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 118 |
+| 2026-09-24 | [`s_4372a432`](session-s_4372a432.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 118 |
+| 2026-09-24 | [`s_319e99f9`](session-s_319e99f9.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 118 |
+| 2026-09-24 | [`s_033bb330`](session-s_033bb330.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 118 |
+| 2026-09-24 | [`s_4414ca64`](session-s_4414ca64.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 117 |
+| 2026-09-24 | [`s_43e152a7`](session-s_43e152a7.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 117 |
+| 2026-09-24 | [`s_354a6976`](session-s_354a6976.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 117 |
+| 2026-09-24 | [`s_6dfe0c6f`](session-s_6dfe0c6f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 116 |
+| 2026-09-24 | [`s_6c75e604`](session-s_6c75e604.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 116 |
+| 2026-09-24 | [`s_44ae2aee`](session-s_44ae2aee.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 116 |
+| 2026-09-24 | [`s_447c3089`](session-s_447c3089.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 116 |
+| 2026-09-24 | [`s_432b7783`](session-s_432b7783.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 116 |
+| 2026-09-24 | [`s_72bba6d0`](session-s_72bba6d0.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 115 |
+| 2026-09-24 | [`s_038fb121`](session-s_038fb121.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 115 |
+| 2026-09-24 | [`s_6799e3c3`](session-s_6799e3c3.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 114 |
+| 2026-09-24 | [`s_5459f7ef`](session-s_5459f7ef.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 114 |
+| 2026-09-24 | [`s_0c922ef5`](session-s_0c922ef5.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 114 |
+| 2026-09-24 | [`s_0a96c081`](session-s_0a96c081.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 114 |
+| 2026-09-24 | [`s_6d32f6ae`](session-s_6d32f6ae.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 113 |
+| 2026-09-24 | [`s_5b2bc936`](session-s_5b2bc936.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 113 |
+| 2026-09-24 | [`s_2dd59424`](session-s_2dd59424.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 110 |
+| 2026-09-24 | [`s_094e97e6`](session-s_094e97e6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 108 |
+| 2026-09-24 | [`s_2778006d`](session-s_2778006d.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 105 |
+| 2026-09-24 | [`s_3d2256a5`](session-s_3d2256a5.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 103 |
+| 2026-09-24 | [`s_3f80bbdf`](session-s_3f80bbdf.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 98 |
+| 2026-09-24 | [`s_2e217614`](session-s_2e217614.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 98 |
+| 2026-09-24 | [`s_29e83552`](session-s_29e83552.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 96 |
+| 2026-09-24 | [`s_2f5c9f89`](session-s_2f5c9f89.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 95 |
+| 2026-09-24 | [`s_737352a7`](session-s_737352a7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_67945f27`](session-s_67945f27.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_5ed43651`](session-s_5ed43651.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_562d7595`](session-s_562d7595.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_514a61b3`](session-s_514a61b3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_4c0be6fd`](session-s_4c0be6fd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_41400683`](session-s_41400683.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_3780106c`](session-s_3780106c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_32b2af9e`](session-s_32b2af9e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_2b5f5461`](session-s_2b5f5461.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_28eeaac3`](session-s_28eeaac3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_27f7414e`](session-s_27f7414e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_1e2c4306`](session-s_1e2c4306.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_1c5af94e`](session-s_1c5af94e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_0e494576`](session-s_0e494576.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-24 | [`s_57b289b3`](session-s_57b289b3.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 28 |
+| 2026-09-24 | [`s_72e84675`](session-s_72e84675.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_65f6611a`](session-s_65f6611a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_5cee9ba5`](session-s_5cee9ba5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_59f149b5`](session-s_59f149b5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_1a23aa33`](session-s_1a23aa33.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_15ec983a`](session-s_15ec983a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_10a45bfc`](session-s_10a45bfc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_0f324622`](session-s_0f324622.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_09547f1a`](session-s_09547f1a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-24 | [`s_4c5e9b94`](session-s_4c5e9b94.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 13 |
+| 2026-09-24 | [`s_6b34b725`](session-s_6b34b725.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_5e7a72e3`](session-s_5e7a72e3.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_589d1983`](session-s_589d1983.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_528d1cb3`](session-s_528d1cb3.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_50dcd96d`](session-s_50dcd96d.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_4ca66a1f`](session-s_4ca66a1f.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_46628758`](session-s_46628758.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_44442ee5`](session-s_44442ee5.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_41ff27b7`](session-s_41ff27b7.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_3b42fdbe`](session-s_3b42fdbe.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_38b9e57b`](session-s_38b9e57b.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_331fcda4`](session-s_331fcda4.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_2ef655b8`](session-s_2ef655b8.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_2aab850b`](session-s_2aab850b.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_263f2ebb`](session-s_263f2ebb.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_2484d40e`](session-s_2484d40e.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_2251be88`](session-s_2251be88.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_1358f53c`](session-s_1358f53c.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_10860d96`](session-s_10860d96.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_0cdfb342`](session-s_0cdfb342.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_0a7dc648`](session-s_0a7dc648.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_05e05b0f`](session-s_05e05b0f.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_028d4e87`](session-s_028d4e87.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_025dbb20`](session-s_025dbb20.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_013fc425`](session-s_013fc425.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-24 | [`s_70ec994d`](session-s_70ec994d.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-09-24 | [`s_1401d2f3`](session-s_1401d2f3.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-09-23 | [`s_f7c0a41f`](session-s_f7c0a41f.md) | https://t.me/+BpkYdp0RyDw4N2Nl | 262,886 |
+| 2026-09-23 | [`s_ef017248`](session-s_ef017248.md) | изучи этот кейс OpenAI researcher "Alisa Liu" had 57 interviews before joining OpenAI, and… | 73,893 |
+| 2026-09-23 | [`s_ceb230a6`](session-s_ceb230a6.md) | Провели рекол. И дай для моего курсора initial prompt, чтобы он начал работать в Телеграме… | 68,643 |
+| 2026-09-23 | [`s_ef64ef41`](session-s_ef64ef41.md) | У Грока, у Грока, кажется, есть приложение, приложение такое же, как и кодекс, и как чат-G… | 37,942 |
+| 2026-09-23 | [`s_cb0e958c`](session-s_cb0e958c.md) | ChatGPT в Chrome опять разлогинился. Объясняю причину. Объясни мне причину, и почини корни… | 21,898 |
 | 2026-09-23 | [`s_1393dba1`](session-s_1393dba1.md) | Scheduled run: pipe-a-apply-daily | 20,892 |
 | 2026-09-23 | [`s_64dd7731`](session-s_64dd7731.md) | Я хочу, чтобы ты проверил, как а, ты используешь сейчас кодекс. Я боюсь, что ты через коде… | 13,166 |
 | 2026-09-23 | [`s_56b15423`](session-s_56b15423.md) | Scheduled run: auto-hub-260824-nsfw-dr-posts | 12,253 |
+| 2026-09-23 | [`s_f152b383`](session-s_f152b383.md) | Дай мне аналитику, что за последние двое суток больше всего сожрало токенов у меня на акка… | 11,885 |
+| 2026-09-23 | [`s_ef436d20`](session-s_ef436d20.md) | CONTENT_DRAIN_AUTORUN | 11,448 |
 | 2026-09-23 | [`95efbe75`](session-95efbe75.md) | Cross-vendor review of a Codex diff, single repository | 10,164 |
 | 2026-09-23 | [`s_edbdc3a4`](session-s_edbdc3a4.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,934 |
 | 2026-09-23 | [`s_98c478a5`](session-s_98c478a5.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,876 |
 | 2026-09-23 | [`s_04cef644`](session-s_04cef644.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,850 |
 | 2026-09-23 | [`s_0a5e620e`](session-s_0a5e620e.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,689 |
+| 2026-09-23 | [`s_af00431a`](session-s_af00431a.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,183 |
 | 2026-09-23 | [`s_56942f5a`](session-s_56942f5a.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,104 |
 | 2026-09-23 | [`s_0c971348`](session-s_0c971348.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 8,991 |
 | 2026-09-23 | [`s_61da006b`](session-s_61da006b.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 8,946 |
+| 2026-09-23 | [`s_c8029a58`](session-s_c8029a58.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 8,831 |
+| 2026-09-23 | [`s_920620ad`](session-s_920620ad.md) | CONTENT_DRAIN_AUTORUN | 8,553 |
 | 2026-09-23 | [`s_804fce68`](session-s_804fce68.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 8,404 |
+| 2026-09-23 | [`s_c43846f2`](session-s_c43846f2.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 8,329 |
+| 2026-09-23 | [`s_db97f597`](session-s_db97f597.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 8,325 |
 | 2026-09-23 | [`s_633e8d2e`](session-s_633e8d2e.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 7,901 |
 | 2026-09-23 | [`s_87284769`](session-s_87284769.md) | Scheduled run: casebook-drip-daily | 7,830 |
 | 2026-09-23 | [`s_17900b10`](session-s_17900b10.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 7,750 |
+| 2026-09-23 | [`s_e697db1d`](session-s_e697db1d.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 7,559 |
 | 2026-09-23 | [`s_829912d5`](session-s_829912d5.md) | Scheduled run: voice-dispatcher | 7,541 |
+| 2026-09-23 | [`s_ff2539b1`](session-s_ff2539b1.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 7,338 |
 | 2026-09-23 | [`s_62ace30e`](session-s_62ace30e.md) | Scheduled run: lead-thread-reply | 7,034 |
 | 2026-09-23 | [`s_834322e2`](session-s_834322e2.md) | Scheduled run: cv-outreach-executor | 6,891 |
+| 2026-09-23 | [`s_cee1ce8f`](session-s_cee1ce8f.md) | Scheduled run: auto-hub-260806-inbound-triage-daily | 6,511 |
 | 2026-09-23 | [`s_1ccb1d73`](session-s_1ccb1d73.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 6,461 |
 | 2026-09-23 | [`s_2dc88d70`](session-s_2dc88d70.md) | Scheduled run: voice-triage | 6,423 |
+| 2026-09-23 | [`s_c83140c7`](session-s_c83140c7.md) | Scheduled run: touchbase-daily-runner | 6,383 |
 | 2026-09-23 | [`s_49dd435f`](session-s_49dd435f.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 6,366 |
 | 2026-09-23 | [`s_67ce72be`](session-s_67ce72be.md) | Another Claude session sent a message | 6,258 |
+| 2026-09-23 | [`s_cee36693`](session-s_cee36693.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 6,167 |
 | 2026-09-23 | [`s_23e50a32`](session-s_23e50a32.md) | Scheduled run: auto-hub-260901-apply-batch2-today | 5,900 |
 | 2026-09-23 | [`s_3d515f6b`](session-s_3d515f6b.md) | Scheduled run: content-drain-live | 5,542 |
 | 2026-09-23 | [`s_2f5a4f3c`](session-s_2f5a4f3c.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 5,365 |
+| 2026-09-23 | [`s_c380a985`](session-s_c380a985.md) | Scheduled run: chatgpt-token-guard-nightly | 5,339 |
+| 2026-09-23 | [`s_c5bc9b4c`](session-s_c5bc9b4c.md) | Scheduled run: journey-day-close-morning | 5,241 |
 | 2026-09-23 | [`s_7d67aeaf`](session-s_7d67aeaf.md) | Scheduled run: content-lang-pairs-nightly | 5,102 |
 | 2026-09-23 | [`s_0b370917`](session-s_0b370917.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 5,066 |
 | 2026-09-23 | [`s_7fa7ca8b`](session-s_7fa7ca8b.md) | Scheduled run: claudeai-sync-daily | 4,519 |
 | 2026-09-23 | [`s_43dae222`](session-s_43dae222.md) | Scheduled run: pipe-a-inbox-watch | 4,473 |
 | 2026-09-23 | [`s_38af9c52`](session-s_38af9c52.md) | Another Claude session sent a message | 4,393 |
+| 2026-09-23 | [`s_bf87f435`](session-s_bf87f435.md) | Ты дистиллируешь СЫРОЙ чат в одну кураторскую заметку для второго мозга оператора | 4,363 |
 | 2026-09-23 | [`s_47cae4f1`](session-s_47cae4f1.md) | Scheduled run: share-fix-daily | 4,212 |
+| 2026-09-23 | [`s_bb05a11b`](session-s_bb05a11b.md) | You are the ALPHA-JUDGE running unattended over the CHANNEL lane. UNATTENDED MEANS: there… | 4,089 |
+| 2026-09-23 | [`s_b0ea6198`](session-s_b0ea6198.md) | Scheduled run: auto-hub-260811-rep-reply-daily | 3,945 |
+| 2026-09-23 | [`s_f24e346a`](session-s_f24e346a.md) | Scheduled run: canon-writer-nightly | 3,829 |
 | 2026-09-23 | [`s_19882db2`](session-s_19882db2.md) | FACEBOOK_DIARY_AUTORUN | 3,828 |
 | 2026-09-23 | [`s_695f7f96`](session-s_695f7f96.md) | Scheduled run: auto-hub-260901-cv-rebuild-contacts | 3,818 |
+| 2026-09-23 | [`s_8ae0f794`](session-s_8ae0f794.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 3,741 |
+| 2026-09-23 | [`s_8f47d423`](session-s_8f47d423.md) | Scheduled run: registry-dispatcher-daily | 3,738 |
 | 2026-09-23 | [`s_74b7cf15`](session-s_74b7cf15.md) | Scheduled run: auto-hub-260824-NODE-0X-folder-cleanup | 3,516 |
+| 2026-09-23 | [`s_be18a384`](session-s_be18a384.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 3,401 |
 | 2026-09-23 | [`s_6919034f`](session-s_6919034f.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 3,299 |
+| 2026-09-23 | [`s_940693c6`](session-s_940693c6.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 3,225 |
 | 2026-09-23 | [`s_48476666`](session-s_48476666.md) | Scheduled run: inbound-fb-messenger-daily | 3,138 |
+| 2026-09-23 | [`s_c5037e4c`](session-s_c5037e4c.md) | Scheduled run: fb-reply-daily | 3,033 |
 | 2026-09-23 | [`s_6cf6bbfa`](session-s_6cf6bbfa.md) | Scheduled run: shadow-harvest-daily | 3,004 |
 | 2026-09-23 | [`s_43dcc222`](session-s_43dcc222.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 2,927 |
+| 2026-09-23 | [`s_fba7fb48`](session-s_fba7fb48.md) | Scheduled run: raise-outreach-daily | 2,795 |
 | 2026-09-23 | [`s_5e256497`](session-s_5e256497.md) | Scheduled run: facebook-diary-daily | 2,726 |
+| 2026-09-23 | [`s_a15785a8`](session-s_a15785a8.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 2,719 |
+| 2026-09-23 | [`s_baf6ec7f`](session-s_baf6ec7f.md) | FACEBOOK_DIARY_AUTORUN | 2,707 |
 | 2026-09-23 | [`s_7c9095d0`](session-s_7c9095d0.md) | Scheduled run: auto-hub-260824-NODE-0X-folder-cleanup | 2,698 |
+| 2026-09-23 | [`s_d70edc18`](session-s_d70edc18.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,665 |
 | 2026-09-23 | [`s_4a1a39f5`](session-s_4a1a39f5.md) | Scheduled run: jobs-tg-nightly | 2,621 |
 | 2026-09-23 | [`s_54bf8192`](session-s_54bf8192.md) | Scheduled run: content-miner-nightly | 2,548 |
 | 2026-09-23 | [`s_476eea39`](session-s_476eea39.md) | Scheduled run: hub-deploy-unpack-daily | 2,443 |
+| 2026-09-23 | [`s_ddeb939c`](session-s_ddeb939c.md) | Scheduled run: day-ledger-nightly | 2,417 |
 | 2026-09-23 | [`s_716ed971`](session-s_716ed971.md) | Scheduled run: auto-hub-260901-apply-batch2-today | 2,256 |
+| 2026-09-23 | [`s_d67f295d`](session-s_d67f295d.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,205 |
+| 2026-09-23 | [`s_d114cd85`](session-s_d114cd85.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 2,148 |
 | 2026-09-23 | [`s_24bce34a`](session-s_24bce34a.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,058 |
 | 2026-09-23 | [`s_75d94ddc`](session-s_75d94ddc.md) | Scheduled run: jobs-watch-daily | 2,048 |
 | 2026-09-23 | [`s_751c2f45`](session-s_751c2f45.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,029 |
+| 2026-09-23 | [`s_91e5147e`](session-s_91e5147e.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,025 |
 | 2026-09-23 | [`s_855df258`](session-s_855df258.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,992 |
+| 2026-09-23 | [`s_dae09dd3`](session-s_dae09dd3.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 1,975 |
+| 2026-09-23 | [`s_f6fed1c6`](session-s_f6fed1c6.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,969 |
 | 2026-09-23 | [`s_1330c576`](session-s_1330c576.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,955 |
+| 2026-09-23 | [`s_def818f1`](session-s_def818f1.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,927 |
+| 2026-09-23 | [`s_c3aa9e42`](session-s_c3aa9e42.md) | Run the /takeout-pull skill now: detect ready Google Takeout exports in the a@ mailbox (0-… | 1,926 |
 | 2026-09-23 | [`s_3e8a0d2b`](session-s_3e8a0d2b.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,891 |
+| 2026-09-23 | [`s_edc94154`](session-s_edc94154.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,877 |
 | 2026-09-23 | [`s_329cd733`](session-s_329cd733.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,799 |
 | 2026-09-23 | [`s_05bf07eb`](session-s_05bf07eb.md) | Ты — ассистент оператора (аккаунт @platinumvc1) в рабочем командном чате «All Assistant’s… | 1,789 |
+| 2026-09-23 | [`s_ae8c4269`](session-s_ae8c4269.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,691 |
+| 2026-09-23 | [`s_b94bb4c4`](session-s_b94bb4c4.md) | Another Claude session sent a message | 1,627 |
+| 2026-09-23 | [`s_aab06e0a`](session-s_aab06e0a.md) | Another Claude session sent a message | 1,582 |
 | 2026-09-23 | [`s_09cf66dc`](session-s_09cf66dc.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 1,491 |
+| 2026-09-23 | [`s_8fee568a`](session-s_8fee568a.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 1,294 |
+| 2026-09-23 | [`s_d2a9a501`](session-s_d2a9a501.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 1,115 |
+| 2026-09-23 | [`s_bbfb2bcc`](session-s_bbfb2bcc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 1,091 |
 | 2026-09-23 | [`s_2bb567b1`](session-s_2bb567b1.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 1,067 |
+| 2026-09-23 | [`s_d68d2ace`](session-s_d68d2ace.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 1,049 |
 | 2026-09-23 | [`s_1aa25754`](session-s_1aa25754.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 1,046 |
 | 2026-09-23 | [`s_0ea4abe8`](session-s_0ea4abe8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 1,013 |
 | 2026-09-23 | [`s_3cb23ddc`](session-s_3cb23ddc.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 999 |
+| 2026-09-23 | [`s_e933f5d9`](session-s_e933f5d9.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 972 |
 | 2026-09-23 | [`s_4d376446`](session-s_4d376446.md) | Another Claude session sent a message | 942 |
+| 2026-09-23 | [`s_e90451a6`](session-s_e90451a6.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 933 |
+| 2026-09-23 | [`s_db919ce3`](session-s_db919ce3.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 933 |
 | 2026-09-23 | [`s_31a9e398`](session-s_31a9e398.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 879 |
 | 2026-09-23 | [`s_16bd64ca`](session-s_16bd64ca.md) | INTENTION_LANE_AUTORUN | 868 |
+| 2026-09-23 | [`s_de56d522`](session-s_de56d522.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 864 |
 | 2026-09-23 | [`s_5f63c049`](session-s_5f63c049.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 853 |
 | 2026-09-23 | [`s_5c9be95c`](session-s_5c9be95c.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 844 |
+| 2026-09-23 | [`s_a7b6312c`](session-s_a7b6312c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 831 |
 | 2026-09-23 | [`s_63e7023f`](session-s_63e7023f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 816 |
+| 2026-09-23 | [`s_869918b0`](session-s_869918b0.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 806 |
 | 2026-09-23 | [`s_4fa7a884`](session-s_4fa7a884.md) | You are the SOSTAV ALPHA-JUDGE running unattended. UNATTENDED MEANS: there is NO human her… | 797 |
 | 2026-09-23 | [`s_825da47f`](session-s_825da47f.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 785 |
+| 2026-09-23 | [`s_ce14dfca`](session-s_ce14dfca.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 752 |
 | 2026-09-23 | [`s_28a17ae1`](session-s_28a17ae1.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 751 |
+| 2026-09-23 | [`s_c338f281`](session-s_c338f281.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 735 |
 | 2026-09-23 | [`s_12ef8f3d`](session-s_12ef8f3d.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 729 |
 | 2026-09-23 | [`s_317606e5`](session-s_317606e5.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 707 |
 | 2026-09-23 | [`s_03862738`](session-s_03862738.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 705 |
+| 2026-09-23 | [`s_a1d033e2`](session-s_a1d033e2.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 701 |
 | 2026-09-23 | [`s_57fdb24a`](session-s_57fdb24a.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 679 |
+| 2026-09-23 | [`s_cafc6044`](session-s_cafc6044.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 674 |
+| 2026-09-23 | [`s_c50387b9`](session-s_c50387b9.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 668 |
+| 2026-09-23 | [`s_dcbf28ea`](session-s_dcbf28ea.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 659 |
+| 2026-09-23 | [`s_e9631b5f`](session-s_e9631b5f.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 655 |
+| 2026-09-23 | [`s_e7457043`](session-s_e7457043.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 646 |
+| 2026-09-23 | [`s_e2fd753a`](session-s_e2fd753a.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 646 |
+| 2026-09-23 | [`s_b9299dc7`](session-s_b9299dc7.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 642 |
+| 2026-09-23 | [`s_9d2614a0`](session-s_9d2614a0.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 632 |
 | 2026-09-23 | [`s_5e6eaf82`](session-s_5e6eaf82.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 632 |
 | 2026-09-23 | [`s_4493ec4c`](session-s_4493ec4c.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 616 |
 | 2026-09-23 | [`s_471d95b6`](session-s_471d95b6.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 614 |
+| 2026-09-23 | [`s_e3baa1d6`](session-s_e3baa1d6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 613 |
+| 2026-09-23 | [`s_9cb37222`](session-s_9cb37222.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 606 |
+| 2026-09-23 | [`s_f68ed6b7`](session-s_f68ed6b7.md) | Another Claude session sent a message | 604 |
 | 2026-09-23 | [`s_1607c965`](session-s_1607c965.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 604 |
+| 2026-09-23 | [`s_cefa78d7`](session-s_cefa78d7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 600 |
+| 2026-09-23 | [`s_d502301d`](session-s_d502301d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 585 |
+| 2026-09-23 | [`s_b4e3d803`](session-s_b4e3d803.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 580 |
 | 2026-09-23 | [`s_3dbadf5d`](session-s_3dbadf5d.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 574 |
+| 2026-09-23 | [`s_ee74482d`](session-s_ee74482d.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 573 |
 | 2026-09-23 | [`s_67439d18`](session-s_67439d18.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 572 |
 | 2026-09-23 | [`s_5a7e3176`](session-s_5a7e3176.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 566 |
 | 2026-09-23 | [`s_7bba5176`](session-s_7bba5176.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 543 |
 | 2026-09-23 | [`s_707a42b0`](session-s_707a42b0.md) | INTENTION_LANE_AUTORUN | 537 |
 | 2026-09-23 | [`s_0570f751`](session-s_0570f751.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 533 |
 | 2026-09-23 | [`s_50322a16`](session-s_50322a16.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 531 |
+| 2026-09-23 | [`s_b1ad28c6`](session-s_b1ad28c6.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 529 |
 | 2026-09-23 | [`s_7df0cbc9`](session-s_7df0cbc9.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 514 |
 | 2026-09-23 | [`s_5f6261ae`](session-s_5f6261ae.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 509 |
 | 2026-09-23 | [`s_79893974`](session-s_79893974.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 508 |
+| 2026-09-23 | [`s_c049a584`](session-s_c049a584.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 498 |
 | 2026-09-23 | [`s_0f85a3e8`](session-s_0f85a3e8.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 488 |
+| 2026-09-23 | [`s_c3aaae12`](session-s_c3aaae12.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 482 |
 | 2026-09-23 | [`s_64b4f021`](session-s_64b4f021.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 479 |
+| 2026-09-23 | [`s_acc5ca8a`](session-s_acc5ca8a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 477 |
+| 2026-09-23 | [`s_b1288857`](session-s_b1288857.md) | You are drafting dev's daily short messages for his closed club SOSTAV, running unattended… | 475 |
 | 2026-09-23 | [`s_221b5af6`](session-s_221b5af6.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 452 |
 | 2026-09-23 | [`s_02129de0`](session-s_02129de0.md) | Another Claude session sent a message | 449 |
 | 2026-09-23 | [`s_55402942`](session-s_55402942.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 446 |
 | 2026-09-23 | [`s_3d042bb9`](session-s_3d042bb9.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 445 |
 | 2026-09-23 | [`s_6adddf2e`](session-s_6adddf2e.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 424 |
+| 2026-09-23 | [`s_b2fcf881`](session-s_b2fcf881.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 423 |
 | 2026-09-23 | [`s_603b2e03`](session-s_603b2e03.md) | Read E:\!CLAUDE-HUBPC-June26\_scratch\codex-freshness-root-fix.diff. Review only that patc… | 421 |
 | 2026-09-23 | [`s_6a6ce28a`](session-s_6a6ce28a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 413 |
+| 2026-09-23 | [`s_e2d388fc`](session-s_e2d388fc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 383 |
 | 2026-09-23 | [`s_407ed293`](session-s_407ed293.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 380 |
 | 2026-09-23 | [`s_647aeeda`](session-s_647aeeda.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 375 |
+| 2026-09-23 | [`s_ee26e8ef`](session-s_ee26e8ef.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 370 |
+| 2026-09-23 | [`s_f5fbfcf7`](session-s_f5fbfcf7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 357 |
+| 2026-09-23 | [`s_917e0ab9`](session-s_917e0ab9.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 350 |
+| 2026-09-23 | [`s_ebaf45bb`](session-s_ebaf45bb.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 346 |
 | 2026-09-23 | [`s_42522d4b`](session-s_42522d4b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 339 |
 | 2026-09-23 | [`s_185c4b2b`](session-s_185c4b2b.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 338 |
+| 2026-09-23 | [`s_b81289d8`](session-s_b81289d8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 328 |
 | 2026-09-23 | [`s_6e707256`](session-s_6e707256.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 324 |
+| 2026-09-23 | [`s_f574f19a`](session-s_f574f19a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 316 |
+| 2026-09-23 | [`s_d74fe52c`](session-s_d74fe52c.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 310 |
 | 2026-09-23 | [`s_1085e32d`](session-s_1085e32d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 304 |
 | 2026-09-23 | [`s_1d736966`](session-s_1d736966.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 301 |
+| 2026-09-23 | [`s_aba7fe3d`](session-s_aba7fe3d.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 297 |
 | 2026-09-23 | [`s_7e1b502f`](session-s_7e1b502f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 296 |
+| 2026-09-23 | [`s_e5cc819c`](session-s_e5cc819c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 292 |
+| 2026-09-23 | [`s_a0516ad9`](session-s_a0516ad9.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 291 |
 | 2026-09-23 | [`s_8211c17e`](session-s_8211c17e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 289 |
 | 2026-09-23 | [`s_12d4563a`](session-s_12d4563a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 288 |
 | 2026-09-23 | [`s_3aba7434`](session-s_3aba7434.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 287 |
 | 2026-09-23 | [`s_848f69f7`](session-s_848f69f7.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 282 |
 | 2026-09-23 | [`s_702e5043`](session-s_702e5043.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 282 |
+| 2026-09-23 | [`s_bca20ca6`](session-s_bca20ca6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 280 |
 | 2026-09-23 | [`s_43d43e86`](session-s_43d43e86.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 280 |
 | 2026-09-23 | [`s_78deb823`](session-s_78deb823.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 278 |
 | 2026-09-23 | [`s_2a724feb`](session-s_2a724feb.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 278 |
 | 2026-09-23 | [`s_70270157`](session-s_70270157.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 276 |
 | 2026-09-23 | [`s_304906ef`](session-s_304906ef.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 273 |
+| 2026-09-23 | [`s_9fa255b9`](session-s_9fa255b9.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 272 |
+| 2026-09-23 | [`s_b2eb42fe`](session-s_b2eb42fe.md) | Ты редактируешь голосовую постановку задачи оператора для рабочих Telegram-чатов | 268 |
 | 2026-09-23 | [`s_750e064b`](session-s_750e064b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 267 |
+| 2026-09-23 | [`s_b6ed61f5`](session-s_b6ed61f5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 261 |
+| 2026-09-23 | [`s_c9c9c16a`](session-s_c9c9c16a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 260 |
+| 2026-09-23 | [`s_ba4496e7`](session-s_ba4496e7.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 259 |
+| 2026-09-23 | [`s_b901c8a3`](session-s_b901c8a3.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 259 |
 | 2026-09-23 | [`s_6347cda6`](session-s_6347cda6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 259 |
+| 2026-09-23 | [`s_c8952650`](session-s_c8952650.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 256 |
+| 2026-09-23 | [`s_94e50737`](session-s_94e50737.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 256 |
 | 2026-09-23 | [`s_35ad4084`](session-s_35ad4084.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 255 |
+| 2026-09-23 | [`s_cdce4913`](session-s_cdce4913.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 254 |
 | 2026-09-23 | [`s_5b7be0f0`](session-s_5b7be0f0.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 250 |
+| 2026-09-23 | [`s_8ded6f4c`](session-s_8ded6f4c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 249 |
 | 2026-09-23 | [`s_3faf7651`](session-s_3faf7651.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 247 |
+| 2026-09-23 | [`s_d5752446`](session-s_d5752446.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 242 |
+| 2026-09-23 | [`s_c0e3d12b`](session-s_c0e3d12b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 242 |
+| 2026-09-23 | [`s_eeb20638`](session-s_eeb20638.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 241 |
+| 2026-09-23 | [`s_9ff7b7fd`](session-s_9ff7b7fd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 241 |
 | 2026-09-23 | [`s_5c5305bd`](session-s_5c5305bd.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 241 |
 | 2026-09-23 | [`s_821af937`](session-s_821af937.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 239 |
 | 2026-09-23 | [`s_52f22843`](session-s_52f22843.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 232 |
 | 2026-09-23 | [`s_0c3ad592`](session-s_0c3ad592.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 230 |
 | 2026-09-23 | [`s_65b4b832`](session-s_65b4b832.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 227 |
 | 2026-09-23 | [`s_77c260a4`](session-s_77c260a4.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 225 |
+| 2026-09-23 | [`s_b532db7c`](session-s_b532db7c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 222 |
 | 2026-09-23 | [`s_727b2719`](session-s_727b2719.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 220 |
 | 2026-09-23 | [`s_31b1d536`](session-s_31b1d536.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 220 |
+| 2026-09-23 | [`s_9d356945`](session-s_9d356945.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 213 |
+| 2026-09-23 | [`s_abaa41b0`](session-s_abaa41b0.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 212 |
+| 2026-09-23 | [`s_ef760349`](session-s_ef760349.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 211 |
+| 2026-09-23 | [`s_d3584fc5`](session-s_d3584fc5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 209 |
 | 2026-09-23 | [`s_4bd29649`](session-s_4bd29649.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 208 |
+| 2026-09-23 | [`s_e20607a4`](session-s_e20607a4.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 206 |
 | 2026-09-23 | [`s_36a5428b`](session-s_36a5428b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 206 |
+| 2026-09-23 | [`s_96f39cc7`](session-s_96f39cc7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 203 |
 | 2026-09-23 | [`s_6c129dbd`](session-s_6c129dbd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 202 |
 | 2026-09-23 | [`s_3e356ef3`](session-s_3e356ef3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 200 |
+| 2026-09-23 | [`s_9de5505b`](session-s_9de5505b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 199 |
+| 2026-09-23 | [`s_cd869c3d`](session-s_cd869c3d.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 194 |
+| 2026-09-23 | [`s_cc39c9ba`](session-s_cc39c9ba.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 193 |
+| 2026-09-23 | [`s_8edb8ab8`](session-s_8edb8ab8.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 192 |
 | 2026-09-23 | [`s_40f0b020`](session-s_40f0b020.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 190 |
+| 2026-09-23 | [`s_8ff057a2`](session-s_8ff057a2.md) | Ты независимый reviewer. Только чтение, ничего не правь. Проверь D:\\Vault\\_imports\\code… | 189 |
 | 2026-09-23 | [`s_5ead2b37`](session-s_5ead2b37.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 189 |
+| 2026-09-23 | [`s_d063c184`](session-s_d063c184.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 188 |
+| 2026-09-23 | [`s_a169f0bb`](session-s_a169f0bb.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 188 |
+| 2026-09-23 | [`s_9ba4f2a6`](session-s_9ba4f2a6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 185 |
 | 2026-09-23 | [`s_7d9884c8`](session-s_7d9884c8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 185 |
 | 2026-09-23 | [`s_78938448`](session-s_78938448.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 185 |
 | 2026-09-23 | [`s_149facab`](session-s_149facab.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 184 |
 | 2026-09-23 | [`s_4d4287ab`](session-s_4d4287ab.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 183 |
 | 2026-09-23 | [`s_3d38e063`](session-s_3d38e063.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 180 |
+| 2026-09-23 | [`s_b417d779`](session-s_b417d779.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 179 |
 | 2026-09-23 | [`s_1fe13637`](session-s_1fe13637.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 178 |
 | 2026-09-23 | [`s_16c15a95`](session-s_16c15a95.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 178 |
 | 2026-09-23 | [`s_08952e8e`](session-s_08952e8e.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 178 |
+| 2026-09-23 | [`s_93bbf8fc`](session-s_93bbf8fc.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 177 |
 | 2026-09-23 | [`s_29e79008`](session-s_29e79008.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 175 |
 | 2026-09-23 | [`s_7012748c`](session-s_7012748c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 174 |
 | 2026-09-23 | [`s_6600ac40`](session-s_6600ac40.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 173 |
 | 2026-09-23 | [`s_58496891`](session-s_58496891.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 172 |
 | 2026-09-23 | [`s_5d2785d1`](session-s_5d2785d1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 169 |
+| 2026-09-23 | [`s_cb19aa40`](session-s_cb19aa40.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 166 |
+| 2026-09-23 | [`s_ecbe452a`](session-s_ecbe452a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 165 |
 | 2026-09-23 | [`s_00520b89`](session-s_00520b89.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 165 |
+| 2026-09-23 | [`s_de4d79fe`](session-s_de4d79fe.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 164 |
 | 2026-09-23 | [`s_07c2cbb8`](session-s_07c2cbb8.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 164 |
+| 2026-09-23 | [`s_bf2a1c25`](session-s_bf2a1c25.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 162 |
+| 2026-09-23 | [`s_99c3d75e`](session-s_99c3d75e.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 162 |
 | 2026-09-23 | [`s_12fb30cf`](session-s_12fb30cf.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 162 |
+| 2026-09-23 | [`s_e946da8c`](session-s_e946da8c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 160 |
+| 2026-09-23 | [`s_b9bfe40d`](session-s_b9bfe40d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 159 |
+| 2026-09-23 | [`s_97514aec`](session-s_97514aec.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 158 |
 | 2026-09-23 | [`s_1bdc51a2`](session-s_1bdc51a2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 158 |
+| 2026-09-23 | [`s_aa24f9bd`](session-s_aa24f9bd.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 155 |
 | 2026-09-23 | [`s_081fb8f6`](session-s_081fb8f6.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 155 |
+| 2026-09-23 | [`s_f2d9e319`](session-s_f2d9e319.md) | [СКРЫТО] --- | 153 |
+| 2026-09-23 | [`s_b897283c`](session-s_b897283c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 153 |
+| 2026-09-23 | [`s_8bfa3e32`](session-s_8bfa3e32.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 153 |
 | 2026-09-23 | [`s_7f16d235`](session-s_7f16d235.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 152 |
 | 2026-09-23 | [`s_1fb093ad`](session-s_1fb093ad.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 152 |
+| 2026-09-23 | [`s_a8e66f3f`](session-s_a8e66f3f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 149 |
 | 2026-09-23 | [`s_0040e9ee`](session-s_0040e9ee.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 149 |
+| 2026-09-23 | [`s_b102a7fb`](session-s_b102a7fb.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 148 |
 | 2026-09-23 | [`s_5232dd5b`](session-s_5232dd5b.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 148 |
 | 2026-09-23 | [`s_83cd216c`](session-s_83cd216c.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 147 |
 | 2026-09-23 | [`s_8036886a`](session-s_8036886a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 147 |
 | 2026-09-23 | [`s_746e96b6`](session-s_746e96b6.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 147 |
+| 2026-09-23 | [`s_9a6865d0`](session-s_9a6865d0.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 145 |
 | 2026-09-23 | [`s_7bd8692b`](session-s_7bd8692b.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 145 |
 | 2026-09-23 | [`s_5974fc0c`](session-s_5974fc0c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 145 |
+| 2026-09-23 | [`s_c82171cc`](session-s_c82171cc.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 144 |
+| 2026-09-23 | [`s_b0161687`](session-s_b0161687.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 144 |
 | 2026-09-23 | [`s_683f704e`](session-s_683f704e.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 144 |
 | 2026-09-23 | [`s_3afc0207`](session-s_3afc0207.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 144 |
 | 2026-09-23 | [`s_6b1c9b4d`](session-s_6b1c9b4d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 143 |
 | 2026-09-23 | [`s_1e28a7c2`](session-s_1e28a7c2.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 143 |
 | 2026-09-23 | [`s_1b128fe2`](session-s_1b128fe2.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 143 |
+| 2026-09-23 | [`s_97e43d8d`](session-s_97e43d8d.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 142 |
 | 2026-09-23 | [`s_37b2f9d2`](session-s_37b2f9d2.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 142 |
+| 2026-09-23 | [`s_e1ca0b66`](session-s_e1ca0b66.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 141 |
+| 2026-09-23 | [`s_d31bc42a`](session-s_d31bc42a.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 141 |
+| 2026-09-23 | [`s_a5558835`](session-s_a5558835.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 141 |
 | 2026-09-23 | [`s_4e3902e1`](session-s_4e3902e1.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 141 |
 | 2026-09-23 | [`s_4038b255`](session-s_4038b255.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 141 |
+| 2026-09-23 | [`s_f54e872f`](session-s_f54e872f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
+| 2026-09-23 | [`s_8ca6c1eb`](session-s_8ca6c1eb.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
 | 2026-09-23 | [`s_3f3c6976`](session-s_3f3c6976.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
 | 2026-09-23 | [`s_1b099c68`](session-s_1b099c68.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 140 |
 | 2026-09-23 | [`s_761e6f52`](session-s_761e6f52.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 139 |
 | 2026-09-23 | [`s_7450b77c`](session-s_7450b77c.md) | [СКРЫТО] --- | 139 |
 | 2026-09-23 | [`s_16cfc7ad`](session-s_16cfc7ad.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 139 |
+| 2026-09-23 | [`s_f12ac57f`](session-s_f12ac57f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 138 |
+| 2026-09-23 | [`s_ae2e7d3c`](session-s_ae2e7d3c.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 138 |
+| 2026-09-23 | [`s_8f5d7720`](session-s_8f5d7720.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 138 |
+| 2026-09-23 | [`s_8eb34656`](session-s_8eb34656.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 138 |
 | 2026-09-23 | [`s_6bc9a0a6`](session-s_6bc9a0a6.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 138 |
+| 2026-09-23 | [`s_ebac2cdd`](session-s_ebac2cdd.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 137 |
+| 2026-09-23 | [`s_bd314a55`](session-s_bd314a55.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 137 |
+| 2026-09-23 | [`s_994f8c48`](session-s_994f8c48.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 137 |
 | 2026-09-23 | [`s_1337f9f8`](session-s_1337f9f8.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 137 |
 | 2026-09-23 | [`s_5c50926f`](session-s_5c50926f.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 136 |
 | 2026-09-23 | [`s_10c4df2b`](session-s_10c4df2b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 136 |
+| 2026-09-23 | [`s_f591b830`](session-s_f591b830.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 135 |
+| 2026-09-23 | [`s_bfb4e851`](session-s_bfb4e851.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 135 |
+| 2026-09-23 | [`s_a0f622c3`](session-s_a0f622c3.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 135 |
+| 2026-09-23 | [`s_921d7022`](session-s_921d7022.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 135 |
+| 2026-09-23 | [`s_e5c9f5c9`](session-s_e5c9f5c9.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 134 |
+| 2026-09-23 | [`s_d4e2acb6`](session-s_d4e2acb6.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 134 |
+| 2026-09-23 | [`s_a28ebcaf`](session-s_a28ebcaf.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 134 |
 | 2026-09-23 | [`s_3c324507`](session-s_3c324507.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 134 |
+| 2026-09-23 | [`s_f74e52b4`](session-s_f74e52b4.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
+| 2026-09-23 | [`s_de297057`](session-s_de297057.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
+| 2026-09-23 | [`s_aa374bf9`](session-s_aa374bf9.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
 | 2026-09-23 | [`s_666ce686`](session-s_666ce686.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
 | 2026-09-23 | [`s_5e249acd`](session-s_5e249acd.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
 | 2026-09-23 | [`s_573cffe0`](session-s_573cffe0.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
 | 2026-09-23 | [`s_3d0cb19e`](session-s_3d0cb19e.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 133 |
 | 2026-09-23 | [`s_179f196c`](session-s_179f196c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 133 |
+| 2026-09-23 | [`s_99460dd3`](session-s_99460dd3.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 132 |
 | 2026-09-23 | [`s_13219a21`](session-s_13219a21.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 132 |
 | 2026-09-23 | [`s_0e5c6feb`](session-s_0e5c6feb.md) | [СКРЫТО] --- | 132 |
+| 2026-09-23 | [`s_ba1e3ad5`](session-s_ba1e3ad5.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
+| 2026-09-23 | [`s_b6c278ad`](session-s_b6c278ad.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
+| 2026-09-23 | [`s_8fbcec09`](session-s_8fbcec09.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
 | 2026-09-23 | [`s_575fad53`](session-s_575fad53.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
 | 2026-09-23 | [`s_4f905717`](session-s_4f905717.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
 | 2026-09-23 | [`s_3bc27485`](session-s_3bc27485.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
 | 2026-09-23 | [`s_0894c1b7`](session-s_0894c1b7.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 131 |
+| 2026-09-23 | [`s_b6c19143`](session-s_b6c19143.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
+| 2026-09-23 | [`s_973eb7dc`](session-s_973eb7dc.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
+| 2026-09-23 | [`s_9372a2eb`](session-s_9372a2eb.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
+| 2026-09-23 | [`s_8db3bd21`](session-s_8db3bd21.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
 | 2026-09-23 | [`s_6cdee959`](session-s_6cdee959.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
 | 2026-09-23 | [`s_5baac9a0`](session-s_5baac9a0.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 130 |
 | 2026-09-23 | [`s_58c15299`](session-s_58c15299.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 130 |
+| 2026-09-23 | [`s_d7408ba9`](session-s_d7408ba9.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 129 |
+| 2026-09-23 | [`s_c09db417`](session-s_c09db417.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 129 |
 | 2026-09-23 | [`s_82cbc606`](session-s_82cbc606.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 129 |
 | 2026-09-23 | [`s_103d4b88`](session-s_103d4b88.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 129 |
+| 2026-09-23 | [`s_ed7d2a82`](session-s_ed7d2a82.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
+| 2026-09-23 | [`s_b19cd5e0`](session-s_b19cd5e0.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
 | 2026-09-23 | [`s_866d7f82`](session-s_866d7f82.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
 | 2026-09-23 | [`s_537acb7a`](session-s_537acb7a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 128 |
 | 2026-09-23 | [`s_455a1156`](session-s_455a1156.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 128 |
+| 2026-09-23 | [`s_e87bae2e`](session-s_e87bae2e.md) | [СКРЫТО] --- | 127 |
+| 2026-09-23 | [`s_8ad266d7`](session-s_8ad266d7.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 127 |
 | 2026-09-23 | [`s_7d14e9c8`](session-s_7d14e9c8.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 127 |
 | 2026-09-23 | [`s_56c45529`](session-s_56c45529.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 127 |
+| 2026-09-23 | [`s_a16aca66`](session-s_a16aca66.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 126 |
+| 2026-09-23 | [`s_8eedc3a4`](session-s_8eedc3a4.md) | [СКРЫТО] --- | 126 |
 | 2026-09-23 | [`s_717e856f`](session-s_717e856f.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 126 |
 | 2026-09-23 | [`s_345ed0ef`](session-s_345ed0ef.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 126 |
+| 2026-09-23 | [`s_dd545fda`](session-s_dd545fda.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 125 |
+| 2026-09-23 | [`s_dbf28e4f`](session-s_dbf28e4f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 125 |
 | 2026-09-23 | [`s_1419d761`](session-s_1419d761.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 125 |
+| 2026-09-23 | [`s_dda15f4b`](session-s_dda15f4b.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 124 |
+| 2026-09-23 | [`s_d091f2ee`](session-s_d091f2ee.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 124 |
+| 2026-09-23 | [`s_ab252bdb`](session-s_ab252bdb.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 124 |
+| 2026-09-23 | [`s_a494d422`](session-s_a494d422.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 124 |
 | 2026-09-23 | [`s_5e54034d`](session-s_5e54034d.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 124 |
+| 2026-09-23 | [`s_cc1a75b4`](session-s_cc1a75b4.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 123 |
+| 2026-09-23 | [`s_cbd41a71`](session-s_cbd41a71.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 123 |
 | 2026-09-23 | [`s_5a06bb8f`](session-s_5a06bb8f.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 123 |
+| 2026-09-23 | [`s_8d2475e8`](session-s_8d2475e8.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
+| 2026-09-23 | [`s_8ce0d4d5`](session-s_8ce0d4d5.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
 | 2026-09-23 | [`s_7c99d65e`](session-s_7c99d65e.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
 | 2026-09-23 | [`s_75d20b2a`](session-s_75d20b2a.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
 | 2026-09-23 | [`s_0402f2e2`](session-s_0402f2e2.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 122 |
+| 2026-09-23 | [`s_b1b96172`](session-s_b1b96172.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 121 |
+| 2026-09-23 | [`s_93762c17`](session-s_93762c17.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 121 |
+| 2026-09-23 | [`s_b531a7fa`](session-s_b531a7fa.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 120 |
+| 2026-09-23 | [`s_df1dc107`](session-s_df1dc107.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 119 |
+| 2026-09-23 | [`s_b998578d`](session-s_b998578d.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 119 |
 | 2026-09-23 | [`s_32d09a5e`](session-s_32d09a5e.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 119 |
+| 2026-09-23 | [`s_9687d7d9`](session-s_9687d7d9.md) | Ты аналитик CRM оператора. Миссия сейчас РОВНО ДВЕ вещи | 118 |
 | 2026-09-23 | [`s_6beaee48`](session-s_6beaee48.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 117 |
+| 2026-09-23 | [`s_c548162d`](session-s_c548162d.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 115 |
+| 2026-09-23 | [`s_b7544f84`](session-s_b7544f84.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 115 |
 | 2026-09-23 | [`s_1894e37d`](session-s_1894e37d.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 115 |
 | 2026-09-23 | [`s_5a6b7896`](session-s_5a6b7896.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 114 |
+| 2026-09-23 | [`s_ed074eb6`](session-s_ed074eb6.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 113 |
 | 2026-09-23 | [`s_23e280dc`](session-s_23e280dc.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 113 |
+| 2026-09-23 | [`s_ad75fdb7`](session-s_ad75fdb7.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 112 |
 | 2026-09-23 | [`s_250ff71c`](session-s_250ff71c.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 112 |
 | 2026-09-23 | [`s_167d8d71`](session-s_167d8d71.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 111 |
 | 2026-09-23 | [`s_2b2e560b`](session-s_2b2e560b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 108 |
+| 2026-09-23 | [`s_ed7bd394`](session-s_ed7bd394.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 107 |
 | 2026-09-23 | [`s_62e4fe45`](session-s_62e4fe45.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 105 |
 | 2026-09-23 | [`s_36cad7ec`](session-s_36cad7ec.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 104 |
 | 2026-09-23 | [`s_5decca2f`](session-s_5decca2f.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 96 |
 | 2026-09-23 | [`s_2029019d`](session-s_2029019d.md) | config --- | 93 |
 | 2026-09-23 | [`s_60be22de`](session-s_60be22de.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 92 |
+| 2026-09-23 | [`s_f2db54db`](session-s_f2db54db.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 90 |
 | 2026-09-23 | [`s_511eba0e`](session-s_511eba0e.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 85 |
+| 2026-09-23 | [`s_ea5af1e3`](session-s_ea5af1e3.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 84 |
+| 2026-09-23 | [`s_ae8be86b`](session-s_ae8be86b.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 82 |
 | 2026-09-23 | [`s_32caf0ef`](session-s_32caf0ef.md) | Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram) | 75 |
+| 2026-09-23 | [`s_f4eda4f2`](session-s_f4eda4f2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-23 | [`s_dbcc775b`](session-s_dbcc775b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-23 | [`s_a92da26c`](session-s_a92da26c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-23 | [`s_a70ff83a`](session-s_a70ff83a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-23 | [`s_a674db81`](session-s_a674db81.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
 | 2026-09-23 | [`s_821bb0c3`](session-s_821bb0c3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
 | 2026-09-23 | [`s_5975df34`](session-s_5975df34.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
 | 2026-09-23 | [`s_58bc6195`](session-s_58bc6195.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
@@ -234,14 +706,41 @@ Back to the [index](../../index.md).
 | 2026-09-23 | [`s_11ef36c7`](session-s_11ef36c7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
 | 2026-09-23 | [`s_1182da02`](session-s_1182da02.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
 | 2026-09-23 | [`s_09577704`](session-s_09577704.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 32 |
+| 2026-09-23 | [`s_ebcb6664`](session-s_ebcb6664.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-23 | [`s_cfb00c96`](session-s_cfb00c96.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
 | 2026-09-23 | [`s_62d872e2`](session-s_62d872e2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
 | 2026-09-23 | [`s_2b300000`](session-s_2b300000.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 26 |
+| 2026-09-23 | [`s_a8cfbe81`](session-s_a8cfbe81.md) | Reply with exactly one word: OK | 15 |
 | 2026-09-23 | [`s_7ad05148`](session-s_7ad05148.md) | Reply with exactly one word: OK | 15 |
 | 2026-09-23 | [`s_5dfd25b6`](session-s_5dfd25b6.md) | Reply with exactly one word: OK | 15 |
 | 2026-09-23 | [`s_45de028d`](session-s_45de028d.md) | Reply with exactly one word: OK | 15 |
 | 2026-09-23 | [`s_2e2ff1b1`](session-s_2e2ff1b1.md) | Reply with exactly one word: OK | 15 |
 | 2026-09-23 | [`s_267855b7`](session-s_267855b7.md) | Reply with exactly one word: OK | 15 |
 | 2026-09-23 | [`s_225b5ae2`](session-s_225b5ae2.md) | Reply with exactly one word: OK | 15 |
+| 2026-09-23 | [`s_dceda585`](session-s_dceda585.md) | Reply with exactly one word: OK | 14 |
+| 2026-09-23 | [`s_c7e7574f`](session-s_c7e7574f.md) | Reply with exactly one word: OK | 14 |
+| 2026-09-23 | [`s_89da46e7`](session-s_89da46e7.md) | Reply with exactly one word: OK | 14 |
+| 2026-09-23 | [`s_95f577e1`](session-s_95f577e1.md) | reply with exactly: TOKSYNC_OK | 12 |
+| 2026-09-23 | [`s_fb60ad28`](session-s_fb60ad28.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_f7e34f8f`](session-s_f7e34f8f.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_f7dca39b`](session-s_f7dca39b.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_f1006b6b`](session-s_f1006b6b.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_e2da559f`](session-s_e2da559f.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_db4da3ae`](session-s_db4da3ae.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_cdc817fc`](session-s_cdc817fc.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_ca2e304f`](session-s_ca2e304f.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_c87125ea`](session-s_c87125ea.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_c656c4ec`](session-s_c656c4ec.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_c595b419`](session-s_c595b419.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_c4a2c120`](session-s_c4a2c120.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_bea722fa`](session-s_bea722fa.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_bcfde5f9`](session-s_bcfde5f9.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_a7fedfde`](session-s_a7fedfde.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_a23d28ba`](session-s_a23d28ba.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_9c4d4332`](session-s_9c4d4332.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_92283ca4`](session-s_92283ca4.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_8f9c18fc`](session-s_8f9c18fc.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_8aeebb88`](session-s_8aeebb88.md) | Reply with exactly one word: OK | 10 |
 | 2026-09-23 | [`s_852754cb`](session-s_852754cb.md) | Reply with exactly one word: OK | 10 |
 | 2026-09-23 | [`s_7dd9478b`](session-s_7dd9478b.md) | Reply with exactly one word: OK | 10 |
 | 2026-09-23 | [`s_743c5c1b`](session-s_743c5c1b.md) | Reply with exactly one word: OK | 10 |
@@ -261,6 +760,7 @@ Back to the [index](../../index.md).
 | 2026-09-23 | [`s_11dca7f7`](session-s_11dca7f7.md) | Reply with exactly one word: OK | 10 |
 | 2026-09-23 | [`s_0cb2f8be`](session-s_0cb2f8be.md) | Reply with exactly one word: OK | 10 |
 | 2026-09-23 | [`s_0bd2d3db`](session-s_0bd2d3db.md) | Reply with exactly one word: OK | 10 |
+| 2026-09-23 | [`s_dc4108bc`](session-s_dc4108bc.md) | reply with exactly: TOKSYNC_OK | 8 |
 | 2026-09-23 | [`s_46560d32`](session-s_46560d32.md) | reply with exactly: TOKSYNC_OK | 8 |
 | 2026-09-22 | [`s_04a58ee2`](session-s_04a58ee2.md) | Scheduled run: pipe-a-apply-daily | 18,945 |
 | 2026-09-22 | [`s_4de90103`](session-s_4de90103.md) | Scheduled run: robot-audit-weekly | 13,756 |

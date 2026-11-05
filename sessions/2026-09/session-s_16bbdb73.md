@@ -1,0 +1,43 @@
+---
+session: s_16bbdb73
+date: 2026-09-24
+words: 210
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-24 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_16bbdb73` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: Yuliia Deriuhina
+username: yuliianyc
+crm_role: Chief of Staff
+crm_company: Filecoin / Protocol Labs
+crm_category: other
+org: Filecoin Foundation / IPFS Ecosystem
+person_note: person-yuliia-deriuhina-2
+msg_sample: GM On not going. 😬 Have fun | Hey No worries  I see you messaged me from the different TG account as well 😌 Nice have fun! I’m staying in the USA this summer | GM Nice 👍  I’m staying in the USA this summer | Hey 👋  I haven’t yet, don’t think there is a need at this stage but thank you 🙏  How is everything on your end? | Hey Not yet  Is it not too late to still do it? | Hey | See you! | I’m! Thank you | I got alert after I tested that I was exposed to someone who had Covid 😁😷 | Thank you for asking | Getting better every day  Mostly feel tired | btw I got tested positive for covid on Tue this week
+
+---
+
+**Claude:**
+
+```json
+{
+  "role": "Chief of Staff",
+  "company": "Filecoin / Protocol Labs",
+  "topics": ["Blockchain", "Web3", "IPFS"],
+  "seniority": "exec"
+}
+```
