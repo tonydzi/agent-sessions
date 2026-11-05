@@ -1,0 +1,33 @@
+---
+session: s_c54e8a1f
+date: 2026-09-18
+words: 150
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-18 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_c54e8a1f` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: Taras Altunin
+username: Altunin
+org: Blinger.io
+person_note: person-taras-altunin
+msg_sample: Приветствую. Получится до среды прислать тексты, которые вы отправляете в телеге и в линке на анализ? | Отправил | Да, на четверг на 17.00 по мск, сейчас отправлю встречу | https://calendly.com/salesnotes/45min - посмотрите, есть ли удобные слоты по этой ссылке на след неделю. Если вдруг не будет, что-то придумаем иное | я тут | 16.15 по МСК | давай тогда хотя бы через 45, тк там у меня уже сильно впритык всё будет (( | в теч 30 минут готов стартовать? | да, ждем тебя | https://meet.google.com/dci-prmv-hni | Сократите до 3х человек, пожалуйста | Вот тут есть такой слайд
+
+---
+
+**Claude:**
+
+You've hit your weekly limit · resets 4am (Europe/London)

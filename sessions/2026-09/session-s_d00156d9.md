@@ -1,0 +1,33 @@
+---
+session: s_d00156d9
+date: 2026-09-18
+words: 197
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-18 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_d00156d9` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: Ken Berry
+username: KenberryCW3
+org: ConnectWeb3 (CW3)
+person_note: person-ken-berry
+msg_sample: do you have Vietnam kols on fb? | Hello Tony, | Hi Tony, your incubators are still working? | Hi Tony,  Im still in consensus hongkong, I will be consider this and recheck by nextweek.   Cheers! | Let me check it first tomorrow and I will get back to you. I appreciate this effort Tony | When this to start? | I want the free limited access and short training | I think we misunderstood here, I want to test out the AI that you've mentioned by January, i will use it both and see what would be the results | of course, as your partner i will try and test the AI. | it doesn't matter as an entrepreneur as long as it will get my ROI why not 😄 | can you rephrase your reply? | I dont get you here
+
+---
+
+**Claude:**
+
+You've hit your weekly limit · resets Sep 20, 5am (Europe/London)
