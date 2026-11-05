@@ -1,0 +1,1071 @@
+---
+session: s_1c1c6ff0
+date: 2026-10-06
+words: 15267
+turns: 20
+tools: "Bash, Edit, Glob, Grep, Read, Skill, ToolSearch, Write, mcp__ccd_session_mgmt__get_session, mcp__ccd_session_mgmt__set_session_title, mcp__scheduled-tasks__create_scheduled_task, mcp__scheduled-tasks__list_scheduled_tasks"
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-10-06 · Это задача от оператора. Она пришла голосом в Telegram-группу «001 СЕССИЯ НОВАЯ»
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_1c1c6ff0` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Это задача от оператора. Она пришла голосом в Telegram-группу «001 СЕССИЯ НОВАЯ»,
+расшифрована ботом. Источник: tg:chat_REDACTED:7670.
+
+ДОСЛОВНО, ЧТО СКАЗАЛ оператор:
+---
+Меня слышно, да? Значит, смотрите, по поводу моих подач на работу, нам нужно поправить это в Библии, в нашей миссии, что наша задача — засунуть оператора на работу в крутую компанию, которая занимается искусственным интеллектом, хотя бы на любую должность. Мы не говорим туда про си-левел, экзекутив-левел и так далее. Мы пытаемся засунуть оператора в топовую лабу хотя бы уборщиком. Я, конечно, утрирую уборщиков, но нам нужно так спарсить все эти рюзмешки, точнее не рюзмешки, а вакансии, чтобы засунуть оператора именно на какую-нибудь, хоть какую позицию, лишь бы он там остал работу, потому что, учитывая природные таланты и так далее, он за год-два-три поднимется в этой компании. Соответственно, наша задача — засунуть его. Даже можно, в принципе, на интерншип засунуть. Но, опять же, он не студент, ему [ВОЗРАСТ], точнее ему 38 сейчас лет, но, опять же, он может спокойно пойти на какой-нибудь интерншип и так далее. То есть, наша задача — как угодно засунуть его в любое место, которое связано с искусственным интеллектом. Если мы говорим про компании-стартапы, то, конечно, в стартапах можно ему сказать C-level позиции. Да, и в C-level позиции стартап будет лучше. Но даже в стартапах можно смотреть ему позиции типа Deep Rail и так далее. То есть, позиции такие, средние или менее средние. То есть, ничего страшного, он не огорчится, пойдя работать на какую-нибудь позицию, когда звучит стремненько. Но ничего страшного, зато это некий вход для него внутрь. Он вошел внутрь, он тогда уже легче внутри разберется со всеми нюансами. То есть, твоя задача — как можно больше апплайинга на позиции, чтобы попасть. То есть, в топовую лабу мы пытаемся попасть на любую должность. Про C-level мы только мечтаем. Но, безусловно, мы поддаемся на все должности. И на младшие, и на средние, и на старшие в крупной компании. В маленькой компании мы поддаемся, в первую очередь, на сильные должности. Потому что в маленькой компании, кстати, нету мелких должностей особо. Сейчас самое главное, чтобы он провел хотя бы минимум 100 собеседований. А для 100 собеседований ему нужен просто гигантский поток исходящих заявок. Так что давай просто обеспечим ему гигантский поток собеседований. Ты понял? То есть, у нас миссия меняется. Можно любой ценой обеспечить ему гигантский поток собеседований. Ну, естественно, собеседование в области ИИ лаборатории или стартапа, который будет работать в области ИИ. Предложи мне варианты. Как ты это видишь? Как мы будем поддаваться в данном случае?
+---
+
+КАК РАБОТАТЬ
+1. RECALL первым ходом: память, волт, RAG (python D:\Vault\_imports\brain_ask.py "<тема>").
+   Нашёл сделанным -- не делай заново: закрой дельту и скажи, чем и когда закрыто.
+2. Расшифровка машинная, в ней бывают ослышки (память voice-transcription-synonyms:
+   «Сиренка» = CRM, «Лиса» = Firefox). Смысл восстанавливай по контексту, слова оператора
+   не переписывай и не смягчай (§9.7 «без купюр»).
+3. Ты автономный кофаундер (§4.1-тер): по обратимому решай сам. оператора зови только на
+   Tier-2 -- деньги, необратимое удаление, юр.подпись, секреты третьим лицам, масс-рассылка.
+4. Много фактов для решения -> дашборд (§2.4). Собрал исполняемое -> прогони /tt.
+5. РАБОТАЙ КАК ОБЫЧНАЯ ПОЛНОЦЕННАЯ СЕССИЯ. оператор сидит в тебе и читает тебя
+   как любой другой свой чат (приказ 15.09, голосом). Значит:
+     - весь результат ты кладёшь ВНУТРЬ СЕБЯ, в свой чат, целиком;
+     - НЕ ужимай и НЕ суммаризируй: нашёл десять вариантов -- покажи десять,
+       с названиями, ценами и прямыми ссылками; построил график -- покажи его строками;
+     - волт и карточки -- ДОПОЛНЕНИЕ, а не замена ответа. «Подробности в карточке»
+       вместо содержания = ответа нет («где блять мои подушки списком???», 15.09);
+     - НИЧЕГО не выноси наружу: не шли отчёт в Telegram, не публикуй, не рассылай.
+       Наружу уходит только то, о чём оператор попросил прямо в самой задаче.
+   Длиннее 3 предложений -- разбивай пустой строкой (§9.10).
+
+6. В ГРУППУ 001 (чат chat_REDACTED) СЕССИЯ НЕ ПИШЕТ НИКОГДА и НИЧЕГО -- ни отчёт,
+   ни вопрос, ни «я застрял» (приказ оператора 15.09 19:28, голосом, после двух
+   нарушений: сессия принесла туда «Отчёт 3», а другая -- «пришли продолжение»).
+   Квитанцию о старте туда уже положила рельса; больше туда не пишет никто.
+   Застрял или голосовая оборвана -> скажи это ВНУТРИ СЕБЯ, в своём чате,
+   первой строкой ответа: оператор читает сессию сам и допишет продолжение сюда.
+
+---
+
+**Claude:**
+
+Принял голосовую. Первая строка сути: оператор меняет миссию найма — не «$200K+ и уровень», а **максимум заявок → 100+ собеседований → вход в ИИ-компанию на любую должность, включая интерншип**. Это поправка к уже существующему канону §9.14 (27.09), где интерншипы были отсечены.
+
+Начинаю с RECALL: память + волт + текущий канон.
+
+---
+
+> `Bash` -- {"command": "python D:\\Vault\\_imports\\brain_ask.py \"миссия найма засунуть оператора в ИИ лабораторию любая должность интерншип поток собеседований\" 2>&1 | head -60", "description": "RECALL по теме миссии найма"}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\get-inside-the-lab-at-any-position.md"}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\hub-job-search.md"}
+
+---
+
+> `Bash` -- {"command": "python \"D:/Vault/_imports/brain_ask.py\" \"гигантский поток собеседований 100 интервью массовые подачи интерншип\" 2>&1 | head -40", "description": "RECALL через RAG (путь с прямыми слэшами)"}
+
+---
+
+> `Glob` -- {"pattern": "**/reglament-vnutr-ii-laboratorii*.md", "path": "D:\\Vault\\Vault-Knowledge"}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\_imports\\_brain_answer_rr.txt", "limit": 80}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\03-Insights\\Operations\\reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna.md"}
+
+---
+
+> `Grep` -- {"pattern": "JUNK_RX|intern|new grad|campus", "path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "output_mode": "content", "-i": true, "-n": true}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "offset": 280, "limit": 120}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "offset": 610, "limit": 30}
+
+---
+
+> `Grep` -- {"pattern": "CAP|cap\\b|= *\\d+ *#|LIMIT", "path": "D:\\Vault\\_imports\\jobs-watch\\batch_daily.py", "output_mode": "content", "-n": true, "head_limit": 30}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\_imports\\jobs-watch\\batch_daily.py", "offset": 1, "limit": 110}
+
+---
+
+> `Grep` -- {"pattern": "door_cluster|score_title", "path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "output_mode": "content", "-n": true, "-C": 4}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\main-goals.md"}
+
+---
+
+> `Grep` -- {"pattern": "L9|door_cluster|def chk|def ok|FAIL", "path": "D:\\Vault\\_imports\\jobs-watch\\_test_jobs_discover.py", "output_mode": "content", "-n": true, "head_limit": 60}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\_imports\\jobs-watch\\_test_jobs_discover.py", "offset": 85, "limit": 75}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\jobs-watch\\_test_jobs_discover.py", "old_string": "cl, s = door_cluster(\"Summer 2027 Internship, Research\", \"tier1\", None, \"Anthropic\")\nchk(\"L4 стажировка/new grad НЕ проходит даже на tier1 (JUNK_RX сильнее ноги в двери)\",\n    c
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python _test_jobs_discover.py 2>&1 | grep -E \"FAIL|^OK  L4\" ; echo \"exit=$?\"", "description": "Прогон теста на старом коде — ожидаю красный L4"}
+
+---
+
+**Claude:**
+
+🔴 Красный показан: L4 падает на старом коде. Теперь правка движка.
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "old_string": "JUNK_RX = re.compile(r\"\\bintern(ship)?\\b|\\bgraduate\\b|\\bcampus\\b|new grad|\"\n                     r\"\\bapprentice|\\bplacement\\b|\\bwork experience\\b|\\bsummer analyst\\b|\"\n       
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "old_string": "    Порядок ярусов (dev 24.09 деньги + dev 27.09 нога в двери):\n      1. стажировка / new grad / campus -> (None, 0) всегда: сеньор с 20 годами в intern-воронке\n         сжигает подачу, и
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "old_string": "    t = title or \"\"\n    if JUNK_RX.search(t):\n        return None, 0\n    if comp and (comp.get(\"comp_min\") or 0) >= jobs_money.FLOOR:\n        return money_cluster(t)\n    if company in 
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "old_string": "        WHERE status='new' AND title NOT LIKE '%intern%' AND title NOT LIKE '%Intern%'", "new_string": "        WHERE status='new' AND (cluster='lab-door' OR title NOT LIKE '%intern%')"}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\jobs-watch\\jobs_discover.py", "old_string": "стажировки и new grad отсечены всегда, гиг-мельница (LAB_JUNK_RX: AI Tutor, аннотатор, rater) тоже,", "new_string": "интерншип в лаборатории проходит (dev 01.10), student-only (new grad/campu
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python _test_jobs_discover.py; echo \"EXIT=$?\"; python _test_batch_daily.py 2>&1 | tail -3; python _test_lab_hand.py 2>&1 | tail -2", "description": "Полный прогон тестов после патча"}
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nfrom jobs_discover import door_cluster\ncases = [('Research Intern', None, 'OpenAI'), ('Anthropic Fellows Program, Interpretability', None, 'Anthropic'), ('Marketing Intern', None, 'Perplexity'), ('Quant Intern 2027', None, 'point7
+
+---
+
+**Claude:**
+
+Движок доказан вторым заходом. Коммичу с отпечатком (§5.11), затем канон.
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports\" && git rev-parse --is-inside-work-tree 2>&1 && git status --short jobs-watch/ 2>&1 | head -5", "description": "Проверка git-репо в _imports"}
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports\" && git add jobs-watch/jobs_discover.py jobs-watch/_test_jobs_discover.py && git commit -m \"jobs-watch: интерншип в ИИ-лаборатории = lab-door (dev 01.10, голосом)\n\nАнтон 01.10 (tg:chat_REDACTED:7670): «даже можно на интерншип засунуть...\nон может спокойно 
+
+---
+
+**Claude:**
+
+Теперь канон. Поправка 01.10 в регламент Библии (версия 1.1.0 → 1.2.0):
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\Vault-Knowledge\\03-Insights\\Operations\\reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna.md", "old_string": "version: 1.1.0", "new_string": "version: 1.2.0"}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\Vault-Knowledge\\03-Insights\\Operations\\reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna.md", "old_string": "- Стажировки, new grad, campus и graduate-программы остаются отсечёнными (`JUNK_RX`): они адресованы студентам, подача сеньо
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\Vault-Knowledge\\03-Insights\\Operations\\reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna.md", "old_string": "**История.** Настрой звучал ещё 09.09 в черновике FB-дневника:", "new_string": "## §Поправка 01.10.2026 — метрика миссии = 1
+
+---
+
+**Claude:**
+
+Библия обновлена. Теперь память и always-loaded слой.
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\get-inside-the-lab-at-any-position.md", "old_string": "⛔ Стажировки и new grad по-прежнему отсекаются.", "new_string": "⛔ ~~Стажировки и new grad по-прежнему отсекаются~~ ОТМЕНЕНО ЧАСТИЧНО
+
+---
+
+> `Write` -- {"file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\mission-metric-100-interviews.md", "content": "---\nname: mission-metric-100-interviews\ndescription: \"Миссия найма 01.10.2026 (голосом): метрика = минимум 100 собеседований в ИИ-компаниях через ГИГАНТСКИЙ пот
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\MEMORY.md", "old_string": "- [Full Disk Access даёт только launchd напрямую](tcc-responsible-process-not-the-reader.md) — ⭐01.10 на ВСЕХ Mac флота: из сессии Claude и из-под bash-обёртки O
+
+---
+
+**Claude:**
+
+Теперь CLAUDE.md §9.14 + версия + журнал (§10.2: запись правила не гейтится размером).
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "old_string": "> ВЕРСИЯ: v5.26.1 · 2026-10-01", "new_string": "> ВЕРСИЯ: v5.27.0 · 2026-10-01"}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "old_string": "⛔ **Аутсорсный клининг и вендорский бейдж «внутрь» НЕ считаются** — только штатная роль или contract-to-hire. ⛔ Стажировки · new grad · campus по-прежнему отсечены; ⛔ гиг-мельница (AI Tutor · аннотатор · rater
+
+---
+
+> `Grep` -- {"pattern": "ВЕРСИЯ: v5|Стажировки · new grad · campus по-прежнему отсечены", "path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "output_mode": "content", "-n": true}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "offset": 1, "limit": 5}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "offset": 409, "limit": 4}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "old_string": "> ВЕРСИЯ: v5.26.1 · 2026-10-01", "new_string": "> ВЕРСИЯ: v5.27.0 · 2026-10-01"}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\CLAUDE.md", "old_string": "⛔ Стажировки · new grad · campus по-прежнему отсечены; ⛔ гиг-мельница (AI Tutor · аннотатор · rater) тоже не «внутрь», а Fellows Program — ДА.", "new_string": "⭐ 01.10 (голосом): **метрика миссии = ≥100 собесе
+
+---
+
+> `Bash` -- {"command": "echo \"- v5.27.0 · 2026-10-01 · §9.14 поправка 01.10 (dev голосом, tg:chat_REDACTED:7670): метрика миссии = >=100 собеседований через гигантский поток заявок; интерншип в лаборатории разрешён (student-only отсечены решением робота); крупная компания = все уровни, стартап = сильные роли 
+
+---
+
+**Claude:**
+
+Обновляю зеркало `/apply` §1.1-бис и main-goals.
+
+---
+
+> `Grep` -- {"pattern": "1.1-бис", "path": "C:\\Users\\dev\\.claude\\skills\\apply", "output_mode": "content", "-n": true}
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\.claude\\skills\\apply\\SKILL.md", "offset": 28, "limit": 22}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\skills\\apply\\SKILL.md", "old_string": "- ⛔ Стажировки, new grad, campus, graduate-программы остаются отсечёнными (`JUNK_RX`): адресованы студентам, подача сеньора с 20 годами жжёт заявку и внутрь не ведёт.", "new_string": "- ~~⛔ Стажи
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\main-goals.md", "old_string": "**⭐ ОПЕРАЦИОНАЛИЗИРОВАНО (2026-07-11,", "new_string": "**⭐ МЕТРИКА 01.10.2026 (голосом): миссия = гигантский поток исходящих заявок → минимум 100 собеседован
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nimport sqlite3\nc = sqlite3.connect('jobs.db')\ncols = {r[1] for r in c.execute('PRAGMA table_info(ats_jobs)')}\nprint('статусы:', c.execute('SELECT status, COUNT(*) FROM ats_jobs GROUP BY status ORDER BY 2 DESC').fetchall())\ncol 
+
+---
+
+> `Bash` -- {"command": "date \"+%H:%M %d.%m.%Y\" && TZ=Europe/Lisbon date \"+%H:%M Lisbon\"", "description": "Часы для меток времени"}
+
+---
+
+**Claude:**
+
+14:45 01.10.2026 (13:45 Лиссабон)
+
+Сделано и доказано, миссия перезаписана по всем домам. Теперь сам ответ и варианты, которые ты просил.
+
+## Что уже внедрено этим заходом
+
+**Канон.** Библия: `reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna` получил §Поправку 01.10 (версия 1.2.0) с твоей цитатой без купюр и тремя дельтами: метрика = 100 собеседований, интерншип в лабе разрешён, два яруса по размеру компании. CLAUDE.md §9.14 обновлён (v5.27.0 + журнал), память: новая запись `mission-metric-100-interviews` + строка в индексе, обновлены `get-inside-the-lab-at-any-position`, `main-goals` (Цель №2) и зеркало `/apply` §1.1-бис.
+
+**Код (дверь правила).** В `jobs_discover.py` ворота `door_cluster()` теперь пропускают интерншип/residency/fellowship на досках 60 ИИ-лабораторий как `lab-door`; вне лабораторий интерны режутся как раньше. Тест показан красным на старом коде → 45/45 зелёных; второй заход свежим процессом: «Research Intern» @ OpenAI → проходит, «Quant Intern» @ point72 → нет. Коммит a09b4613 с трейлерами.
+
+Одно моё решение, названное вслух: **student-only программы (new grad, campus, summer analyst) я оставил отсечёнными** — их анкеты автоматом отбрасывают по году выпуска, подача сгорает до человека. Ты про них не говорил; скажешь «new grad тоже подавай» — сниму одной строкой.
+
+## Где мы сейчас (замер по живой базе, не ощущение)
+
+В `jobs.db` лежит **16 782 роли со статусом `new`** — склад огромный, голода по вакансиям нет. Но фактический темп подач последних двух недель — **4–10 в день** (пик 33 за 25.09), всего applied 522. Застряло: 186 на вопросах анкет, 142 на капчах, 87 на падении сабмита.
+
+Математика до твоей цели: 100 интервью при честной конверсии холодной анкеты 2–4% = **2 500–5 000 заявок**. При нынешних 10/день это год с лишним. Нужен темп **50–80 подач в день** — и узкое место не отбор (пачка и так режется в 60), а ИСПОЛНЕНИЕ: рельсы, капчи, вопросы.
+
+## Варианты, как я это вижу (мини-мемо кофаундера)
+
+**1. Разжать исполнение — самый дешёвый х5.** Склад уже есть; чиним то, где заявки умирают: разбор 186 `blocked-question` (вопросы уходят тебе одним файлом в день, ответы дописываются в `answers_canon` и больше не спрашиваются), ретрай 87 `blocked-submit-failed`, капчи — только руками/другим IP. Это не новая стройка, это ремонт конвейера.
+
+**2. Подача со всего флота.** Сейчас подаёт по сути хаб; капчи Ashby/Lever — IP-зависимые. Раскатать apply-рутину на 2–3 пира с разными IP = параллельные полосы и обход выжженных рельс. Дверь `/fleet-install` есть.
+
+**3. Новая интерн/fellows-полоса (сегодняшняя дверь).** Отдельный проход по 60 лабораториям именно за intern/residency/fellowship-ролями: Anthropic Fellows, OpenAI Residency и подобное. Это роли с НИЗКОЙ конкуренцией сеньоров и прямой конверсией в штат — лучшая нога в двери из существующих.
+
+**4. Расширить вселенную ИИ-стартапов.** `LAB_DOOR_CO` = 60 имён, а ИИ-стартапов с деньгами — тысячи. Источники: YC Work at a Startup (батчи W24–F26), Wellfound, доски a16z/Sequoia/Index portfolio jobs. Под твой ярус «стартап = сильные должности первыми» — фильтр Head of / C-level / founding + DevRel/FDE. Это самый большой прирост ширины.
+
+**5. Тёплый канал параллельно холодному.** Конверсия реферрала в интервью ~в 5–10 раз выше анкеты. У нас CRM с сотнями контактов: проход «кто из знакомых работает в ИИ-компании или знает того, кто работает» → просьба о реферрале. Один реферрал стоит ~50 холодных заявок.
+
+**6. Рекрутёры как усилитель.** Агентские и инхаус-рекрутёры ИИ-компаний: короткий аутрич с лендингом tonydzi.github.io. Они живут с того, что устраивают людей — это их поток интервью, не наш труд.
+
+Моё предложение по порядку: **1+3 начинаю сам** (ремонт конвейера + интерн-полоса — обратимое, в моих руках), **2 и 4** — следующие сессии по готовности, **5 и 6** — исходящее третьим лицам, жду твоего «+» на формат.
+
+🎙 Майк: направление верное, но скажу прямо — «100 собеседований» упрётся не в заявки, а в твои часы: 100 интервью = ~150–200 часов разговоров за 3–4 месяца. Это нормально, просто знай цену; один направляющий вопрос — готов ли ты держать 8–10 интервью в неделю, или ставим реалистичный темп 5?
+
+🧒 Простыми словами: ты сказал «главное — попасть внутрь, хоть стажёром, и нужно 100 собеседований». Я переписал это в наши правила навсегда, починил робота, чтобы он больше не выбрасывал стажировки в ИИ-лабораториях (проверил тестами — работает), и посчитал: чтобы было 100 собеседований, надо слать не 10 заявок в день, как сейчас, а 50–80. Выше — шесть способов, как до этого темпа добраться; два я уже начну сам.
+
+14:47 01.10.2026
+
+---
+
+**User:**
+
+делай 1+3, на 5 и 6 тоже + Дай мне промпт, пожалуйста, для кодекса. Я тоже запарю его, чтобы он тоже поставил на рутину. И подавался. Кодекс тоже будет работать на хабе здесь. Пусть он тоже подается в день. И раздаю на весь флот. Что нужно каждый день подавать на двадцать вакансий. То есть весь каждую машину флот пусть подает на двадцать вакансий. Ты понимаешь? Понимаешь?
+
+---
+
+**Claude:**
+
+13:50 Лиссабон. Понял: запускаю 1+3, «+» на 5 и 6 принят, пишу промпт для Codex и раскатываю норму «20 подач в день с каждой машины флота». Сначала смотрю, какие apply-рутины уже стоят на хабе и чем физически подаётся заявка.
+
+---
+
+> `ToolSearch` -- {"query": "select:mcp__scheduled-tasks__list_scheduled_tasks,mcp__scheduled-tasks__create_scheduled_task", "max_results": 2}
+
+---
+
+> `Bash` -- {"command": "ls \"D:/Vault/_imports/jobs-watch/selenium_apply/\" 2>/dev/null | head -30; ls \"D:/Vault/_imports/jobs-watch/\" | grep -iE \"apply|run\" | head -20", "description": "Структура apply-движка"}
+
+---
+
+> `mcp__scheduled-tasks__list_scheduled_tasks` -- {}
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && head -60 pipe_a_apply_daily.py", "description": "Шапка главной apply-рутины"}
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python jobs_discover.py 2>&1 | head -15; echo ---; python selenium_apply/apply_retry.py --help 2>&1 | head -20", "description": "CLI discover и apply_retry"}
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/bus_send.py\" --help 2>&1 | head -25", "description": "Транспорт шины: usage"}
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/fleet_nodes.py\" 2>&1 | head -20 || cat \"C:/Users/dev/.claude/fleet_nodes.json\" | head -40", "description": "Список узлов флота"}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\Vault-Knowledge\\03-Insights\\Operations\\reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna.md", "old_string": "⛔ Не ослаблены: правда в цифрах (опыт не занижаем), стоп-слова «фаундер»/«не-кодер», Tier-2 на оффер, карв-аут найма без Май
+
+---
+
+> `Write` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\08-Templates\\codex-apply-routine-prompt.md", "content": "---\ntitle: \"Промпт-сид для Codex: ежедневная рутина подачи на 20 вакансий\"\ntype: template\norigin: dev\ndate_established: 2026-10-01\nsource: \"голосовая оператора 01.10.2026 (tg:chat_REDACTED): 
+
+---
+
+> `Bash` -- {"command": "ls -d E:/!CLAUDE-HUBPC-June26/crm-engine 2>/dev/null; find D:/Vault/_imports -maxdepth 2 -name \"leads.db\" 2>/dev/null | head -3; find \"E:/!CLAUDE-HUBPC-June26\" -maxdepth 2 -name \"leads.db\" 2>/dev/null | head -3", "description": "Поиск leads.db"}
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports\" && python -c \"\nimport sqlite3\nc = sqlite3.connect('leads.db')\nprint([r[0] for r in c.execute(\\\"SELECT name FROM sqlite_master WHERE type='table'\\\")][:20])\n\"", "description": "Схема leads.db"}
+
+---
+
+**Claude:**
+
+Это VC-база, не диалоговая CRM. Беру срез по карточкам людей в волте (07-People) по именам 60 лабораторий.
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nimport os, re, sys\nsys.path.insert(0,'.')\nfrom jobs_discover import LAB_DOOR_CO\npeople = r'D:\\Vault\\Vault-Knowledge\\07-People'\npat = re.compile('|'.join(re.escape(c) for c in sorted(LAB_DOOR_CO, key=len, reverse=True)), r
+
+---
+
+**Claude:**
+
+Шум от подстрок (Meta → Metaverse, Metr). Повторяю с жёсткими границами и однозначными именами.
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nimport os, re\npeople = r'D:\\Vault\\Vault-Knowledge\\07-People'\npat = re.compile(r'\\b(OpenAI|Anthropic|DeepMind|Mistral|Cohere|Perplexity|xAI|Scale AI|Thinking Machines|Character\\.AI|ElevenLabs|Runway|Midjourney|Stability AI
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nimport os, re, datetime\npeople = r'D:\\Vault\\Vault-Knowledge\\07-People'\npat = re.compile(r'\\b(OpenAI|Anthropic|DeepMind|Mistral|Cohere|Perplexity|xAI|Scale AI|Thinking Machines|Character\\.AI|ElevenLabs|Runway|Midjourney|St
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "referral-lane-build-20261001", "description": "Реферральная полоса (вариант 5, «+» оператора 01.10): судить 201 кандидата из CRM на works-at лабораторий, черновики просьб о реферрале", "fireAt": "2026-10-01T15:10:00+01:00", "prompt": "Задача от оператора (голосом 01.10.2026, «+» на вариант 5 р
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "recruiter-lane-build-20261001", "description": "Рекрутёрская полоса (вариант 6, «+» оператора 01.10): собрать 20 живых ИИ-рекрутёров и запустить аутрич от лица оператора", "fireAt": "2026-10-01T16:10:00+01:00", "prompt": "Задача от оператора (голосом 01.10.2026, «+» на вариант 6 рекрутёрской поло
+
+---
+
+> `Read` -- {"file_path": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\P---WORKDIR-HUB\\s_1c1c6ff0\\tasks\\b2qiqrl15.output", "limit": 40}
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "referral-lane-build-20261001", "description": "Реферральная полоса (вариант 5, «+» оператора 01.10): судить 201 кандидата из CRM на works-at лабораторий, черновики просьб о реферрале", "fireAt": "2026-10-01T16:40:00Z", "prompt": "Задача от оператора (голосом 01.10.2026, «+» на вариант 5 реферр
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "recruiter-lane-build-20261001", "description": "Рекрутёрская полоса (вариант 6, «+» оператора 01.10): собрать 20 живых ИИ-рекрутёров и запустить аутрич от лица оператора", "fireAt": "2026-10-01T17:40:00Z", "prompt": "Задача от оператора (голосом 01.10.2026, «+» на вариант 6 рекрутёрской полосы; м
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nimport sqlite3\nc = sqlite3.connect('jobs.db')\nn = c.execute(\\\"SELECT COUNT(*) FROM ats_jobs WHERE cluster='lab-door' AND LOWER(title) LIKE '%intern%'\\\").fetchone()[0]\nf = c.execute(\\\"SELECT COUNT(*) FROM ats_jobs WHERE clu
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "referral-lane-build-20261001", "description": "Реферральная полоса (вариант 5, «+» оператора 01.10): судить 201 кандидата из CRM на works-at лабораторий, черновики просьб о реферрале", "fireAt": "2026-10-02T06:30:00Z", "prompt": "Задача от оператора (голосом 01.10.2026, «+» на вариант 5 реферр
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "recruiter-lane-build-20261001", "description": "Рекрутёрская полоса (вариант 6, «+» оператора 01.10): собрать 20 живых ИИ-рекрутёров и запустить аутрич от лица оператора", "fireAt": "2026-10-02T07:00:00Z", "prompt": "Задача от оператора (голосом 01.10.2026, «+» на вариант 6 рекрутёрской полосы; м
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python -c \"\nimport sqlite3, re\nc = sqlite3.connect('jobs.db')\nrx = re.compile(r'\\bintern(ship)?\\b', re.I)\nrows = c.execute(\\\"SELECT company,title FROM ats_jobs WHERE cluster='lab-door'\\\").fetchall()\nreal = [(co,t) for co,t in rows if
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python selenium_apply/apply_retry.py --survey 2>&1 | head -25 && echo === && python selenium_apply/apply_retry.py --write --ats greenhouse --fresh-days 7 --limit 40 2>&1 | tail -15", "description": "Разбивка blocked-* и ретрай greenhouse-застряв
+
+---
+
+> `Bash` -- {"command": "cd \"D:/Vault/_imports/jobs-watch\" && python selenium_apply/apply_retry.py --write --ats greenhouse --fresh-days 7 --limit 40 2>&1 | grep -E \"вернул|returned|->|итог|ИТОГ\" | head -5; python -c \"\nimport sqlite3\nc=sqlite3.connect('jobs.db')\nprint('в пуле new сейчас:', c.execute(
+
+---
+
+> `Write` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\04-Projects\\Pipe-A-Batches\\apply-questions-for-dev-2026-10-01.md", "content": "# Вопросы анкет, на которые канон не знает ответа (ретрай 01.10.2026)\n\nЭто ТЗ на пополнение `answers_canon.py`: ответишь строкой — заявки разблокируются и уйдут ретраем 
+
+---
+
+> `Write` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\03-Insights\\Operations\\reglament-skilly-krossplatformenny-razdaem-dazhe-nesovmestimoe.md", "content": "---\ntitle: \"Скиллы кроссплатформенны и кроссвендорны: раздаём даже несовместимое, узел дорабатывает под себя\"\ntype: reglament\nstage: distilled\n
+
+---
+
+> `Write` -- {"file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\skills-cross-platform-distribute-anyway.md", "content": "---\nname: skills-cross-platform-distribute-anyway\ndescription: \"Скиллы кроссплатформенны и кроссвендорны (01.10.2026, голосом): раздаём на весь флот д
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "C:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\memory\\MEMORY.md", "old_string": "- [Миссия найма: 100 собеседований](mission-metric-100-interviews.md) — ⭐01.10 метрика = поток заявок → ≥100 интервью в ИИ-компаниях; интерншип в лабе ДА; старта
+
+---
+
+> `Glob` -- {"pattern": "04-Projects/Content-Funnel*/**", "path": "D:\\Vault\\Vault-Knowledge"}
+
+---
+
+> `Bash` -- {"command": "ls -d \"D:/Vault/Vault-Knowledge/04-Projects/\"*ontent* \"D:/Vault/Vault-Knowledge/04-Projects/\"*oronka* 2>/dev/null | head; ls \"D:/Vault/Vault-Knowledge/04-Projects/Content-Pipeline\" 2>/dev/null | head -10", "description": "Поиск папки контент-воронки"}
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "pipeline-repair-20261002", "description": "Вариант 1 (dev 01.10 «+»): ремонт конвейера подач — разжать blocked-*, поднять темп с 10 до 50+/день", "fireAt": "2026-10-02T08:30:00Z", "prompt": "Задача от оператора (01.10.2026, голосом, «пункт первый согласен, ремонт конвейера» + «на каждую з
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "intern-fellows-lane-20261002", "description": "Вариант 3 (dev 01.10 «максимально копаю»): интерн/fellows/residency полоса по 60 лабораториям — подачи на роли с низкой конкуренцией", "fireAt": "2026-10-02T09:30:00Z", "prompt": "Задача от оператора (01.10.2026, голосом: «Интерн-феллоус поло
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "startup-universe-expand-20261002", "description": "Вариант 4 (dev 01.10 «+»): расширить вселенную ИИ-стартапов — YC/Wellfound/портфели фондов, сильные должности первыми", "fireAt": "2026-10-02T10:00:00Z", "prompt": "Задача от оператора (01.10.2026, голосом: «Расширить вселенную стартапов,
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/bus_send.py\" \"📣 ПРИКАЗ оператора 01.10 (голосом, канон: Библия reglament-vnutr-ii-laboratorii §Поправка 01.10 v1.2.0): КАЖДАЯ машина флота подаёт на 20 вакансий В ДЕНЬ от лица оператора. Миссия = гигантский поток заявок -> минимум 100 собеседований в 
+
+---
+
+> `Bash` -- {"command": "ls \"D:/Vault/Vault-Knowledge/06-Posts\" 2>/dev/null | tail -5; find \"D:/Vault/Vault-Knowledge\" -maxdepth 2 -iname \"*diary*\" -o -maxdepth 2 -iname \"*dnevnik*\" 2>/dev/null | head -8", "description": "Поиск папки дневника"}
+
+---
+
+**Claude:**
+
+Шина доставила по обоим рельсам. Смотрю, куда рутина дневника кладёт черновики.
+
+---
+
+> `Bash` -- {"command": "grep -iE \"draft|воронк|funnel|путь|path|06-|04-Projects\" \"C:/Users/dev/.claude/scheduled-tasks/facebook-diary-daily/SKILL.md\" | head -10", "description": "Путь черновиков дневника из рутины"}
+
+---
+
+> `Bash` -- {"command": "ls \"D:/Vault/Vault-Knowledge/04-Projects/personal/facebook-diary-auto/drafts/\" | tail -4", "description": "Проверка NO-CLOBBER за сегодня"}
+
+---
+
+> `Write` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\04-Projects\\personal\\facebook-diary-auto\\drafts\\2026-10-01-dev-macpro.md", "content": "---\ntitle: \"Дневник 01.10 — новый компьютер во флоте, и Майкрофт ответил «да, это я»\"\ntype: facebook-post-draft\nsource: \"голосовая оператора 01.10.2026 (tg:-5
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "fleet-apply-parity-20261002", "description": "Вариант 2 (dev 01.10): контроль раскатки «20 подач/день с каждой машины» — догнать ACK, доказать рутины ФАКТОМ на каждом узле", "fireAt": "2026-10-02T12:00:00Z", "prompt": "Задача от оператора (01.10.2026, голосом: «весь флот обязан, обязан эт
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/selfheal.py\" journal --class clock-skew-hub --what \"01.10: bash date показывал 14:45 local, планировщик приложения считал ~23:30 (fireAt 15:10Z отбит как прошлое, '07:30 через 8 часов'); 2-й датированный случай класса после task-2026-07-30-clock
+
+---
+
+> `mcp__scheduled-tasks__create_scheduled_task` -- {"taskId": "five-whys-clock-skew-20261002", "description": "Сессия починки корня класса clock-skew (7 случаев по семье, порог 3): bash date и планировщик приложения расходятся на часы", "fireAt": "2026-10-02T13:30:00Z", "prompt": "Сессия починки корня по §5.10 (правило третьей поломки; по семье клаc
+
+---
+
+> `Skill` -- {"skill": "retro"}
+
+---
+
+**User:**
+
+Base directory for this skill: C:\Users\dev\.claude\skills\retro
+
+# /retro — session retrospective (what we built · what we keep)
+
+> 🧒 **When reporting to dev:** end with a child-simple "Простыми словами" recap in his language. His standing request (memory `eli5-always`). Reports TO dev only — not inside vault notes.
+
+A retro = the Agile end-of-cycle ritual (**Keep / Drop / Try**) applied to a work session: look back, decide what survives. The goal is that **nothing reusable drowns in the transcript** — tools, rules, and lessons get caught and put in their right home.
+
+## Step 0 — RECALL & RECONCILE FIRST (situate this session in the WHOLE collaboration)
+**Before any inventory, RECALL WIDE — this is the heart of the retro, not a formality (dev, 2026-07-02).** A session never happened in a vacuum: I run on multiple machines + a Cowork fleet concurrently, and this retro may be running **days/weeks/months after** the work. So recall here serves TWO jobs, not one:
+- **(A) De-dupe** — a rule/skill/note I'm about to capture may already be done by a parallel session.
+- **(B) Reconcile («сверить»)** — line up what THIS session did against everything the whole **hub / vault / peers** decided *since*; catch **drift, superseded decisions, contradictions**, and durable work not yet propagated. This is the RECALL-before-activity rule (`capture-rules-into-bible`) applied to retro.
+
+⚠️ **И ДАТИРУЙ АРТЕФАКТЫ ВРЕМЕНЕМ СОБЫТИЯ, А НЕ ВРЕМЕНЕМ РЕТРО** (замер 30.09.2026, хаб: сессия начата 22.09, ретро шло 30.09; я взял часы ретро за «сейчас» и ИСПОРТИЛ верную дату в подписях 8 файлов, потом откатывал). Часы на ретро правдивы, метка хука первого захода тоже была правдива — врёт СКЛЕЙКА. Прежде чем поставить дату в подпись, заметку или леджер, спроси улику САМОГО события: `mtime` бэкапа/файла, `ts` уже записанной строки леджера, `createdAt` из `get_session self`. Правило зеркалит память `verify-clock-before-time-claims`: старый tool-вывод после резюма ≠ «сейчас», но и новые часы ≠ «когда это было сделано».
+
+**⏳ Measure the time-gap FIRST — ДВУМЯ ПРОГОНАМИ, не суждением** (дверь от 30.09.2026; 01.10 она обнаружилась УТЕРЯННОЙ — живой SKILL.md держал ослабленную строку, а жёсткая версия лежала только в `SKILL.sync-conflict-20260930-*.md`; восстановлена 01.10):
+```
+python -c "import datetime; print('СЕЙЧАС', datetime.datetime.now().isoformat(timespec='seconds'))"
+```
+плюс `mcp__ccd_session_mgmt__get_session` с `session_id: "self"` → поля `createdAt` и `lastActivityAt`. Разница между ними И ЕСТЬ разрыв, и его надо назвать ЧИСЛОМ в отчёте.
+⚠️ Метка из хука `[⏰ оператор написал: …]` доказательством НЕ является — это дата СИДА. Замер 30.09.2026 (класс `stale-context-after-resume-read-as-now`): сессию создали 16.09, возобновили 30.09, и весь заход я печатал «16 сентября» из подсказки хука, ни разу не сверив с часами. Канон: память `verify-clock-before-time-claims`.
+Old session → widen every lookup below to cover *"what changed SINCE"*, и **Step 2а идёт СРАЗУ после этого замера**, до инвентаря: робот мог уже разобрать сессию, тогда всё ретро = дельта.
+
+**Recall stack — cheap→expensive, mostly 0 tokens (use the existing tools, don't reinvent):**
+1. **This session's spine (0 tok):** `python "$IMPORTS_ROOT/turnstate/turnstate_show.py"` — the black box of what THIS session actually asked / decided / touched (facts, not memory).
+2. **Recent retros:** `ls "$OBSIDIAN_VAULT/01-Conversations/Claude/Retros/"` — widen the window to span the gap; read any same-topic retro since.
+2а. **Робот уже сделал ретро этой сессии? (0 tok):** `ls ~/.claude/logs/retro_lost_done/ | grep <sessionId>` — маркер есть → ночной `retro-lost` уже разобрал сессию (заметка `Retros/retro-lost-<дата>-<узел>-*.md`, единица с твоим sid). Тогда твоё ретро = ДЕЛЬТА поверх неё (живая сверка «что изменилось с тех пор» + компакт), с перекрёстной ссылкой, а не второй полный разбор. Замер 15.09.2026: сессия 07–08.09 получила лайт-ретро робота утром 15.09, живое ретро вечером чуть не переписало всё заново.
+2б. **Дни целиком (0 tok):** `python "$IMPORTS_ROOT/day_ledger.py" --recall 7` — дневной леджер: коммиты, ретро, решения, ДР и посты **за каждый день окна**, включая чужие сессии и роботов. Именно он закрывает time-gap из ⏳ выше: ретро видят только ретро, леджер видит день. Дверь целиком — `/ledger`.
+2в. **Рутина бежала или нет — только СЧЁТЧИК ПРОГОНОВ, НЕ наличие файлов (0 tok):**
+   `python ~/.claude/scripts/routine_cost_audit.py --days <N>` -> колонка «прог.».
+   Выход рутины пишется НЕ каждый прогон (у `pipe-a-inbox-watch` отчёт рождается только в дни
+   с живыми письмами), поэтому «файла за 11.09 нет» не значит «11.09 не работала». Замер 15.09:
+   объявил оператору 4 пропуска подряд, счётчик показал 8 прогонов за 9 дней — вывод был ложный
+   и уже озвучен. Семья класса «судим по побочному следу вместо счётчика самой работы» насчитывает
+   6 прежних случаев (ближайший 20.08: опись судила mtime заявленного stdout вместо факта работы),
+   так что механизм тут не нужен — нужен ПОРЯДОК: счётчик первым, файлы вторыми.
+   Канон: [[instrument-is-a-claim-too]], CLAUDE.md §5.4.
+2в-бис. **А ЧЕМ КОНЧИЛАСЬ — отдельный вопрос, счётчик на него не отвечает (0 tok):**
+   `python ~/.claude/scripts/_shared/routine_runs.py report` -> «падают СЕЙЧАС (серия)» + «молчат >7 суток».
+   Точечно по одной: `routine_runs.py last "<имя задачи>"` (когда бежала, чем кончилась) и
+   `routine_runs.py streak "<имя задачи>"` (сколько раз ПОДРЯД упала).
+   Почему мало счётчика из 2в: `routine_cost_audit.py` считает прогоны по транскриптам СЕССИЙ
+   (`~/.claude/projects/**/*.jsonl`) и про КОД ВОЗВРАТА не знает ничего — рутина, отбежавшая
+   8 раз и 8 раз упавшая, в колонке «прог.» выглядит ровно как здоровая. Вопрос оператора на
+   ретро — «эта рутина работает или УМЕРЛА?» — закрывается только парой «число прогонов +
+   исход». Источник истины тут Планировщик Windows, а не наши логи (замер 01.10: 891 прогон,
+   340 рутин с историей, 52 падают подряд прямо сейчас).
+   ⚠️ Граница: история есть только у задач Планировщика; у движка `claude-task` её не
+   существует нигде, и это говорится вслух, а не выводится из тишины.
+   Канон: CLAUDE.md §5.5, §5.4; зеркала — `/hk` Шаг 3, `/arch`.
+3. **Neighboring chats (lexical, 0 tok):** `/search <topic words>` (search_catalog.db, ~99k Telegram/FB/ChatGPT/Claude) — what did dev or another session **dictate elsewhere** about this topic?
+4. **Vault meaning (RAG):** `/ask <topic>` (`$IMPORTS_ROOT/brain_ask.py`) — what does the Second Brain already hold / already decide on this?
+5. **Memory + vault grep** for every rule/concept/decision this session touched — already captured? **superseded / changed** since?
+6. **Peers & cross-machine:** `/inbox` + `_machine-bus` + consensus commits — "всё, о чём мы договорились" on the OTHER machines; did a peer already decide, or undo, this?
+7. **Declined journal:** skill `/declined` — did we already reject something this session quietly re-did?
+
+**Attribution guard:** the Step-1 inventory is machine-wide and WILL include other sessions' artifacts (skills/scripts/commits from the fleet). Treat anything NOT created in THIS conversation as **someone else's** — flag it, never claim or re-route it.
+
+**Output of Step 0 — one tight «🔎 сверка» block up front** (checked + verdict):
+- **checked:** what I actually looked at (N retros / chats / vault / peers).
+- **✅ aligned** — this session's calls match the collaboration; or
+- **⚠️ drift** — session did X but [[note/decision]] elsewhere says Y (superseded / contradicts / already undone) → flag for dev; or
+- **🔗 to propagate** — session's durable work not yet in vault / peers / Bible → route it in Step 4.
+If a parallel session already captured the durable item, **SKIP re-capturing** — just cross-link.
+
+## Step 1 — Inventory (deterministic first; AK-47, ~free)
+Ground the recap in facts, not memory alone — run the SHARED inventory script (same one the daily sweep uses, so the logic never drifts):
+- `python "$IMPORTS_ROOT/retro_inventory.py" 1`  (arg = days; widen for a multi-day session)
+- It prints `BUILT_ARTIFACTS <n>` and writes `$IMPORTS_ROOT/retro_candidates/digest-latest.md` — Read that digest: new/changed **skills**, **_imports scripts/sidecars**, **durable notes** (Protocols + Concepts), and recent **descriptive vault commits**.
+- (⚠️ a concurrent Claude-Desktop fleet may interleave vault commits — its are descriptive; the terse `pre-intervention` ones are auto-backups.)
+- **Cross-check** with what you (the agent) created/edited in THIS conversation: skills, scripts, vault notes, memory entries, `CLAUDE.md` edits, decisions made, rules captured, things flagged for dev.
+
+## Step 1🧠 — ПАМЯТЬ СЕССИИ: сироты по worktree + машинно-невидимые опровержения (дверь §8.6; добавлена 2026-09-02)
+Сессия из worktree пишет память в СВОЮ проектную папку, домашний индекс о ней не знает — замер 02.09 на NODE-0X: 20 таких заметок, одна несла вердикт, опровергнутый через девять дней в соседней папке. Два прогона, 0 LLM, 0 сети:
+- `python ~/.claude/scripts/memory_harvest.py --scan` → есть ORPHAN → `python ~/.claude/scripts/memory_harvest.py --harvest` (копия домой + указатель в `MEMORY-archive.md`; оригинал НЕ трогается). Exit 3 = `NEEDS-HUMAN` (тёзки припаркованы, ничего не потеряно) → строкой оператору, не молча.
+- ⚠️ **Прибор даёт ложное «чисто» (замер 10.09.2026, NODE-0X):** `--scan` напечатал «0 missing pointer(s) to repair», а указатель на свежую заметку (`zenodo-publish-rail`, дописан 07.09) из `MEMORY.md` за ночь исчез — сироту он не увидел, потому что сверяет не ту пару папок. Поэтому ПОМИМО прогона сверь руками указатели на заметки, которые ЭТА сессия и пара прошлых записали: `grep -c "<слаг>" <проектная-папка>/memory/MEMORY.md` → 0 = дописать строку тем же заходом. Класс = `memory-index-line-lost-overnight`, 4 датированных случая, корень чинится отдельной сессией.
+- `python ~/.claude/scripts/memory_inject_lint.py --scan` → анти-инъекция и секрет-паттерны memory-стора (порт bb plugins/memory, 05.09.2026): exit 1 = НОВАЯ находка против baseline — разобрать тем же заходом (чужая закладка? секрет в памяти → в secrets-стор); старый долг молчит ратчетом. Это ЕДИНСТВЕННАЯ дверь линта ([[rule-needs-a-door-quota]]).
+- `python ~/.claude/scripts/memory_epistemic.py --lint` → `SELF-TOMBSTONE` (заметка сама пишет, что устарела, а машина этого не видит) закрыть тем же заходом: `--close <слаг> --superseded-by <слаг-преемника>`. Отмена закрывается ПОЛЯМИ (`status`/`valid_to`/`superseded_by`/`refuted_on`/`refuted_by`) во ВСЕХ копиях слага, а не переписыванием одной: CLAUDE.md §8.4-бис + [[memory-records-close-by-fields-not-rewrite]].
+- Обоим прогонам вердикт в отчёт строкой: «🧠 память: N сирот перенесено · M опровержений закрыто» (или «чисто»). Молчание ≠ чисто.
+
+## Step 1🩹 — ГЕЙТ ТРЕТЬЕЙ ПОЛОМКИ (дверь §5.10; добавлена 2026-08-14 после «а корни починил?»)
+Зеркало гейта из `/tt` §Шаг 3 — тот стоит на СБОРКЕ, этот на ЗАКРЫТИИ сессии, потому что сессия без изменённого кода `/tt` не зовёт и до 14.08 её поломки не попадали в журнал НИКУДА (ровно этот пробел вскрылся вопросом оператора: ретро описало поломки прозой в ноте и назвало это починкой).
+Перечисли поломки/уроки ЭТОЙ сессии (свои сбои, сбои рельс, «оно молчало», неверный вывод, пойманный позже). Для каждой поломки **СНАЧАЛА**, до выбора имени класса и до записи, найди смысловую семью:
+```
+python "$HOME/.claude/scripts/prior_art.py" class "<описание поломки своими словами>"
+```
+exit 0 = прежних нет, «1-й датированный» правомерен · **exit 3 = это НЕ ошибка и НЕ первый случай**: прибор печатает прежние строки, их даты и СЕМЬЮ дефекта. Если напечатана `СЕМЬЯ <slug>`, используй именно её как `<класс>`. Если показаны прежние строки без известной семьи, бери имя предмета ремонта/нарушенного инварианта из самой ранней строки, не новый синоним. При `exit 0`, когда прежней строки нет, назови класс по текущему предмету ремонта/нарушенному инварианту и запиши как 1-й датированный случай; канал, код возврата, текст алерта и симптом классом не являются.
+
+ТОЛЬКО ПОСЛЕ этого запиши ОДНУ строку через дверь `python "$HOME/.claude/scripts/selfheal.py" journal --class <класс> --what "<что>" [--conditions --parts --guess --status]`: **что · условия · сопричастные (файлы/рельсы/узлы) · гипотеза 🤔 или ✅ доказанная причина**. ⛔ НЕ править `Breakage-Journal.md` напрямую (ни Edit, ни heredoc): это общий Syncthing-файл, вид рисует один владелец из пер-узловых шардов, прямая правка отбивается хуком `breakage_write_guard` и терялась (04.09: 76 строк в 11 конфликт-копиях) — память [[breakage-journal-per-node-shards]]. Счёт бери из фактического ответа `selfheal.py`: дедуп означает, что новой строки нет.
+
+Дальше по семье: 1-й = строка · 2-й = строка + уточнить условия · **3-й датированный = класс системный**. Внутри `/retro` причинную цепочку НЕ строй: используй ровно одну отдельную ВИДИМУЮ repair-сессию, чей первый явный вызов — `/five-whys <класс>` в Claude или `$five-whys <класс>` в Codex, с датированными строками серии. Если `selfheal.py` уже поставил её в очередь, вторую не создавай. Механизм/робота на 1-2 случае НЕ строить. Дефект новой семьи → дописать её в `FAMILIES` внутри `prior_art.py` ОДНОЙ строкой, иначе следующая сессия снова назовёт его «первым».
+- ⚠️ **Завёл новую семью — обязательна КРАСНАЯ проба в том же заходе** (замер 21.09.2026, NODE-0X, ошибся дважды подряд): широкие ключи (`argv`, `206`, `тело промпта`) намели 77 чужих случаев и прибор объявил «порог §5.10 пройден»; вторая редакция утащила соседнюю семью «передали ПУТЬ вместо тела» — то же лицо, другой корень. Проверка обязана идти в ОБЕ стороны: чужой симптом НЕ ловится (`grep -c` = 0) И свой ловится. Ложно раздутый счётчик хуже отсутствующего: он заказывает сессию починки, которой не нужно быть. Канон: память `class-counted-by-name-never-reaches-three` + CLAUDE.md §5.10.
+- ⚠️ считая случаи, класс определяется КОРНЕМ, а не поверхностью: «двое пишут одновременно» ≠ «состояние ушло вперёд, пока мой контекст стоял» — лечения разные. Сомнение «занижаю ли счётчик, чтобы не строить?» разрешается грепом по журналу вслух, а не суждением.
+- Карв-ауты «чиним сразу, не ждём третьей»: артефакт, собранный этой же сессией · KEEP-ядро (sync, бэкапы, секреты, QQQ, рельсы наружу, deadman) · потеря данных · безопасность · деньги · соврал сам прибор · fail-closed гейты. Для KEEP-ядра, потери данных, безопасности, денег и совравшего прибора та же отдельная видимая `/five-whys`/`$five-whys`-сессия запускается немедленно; анализ внутри `/retro` не вести.
+- ⚠️ **Дедуп двери отбивает УТОЧНЕНИЕ к своему же классу** (замер 10.09.2026, NODE-0X, дважды за один
+  заход): `selfheal.py journal` отвечает «СТРОКА НЕ ЗАПИСАНА (дедуп: этот класс уже журналился
+  недавно). Поправку к своей строке правь в журнале явно» — а прямая правка `Breakage-Journal.md`
+  ЗАПРЕЩЕНА хуком `breakage_write_guard` (см. абзац выше). Инструкция сама себе противоречит.
+  Пока корень не починен, обход: уточнение 2-го случая (условия, свежие цифры, порог третьего)
+  кладётся в **задачу реестра** класса и в **ретро-заметку**, а в отчёте пишется честно
+  «дедуп отбил, уточнение легло в <адрес>». ⛔ Молча проглотить отбой нельзя — иначе
+  уточнение условий теряется, и следующая сессия снова считает случай первым.
+- Поломок не было → одна строка «🩹 поломок нет» и дальше. Ноль строк в журнале при названных в отчёте поломках = ретро не закрыто.
+- Канон: Библия `reglament-mekhanizm-tolko-posle-tretey-polomki` + CLAUDE.md §5.10 + `reglament-pyat-pochemu-koren-po-serii-sessiy` §«Три инструмента»; проверка двери — `python ~/.claude/scripts/rule_home_guard.py mekhanizm-tolko-posle-tretey-polomki`.
+
+## Step 2 — Summarize the arc ("сегодня мы поняли")
+3–7 beats: starting idea → what got built → key realizations → what was decided. Honest, concise, his voice. This is the "Stan at the end of South Park" recap.
+
+## Step 2🎙 — Вердикт кофаундера (Майк) — canon 2026-07-07, applied 2026-07-31
+Right after the arc, Майк speaks as co-founder — 4 строки, без воды (canon `reglament-*` voice-through-line; восстановлен из потерянного сообщения шины, 23 дня в призраке; НЕ театр — работает ПОВЕРХ механики 28.07: если сессия дала стратегический выбор, мемо/адвокат-дьявола из [[cofounder-decision-artifact-gate]] главнее и уже сделаны):
+- 💰 **деньги-линза** — что из сегодняшнего приближает выручку/оффер (цель №1/№2), одной строкой;
+- 🔪 **что убил бы** — самая слабая трата времени сессии, которую завтра не повторяем;
+- 🤺 **спарринг-аудит** — где я сегодня поддакнул вместо спора (провал роли §1.2) либо «спорил честно»;
+- ❓ **вопрос** — один направляющий вопрос оператору на завтра.
+Пустышку не писать: сессия чисто механическая без бизнес-среза → строка «🎙 Майк: бизнес-среза нет, чисто инфра» и дальше.
+
+## Step 3 — Classify each artifact (Keep / Drop / Try) + tested? audit
+For every thing made this session, also AUDIT a **tested? ✅/❌** column — did it pass `/tt` (=`/test`) when built? Retro does NOT do the testing itself (too late/cold at session end); it only audits the line. Any durable artifact that is **❌ or untested** → flag it + offer to run `/tt` on it NOW (per [[test-after-build-skill]]).
+⭐⭐ **И ВТОРАЯ КОЛОНКА — перепроверено? ✅/❌** (dev 13.09.2026, CLAUDE.md §4.3-бис): «протестировано» и «перепроверено вторым, ДРУГИМ заходом» — разные вещи, и ложное «готово» живёт именно в зазоре между ними. Артефакт, у которого первый прогон зелёный, а второго захода не было, ретро помечает ⚠️, а НЕ ✅, и предлагает прогнать Шаг 4.9 скилла `/tt` сейчас. Замер архива 15.08→14.09: 21 раз за месяц оператор спрашивал «ты точно починил?» сразу после моего «готово». Канон: [[done-is-a-claim-recheck-twice]].
+⭐ **И ТРЕТЬЯ КОЛОНКА ДЛЯ ПРИБОРОВ — покрытие N/M** (dev 01.10.2026, класс `instrument-blind-to-most-of-its-subject`): у каждого собранного или тронутого за сессию прибора (сторож, аудит, счётчик долга) ретро выписывает строку `СЛЕПАЯ ЗОНА:` из его вывода (`python3 ~/.claude/scripts/_shared/blind_zone.py --run <прибор>`). Строки нет (exit 3) → ⚠️ и правка прибора тем же заходом. Покрытие <90% → ⚠️ + задача на подъём покрытия. Число без слепой зоны в отчёте ретро не ставится. Then classify:
+- 🟢 **Keep & reuse** — permanent infra or a tool you'll run again (skills, durable notes, reusable scripts).
+- 🟡 **One-off** — served its purpose; if the *pattern* is worth remembering, capture the pattern (not the artifact), then let it rest.
+- ⬆️ **Promote** — currently ad-hoc but should become permanent → turn into a rule / skill / memory.
+
+## Step 3📋 — Journal sync (реестр задач; dev's decree 2026-07-04)
+Retro is the SAFETY NET of the task journal ([[task-journal-done-undone-linking]]): the in-session reflex («сформулировал → сразу в реестр») catches tasks at birth; retro catches what slipped. Two moves, both against the ONE journal ([[task-backlog-registry]] — **v2 markdown-first, SHIPPED 2026-07-07**):
+- **Источник истины = markdown-заметки** `$OBSIDIAN_VAULT/10-Tasks/task-*.md` (шаблон `_Task-Template.md`, MOC `_Tasks-MOC.md`). Синкаются флоту, поэтому работают с ЛЮБОЙ машины без шины и без движка. Завести задачу = новый файл `task-ГГГГ-ММ-ДД-слаг.md`; закрыть = правка frontmatter (`state`/`status` + evidence). Схема строгая: неизвестный `state`/`prio` → `schema_errors` в аудите, а не тихий дефолт.
+- **Витрину и аудит строит индексатор** `tasks_index.py` (markdown → `_Dashboards/Task-Backlog.html` + `10-Tasks/_audit/audit-latest.json`). Он крутится ночью на Маяке как ЕДИНСТВЕННЫЙ писатель — руками на хабе/ноуте его НЕ запускать (два писателя одного синкаемого дерива = sync-conflict).
+- ⛔ Старый SQLite-движок task-registry (жил на ноуте NODE-0X) = **аварийный fallback, снят с вооружения**; на хабе его нет и не должно быть. Не зови его и не «восстанавливай» — v2 его заменил. (Имя намеренно без code-формата: backtick = «это надо запускать».)
+
+Две операции ретро:
+- **Сессия рождена из сида Task-Now?** (первое сообщение начинается «Продолжи задачу task-…» или «Реши СУДЬБУ задачи task-…») → обнови frontmatter ЭТОЙ задачи прямо сейчас: state/touched_at, при done — evidence+outcome; сид без обновлённого frontmatter = петля Task-Now разорвана (v4, dev 2026-08-20).
+- **Closed this session** → mark `done` **with evidence** (the /tt proof, commit, counter) + link what it unblocked. Claimed-done without proof → flag, don't close.
+- **Still open** (every «📌 Open item», seed prompt, deferred tail, «потом») → ensure it EXISTS in the registry with a link to where it was born + prio/type. Nothing from the open-items list may live only in the chat transcript.
+- ⏱ **РАЗРЕЗ ОЖИДАНИЯ (добавлено 07.09 после того, как этот шаг сам породил долг):** у каждого открытого пункта вида «ждём замера / ещё копим / не проверено» спроси — **какая его часть НЕ требует времени?** Почти всегда внутри склеены два вопроса: УСТРОЙСТВО («работает ли конструкция») проверяется детерминированным прибором за минуты, СПРОС («пользуемся ли мы этим») действительно требует недель. Часть про устройство закрывается **в этом же заходе**, а не переносится в реестр. Замер, из-за которого пункт появился: ретро 06.09 записало «гипотеза ДР не проверена, урожай 08.09» — на деле 5 ног гипотезы закрылись прибором за пару минут 07.09, а ждать надо было только спроса. Обязательные подпорки при таком закрытии: **красный контроль** (зелёная нога пустая, пока не показано, что прибор видит поломку) и **независимая линза чужим кодом**, если вывод тебе выгоден. Канон: память [[architecture-proves-in-minutes-demand-needs-weeks]], CLAUDE.md §5.4.
+Announce the delta in one line: «📋 журнал: +N новых · ✅M закрыто · без изменений K». Don't duplicate neighbor registries (DR-реестр, improvements-backlog, declined) — link, не копируй.
+
+## Step 3🗺 — Roadmap checkpoint (dev's decree 2026-07-16: «в каждом ретро — как мы продвинулись по roadmap»)
+Канон = `$OBSIDIAN_VAULT/04-Projects/ROADMAP.md` (живой публичный роадмап для фолловеров). Три движения, все против ЭТОГО файла:
+- **Продвинулись** → отметить чекбоксы/статусы, веху уровня «фолловеру интересно» → строка в Ship log с датой.
+- **Появилось новое направление в сессии** → добавить в NOW/NEXT/LATER (не дублируя детальные планы — ссылкой).
+- **Ничего не двинулось** → честно сказать это в отчёте (тоже сигнал).
+Announce одной строкой: «🗺 roadmap: ✅N продвинуто · ➕M добавлено · ⏸ без движения». Публичная проекция файла наружу — только через контент-гейт (Нора), ретро наружу не постит.
+
+## Step 3🔗 — Connect check (построено → передано → ИСПОЛЬЗУЕТСЯ?) — dev 2026-07-04
+Правило Connect ([[connect-rule-pipeline-ownership]]) на подведении итогов: для КАЖДОГО артефакта этой сессии довести цепочку до конца — **«собрали» это ещё НЕ финиш**. Финиш = построено → передано потребителю → **реально используется**. Три исхода на артефакт:
+- ✅ **используется** — есть потребитель и он потребляет (скилл вызывают, рутина читает выход, поле CRM читают, дашборд открывают, данные доехали и применены). **Назвать потребителя** — иначе это не ✅.
+- 🔗 **передано, потребления пока нет** — доехало, но никто ещё не читает/не применяет → на доску висячих, назначить потребителя/срок.
+- ⚠️ **построено «в воздух»** — собрали и бросили, потребителя нет вовсе (dead-letter без consumer — как релинк-очередь: 29k сирот, 0 применено) → **ПОДСВЕТИТЬ оператору явно**: «построили X, но это никем не используется» → решить: подключить потребителя ИЛИ признать выброшенным.
+
+Молчание ≠ используется. «Построили» без названного потребителя = недоделанный Connect, НЕ «done». Строкой: «🔗 Connect: ✅N используется · 🔗M передано-ждёт · ⚠️K в воздух».
+⭐ **🌍 МИРОВОЙ ПОТРЕБИТЕЛЬ (dev 24.08, голосом):** у каждой закрытой за сессию починки КЛАССА — четвёртый исход Connect: раздали ли миру? Сеть-ловушка: строки Breakage-Journal этой сессии «класс закрыт» без вердикта 🌍 = долг → прогнать скилл **`/share-fix`** (порог переносимости, реверс-поиск по симптому, 3-5 лучших живых тредов, gist, вахта — вся механика там). Вердикт в отчёте обязателен: 🟢 раздал (ссылки) · ⚪ искал-пусто · ⛔ непереносимо/приватно+причина. Канон: `reglament-pochinil-u-sebya-srazu-razday-miru` + память `fixed-it-share-it-with-the-world`.
+⭐ **ПРАВИЛО — ТОЖЕ АРТЕФАКТ (dev 06.08: «это же связывается с правилом коннект???» — да, связывается).** Правило, принятое за эту сессию, проходит тот же Connect-тест, только его «потребитель» — не человек и не следующая стадия, а **механизм, который правило вызовет**. Записали в канон — это «передали», не «используется». Прогон обязателен, по одной строке на правило:
+`python ~/.claude/scripts/rule_home_guard.py <слаг>` → **✅ ДВЕРЬ ЕСТЬ и она ИСПОЛНИМАЯ** (потребитель назван) · **⚠️ ПОХОЖА НА ФИКТИВНУЮ** (слаг пересказан прозой, путь исполнения его не тронет — считается 🔗 «передано, потребления нет») · **⛔ БЕЗ ДВЕРИ** (= ⚠️ «в воздух», подсветить оператору явно).
+Квота [[rule-needs-a-door-quota]]: дверь строится в ТОМ ЖЕ заходе (строка в существующем скилле дешевле нового робота) ЛИБО правило уходит в `~/.claude/rules-without-door.md` с датой и причиной. Замер, из-за которого пункт появился: 19 из 25 свежих правил (76%) не звал ни один скилл и ни один хук; «5 почему» пролежал в каноне 42 дня и не применился ни разу. Разбор класса: `razbor-serii-2026-08-06-pravilo-prinyato-dveri-net` (волт).
+⭐⭐ **ПОЛЬЗУ НАШЛИ — ДАЛИ ФЛОТУ (dev 06.08, капсом «ВСЕГДА!! даже не спрашивай меня»).** У ОБЩЕЙ детали потребитель — не один человек, а **каждый узел флота**, поэтому Connect на ней закрывается только раскаткой. Прогон, по строке на сессию: `python ~/.claude/scripts/fleet_fix_audit.py --by-fix <id>` → кто применил, кто отстал. Исходы: ✅ **применено на всех потребителях** (доказано чтением факта на узле) · 🔗 **зарегистрировано, узел офлайн** — единственное законное ожидание · ⚠️ **осталось на одной машине** = «в воздух», подсветить. ⛔ Запрещено закрывать ретро строками «раскатать?», «жду ОК», «добью завтра» — раскатка не Tier-2 и не руки оператора, значит по §4.1 её решаю я, в ТОМ ЖЕ заходе. Раскатывается не только патч, а любая НАЙДЕННАЯ ПОЛЬЗА (приём, ожившая рельса, обнаружение что подписка идёт не в тот бак, грабли со стоимостью); тест — «пригодится другому узлу или оператору?». ⛔ `apply`, который не ДОСТАВЛЯЕТ файл, регистрировать нельзя — это корень висящих посылок (замер 06.08: 128 штук, apply был `doctor`, на Маяке лежал новый тест поверх старого движка). Живой узел по `tailscale status` → еду сам (ssh + `deploy_apply` НА УЗЛЕ), офлайн → готовые команды в шину. Канон: [[found-value-goes-to-fleet-always]], Библия `reglament-lyubaya-pochinka-raskatyvaetsya-na-ves-flot` §Поправка 06.08.
+⚠️ **Грабля 10.09 (NODE-0X):** `fleet_fix_audit.py` стоит за `maintenance_gate` (§10.0, один прогон в сутки на узел) — второй заход за день отбивается. Уже гоняли сегодня → бери вывод ночной карты / `deploy_check.py`, `--force` только с названной оператору причиной. Отбитый гейтом аудит НЕ повод молчать: проверь `PENDING-<узел>` и скажи честно, что доказана РЕГИСТРАЦИЯ, а не применение.
+**Исключение — R&D-пробник (грань 5 реглумента, DR26-07-04-HUB-13):** явно помеченный эксперимент с живым time-box + learning-метрикой НЕ считается ⚠️ «в воздух» — он 🧪; но пробник с ИСТЁКШИМ time-box без потребления/вывода = ⚠️ → авто-kill (архив), без sunk-cost-переговоров. «Используется» = смена состояния (применено/закрыто/записано), не «открыл» (Goodhart). Не дублирует журнал (Step 3📋) — журнал ловит «открыто/закрыто», Connect ловит «есть ли у построенного потребитель и потребляет ли он».
+
+## Step 3🚂 — РЕЛЬСЫ: честный процент по чужим LLM + причины недобора (dev 21.09.2026, голосом)
+Дословно: «я использовал такие-то LLM на какое-то количество процентов, а не использовал по каким-то причинам. То есть ты ещё называешь честные причины, почему ты не использовал. Забыл ты или какие-то другие причины. И сразу пытаешься поправить этот скилл».
+
+Почему шаг живёт тут, а не в §6.3: правило «выгребай лимиты» стоит с 04.08, дверь `llm_ask.py` построена 06.08 — и всё равно замер 21.09 дал grok 0 вызовов на узле за 7 дней при $300/мес. Корень назвал оператор сам: **забыл**. Забывание невидимо, пока обещание не машиночитаемо.
+
+Один прогон, 0 токенов:
+`python ~/.claude/scripts/rail_plan.py verdict --session <id>` → таблица «обещано / вызовов факт / вердикт».
+- **exit 0** — у каждой обещанной рельсы есть либо вызовы, либо названная причина.
+- **Прибора на узле НЕТ** (`rail_plan.py: No such file`) — это НЕ повод пропустить шаг молча.
+  Проверь очередь посылок (`deploy_check.py`): не применённая `rail-plan-*` применяется тут же
+  (§7.5). Применить нельзя (чужая живая табличка ON AIR на зоне `fleet-code`, замер 21.09) →
+  ⛔ НЕ форсить, а написать в отчёт строкой: «🚂 прибора нет, посылка <id> заблокирована
+  ON AIR <узел>/<id>, применю после закрытия». Сессия СТАРШЕ самого правила (работа шла до
+  21.09) → так и сказать: плана не было, потому что правила ещё не существовало, выдумывать
+  задним числом проценты запрещено (§5.4 правда в цифрах).
+- **exit 1 «ПЛАНА НЕТ»** — сессия не объявила рельсы на старте. Это и есть нарушение; объявить сейчас (`rail_plan.py declare`) и сказать в отчёте честно, что план родился на ретро, а не на старте.
+- **exit 1 «НЕДОБОР без причины»** — добери причины: `--reason <рельса>=<код>:<текст>`, коды `forgot · rail-dead · class-mismatch · too-small · tier2 · no-work · **own-subagent**`.
+- ⭐ **`rail-dead` РУКАМИ БОЛЬШЕ НЕ ПИШЕМ, если рельсу реально звали** (правка 30.09.2026): прибор сам ставит «rail-dead (авто): N попыт., рельса упала», когда в леджере есть ПОПЫТКА. Колонка «попыток мимо» в таблице — это и есть улика. Строка «авто» = долг ПОЧИНКИ РЕЛЬСЫ (логин, квота), а не долг дисциплины: заводи задачу на рельсу, а не причину в вердикт. ГРАНИЦА: прибор доказывает попытку, а не диагноз — 401 и 429 для него одинаковы, текст ошибки вендора ищи в stderr прогона («рельса <имя> мимо: …»).
+- ⭐ **Грунт сделал СУБАГЕНТ (Agent model=sonnet/opus) — это код `own-subagent`, а НЕ `forgot` и НЕ `class-mismatch`** (правка 30.09.2026). Субагент жжёт НАШ бак Anthropic, внешней рельсой не является и прибором не считается СОЗНАТЕЛЬНО; объявить его в `declare --outsource` теперь нельзя (exit 2). Замер 28–29.09: два прогона подряд весь грунт отдали субагентам, прибор напечатал ноль и заставил выдумать причину — `own-subagent` существует, чтобы подмена чужой оплаченной подписки своим баком **считалась по леджеру**, а не пряталась под «too-small».
+- **Узловой срез** (что вообще этот компьютер обещал и сжёг за окно, все сессии сразу): `rail_plan.py verdict --all-sessions --days <N>`. По умолчанию сверка ПОСЕССИОННАЯ — иначе возвращается класс «вердикт судит чужой план» (8 датированных случаев 21–28.09).
+- **`No such file` — прибора на узле НЕТ** (замер 21.09, NODE-0X: посылка `rail-plan-20260921` лежала непринятой, и шаг судить было нечем). Это НЕ повод пропустить шаг молча: (1) посмотреть очередь посылок `python ~/.claude/scripts/deploy_check.py` и применить её тем же заходом; (2) применение отбито правами/классификатором → строка в отчёт «🚂 сверка невозможна: прибора нет, посылка <id> не применена» + пункт в TODO. Отсутствие прибора называется вслух, а не превращается в «рельсы не жгли».
+
+⭐ **«forgot» обязывает ПРАВИТЬ ДВЕРЬ в том же заходе**, а не объяснять. Это прямой приказ оператора («сразу пытаешься поправить этот скилл, чтобы в будущем так не ошибаться») и он смыкается с 🛠 «вердиктом о скилле» ниже: причина `forgot` = скилл/рутина пропустили рельсу, значит правится вызывающий, а не только этот файл.
+
+Перед выводом «двери/хука нет» проверь ОБА каталога `~/.claude/scripts/` и `~/.claude/hooks/`, затем регистрацию в `~/.claude/settings.json` и фактический путь из неё. Для плана рельс на Windows проверяй `~/.claude/hooks/rail_plan_hook.cmd`. Файл есть, запись в настройках есть и хук действительно сработал в новой сессии являются тремя разными проверками. Не найдено в одном каталоге = «пока не нашёл», а не доказанное отсутствие (ошибка из ретро Multica 30.09.2026).
+
+⛔ Запрещено закрывать шаг словами «мало пользовались другими LLM» без цифр: доля считается прибором, а не на глаз (§5.4 «правда в цифрах»). ⛔ Не смешивать два числа: `rail_plan.py` считает **ВЫЗОВЫ наших рельс**, а процент выборки бака вендора живёт в `subscription_utilization.py report` — это разные величины разного происхождения.
+Строкой в отчёт: «🚂 рельсы: жгли <рельса=N…> · недобор <рельса:код> · правка двери: да/нет».
+Канон: [[rail-plan-declared-then-verified]], [[burn-the-limits-utilization]], [[other-llm-rails-were-review-only]].
+
+## Step 3🔄 — Outcome-аудит ПРОШЛЫХ правил (взято у netresearch/retro-skill «outcome mode», adopted 2026-08-26; наш обмен — issue #78 их репо)
+Door-audit (Step 3🔗) судит правило при РОЖДЕНИИ; этот шаг судит СУДЬБУ уже записанных — родился с дверью ≠ живёт (замеры: 19/25 без двери, «5 почему» 42 дня без применения, Firefox-first умер тихо за 13 дней). Дёшево, ЧИТАЕМ ночные выходы, сканы руками НЕ гоняем (§10.0):
+1. Возьми правила, ТЕМАТИЧЕСКИ близкие этой сессии + до 5 самых старых нетронутых из ночной карты `rule_liveness` (HTML/JSON выход ночного прогона; руками `--scan` не запускать).
+2. По каждому три вопроса: применялось ли с прошлого ретро (счётчик §5.8 / упоминание в транскриптах)? нарушалось ли (Breakage-Journal)? актуально ли ещё (не superseded)?
+3. Вердикт-строка в отчёт: «🔄 outcome: N проверено · M живут · K мертвы» — каждому мёртвому РЕШЕНИЕ в том же заходе: утиль (в архив с причиной) / дверь построить / отдать сессии-починке. Молча пропустить шаг нельзя; сессия без тематических правил → «🔄 outcome: чужих правил не трогал» одной строкой.
+
+## Step 3🎙 — ON AIR check (v1.1, 2026-07-11 «+++»)
+One cheap deterministic move: `python ~/.claude/scripts/onair.py list` (memory `onair-board`).
+- This session's own declaration still active → `onair close <id>` — never leave a stale табличка behind.
+- Session DID large structural work (canon / sync / consensus / factory redo) **without** a declaration → flag in the report: «⚠️ крупная работа шла без ON AIR-таблички» (anti-pencil-whipping; the 2026-07-08 consensus.py case).
+- No claim + no large structural work → skip silently.
+
+## Step 3⛳ — Drift-audit → сессии-детишки (dev's decree 2026-07-11: retro spawns them ITSELF, no nudges)
+The retro-time CLOSURE of the drift rule ([[goal-drift-offload-to-seed-sessions]] / CLAUDE.md § «Дрифт от главной цели»): mid-flight that rule offloads weeds AS they appear; retro is the **safety net** for what slipped — the topics the session got blown into that are NOT the main goal and NOT finished.
+
+Procedure (cheap — reuse material already in hand: Step 0 spine, Step 1 inventory, Step 3📋 journal):
+1. **Name the session's MAIN goal** (turnstate spine / the first ask). One line: «⛳ цель сессии: <X>».
+2. **List the drift**: topics we discussed / dug / half-built that are neither the main goal nor done. Cross-check chips already issued mid-flight — those are NOT re-spawned, only their Connect status is reported.
+3. **For each REAL drifted topic retro ЗАПУСКАЕТ СЕССИЮ САМО — no asking, no waiting** (dev 2026-07-11: «команда РЕТРО активирует соседние сессии-детишки без моих пинков»; усилено 29.07: **«запрещено запускать любые сессии в чёрную»**). Запуск ТОЛЬКО видимой рельсой — `mcp__scheduled-tasks__create_scheduled_task` (`fireAt` — ТОЛЬКО из двери `python ~/.claude/scripts/_shared/fireat_now.py --in 15`, и ЕСЛИ создание отбило метку как «в прошлом» — УВЕЛИЧЬ ЗАПАС ТОЙ ЖЕ ДВЕРЬЮ (`--in 60`), руками время всё равно не пишем. Замер 01.10.2026: часы оболочки и часы приложения расходятся ~на 20 минут, а дверь берёт время из ОБОЛОЧКИ (`source local`) с маржой ровно 15 мин — то есть при перекосе больше маржи она падает по построению, руками время не писать: класс из 6 случаев 11.08-09.09, часы шелла врали до 11 ч; разносить по времени; `notifyOnCompletion: true`), чтобы сессия попала в список приложения и оператор мог её открыть, дотолкать после лимита и ответить на её вопрос. Принцип оператора дословно (29.07): **«плоди чип и САМ ЕГО НАЖИМАЙ»** — решил, что нужна сессия, значит создаёшь её УЖЕ ЗАПУЩЕННОЙ. Чип, который ждёт чужого клика, созданной сессией НЕ считается (замер: 107 из 346 чипов не нажаты никогда), а невидимый `claude -p` не считается тоже (29 сессий — в списке ноль); гейты `chip_guard.py` / `blackbox_session_guard.py` разворачивают оба случая на видимый запуск. Чип уместен только там, где нужны физические руки оператора или другая машина, с маркером `ТРЕБУЕТ РУК оператора:` / `ДРУГАЯ МАШИНА:` и немедленным пингом. Prompt = self-contained seed (Outcome · Контекст из recall · Scope · Deliverable · DoD — формат из [[decompose-into-parallel-sessions]]), сессия стартует с нуля без контекста этой. Register each launch in the task journal (Step 3📋) too — сессия AND registry entry, never either-or.
+4. **Threshold & cap:** only a real weed (discussed seriously / carries value / would otherwise be lost) — not every stray thought; **≤5 запусков per retro**, the rest goes journal-only.
+5. **Report line:** «⛳ дрифт-аудит: цель <X> · унесло в N тем → 🚀M сессий запущено (видимых) · ♻️K выданы по ходу · 📋J только в журнал». No drift → one word («⛳ дрифта нет»), skip the ceremony. Канон: Библия `reglament-zapreshcheno-zapuskat-sessii-v-chernuyu`.
+
+Distinct from Step 4★ (repeats → skill) and Step 3📋 (open/closed bookkeeping): this step catches **abandoned directions** and hands each one a clean child session. Fires (data loss / security / sync down) are never «drift to defer» — they were handled in-session or escalate now.
+
+## Step 4 — Route durable items to their home (per `operating-agreement` → "Where durable rules go")
+- Reusable **tool/script** → record in **memory** (path + when to re-run) so it's findable next time.
+- Behavioral **rule about how I work** → global `CLAUDE.md` (short pointer) / a skill / memory / hook.
+- Team/agent **rule** (acting for dev) → the **Bible** (`reglament-*`, via skill `bible`).
+- A genuinely-recurring **ritual** → its own skill.
+- **Don't duplicate** — each level points down, never copies (AK-47).
+- **🏠 Home-matrix audit (gate; canon `reglament-vyuchennoe-zapisyvaetsya-vo-vse-doma-matritsa`):** for EVERY rule/lesson captured this session, list all 6 homes (Bible · CLAUDE.md · memory+MEMORY.md · skill · hook/task · MOC) with an explicit ✅ written / ⛔ not-needed+reason — no silent skips — then prove by counter: `python ~/.claude/scripts/rule_home_guard.py <slug/keywords>` (exit 1 = no always-loaded trace → fix before closing the retro). ⚠️ Грабля 10.09 (NODE-0X): этот прибор ТОЖЕ стоит за `maintenance_gate` (§10.0, один прогон в сутки на узел) — на 5-м заходе за сутки он отбивается, и «доказать счётчиком» становится нечем. Тот же класс, что каветат про `fleet_fix_audit.py` в Step 3🔗. Отбило → либо `--force` с названной оператору причиной, либо честная строка в отчёте «дверь проверена глазами, счётчик отбит суточным гейтом» — молча пропускать проверку нельзя.
+
+## Step 4🌍 — КОНТРИБЬЮТ-ТЕСТ (dev 11.08.2026: «как поймём, что это РЕШЕНИЕ тоже контрибьютим?»)
+For EVERY artifact classified **Keep-&-reuse** this session, run the 3-question contribution test (canon lives in `~/.claude/skills/rep-reply/SKILL.md` § «Пополнение карты» — do not duplicate the wording, read it): (а) боль универсальная? (б) чужие живые треды есть (30-сек gh search)? (в) отдать можно без утечки? **Two «да» out of three** → write the row into the rep-reply theme→artifact map + mark the artifact as a `/release-slice` candidate; otherwise record the explicit ⛔ with which question failed. No silent skips — the verdict per artifact goes into the retro report. This is the door that turns "we built know-how" into "the world heard about it" without anyone having to remember.
+**⭐ Усиление dev 01.09 (голосом ×2, канон `reglament-retro-smotrit-naruzhu-tizer-i-skill-v-mir`):** ретро = СУДЬЯ (~1 мин на артефакт), не раздатчик — замер 01.09: полный качественный проход = ~20 мин на 3 кандидата, в ретро это убивает оба. «2 да из 3» → **строка в очередь** `$OBSIDIAN_VAULT/_outreach/share_fix_queue.jsonl` (JSON-строка: added·from·artifact·queries[дословные симптом-запросы!]·numbers·status:pending) — симптом-запросы и цифры пишутся СЕЙЧАС, пока контекст горячий, именно они теряются к утру. Раздаёт ночная рутина `share-fix-daily` (хаб, ≤3 кандидата/ночь, полный ритуал `/share-fix`). Раздать прямо в ретро — только если целевой тред уже известен из сессии (тогда это 2 минуты, не 20). **Совет считается**: код отдавать не обязательно — опыт словами в чужом треде тоже польза. Что можно/нельзя наружу — чек-лист в том же регламенте.
+**⭐ HN-кандидат (dev «+++» 10.09):** тот же проход задаёт ВТОРОЙ вопрос ровно один раз на артефакт — «это годится в Hacker News?». Годится ТОЛЬКО жанр «мы померили и показываем цифры» (post-mortem · замер · разбор поломки) и ТОЛЬКО как самостоятельная публичная страница с данными, не пост из ежедневного девлога. Да → строка в `$OBSIDIAN_VAULT/_outreach/hn_candidates.jsonl` (added·from·artifact·title·url·numbers·genre·status:ready|needs-page·blocked_by). Нет → молча, вердикт не нужен. ⛔ Потолок лейна: **своя ссылка на HN не чаще 1 раза в 2 недели** (ежедневный поток туда = профиль спамера, теневой бан накрывает аккаунт И домен); регулярное присутствие = комментарии в ЧУЖИХ тредах 1-3/нед. ⛔ Подача идёт ТОЛЬКО с хаба, ТОЛЬКО после «+» оператора и ОК Норы, ноль организованного голосования. Пока нет входа в HN на хабе — очередь копится, наружу не уходит ничего.
+
+## Step 4📓 — Growth-log Макса (persona versioning; dev «+++» 2026-07-02)
+If the session was MEANINGFUL for the cofounder line (built/decided/learned something real about the business or about working with dev — not a trivial lookup): **append ONE entry** to memory `cofounder-growth-log.md` — `дата · shell · урок про работу с оператором · один апгрейд себя`; записи о споре/сбое роли несут маркер `SPAR: с-уликой | без-улики | scope-нарушение | подмена-воли` — and **review recent entries**: что оставить в характере, что докрутить. **⚔️ Weekly SPAR count** (воскресный ретро или ≥7 дней с прошлого счёта): grep маркеров за неделю → строка «⚔️ SPAR: N споров (M с-уликой) · K scope/воля-нарушений»; цель = доля улик 100%, нарушения 0; считаем качество и нарушения, НЕ число споров (анти-театр). Канон: memory `objection-sparring-to-consensus` v3 (базлайн июля-2026: 23 спора:25 поддакиваний, scope 3, воля 2). Durable character changes fold DOWN into `cofounder-identity` (memory) and/or `~/.claude/skills/cofounder/references/system-prompt.md` — the log is the journal, those are the canon. Twin of [[persona-pulse-measurement]] (that logs friction/wins about ME helping HIM; this logs MY growth). Skip silently for trivial sessions.
+
+## Step 4🎭 — БИТЫ ДНЯ В КАНОН (закон «канон раньше контента», 2026-07-10)
+Ретро = главный системный «писатель битов» (контекст горячий, факты сверены). Для каждого сюжетно-значимого события сессии (веха/провал/поворот/решение/деньги/ответ внешнего мира — словарь `beat_kind` в `_SHOW-CANON.md`): создать бит в `$OBSIDIAN_VAULT/04-Projects\show-canon\beats\` по `_TEMPLATE-beat.md` (3 оси + beat_kind обязательны; `reveal` ставить честно — незакрытое = live_hold). Затем обновить затронутые арки/петли/сезон → `python $IMPORTS_ROOT/content-factory\canon_render.py` (линт + свежие публичные реестры; push — по своим правилам, не отсюда). Рядовая сессия без сюжетных событий → пропустить молча. Идёт ПЕРЕД Step 4🎬: сначала факт в канон, потом суждение о контенте (вердикт ссылается на созданные биты как опору).
+
+## Step 4🎬 — Content-check (dev «все наши сессии = контент», 2026-07-02)
+Judge at retro-time, while context is hot: **does THIS session deserve content?** Verdict = **human-post** (route → content-factory / `/episode` / `/intention`; draft-first; dev's authorial voice = best model) · **dev-log** (machine-readable «проблема → как чинили → поправка следующего дня» for robots/future model generations → `/episode` dev-log tier, GitHub EN) · **both** · **no** (skip silently). The nightly robots (facebook-diary-auto, content-factory, intention-lane) stay as the safety net — this step is the hot-context first pass, and dev can override any moment («это заслуживает поста»). Attribution + CTA per [[cofounder-identity]] («придумано Майкрофтом и Тони, Palo Alto AI Research Lab» / "Invented by Mycroft and Tony, Palo Alto AI Research Lab") and [[cofounder-cta-public-contact]].
+**⭐ Мини-тизер обязателен (dev 01.09):** every retro with a substantive arc births ≥1 mini-teaser (200-250 chars, «грабли → правило» so the READER gets use, not a status report) → `python D:\Vault\_imports\content-factory\content_miner.py capture --title "<хук>" --note "<тизер>" --tier teaser`. Verdict «no teaser» is legal ONLY with a named reason (empty routine session). Canon: `reglament-retro-smotrit-naruzhu-tizer-i-skill-v-mir`.
+
+## 🛠 ВЕРДИКТ О СКИЛЛЕ, КОТОРЫМ ПОЛЬЗОВАЛИСЬ (dev 07.09, голосом — обязателен, молчание = нарушение)
+Применил в этой работе скилл — вынеси вердикт об ЕГО обновлении. Одной строкой, с причиной в обе стороны:
+`🔧 обновляю /X — <что споткнулось>` (чинить В ТОМ ЖЕ заходе) · `📝 обновлю не сейчас — <причина>, строка легла в <адрес>` · `✅ /X обновлять не надо — <почему именно: прошло без заминки / заминка разовая и внешняя / правка дороже боли>`.
+
+⭐ **ВЕРДИКТОВ ДВА, НЕ ОДИН** (dev 13.09, голосом). Второй вердикт: **собственная инструкция того, кто сейчас работал** (рутина `scheduled-tasks/<имя>/SKILL.md`, сид, хук): «не стоит ли переписать мою инструкцию на будущее, чтобы она была качественнее?». Та же тройка `🔧 обновляю` · `📝 не сейчас` · `✅ не надо`, всегда с причиной. ⚠️ Замер 13.09: рутина `devto-publish-rhythm` починила СВОЙ файл и смолчала про скилл `/comments`, где висел ПРОТИВОПОЛОЖНЫЙ гейт, правило исполнилось наполовину, и спрашивать пришлось оператору. Канон живёт в СКИЛЛЕ, рутина держит только специфику прогона: разошлись, значит правду в скилл, а из рутины указатель. Канон: [[routine-judges-its-own-instruction-too]], CLAUDE.md §9.3-бис.
+Пустое «не надо» вердиктом не является. ⛔ Не путать с `/skill-gap` (тот про скилл, которого НЕТ) и не право раздувать: АК-47 в силе — правка снимает ПЕРЕЖИТУЮ боль, не гипотетическую.
+Канон: Библия `reglament-polzuemsya-skillom-srazu-sudim-nado-li-ego-obnovit` · CLAUDE.md §9.3-бис · [[skill-used-judge-if-it-needs-update]].
+
+## Step 4★ — The «repeats → make a skill» reflex (milestone closeout)
+This is the step dev asked for (2026-06-18): at a finished milestone, don't just *note* a repeating action — **offer to turn it into a skill**. It's the retro-time expression of the standing rule `evaluate-recurring-into-routine` (повторяющаяся задача → оцени «на рутину?»). Mirror of [[capture-rules-into-bible]] (that catches *rules*; this catches *tasks-to-automate*).
+
+**Trigger (catch it, don't wait to be asked):** any action that **repeated ≥2–3×** this session/milestone, OR that we'll **clearly return to** later (a manual sequence I re-typed, a multi-step procedure, a recurring check).
+
+**Procedure — 4 cheap moves:**
+1. **RECALL first — don't duplicate.** Skim the available skills + memory `automation-inventory` for an existing skill/routine/hook that already covers it. If one exists, point dev to it instead of building a twin. **⛳ И тут же второй вопрос (dev hub:5090, 2026-08-04): скилл ЕСТЬ — не проапгрейдить ли его?** «Есть» ≠ «закрыто»: назови, чего ему не хватило ИМЕННО в этой сессии (шаг, который я делал руками поверх скилла / грабли, которых в нём нет / устаревшая строка) → правка в тот же заход, и это тоже строка в 🔁→🛠 (`built/proposed/declined`). Нечего добавить — скажи это словом, молчание = проверка не сработала. Дословный текст вопроса и формат ответа — единственный источник в `/skill-gap` §⛳ (там же — вход-конец рефлекса).
+2. **⚠️ AK-47 guard — a skill is just a `SKILL.md`.** One markdown file with a procedure, NOT a server / DB / webhook / external service. (This is the exact trap the Codex milestone-retro report fell into — over-engineered for a SWE team; rejected 2026-06-18.) If the thing genuinely needs more than a markdown procedure, flag it **⚠️ УСЛОЖНЕНИЕ** and let dev decide.
+3. **OFFER as ДО→ПОСЛЕ** (per `show-before-after`) — one compact block:
+   > **ЧТО:** собрать `/<имя-скилла>` · **ДО:** как делаю руками сейчас (на реальном примере этой сессии) · **ПОСЛЕ:** одна команда `/<имя>` · **что сломается:** ничего (надстройка) · **делаем? да/нет**
+4. **On dev's «+» → build it via `skill-creator`.** Pick the right home by SHAPE (per `operating-agreement` → «Where durable rules go»):
+   - on-demand ritual I run when asked → **skill** (`skill-creator`).
+   - «каждый раз автоматически когда X» → **hook** (skill `update-config`), not a skill.
+   - time-based «каждый понедельник / каждое утро» → **scheduled task / routine** (skill `schedule`).
+   - «рутина» ≠ обязательно 24/7-робот — часто правильное = простой полуавто + напоминание.
+   - ⭐ **СПИСОЧНАЯ работа на N кусков (N велико) → КОНЕЧНАЯ рутина, «слон»** (dev 23.08, §4.5-бис).
+     Признак: в сессии я перебирал однотипные элементы (видео / заметки / карточки / островá графа /
+     ссылки), список не кончился, и он не кончится и в следующий раз; либо задача уже месяцами
+     спотыкается об участие оператора, лимиты вендора или баны. Это НЕ задача и НЕ героическая сессия —
+     это слон: `python ~/.claude/scripts/elephant.py new <slug> --title T --quota N --os-task <ЗадачаWindows>`,
+     дальше рабочий скрипт на каждом прогоне делает `next` → работа → `mark` → `tick`.
+     `tick` сам ловит конец (выключает OS-задачу + доклад в TG-03) и затык (5 пустых прогонов → `blocked`).
+     ⛔ Журнал слона НИКОГДА не кладём в синкаемую папку — затрётся, и слон не кончится никогда.
+     Живой пример: [[yt-watch-history-drip]]. Канон: [[finite-routines-eat-the-elephant]].
+   Then route/link it normally (Step 4) and mention it in the final report (post-hoc, not for permission).
+5. **⭐ Скилл уходит в мир (dev 01.09, канон `reglament-retro-smotrit-naruzhu-tizer-i-skill-v-mir`):** любой собранный/существенно обновлённый скилл в том же заходе получает (а) тизер-пост в наши соцсети (через content-factory / каскад) и (б) публикацию самого скилла на нашем публичном GitHub (дефолт `tonydzi/clawrush` `artifacts/`) ПОСЛЕ leak-scan, с пометкой в шапке «built for dev's fleet — adapt paths/names to your setup». Заточен под оператора / сырой / «на тормозке» — публикуем всё равно, честно пометив. Скип — только с названной причиной (leak-scan red / чистая кухня CRM).
+
+## Step 4🔥 — КАТАКЛИЗМЫ СОСЕДЕЙ (dev 01.10.2026, голосом: «сирены в 03 я не читаю, ретро читаю хорошо»)
+Ретро — его единственная читаемая лента тревог. Перед Output собери пожары ВНЕ этой сессии
+(детерминированно, ~0 токенов):
+1. Источники: (а) `Breakage-Journal.md` / `selfheal.py` — строки за последние 3 дня не из этой
+   сессии; (б) RED/stale state-файлы известных сторожей (`~/.claude/_screenpipe_watch/state.json`
+   и родня: verdict=RED или ts старше 2× такта); (в) `ALERT`/`SOS`/`RED` в шине 03 и
+   `_machine-bus/inbox-*` за 48ч; (г) `/arch broken`, если ночная карта свежая.
+2. Отбери **топ-3-5 самых сильных** (деньги · потерянные данные · мёртвая рельса записи ·
+   недоставленное исходящее · сломанный узел флота). Мелочь и уже починенное — не включать:
+   засорённый блок = непрочитанный блок.
+3. В Output добавь блок **«🔥 Катаклизмы»** — каждый ОДНОЙ строкой и языком ELI5 (🧒-стиль:
+   бытовые слова, что сломалось → что теряем → куда бежать), ⛔ без жаргона и внутренних
+   кодовых имён без расшифровки. Пример: «🔥 Голосовые с 12:11 не заливаются в чат — твои
+   надиктовки копятся на диске и не доходят до роботов. Дверь: /voice-memos».
+4. Пожаров нет → одна строка «🔥 катаклизмов не вижу (проверил журнал+сторожа+шину)» —
+   молчание без проверки запрещено (§5.4 пусто из одного места ≠ нет).
+
+## Step 5 — Output (tight + scannable; a review artifact, not a novel)
+1. **🎬 «Сегодня мы поняли»** — the arc (Step 2).
+2. **🎙 Вердикт Майка** — 💰/🔪/🤺/❓ four-liner (Step 2🎙).
+3. **♻️ Reuse table** — artifact · 🟢/🟡/⬆️ · **tested? ✅/❌** · why · routed-to.
+3. **🔁→🛠 Repeats → skills** — any action that repeated this milestone, offered as ДО→ПОСЛЕ (Step 4★); mark each built / proposed / declined.
+4. **🔗 Connect** — «✅N используется · 🔗M передано-ждёт · ⚠️K в воздух» (Step 3🔗); каждый ⚠️ подсвечен явно + решение (подключить потребителя / выбросить).
+4б. **🔄 Outcome** — «N проверено · M живут · K мертвы + решения» (Step 3🔄).
+5. **⛳ Drift map** — «цель <X> · унесло в N тем → 🧷M чипов создано · ♻️K по ходу · 📋J в журнал» (Step 3⛳); chips are already created by now, listed post-hoc.
+6. **📌 Open items** — anything flagged for dev's decision; each one REGISTERED in the task journal (Step 3📋), shown as «#id · задача · линк».
+7. **🗺 Roadmap** — the one-line delta from Step 3🗺 («✅N продвинуто · ➕M добавлено · ⏸ без движения»).
+7. **🗜 Compact handoff** — the saved-note path + the FULL enriched `/compact` block printed inline (Step 6b; указатель на файл запрещён).
+7б. **🔥 Катаклизмы** — топ-3-5 чужих пожаров ELI5-строками, или «катаклизмов не вижу (проверил…)» (Step 4🔥).
+8. **🧒 Простыми словами** recap.
+
+## Step 6 — Compact handoff (retro ⇄ compact glue; STAY in the chat, never /clear)
+The retro's distilled output IS the bridge file — so close the loop without losing context. Two moves:
+
+**6a. Auto-save the retro to the vault IN COMPACT FORMAT** (standing authorization from dev, 2026-06-12 — no per-run ask):
+Reserve the final Latin filename first, acquire exact leases for that note and `01-Conversations/Claude/_Claude-Sessions-MOC.md`, and add the MOC wikilink **before the note's first write**. The no-orphan guard rejects a new note that has no incoming link; if the MOC lease is busy, wait for its owner instead of creating an orphan or overriding the lease. Then write the clean note to `$OBSIDIAN_VAULT/01-Conversations/Claude/Retros/retro-<YYYY-MM-DD>-<latin-topic-slug>.md` — filename **ALWAYS Latin** per [[vault-conventions]] (Cyrillic topic → translit slug; keep the Russian title in frontmatter `aliases:`).
+- Content = frontmatter (`title`, `date`, `type: retro`, `source: claude-session`, `session_id: <cliSessionId — тот же uuid, что в 6a-бис из пути скретчпада>`, `tags`) + the arc (Step 2) + the reuse table (Step 3/4) + **the compact 7-header distillation** (РЕШЕНИЯ / TODO / СЕЙЧАС / ПУТИ И ЗНАЧЕНИЯ / СЧЁТЧИКИ / ОТКРЫТО / ИНСТРУМЕНТЫ И КОНТРАКТЫ — per `$USERPROFILE/.claude/compact-prompt.md`). **This note IS the archive** — it doubles as the compact summary, so retro and compact are never written twice.
+- **NO 🧒 block in the note** — vault notes keep their own voice (the ELI5 recap is for the reply TO dev only).
+- **Wikilinks: vault ≠ memory (two namespaces).** In the retro NOTE, `[[...]]` may target ONLY existing vault notes (`reglament-*`, `protocol-*`, `concept-*`, `decision-*`, another retro — verify each exists before writing); CC-memory slugs (`machine-migration`, `ak47-simplicity`…) go as plain inline code. Caught 2026-07-04 (Fable re-check): a retro shipped 7/7 broken links — all memory slugs. Canon: `deterministic-script-gotchas` → «Vault wikilinks ≠ CC-memory slugs».
+- **Formal review status is a scoped receipt, not prose.** Every independent-review claim in the note MUST be one exact line: `REVIEW[<artifact-id>]: verdict=<VERIFY|ACCEPT|BLOCK|REQUEST_CHANGES>; scope=<what exact bytes/state the verdict covers>; source=<thread:<uuid>|file:<absolute-path>>; reviewer=<name>`. A partial GREEN/RED run never upgrades the formal verdict; a rollback-only VERIFY stays rollback-only and cannot verify the proposal.
+  ⚠️ Три грабли формата, каждая стоила прогона линта (замер 26.09.2026): (1) `scope` — максимум **200 символов**, два sha256 туда уже не влезают, оставляй один и слово «только»; (2) **точка с запятой внутри `scope` рвёт разбор** (поле читается как `[^;]+`) — внутри только запятые; (3) `source=file:<path>` обязан лежать в корнях, которые линт обходит (`~/.claude`, волт, `_imports`, папка дока, cwd) — вывод из `Temp\claude\…\tasks\` не засчитывается, копируй улику к остальным квитанциям. Плюс проза: слова «независимый ревьюер» рядом с «accept/pass/verify» в обычном абзаце тоже требуют receipt, поэтому в тексте пиши «Codex смотрит дифф», а вердикты держи только в receipt-строках. (4) **путь в `source=file:` пиши через ПРЯМЫЕ слэши** (`D:/Vault/...`): обратный слэш съедается любым генератором строки (в Python `\R`/`\0` стали управляющими символами и линт дважды отбил receipt с «битым» путём — замер 27.09.2026).
+- **Door before archive/mark-done:** immediately after drafting the note, run `python -B "$HOME/.claude/scripts/status_claim_lint.py" "<absolute-retro-note>"`. `rc=0` is required before MOC/log/`mark-done`; `rc=2` means correct the claims and rerun. Do not archive or claim verification while this door is red.
+- ⚠️ **Хук `orphan_check_hook` отобьёт запись: новое ретро рождается сиротой.** Дом входящей ссылки один и он известен: `01-Conversations/Claude/_Claude-Sessions-MOC.md`, секция «Свежие ретро» (плюс на ретро ссылаются `DayLedgers/day-ledger-*.md` и `00-System/Breakage-Journal.md`). Впиши строку `- [[retro-...]] · <в чём суть>` ТУДА первой записью батча, до создания note; после появления note проверь, что ссылка ровно одна.
+  ⚠️ Грабля замера 14.09.2026: искать дом грепом по всему волту НЕ надо, `grep -rl` по `D:\Vault\Vault-Knowledge` уходит в таймаут 120с. На таймауте я объявил «ретро не линкует никто» и вписал этот вывод сюда как факт; фоновый прогон досчитался и вывод ОПРОВЕРГ. Ровно [[prichina-kak-claim]]: незавершённый поиск даёт «я не нашёл», а не «этого нет».
+  Вторая ссылка из содержательного дома (реглумент/концепт/решение, к которому ретро относится) полезна и закрывает заодно Step 4, но обязательной является ссылка из MOC.
+- **New-file append only** — never overwrite an existing retro. It's a scoped folder (sits next to the `claude-chats-to-vault` notes), not a live concept/person note, so this is a safe write.
+- Nightly Brain Reindex does NOT make this note `/ask`-searchable. `01-Conversations` is evidence, and `brain_embed_update.py` skips it. Copy the recallable facts into an essence note (`02-Decisions` or `10-Tasks`) in the same retro. The chat catalog indexes the retro file only on its own rebuild, not on the 15-minute brain tick. Proof 2026-09-25: a phrase that lives only in the retro = 0 chunks, the same facts in the decision memo = 1 chunk in `_brain_lex_e5.db`.
+
+**6a-бис. Взять и снять сессию с очереди `/retro-lost` — ОБЯЗАТЕЛЬНО, сразу после 6a** (добавлено 2026-08-19; 4-й датированный случай класса «ночная догонялка судит сессию, у которой ретро ЕСТЬ»: партия 01 — 1 случай, партия 02 — 2, партия 03 — 8 из 10).
+Сканер `retro_lost_scan.py` знает ровно один признак «закрыто» — маркер в `~/.claude/logs/retro_lost_done/`; волт он не читает и про заметку в `Retros/` не догадается. Без этой строки своя же ночная рутина через 5 суток снова читает транскрипт, снова тратит Opus и снова пишет «ретро уже есть».
+- **sessionId брать из пути скретчпада** этой сессии (`…\Temp\claude\<project>\<sessionId>\scratchpad` — имя папки перед `scratchpad`), он есть в системном промпте; гадать по имени файла не нужно.
+- До работы выбери абсолютный путь `<absolute-receipt.json>` вне репозитория и захвати сессию: `python -B "$HOME/.claude/scripts/retro_lost_scan.py" take <sessionId> --holder "<taskId>" --json --receipt-out "<absolute-receipt.json>"`.
+- `rc=0` доверяй только когда durable receipt exists и JSON содержит непустые `question_id`, `session_id`, `logical_file_id`, `holder` и `epoch` как positive integer. Receipt сохрани до подтверждённого DONE: он нужен для replay после crash. При отсутствующем/битом receipt остановись; DONE не ставь.
+- После записи ретро передай значения **дословно из receipt**: `python -B "$HOME/.claude/scripts/retro_lost_scan.py" mark-done "<receipt.session_id>" --question-id "<receipt.question_id>" --logical-file-id "<receipt.logical_file_id>" --holder "<receipt.holder>" --epoch "<receipt.epoch>" --note "<retro-note>"`. Do not recompute identity по пути или sessionId. Wrong/missing identity обязана завершиться fail-closed без DONE/release; точный replay идемпотентен.
+  ⚠️ `"$HOME/..."` буквально работает и в Windows PowerShell 5.1, и в Git Bash. `~` после `python` в PowerShell 5.1 остаётся буквальным путём, а `%USERPROFILE%` раскрывает только CMD.
+- Не смог достоверно определить sessionId — так и скажи строкой в отчёте, НЕ помечай наугад чужую сессию.
+
+**6a-тер. Переименуй сессию: маркер «Р» в видимом имени — СРАЗУ после 6a-бис** (⭐ dev 02.09.2026, голосом: «когда я вижу этот маркер, я понимаю, что дошёл в этой сессии до крупного milestone»; ⭐ **поправка dev 15.09.2026, голосом: маркер теперь просто `Р`, БЕЗ плюсика** — «дописываем не Р с плюсиком, а просто Р»).
+- Вызови `mcp__ccd_session_mgmt__get_session` с `session_id: "self"` → возьми текущий `title`. Если в нём УЖЕ стоит маркер ретро — `Р ` (новый) ЛИБО legacy `Р+`/`р+`/`рр+` — шаг закрыт, второй маркер не лепить и legacy НЕ переписывать (старые имена оставляем как есть, чинить историю нечем и незачем).
+- Иначе `mcp__ccd_session_mgmt__set_session_title` с `session_id: "self"` и `title: "<иконка> Р <старое имя без изменений>"` — маркер `Р` + ПРОБЕЛ, после иконки группы (иконка первой, см. 6a-кватер), без иконки — просто `"Р <старое имя>"`. Меняется ТОЛЬКО человекочитаемое имя в приложении (titleSource=tool), системный id не трогается; имя, данное оператором, сохраняется целиком после маркера.
+- ⚠️ Пробел после `Р` обязателен: он и есть граница маркера. `Р` без пробела слипается с русским словом («Ретро», «Работа») и читатели (жнец, таблица сессий) такую сессию маркером не считают.
+- MCP session_mgmt недоступен (headless `claude -p`, чужой харнес) → одна строка в отчёте «маркер Р не поставлен: нет session_mgmt», не молчи.
+
+**6a-кватер. Проверь ИКОНКУ группы в заголовке — сразу после маркера Р** (⭐ dev 07.09.2026 «кладёшь её в нужную группу»; ⭐ dev 10.09.2026, голосом: «мало пикселей на экране, нужна иконка», и «переименовывать НА СТАРТЕ»).
+- Иконка ставится НЕ здесь, а на СТАРТЕ сессии (скилл `/session-groups`). Ретро только ПЕРЕПРОВЕРЯЕТ: тема сессии за день могла уехать в другую группу.
+- `get_session self` уже вызван в 6a-тер. Заголовок начинается с иконки из алфавита? 💰 $$$ (деньги/оффер/витрины/статьи наружу) · 🧠 2мозг (волт/RAG/память/клон) · ✍️ content (посты/соцсети/Майкрофт) · 🎯 Лиды-CRM · ⚙️ Инфра (скрипты/флот/синк/канон/браузеры) · 🔬 ДРы · 🏠 личное · 📥 SINK (инбокс/шина/посылки) · ❓ не понял.
+- Иконки нет ЛИБО она уже не про эту сессию → `set_session_title self` в форму `<иконка> Р <имя>`. Веха ретро `Р ` живёт ПОСЛЕ иконки (legacy `Р+` в старых именах не переписываем). Гадать запрещено: тема не читается — ставь ❓, оператор разнесёт сам.
+- Строка в отчёт: «иконка: <какая>, флаг ccd_sidebar OFF». Молчать нельзя.
+- Рычаг настоящего переноса = MCP `ccd_sidebar.move_sessions`, появляется только когда приложение его отдаёт: проверка `python ~/.claude/scripts/claude_desktop_gate_probe.py` (exit 0 = флаг id_0bae24da ON) → тогда переноси по-настоящему, а иконка больше не нужна. Замер 07-10.09: флага в выдаче фич нет, issue anthropics/claude-code#92621.
+- ⛔ Правка `claude_desktop_config.json` руками НЕ рельса: приложение файл живьём не перечитывает и перепишет из памяти (замер 07.09).
+- Канон: память `session-group-at-retro`; движок и алфавит — скилл `/session-groups`; публичная копия github.com/tonydzi/claude-session-icons.
+
+**6b. PRINT the READY enriched paste-line INLINE — обязательный выход КАЖДОГО ретро (⭐ dev 26.08, голосом: «каждый раз давай готовый текст компакта; иди-в-файлик — неудобно»).**
+- ⚠️ Fact base (2026-07-22): bare `/compact` does NOT read our format — 354/354 past compacts fell back to the DEFAULT English template; PreCompact hooks cannot inject (issue #14160). The 7-header format applies ONLY pasted inline: `/compact <text>`.
+- **Procedure = same enrichment as `/cc` Steps 2-3** (single source of mechanics — don't duplicate, read `~/.claude/skills/cc/SKILL.md`): take the skeleton from `$USERPROFILE/.claude/compact-prompt.md` § «Готовая строка», FILL all 7 headers with THIS session's real facts — reuse the distillation already written into the 6a vault note, don't re-derive — and PRINT one fenced ```code``` block starting with `/compact `, со строкой над ним: «➤ Скопируй блок целиком и вставь следующим сообщением». Then the fork:
+> **«Готово, всё в волте. Остаёшься в сессии — вставь блок ниже целиком (без него сжатие пойдёт по дефолтному английскому шаблону). Новый чат — просто уходи, всё уже заархивировано.»**
+- ⛔ **Указатель вместо блока ЗАПРЕЩЁН.** «Вставь блок из `~/.claude/compact-prompt.md`» / «возьми текст в файле» = нарушение правила (ровно эта формулировка — жалоба оператора 26.08). Пустой скелет с `<...>` — тоже нарушение: блок обязан быть обогащён сессией. Канон: память `compact-dev-prefers-zero-touch` §Поправка 26.08 + `compact-format-delivery-gotcha`.
+- **retro = «не уверен, пора ли»** (archives so both doors stay open, risk-free); **compact = «точно остаюсь»** → paste the block.
+- I (the agent) **cannot press `/compact` myself** — it's a harness command. The archive is automatic; printing the ready line is my half, the paste is dev's.
+
+## Scope / don't-duplicate
+- Internal build-retro only. NOT the public Facebook diary (`facebook-diary-daily`) and NOT the preference scanner (`preference-sweep-daily`).
+- If a session built nothing durable, say so plainly — skip the ceremony (but still offer the `/compact` block if the chat got long).
+
+## ⭐ Полнота списка потребителей (dev 10.09.2026)
+
+Первый найденный потребитель почти никогда не единственный — он просто лежал на поверхности. Поиск закончен не когда кто-то найден, а когда **две оси подряд дали ноль новых имён**; внутренний потребитель (узел флота, робот, наш же скилл с костылём) ищется ПЕРВЫМ. Девять осей перебора и обязательный вердикт с числом («осей N/9 · адресов M · насыщение да/нет») — `/consumer-hunt` §Шаг 1-бис. ⚠️ Исчерпывающим обязан быть ПОИСК, адресация идёт по правилам двери: найденный адрес не выбрасывается, а получает статус и дату (🟢 постучались · ⏸ глухая очередь по замеру · 🪦 непереносимо). Канон: `reglament-vypustil-funkcional-naydi-potrebiteley-i-pridi-k-nim` §Поправка 10.09 + [[consumers-are-a-set-not-the-first-one]].
+
+---
+
+**Claude:**
+
+Ретро пошло. Прогоняю детерминированные приборы пачкой.
+
+---
+
+> `Bash` -- {"command": "python -c \"import datetime; print('СЕЙЧАС bash:', datetime.datetime.now().isoformat(timespec='seconds'))\"; python \"C:/Users/dev/.claude/scripts/onair.py\" list 2>&1 | head -6; python \"C:/Users/dev/.claude/scripts/memory_harvest.py\" --scan 2>&1 | tail -3; python \"C:/Users/dev
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/rail_plan.py\" verdict --session s_1c1c6ff0 2>&1 | head -15", "description": "Вердикт плана рельс этой сессии"}
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/rail_plan.py\" declare --session s_1c1c6ff0 --self \"оркестрация, правка канона (Библия/CLAUDE.md/память), малый код-патч jobs_discover + тесты, суждение, волт\" --outsource \"\" 2>&1 | tail -2; python \"C:/Users/dev/.c
+
+---
+
+> `Bash` -- {"command": "python \"C:/Users/dev/.claude/scripts/rail_plan.py\" verdict --session s_1c1c6ff0 2>&1 | tail -6", "description": "Повторный вердикт рельс после declare"}
+
+---
+
+**Claude:**
+
+Сверка рельс закрыта. Пишу ретро-заметку в волт: сначала ссылка в MOC, потом заметка.
+
+---
+
+> `Bash` -- {"command": "grep -n \"Свежие ретро\" \"D:/Vault/Vault-Knowledge/01-Conversations/Claude/_Claude-Sessions-MOC.md\" | head -2", "description": "Найти секцию «Свежие ретро» в MOC"}
+
+---
+
+> `Read` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\01-Conversations\\Claude\\_Claude-Sessions-MOC.md", "offset": 890, "limit": 5}
+
+---
+
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\Vault-Knowledge\\01-Conversations\\Claude\\_Claude-Sessions-MOC.md", "old_string": "## Свежие ретро\n- [[retro-2026-10-01-human-touch-digest-duplicate-collapsed]]", "new_string": "## Свежие ретро\n- [[retro-2026-10-01-mission-100-interviews-six-lane
+
+---
+
+> `Write` -- {"file_path": "D:\\Vault\\Vault-Knowledge\\01-Conversations\\Claude\\Retros\\retro-2026-10-01-mission-100-interviews-six-lanes.md", "content": "---\ntitle: \"Ретро: миссия 100 собеседований — шесть полос шестью сессиями\"\naliases: [\"Ретро 01.10 — миссия найма: гигантский поток заявок\"]\ndate: 
+
+---
+
+> `Bash` -- {"command": "python -B \"C:/Users/dev/.claude/scripts/status_claim_lint.py\" \"D:/Vault/Vault-Knowledge/01-Conversations/Claude/Retros/retro-2026-10-01-mission-100-interviews-six-lanes.md\"; echo rc=$?; python -B \"C:/Users/dev/.claude/scripts/retro_lost_scan.py\" take 9735d8f0-f305-4fa6-93f8
+
+---
+
+> `Bash` -- {"command": "python -B \"C:/Users/dev/.claude/scripts/retro_lost_scan.py\" mark-done \"s_1c1c6ff0\" --question-id \"retro-lost:s_1c1c6ff0\" --logical-file-id \"c:\\Users\\dev\\.claude\\projects\\P---WORKDIR-HUB\\9735d8f0-f305-4fa6-
+
+---
+
+> `mcp__ccd_session_mgmt__get_session` -- {"session_id": "self"}
+
+---
+
+> `mcp__ccd_session_mgmt__set_session_title` -- {"session_id": "self", "title": "💰 Р Поиск работы оператора в AI-компаниях"}
+
+---
+
+> `Bash` -- {"command": "python \"D:/Vault/_imports/content-factory/content_miner.py\" capture --title \"Нанимают не лучших, а дошедших: мы перевели найм на арифметику\" --note \"Посчитали честно: 100 собеседований при конверсии холодной заявки 3-5% = 2500-5000 заявок. При темпе 10/день это год. Вывод-правил
+
+---
+
+**Claude:**
+
+23:37 хаба (22:37 Лиссабон; да, мои ранние метки времени врали — часы разъехались, сессия починки корня уже стоит)
+
+# 🎬 Сегодня мы поняли
+
+Миссия найма перестала быть «найти хорошие роли» и стала **арифметикой потока**: 100 собеседований = 2500–5000 заявок = 50–80 в день, а у нас было 4–10. Всё, что сделано за сессию, бьёт в эту цифру: канон перезаписан (Библия v1.2.0, CLAUDE.md v5.27.0), дверь движка открыта интернам (в базе появились 46 intern + 26 fellows/residency ролей лабораторий, вчера они выбрасывались молча), флоту ушёл приказ «20 подач/день с каждой машины», и все шесть полос потока получили ПО ОТДЕЛЬНОЙ СЕССИИ, как ты приказал капсом.
+
+Второе: твоё правило про скиллы принято в канон — **скилл = умение, не файл под ОС**; раздаём даже несовместимое, узел обязан доработать под себя (Библия `reglament-skilly-krossplatformenny-razdaem-dazhe-nesovmestimoe`). Пост про Майкрофта и новый Mac Pro лежит черновиком в дневнике, твоими словами почти дословно.
+
+# 🎙 Вердикт Майка
+
+💰 **Деньги-линза:** сегодняшний максимум к офферу — не код, а то, что 6 полос теперь бегут сами; конверсия в интервью начнётся, когда завтра pipeline-repair поднимет упавшую рутину подач (не бегала с 24.09 — вот где терялся темп).
+🔪 **Что убил бы:** мои первые метки времени — писал «14:45», когда было ~23:30; мелочь, но врущие часы в отчётах подрывают доверие ко всем цифрам. Корень чинится завтра.
+🤺 **Спарринг-аудит:** спорил честно один раз — student-only программы (new grad/campus) оставил отсечёнными ВОПРЕКИ широте твоего «как угодно засунуть»: их анкеты режут по году выпуска автоматом, подача сгорает до человека. Скажешь «подавай и туда» — сниму одной строкой.
+❓ **Вопрос:** 100 интервью = 150–200 часов твоих разговоров за 3–4 месяца, по 8–10 в неделю. Календарь под это чистим уже сейчас или ждём первой волны ответов?
+
+# ♻️ Что собрано (все прошли /tt или названы честно)
+
+| Артефакт | Класс | Проверка |
+|---|---|---|
+| Интерн-дверь `door_cluster` (коммит a09b4613) | 🟢 Keep | красный тест → 45/45 ✅, второй заход свежим процессом ✅ |
+| Библия §Поправка 01.10 v1.2.0 + норма флота 20/день | 🟢 Keep | разложено по 6 домам, счётчик дверей ✅ |
+| Правило кроссплатформенных скиллов (Библия + память) | 🟢 Keep | дверь = существующий /local-fleet-install |
+| Промпт-сид Codex (`08-Templates/codex-apply-routine-prompt.md`) | 🟢 Keep | ⚠️ ждёт первого прогона Codex'ом |
+| Очередь реферралов (201 кандидат) + 11 вопросов анкет тебе | 🟡 очереди | потребители = завтрашние сессии |
+| Черновик дневника про Mac Pro | 🟡 | вычитываешь сам |
+
+# 🔗 Connect / 🚂 Рельсы / 🩹
+
+🔗 Connect: ✅ канон+дверь+broadcast используются · 🔗 промпт Codex и 6 сессий ждут завтрашних прогонов · ⚠️ в воздух — ничего. 🚂 Рельсы: план объявлен поздно (на ретро, не на старте — нарушение, названо честно), наружу LLM не отдавал: канон и малый код = мой класс. 🩹 Поломки: clock-skew записан в журнал (по семье 7 случаев, порог пройден → сессия `/five-whys` завтра 14:30); второй урок — дважды написал fireAt руками вместо двери `fireat_now.py`, которая ровно для этого существует.
+
+# ⏰ Что бежит завтра (все видимые, в списке приложения)
+
+07:30 реферралы (201 кандидат) · 08:00 рекрутёры · 08:30 штатная пачка 20 · 09:30 ремонт конвейера · 10:30 интерн/fellows-полоса · 11:00 вселенная ИИ-стартапов · 13:00 парити флота «кто поставил 20/день» (NODE-0X первым) · 14:30 починка часов.
+
+# 📌 Тебе (две вещи, обе быстрые)
+
+1. **Промпт для Codex** — ниже, вставляешь целиком. Полная копия лежит в `08-Templates/codex-apply-routine-prompt.md` и уехала флоту с посылкой.
+2. **11 вопросов анкет** в [apply-questions-for-dev-2026-10-01.md](D:/Vault/Vault-Knowledge/04-Projects/Pipe-A-Batches/apply-questions-for-dev-2026-10-01.md) — ответишь номерами, разблокируются до 185 застрявших заявок.
+
+**Промпт для Кодекса (вставь ему как есть):**
+
+```
+Ты — агент на машине флота оператора. Твоя постоянная задача: ПОДАВАТЬ ЗАЯВКИ НА ВАКАНСИИ от лица оператора, 20 штук в день с этой машины. Миссия (канон 01.10.2026): гигантский поток исходящих заявок, чтобы оператор провёл минимум 100 собеседований в ИИ-компаниях. Вход важнее уровня роли: в ИИ-лаборатории подаёмся на любую штатную позицию, включая интерншип.
+
+ШАГ 0, ОДИН РАЗ: поставь себя на рутину — ежедневная задача планировщика ОС (Windows: schtasks), которая в 12:30 локального времени запускает тебя headless с этим же промптом (codex exec --full-auto). Час 12:30 — чтобы не пересекаться с прогоном Claude в 08:30.
+
+КАЖДЫЙ ПРОГОН: (1) cd D:\Vault\_imports\jobs-watch\. (2) python batch_daily.py -n 20 — отбор сам пометит роли status='batched' (атомарно, защита от двойной подачи: база общая на флот) и выложит бриф в 04-Projects\Pipe-A-Batches\batch-<дата>.md. НЕ выбирай роли мимо batch_daily. (3) Подай каждую строку через selenium-стек в selenium_apply/ (профиль робота Firefox robot1, секреты в store машины). Ответы анкет — ТОЛЬКО из selenium_apply/answers_canon.py и apply-playbook.md; нет ответа — статус blocked-question + подпись вопроса в apply-questions-for-dev-<дата>.md, НИЧЕГО не выдумывай. (4) status='applied' только по ПОДТВЕРЖДЁННОМУ исходу (экран submitted / письмо), applied = дата ISO. (5) Доклад строкой: python ~/.claude/scripts/bus_send.py "<узел>: apply-codex N applied / M blocked / причины". Ноль подач = дефект с названной причиной.
+
+ЖЕЛЕЗНОЕ: правда в цифрах (опыт не занижать, статусы не рисовать); слова «founder/фаундер/co-founder/основатель» и «не-кодер» про оператора ЗАПРЕЩЕНЫ (он наёмный COO/CTO, программист Python/C++); тексты от первого лица оператора, «ты бот?» не отрицаем; капы ≤2/компанию в день (batch_daily сам считает) + вендорские (Mistral 3/90д, OpenAI 5/180д); интерншип в лаборатории = подаёмся, new grad/campus = нет; CAPTCHA не обходим (blocked-captcha, едет на другой IP); деньги/оффер/юр.подпись = только оператор; работаешь параллельно с Claude в той же папке — скажи ему строкой через _machine-bus, молча нельзя.
+```
+
+# 🔥 Катаклизмы соседей (твоя читаемая лента тревог)
+
+- 🔥 Рутина подач на хабе молчала 7 дней (с 24.09) — заявки шли только ручными сессиями, темп упал вчетверо. Чинится завтра 09:30 (pipeline-repair).
+- 🔥 Регресс-сетка хаба мертва ~8 суток (4 падения подряд) — ночные проверки «всё ли работает» сами не работают. Сессия починки уже в очереди (fix-regression-grid).
+- 🔥 Посылки канона не применяются на Маяке (3-й случай) — правила доезжают, но не встают; сессия 5-почему стоит.
+
+# 🗜 Компакт
+
+➤ Скопируй блок целиком и вставь следующим сообщением, если остаёшься в этой сессии:
+
+```
+/compact РЕШЕНИЯ: миссия найма 01.10 = гигантский поток заявок -> >=100 собеседований в ИИ-компаниях; интерншип/fellows в лабе = подаёмся (student-only new grad/campus отсечены решением робота, слово оператора снимет); норма флота 20 подач/день/узел, часы разнесены, капы общие; стартап = сильные роли первыми, крупная = все уровни; скиллы кроссплатформенны — раздаём даже несовместимое, узел дорабатывает; все 6 полос потока = отдельные сессии (приказ капсом). TODO: завтра бегут 07:30 referral (201 кандидат) / 08:00 recruiter / 08:30 пачка 20 / 09:30 pipeline-repair / 10:30 intern-lane / 11:00 startup-universe / 13:00 fleet-parity (NODE-0X первым) / 14:30 five-whys-clock-skew; оператору: 11 вопросов анкет (apply-questions-for-dev-2026-10-01.md) + вставить промпт Codex (08-Templates/codex-apply-routine-prompt.md). СЕЙЧАС: ретро закрыто, заметка retro-2026-10-01-mission-100-interviews-six-lanes в волте, mark-done у retro-lost стоит. ПУТИ И ЗНАЧЕНИЯ: Библия reglament-vnutr-ii-laboratorii-lyuboy-cenoy-poziciya-ne-vazhna v1.2.0 (§Поправка 01.10 + норма флота); reglament-skilly-krossplatformenny-razdaem-dazhe-nesovmestimoe v1.0.0; CLAUDE.md v5.27.0 §9.14; jobs_discover.py INTERN_OK_RX/STUDENT_ONLY_RX коммит a09b4613; очереди в 04-Projects/Pipe-A-Batches/ (referral-lane-candidates-20261001, apply-questions 01.10); дневник drafts/2026-10-01-dev-macpro.md. СЧЁТЧИКИ: jobs.db 16973 new / 522 applied / темп 4-10/день / blocked 597 (вопросы 185); lab-door 2066, intern 46 + fellows 26; цель 50-80 подач/день, флот до 140. ОТКРЫТО: student-only отсечка = решение робота; GEO режет lab-door как всех (релокация на столе — кандидат на пересмотр); Ashby тихий отказ с 24.09 — перепроверит pipeline-repair; pipe-a-apply-daily не бегала с 24.09. ИНСТРУМЕНТЫ И КОНТРАКТЫ: batch_daily.py -n 20 = атомарный отбор (status=batched защищает флот от двойной подачи); fireAt писать ТОЛЬКО через fireat_now.py --in N (часы хаба расходятся на ~9ч, класс в журнале, 5-почему завтра); selfheal.py journal + prior_art.py class перед именованием класса поломки; bus_send.py = dual-send обоих рельс.
+```
+
+🧒 Простыми словами: ты сказал «все шесть способов, и каждый своей отдельной сессией» — сделано: шесть помощников проснутся завтра утром один за другим, каждый копает свою грядку. Весь флот получил приказ «20 заявок в день с каждого компьютера», промпт для Кодекса готов — просто вставь ему. Новое правило про скиллы записано в Библию: скилл — это умение, а не файлик, поэтому раздаём всем и каждый компьютер подгоняет под себя. Твой пост про Майкрофта лежит в дневнике, почти слово в слово как ты надиктовал. От тебя две мелочи: ответить на 11 вопросов анкет и скормить Кодексу промпт.
+
+23:40 хаба (22:40 Лиссабон)
+
+---
+
+**User:**
+
+pus
+ПЕРВЫМ ДЕЛОМ переименуй эту сессию: вызови mcp__ccd_session_mgmt__set_session_title с title "[Робот] 🫸 Проталкивалка сессий".
+
+Ты — сессия-проталкивалка, рождённая рутиной session-pusher-tick. Твоя работа: протолкнуть вперёд чужие вставшие сессии и закрыться. Свою задачу ты не придумываешь.
+
+Выполни скилл /push целиком:
+1) узнай свой sessionId (mcp__ccd_session_mgmt__get_session, "self");
+2) python ~/.claude/scripts/session_pusher.py report --self-sid <свой sessionId>;
+3) по каждой строке посмотри ПОЛОСУ (колонка push / RETRO -- её задаёт прибор, не ты);
+4) полоса push: суди по хвосту, толкать или нет (законченную не толкай, помечай mark с причиной),
+   толкай через mcp__ccd_session_mgmt__send_message телом толчка из скилла /push Шаг 3а,
+   но СПЕРВА РЕЗЕРВ, не после: python ~/.claude/scripts/session_pusher.py claim --session <sid> --why "толчок N: <класс>"
+   exit 0 = резерв твой, посылай - exit 3 = ЗАНЯТО (другой толкач уже послал или потолок выбран) -> НЕ посылай;
+   отправка упала -> mark --session <sid> --unmark --why "send_message упал, резерв возвращён";
+5) полоса RETRO (три толчка выбраны, 4-я команда по приказу оператора 05.10.2026): пошли телом
+   "/retro push3" из скилла /push Шаг 3б -- сессия сама дистиллирует себя и допишет строку в
+   журнал session_retro_digest.py, затем
+   но СПЕРВА РЕЗЕРВ: python ~/.claude/scripts/session_pusher.py claim --session <sid> --retro --why "4-я команда: ретро"
+   exit 3 = ретро уже зарезервировано другим толкачом -> дубль НЕ посылай;
+6) ДОЛГИ ПО ДИСТИЛЛЯТАМ (сторож выхода, ~48 с, 0 токенов):
+   python ~/.claude/scripts/retro_rule_health.py
+   exit 0 = долгов нет · 3 = есть · 1 = прибор СЛЕП (это НЕ «долгов нет», скажи вслух).
+   Долг = сессия ПО ТРАНСКРИПТУ выбрала три продолжения, затихла, а строки в журнале
+   дистиллятов нет: правило сработало вхолостую. Что делать с каждым долгом:
+   - простой В ОКНЕ (до 12 ч) -> это твоя работа, посылай ретро как в Шаге 3б скилла /push
+     (claim --retro -> send_message -> unmark при провале);
+   - простой БОЛЬШЕ окна -> тебе рельса не достаёт, НЕ широкай окно: назови такие сессии
+     поимённо в докладе как заказ для ночной рутины /retro-lost (её дом, не твой).
+7) доклад таблицей ВНУТРИ СЕБЯ (кого толкнул, кому послал ретро, какие долги нашёл и что
+   с ними сделал, кому ретро задолжали из-за рельсы) и закройся.
+
+Границы: потолок 3 толчка на сессию за сутки держит прибор, 4-я команда = ретро, а не 4-й толчок. В группу 001 (chat_REDACTED) не писать НИЧЕГО. Наружу не писать ничего. Чужие задачи за них не решать. Tier-2 остаётся за оператором.
+
+---
+
+**User:**
+
+[Request interrupted by user]
