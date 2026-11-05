@@ -1,17 +1,517 @@
 # Sessions, 2026-10
 
-2,699 sessions, 7,742,766 words in this month. Newest first.
+3,199 sessions, 9,709,473 words in this month. Newest first.
 Back to the [index](../../index.md).
 
 | date | session | topic | words |
 |---|---|---|---|
+| 2026-10-15 | [`s_09bfbcfb`](session-s_09bfbcfb.md) | Дерево принятия решений. Мне нужно, чтобы все мои сессии в Клоде, в Кодексе, где-либо еще… | 23,766 |
+| 2026-10-15 | [`s_1d81e769`](session-s_1d81e769.md) | Взаимодействие нашего флота по шине SSH. Я вижу, что мы часто используем шину SSH для взаи… | 22,442 |
+| 2026-10-15 | [`s_19607af0`](session-s_19607af0.md) | Само улучшение сессии. Что такое само улучшение сессии? Допустим, у вас есть рутина, котор… | 7,278 |
+| 2026-10-15 | [`s_0f2fdf92`](session-s_0f2fdf92.md) | Scheduled run: voice-triage | 6,234 |
+| 2026-10-15 | [`s_272e4cb0`](session-s_272e4cb0.md) | Scheduled run: touchbase-daily-runner | 5,361 |
+| 2026-10-15 | [`s_0d1f9f60`](session-s_0d1f9f60.md) | Scheduled run: day-summary-human-touch | 5,134 |
+| 2026-10-15 | [`s_14cc8df5`](session-s_14cc8df5.md) | Scheduled run: journey-day-close-morning | 4,925 |
+| 2026-10-15 | [`s_26b2d2b3`](session-s_26b2d2b3.md) | Scheduled run: auto-hub-260901-cv-rebuild-contacts | 4,645 |
+| 2026-10-15 | [`s_5c3c48ce`](session-s_5c3c48ce.md) | Scheduled run: claudeai-sync-daily | 4,400 |
+| 2026-10-15 | [`s_2c2e975e`](session-s_2c2e975e.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 4,391 |
+| 2026-10-15 | [`s_53d56937`](session-s_53d56937.md) | Scheduled run: content-lang-pairs-nightly | 4,260 |
+| 2026-10-15 | [`s_60c16929`](session-s_60c16929.md) | Scheduled run: shadow-harvest-daily | 4,130 |
+| 2026-10-15 | [`s_61ea1972`](session-s_61ea1972.md) | Scheduled run: chatgpt-token-guard-nightly | 4,062 |
+| 2026-10-15 | [`s_1e140713`](session-s_1e140713.md) | Scheduled run: teach-podcast-queue | 3,932 |
+| 2026-10-15 | [`s_2e5f7cc5`](session-s_2e5f7cc5.md) | Scheduled run: auto-hub-260806-inbound-triage-daily | 3,902 |
+| 2026-10-15 | [`s_670c2df3`](session-s_670c2df3.md) | Scheduled run: registry-dispatcher-daily | 3,692 |
+| 2026-10-15 | [`s_5476927a`](session-s_5476927a.md) | Scheduled run: canon-writer-nightly | 3,354 |
+| 2026-10-15 | [`s_73b3c74f`](session-s_73b3c74f.md) | Scheduled run: invite-autoconfirm-nightly | 3,330 |
+| 2026-10-15 | [`s_3e46c17e`](session-s_3e46c17e.md) | Scheduled run: pipe-a-apply-daily | 3,299 |
+| 2026-10-15 | [`s_0f3d9d1d`](session-s_0f3d9d1d.md) | Scheduled run: content-miner-nightly | 3,265 |
+| 2026-10-15 | [`s_56666034`](session-s_56666034.md) | Scheduled run: facebook-diary-daily | 2,998 |
+| 2026-10-15 | [`s_61b7d2a0`](session-s_61b7d2a0.md) | Scheduled run: jobs-tg-nightly | 2,585 |
+| 2026-10-15 | [`s_6057278b`](session-s_6057278b.md) | Scheduled run: day-ledger-nightly | 2,368 |
+| 2026-10-15 | [`s_22061666`](session-s_22061666.md) | Проведи рекорд, какой мы жесткий диск хотели купить. Для того, чтобы у нас быстро работал… | 1,289 |
+| 2026-10-15 | [`s_27d45adf`](session-s_27d45adf.md) | INTENTION_LANE_AUTORUN | 1,270 |
+| 2026-10-15 | [`s_6056870d`](session-s_6056870d.md) | Independent read-only reviewer. dev explicitly requests consensus on this existing skill e… | 1,239 |
+| 2026-10-15 | [`s_561cd3a6`](session-s_561cd3a6.md) | Round 2/3; corr_id=local-to-call-reschedule-20261015-r1. Read-only independent review by C… | 1,167 |
+| 2026-10-15 | [`s_45006f0f`](session-s_45006f0f.md) | Продолжение сессии про Ануфриева. Только что ты принимал сессию про Ануфриева. И там у нег… | 1,029 |
+| 2026-10-15 | [`s_1a9eda23`](session-s_1a9eda23.md) | Ты независимый стратегический оппонент. Попытайся сломать мой вывод, а не соглашаться авто… | 998 |
+| 2026-10-15 | [`s_49c08fbb`](session-s_49c08fbb.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 770 |
+| 2026-10-15 | [`s_63518c32`](session-s_63518c32.md) | Этот парень, используя Claude Code + YouTube, создаёт анимационные видео и зарабатывает 90… | 767 |
+| 2026-10-15 | [`s_4a8a5777`](session-s_4a8a5777.md) | Scheduled run: raise-pearx-20261006 | 734 |
+| 2026-10-15 | [`s_73daedb8`](session-s_73daedb8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 692 |
+| 2026-10-15 | [`s_63aeba87`](session-s_63aeba87.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 644 |
+| 2026-10-15 | [`s_72f39067`](session-s_72f39067.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 545 |
+| 2026-10-15 | [`s_21ce7ff6`](session-s_21ce7ff6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 493 |
+| 2026-10-15 | [`s_3dbfb513`](session-s_3dbfb513.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 480 |
+| 2026-10-15 | [`s_1a5d89fd`](session-s_1a5d89fd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 470 |
+| 2026-10-15 | [`s_2409d567`](session-s_2409d567.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 468 |
+| 2026-10-15 | [`s_61ba6985`](session-s_61ba6985.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 467 |
+| 2026-10-15 | [`s_6b12cfa6`](session-s_6b12cfa6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 444 |
+| 2026-10-15 | [`s_0760caff`](session-s_0760caff.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 442 |
+| 2026-10-15 | [`s_4b221a10`](session-s_4b221a10.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 427 |
+| 2026-10-15 | [`s_2726d2e7`](session-s_2726d2e7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 424 |
+| 2026-10-15 | [`s_756869a1`](session-s_756869a1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 417 |
+| 2026-10-15 | [`s_110eeda7`](session-s_110eeda7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 398 |
+| 2026-10-15 | [`s_62d1ae56`](session-s_62d1ae56.md) | from pathlib import Path | 379 |
+| 2026-10-15 | [`s_18a78b58`](session-s_18a78b58.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 360 |
+| 2026-10-15 | [`s_59c8aacb`](session-s_59c8aacb.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 348 |
+| 2026-10-15 | [`s_2b97f978`](session-s_2b97f978.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 325 |
+| 2026-10-15 | [`s_19f3a20e`](session-s_19f3a20e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 302 |
+| 2026-10-15 | [`s_15b4e3b7`](session-s_15b4e3b7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 296 |
+| 2026-10-15 | [`s_170e82d1`](session-s_170e82d1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 265 |
+| 2026-10-15 | [`s_3188955b`](session-s_3188955b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 228 |
+| 2026-10-15 | [`s_6f580ba2`](session-s_6f580ba2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 220 |
+| 2026-10-15 | [`s_2e4310d6`](session-s_2e4310d6.md) | Ответь только DUAL-1553-OK. Контрольная проба двойного запуска 15 октября. Ничего не меняй… | 16 |
+| 2026-10-15 | [`s_6bec6618`](session-s_6bec6618.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_6a295a13`](session-s_6a295a13.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_5ffaf5d5`](session-s_5ffaf5d5.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_5ca21e2c`](session-s_5ca21e2c.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_594501d4`](session-s_594501d4.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_54bdb26f`](session-s_54bdb26f.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_53555546`](session-s_53555546.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_51dbdc34`](session-s_51dbdc34.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_4e27072d`](session-s_4e27072d.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_483bfb14`](session-s_483bfb14.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_4391c0b4`](session-s_4391c0b4.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_3b1acb0a`](session-s_3b1acb0a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_35fee513`](session-s_35fee513.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_32c4f0cb`](session-s_32c4f0cb.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_32068c3c`](session-s_32068c3c.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_30cc138e`](session-s_30cc138e.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_2a4f98d7`](session-s_2a4f98d7.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_25d0f8ca`](session-s_25d0f8ca.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_25460de6`](session-s_25460de6.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_1dba178f`](session-s_1dba178f.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_1d557791`](session-s_1d557791.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_1be18e6c`](session-s_1be18e6c.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_11296c5f`](session-s_11296c5f.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_0875d1ee`](session-s_0875d1ee.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_07d3bc10`](session-s_07d3bc10.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_056ba119`](session-s_056ba119.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_024f33be`](session-s_024f33be.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-15 | [`s_2a8dca06`](session-s_2a8dca06.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-14 | [`s_c773b87f`](session-s_c773b87f.md) | Нужно провести замер и глубокое исследование. Клод в последней своей презентации заявляет… | 49,809 |
+| 2026-10-14 | [`s_99ce7f18`](session-s_99ce7f18.md) | Посмотри все сессии, которые были в шине 001 за последние 5 дней, с 9 примерно октября. И… | 41,875 |
+| 2026-10-14 | [`s_480995ef`](session-s_480995ef.md) | CONTENT_DRAIN_AUTORUN | 38,667 |
+| 2026-10-14 | [`s_96ca2daf`](session-s_96ca2daf.md) | Проверить эти Варанаси и податься на них | 36,435 |
+| 2026-10-14 | [`s_fbb5a20f`](session-s_fbb5a20f.md) | До конца года, до конца года, найди мне AI. Самые крупные ивенты, для которых можно ехать… | 36,025 |
+| 2026-10-14 | [`s_c5ef3851`](session-s_c5ef3851.md) | Нужно провести глубокое исследование добавления гашеной и негашеной извести в растворы с б… | 34,639 |
+| 2026-10-14 | [`s_fc786dfb`](session-s_fc786dfb.md) | Нужно продумать полноценный onboarding для нового peer | 29,420 |
+| 2026-10-14 | [`s_5da399d8`](session-s_5da399d8.md) | вспомнить все, что а, сейчас у нас есть наши, а, по поводу нашей транскрибации а, из а, пл… | 29,390 |
+| 2026-10-14 | [`s_ea2e7d1c`](session-s_ea2e7d1c.md) | Нужно изучить это видео и сказать что правда или ложь | 28,817 |
+| 2026-10-14 | [`s_54df48c3`](session-s_54df48c3.md) | Проведи др по хаку хаггин фейс. Какой урок для нас можно извлечь? | 27,699 |
+| 2026-10-14 | [`s_22e37d5b`](session-s_22e37d5b.md) | Значит, нужно скинуть мультировку. То есть самая важная дозовка, мне кажется. Другой аргум… | 26,866 |
+| 2026-10-14 | [`s_679120c6`](session-s_679120c6.md) | В Facebook часто пишут, что open source и vibe coders всё захватят: софт становится всё пр… | 25,852 |
+| 2026-10-14 | [`s_bdc6aa69`](session-s_bdc6aa69.md) | https://github.com/coddy-project/coddy-agent | 25,573 |
+| 2026-10-14 | [`s_04024c55`](session-s_04024c55.md) | Нужно сгенерить 5 обучающих меня подкасты по последним 2-3 неделям по этому контенту ai tl… | 25,411 |
+| 2026-10-14 | [`s_de109898`](session-s_de109898.md) | На хабе, в Codex есть сессия, где LikeM5 объясняет, что происходило в четверг и пятницу на… | 25,137 |
+| 2026-10-14 | [`s_63b007d3`](session-s_63b007d3.md) | Сделать себе подкаст о том, какого стартапа имеет смысл быть сейчас в эру ИИ. Когда ты сде… | 25,126 |
+| 2026-10-14 | [`s_6a57cf42`](session-s_6a57cf42.md) | На гитхабе и на моем сайте мне нужно какую-нибудь страничку, сколько токенов мы уже исполь… | 24,602 |
+| 2026-10-14 | [`s_9730a517`](session-s_9730a517.md) | Надо найти способы как мне организовывать свои митапы или выступать спикером на чужих мита… | 24,437 |
+| 2026-10-14 | [`s_021f0db9`](session-s_021f0db9.md) | Проведи ДР чем нам может полезна эта тулза | 23,511 |
+| 2026-10-14 | [`s_bdbdec9d`](session-s_bdbdec9d.md) | Нужно сделать рутину. Может быть, мы ее уже сделали или не сделали. Она должна быть, навер… | 23,187 |
+| 2026-10-14 | [`s_b8bbf242`](session-s_b8bbf242.md) | У меня только что закончился звонок с Мюрреем Ньюленсом. И мы обсуждали его текущие зарабо… | 22,942 |
+| 2026-10-14 | [`s_db681211`](session-s_db681211.md) | Серия (датированные случаи, по словам сессии H22716 local_8209daa4): 23.09, 25.09, 14.10 | 22,836 |
+| 2026-10-14 | [`s_29772cc7`](session-s_29772cc7.md) | Нам нужно так сразу вести наш гитхаб и мне мой блог, чтобы мы говорили всем юзерам. Давайт… | 22,019 |
+| 2026-10-14 | [`s_3a22cd04`](session-s_3a22cd04.md) | Нашел интересную особенность: при поиске в разных сессиях и с разных компьютеров агент час… | 21,573 |
+| 2026-10-14 | [`s_b902755e`](session-s_b902755e.md) | На завершении ноября, с 1 по 10 декабря, найти даты, когда логичнее всего приехать в Сан-Ф… | 20,905 |
+| 2026-10-14 | [`s_d9203f87`](session-s_d9203f87.md) | E:\!CLAUDE-HUBPC-June26\downloads\deep-research-report (3).md | 20,899 |
+| 2026-10-14 | [`s_56b22c9e`](session-s_56b22c9e.md) | Сайт пало альто надо разлодить на главы | 20,896 |
+| 2026-10-14 | [`s_e3c95b90`](session-s_e3c95b90.md) | Провести исследование по объему синхронизированных файлов, бэкапов и других данных: скольк… | 20,675 |
+| 2026-10-14 | [`s_b228584e`](session-s_b228584e.md) | Мне кажутся продукт позож на наш второй мозг? | 20,675 |
+| 2026-10-14 | [`s_449dbf5c`](session-s_449dbf5c.md) | Изучи что это за заведение в менло парк и какую пользу мы можем от сюда взять | 20,539 |
+| 2026-10-14 | [`s_43fb7a86`](session-s_43fb7a86.md) | нужно заселить иначе 15 ноутбуки а всех рядов которых мы получили сигнал до нужно носить м… | 20,213 |
+| 2026-10-14 | [`s_fef41e90`](session-s_fef41e90.md) | Надо изучить все проейкты из последних батчей yc и понять какая синергия возможна мы и они… | 19,994 |
+| 2026-10-14 | [`s_54124497`](session-s_54124497.md) | Короче говоря, у моих последних поставок у меня была мысль такая, что если вы стартапер и… | 19,952 |
+| 2026-10-14 | [`s_c9406ada`](session-s_c9406ada.md) | Идея: сфокусироваться на направлении обучения LLM через перенос принципов человеческого об… | 19,795 |
+| 2026-10-14 | [`s_afe7ee69`](session-s_afe7ee69.md) | Я хочу, чтобы ты подготовила для меня... Я хочу, чтобы Клод подготовил для меня стратегию… | 19,713 |
+| 2026-10-14 | [`s_2fb5ee15`](session-s_2fb5ee15.md) | Нужно развивать направление Red Teaming: поиск багов и пентест для агентов | 19,674 |
+| 2026-10-14 | [`s_a7612da0`](session-s_a7612da0.md) | Когда я по удаленному рабочему столу подключаюсь через AnyDesk к своему компьютеру, из Аме… | 19,359 |
+| 2026-10-14 | [`s_d84e9994`](session-s_d84e9994.md) | Scheduled run: pipe-a-apply-daily | 19,207 |
+| 2026-10-14 | [`s_f9f30b4b`](session-s_f9f30b4b.md) | Если какие-нибудь mcp-коннекторы, которые все объединяют, всякие другие чужие mcp, то есть… | 19,132 |
+| 2026-10-14 | [`s_facd4bf9`](session-s_facd4bf9.md) | Напомни что мы на эту тему уже изучили? | 18,916 |
+| 2026-10-14 | [`s_5fdef998`](session-s_5fdef998.md) | Провести ДР по продукту https://myturnstone.ai/ | 18,673 |
+| 2026-10-14 | [`s_72aa1e12`](session-s_72aa1e12.md) | Scheduled run: raise-tail-20261006 | 18,515 |
+| 2026-10-14 | [`s_753c2f74`](session-s_753c2f74.md) | orca → superset → emdash → ccgui → bb → openchamber → proliferate | 18,430 |
+| 2026-10-14 | [`s_a514390c`](session-s_a514390c.md) | Канал SSH. Наши все машины, в нашем флоте, должны иметь у себя SSH установленный, иметь во… | 18,348 |
+| 2026-10-14 | [`s_0a70cc8c`](session-s_0a70cc8c.md) | Нужно подумать, могли ли бы мы использовать как-то Мюррея как рукопожатого человека. Нужно… | 18,092 |
+| 2026-10-14 | [`s_eb0c2569`](session-s_eb0c2569.md) | Я недавно сейчас занимался оптимизацией файлика к LODMD. Мы сильно переписали. Надо убедит… | 18,066 |
+| 2026-10-14 | [`s_ef70e00e`](session-s_ef70e00e.md) | Сид: подачи на YC-компании, пачка 1 | 17,504 |
+| 2026-10-14 | [`s_ad9a73c0`](session-s_ad9a73c0.md) | вечер это уютно и так посмотри что они делают | 17,443 |
+| 2026-10-14 | [`s_5872bbc7`](session-s_5872bbc7.md) | Нужно проверит жива ли ссылка, я попробую пройти тест 🔴 оператор, срочное, и оно лежало не… | 17,354 |
+| 2026-10-14 | [`s_cb953d15`](session-s_cb953d15.md) | ✅ разобрано → 🖥 сессия H11828 (хаб). «Джем» = Jump Desktop. План: на каждый мак хост Jump… | 17,040 |
+| 2026-10-14 | [`s_5ba9a0c9`](session-s_5ba9a0c9.md) | Hey bro, just opened the PR :) | 16,908 |
+| 2026-10-14 | [`s_6b4c3dd7`](session-s_6b4c3dd7.md) | Объясни, пожалуйста, я сейчас поставил задачу в чат 001 по поводу цемента и добавок цемент… | 15,629 |
+| 2026-10-14 | [`s_df570320`](session-s_df570320.md) | Сейчас встретился мой старый знакомый Анна Микеда. Посмотрел скриншот в WhatsApp я сделал… | 15,537 |
+| 2026-10-14 | [`s_b3765426`](session-s_b3765426.md) | За последнюю неделю в Сан-Франциско я познакомился с многими ребятами из разных контор. Я… | 13,403 |
+| 2026-10-14 | [`s_4d775872`](session-s_4d775872.md) | Вчера, в четверг, на митинге в закрытом пассиве в Луинке, много говорили про обучение моде… | 13,163 |
+| 2026-10-14 | [`s_d05bb7a0`](session-s_d05bb7a0.md) | Scheduled run: auto-hub-260903-cli-reaper-routine | 10,017 |
+| 2026-10-14 | [`s_a1bc2dbf`](session-s_a1bc2dbf.md) | Skill` -- {"skill": "interview-prep"} | 9,881 |
+| 2026-10-14 | [`s_5df36683`](session-s_5df36683.md) | исследования потом какие-то лузы штатные внутри лмк харнсов и какие-то лузы внешние есть д… | 9,409 |
+| 2026-10-14 | [`s_34c81dcd`](session-s_34c81dcd.md) | Нужно провести глубокое исследование, какие уже есть сейчас тулзы для раев, для раев этих… | 9,020 |
+| 2026-10-14 | [`s_b626647c`](session-s_b626647c.md) | Scheduled run: lead-thread-reply | 8,488 |
+| 2026-10-14 | [`s_31efd3b6`](session-s_31efd3b6.md) | Изучи Vivarium в Сан-Франциско - проведи ДР | 7,949 |
+| 2026-10-14 | [`s_c140055a`](session-s_c140055a.md) | Нужно ввести правило: каждый новый skill/slash-команду проверять на всех используемых LLM… | 7,414 |
+| 2026-10-14 | [`s_408bbb71`](session-s_408bbb71.md) | За последнюю неделю очень много голосовых сообщений в чате номер ноль перевел LocalWhisper… | 6,819 |
+| 2026-10-14 | [`s_20a29f9e`](session-s_20a29f9e.md) | Scheduled run: auto-hub-260824-nsfw-dr-posts | 6,602 |
+| 2026-10-14 | [`s_f2a550af`](session-s_f2a550af.md) | Scheduled run: pipe-a-inbox-watch | 5,612 |
+| 2026-10-14 | [`s_6323a529`](session-s_6323a529.md) | Scheduled run: dr-teasers-daily | 5,406 |
+| 2026-10-14 | [`s_179894e5`](session-s_179894e5.md) | Jcode поставить и понять как он оптимизирует мою память и запросы | 5,120 |
+| 2026-10-14 | [`s_8d8a6ae0`](session-s_8d8a6ae0.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 5,101 |
+| 2026-10-14 | [`s_502b741c`](session-s_502b741c.md) | Сейчас идет эта конфа | 5,039 |
+| 2026-10-14 | [`s_82292ecb`](session-s_82292ecb.md) | Scheduled run: five-whys-routine-runs-output-stale | 4,981 |
+| 2026-10-14 | [`s_0581c81a`](session-s_0581c81a.md) | Также хотел бы, чтобы вы вспомнили, делали ли вы глубокое исследование по тому, какую межа… | 4,851 |
+| 2026-10-14 | [`s_632b3c06`](session-s_632b3c06.md) | Scheduled run: auto-hub-261005-reimport-pokupki-groups | 4,302 |
+| 2026-10-14 | [`s_458aff8a`](session-s_458aff8a.md) | Scheduled run: teach-podcast-queue | 4,295 |
+| 2026-10-14 | [`s_4e81cdf3`](session-s_4e81cdf3.md) | Scheduled run: teach-podcast-queue | 4,129 |
+| 2026-10-14 | [`s_74dd461a`](session-s_74dd461a.md) | Снова стал сильно тормозить. Посмотри, пожалуйста, сессии, которые были созданы и в Клоде… | 4,017 |
+| 2026-10-14 | [`s_c6e39f3c`](session-s_c6e39f3c.md) | Ты аналитик CRM. Ниже реплики людей из Signal-чатов, где состоит оператор (инженер | 3,831 |
+| 2026-10-14 | [`s_b03992eb`](session-s_b03992eb.md) | Scheduled run: hub-deploy-unpack-daily | 3,759 |
+| 2026-10-14 | [`s_c9d57e86`](session-s_c9d57e86.md) | Scheduled run: voice-dispatcher | 3,747 |
+| 2026-10-14 | [`s_993903d2`](session-s_993903d2.md) | Анна Микеда хочет получить визу O-1. Юрист/Claude насчитал около $10k, но есть идея собрат… | 3,697 |
+| 2026-10-14 | [`s_d05661b4`](session-s_d05661b4.md) | Scheduled run: auto-hub-261005-reimport-pokupki-groups | 3,660 |
+| 2026-10-14 | [`s_236c7825`](session-s_236c7825.md) | https://platform.claude.com/docs/en/build-with-claude/prompt-caching | 3,563 |
+| 2026-10-14 | [`s_a9b79c59`](session-s_a9b79c59.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 3,550 |
+| 2026-10-14 | [`s_4cb67598`](session-s_4cb67598.md) | Scheduled run: invite-autoconfirm-nightly | 3,523 |
+| 2026-10-14 | [`s_6b43ed87`](session-s_6b43ed87.md) | Scheduled run: day-summary-human-touch | 3,510 |
+| 2026-10-14 | [`s_1c309a3c`](session-s_1c309a3c.md) | Scheduled run: recruiter-lane-build-20261001 | 3,335 |
+| 2026-10-14 | [`s_7809fb5c`](session-s_7809fb5c.md) | Стоит попробовать | 3,177 |
+| 2026-10-14 | [`s_ea4342be`](session-s_ea4342be.md) | Почему эта сессия: interview_pack_guard.py на 14.10 ~17:20 Лиссабон печатает «собеседовани… | 3,149 |
+| 2026-10-14 | [`s_4f4ba9d9`](session-s_4f4ba9d9.md) | Scheduled run: auto-hub-261006-shelf-parity-watch | 2,923 |
+| 2026-10-14 | [`s_10e3eed2`](session-s_10e3eed2.md) | Scheduled run: robot-profile-scrub-nightly | 2,898 |
+| 2026-10-14 | [`s_764b2a85`](session-s_764b2a85.md) | На eBay нужно найти шорты тройли самого маленького размера, детские. Мы уже покупали недав… | 2,744 |
+| 2026-10-14 | [`s_7fd6c1e5`](session-s_7fd6c1e5.md) | планирую поездку из Лиссабона в Сан-Франциско на 10-12 ноября. Там будет и конференция, и… | 2,557 |
+| 2026-10-14 | [`s_5d5eef39`](session-s_5d5eef39.md) | Scheduled run: auto-hub-261006-stale-outputs-hub-triage | 2,341 |
+| 2026-10-14 | [`s_861e4360`](session-s_861e4360.md) | Это гипотеза. Мне кажется, имеет смысл все мои сессии начинать. Это гипотеза. Нас найти. И… | 2,243 |
+| 2026-10-14 | [`s_65d660d0`](session-s_65d660d0.md) | Scheduled run: canon-pending-drain-20261001 | 2,235 |
+| 2026-10-14 | [`s_42427e09`](session-s_42427e09.md) | Scheduled run: recruiter-lane-build-20261001 | 2,208 |
+| 2026-10-14 | [`s_1f117a3a`](session-s_1f117a3a.md) | Scheduled run: fleet-apply-parity-20261002 | 2,112 |
+| 2026-10-14 | [`s_c2097ef0`](session-s_c2097ef0.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 2,041 |
+| 2026-10-14 | [`s_8a868c14`](session-s_8a868c14.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,956 |
+| 2026-10-14 | [`s_44db39a0`](session-s_44db39a0.md) | Scheduled run: canon-pending-drain-20261001 | 1,956 |
+| 2026-10-14 | [`s_c372865b`](session-s_c372865b.md) | Scheduled run: auto-hub-261005-pipe-exit-code-gate-third-break | 1,954 |
+| 2026-10-14 | [`s_d17a8a86`](session-s_d17a8a86.md) | Нужен точечный веб-поиск по первичным источникам для исследовательского дизайна, не Deep R… | 1,922 |
+| 2026-10-14 | [`s_b2089575`](session-s_b2089575.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,881 |
+| 2026-10-14 | [`s_d1ca91fb`](session-s_d1ca91fb.md) | Ты аналитик CRM. Ниже реплики людей из Signal-чатов, где состоит оператор (инженер | 1,626 |
+| 2026-10-14 | [`s_a4f63b69`](session-s_a4f63b69.md) | Scheduled run: intern-fellows-lane-20261002 | 1,613 |
+| 2026-10-14 | [`s_65593796`](session-s_65593796.md) | Frozen review packet: recall provenance and human-root-first ranking | 1,548 |
+| 2026-10-14 | [`s_d0459ce6`](session-s_d0459ce6.md) | Run the /takeout-pull skill now: detect ready Google Takeout exports in the a@ mailbox (0-… | 1,503 |
+| 2026-10-14 | [`s_d32e02c1`](session-s_d32e02c1.md) | Сид: починка herdrdev/herdr issue #5199 | 1,470 |
+| 2026-10-14 | [`s_b7010108`](session-s_b7010108.md) | Scheduled run: fleet-apply-parity-20261002 | 1,254 |
+| 2026-10-14 | [`s_ded57bee`](session-s_ded57bee.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 1,192 |
+| 2026-10-14 | [`s_8771b8d7`](session-s_8771b8d7.md) | Read-only independent incident review. Do not execute commands, edit files, stop processes… | 1,163 |
+| 2026-10-14 | [`s_85506187`](session-s_85506187.md) | INTENTION_LANE_AUTORUN | 1,034 |
+| 2026-10-14 | [`s_9cb9226b`](session-s_9cb9226b.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,021 |
+| 2026-10-14 | [`s_079c26bb`](session-s_079c26bb.md) | Нужна независимая проверка идентичностей публичных хостов события Voice Research Club at S… | 972 |
+| 2026-10-14 | [`s_844bd612`](session-s_844bd612.md) | Scheduled run: youtube-publish-drip | 960 |
+| 2026-10-14 | [`s_4f4d9687`](session-s_4f4d9687.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 791 |
+| 2026-10-14 | [`s_bd2f698b`](session-s_bd2f698b.md) | You are the LOBSTERDAO ALPHA-JUDGE running unattended. UNATTENDED MEANS: there is NO human… | 770 |
+| 2026-10-14 | [`s_df22ce6a`](session-s_df22ce6a.md) | Base directory for this skill: C:\Users\dev\.claude\skills\find | 753 |
+| 2026-10-14 | [`s_d5f592d0`](session-s_d5f592d0.md) | Base directory for this skill: C:\Users\dev\.claude\skills\find | 753 |
+| 2026-10-14 | [`s_78179b53`](session-s_78179b53.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 733 |
+| 2026-10-14 | [`s_88e1d2fc`](session-s_88e1d2fc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 713 |
+| 2026-10-14 | [`s_e986d9a7`](session-s_e986d9a7.md) | Ты аналитик CRM. Ниже реплики людей из Signal-чатов, где состоит оператор (инженер | 699 |
+| 2026-10-14 | [`s_8c119ce8`](session-s_8c119ce8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 678 |
+| 2026-10-14 | [`s_aff95e2d`](session-s_aff95e2d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 638 |
+| 2026-10-14 | [`s_e725f32e`](session-s_e725f32e.md) | Расскажи, пожалуйста, что такое DAF Нью-Йорк? Это какая-то конференция в Нью-Йорке. Провед… | 630 |
+| 2026-10-14 | [`s_6eabf999`](session-s_6eabf999.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 626 |
+| 2026-10-14 | [`s_c6037d1c`](session-s_c6037d1c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 609 |
+| 2026-10-14 | [`s_e4e75a47`](session-s_e4e75a47.md) | Мне очень интересно. Значит, мне очень интересно. Если, допустим, мы берем модель Opus, Со… | 596 |
+| 2026-10-14 | [`s_1883628d`](session-s_1883628d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 594 |
+| 2026-10-14 | [`s_3c2921da`](session-s_3c2921da.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 560 |
+| 2026-10-14 | [`s_beb7ebd0`](session-s_beb7ebd0.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 553 |
+| 2026-10-14 | [`s_43ba4621`](session-s_43ba4621.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 551 |
+| 2026-10-14 | [`s_e80142d0`](session-s_e80142d0.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 541 |
+| 2026-10-14 | [`s_90e75181`](session-s_90e75181.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 537 |
+| 2026-10-14 | [`s_3d8e66f2`](session-s_3d8e66f2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 520 |
+| 2026-10-14 | [`s_f60a1bb6`](session-s_f60a1bb6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 509 |
+| 2026-10-14 | [`s_fac02b29`](session-s_fac02b29.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 508 |
+| 2026-10-14 | [`s_3160a768`](session-s_3160a768.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 504 |
+| 2026-10-14 | [`s_e528d9a6`](session-s_e528d9a6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 502 |
+| 2026-10-14 | [`s_69611b66`](session-s_69611b66.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 493 |
+| 2026-10-14 | [`s_8b49a12f`](session-s_8b49a12f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 489 |
+| 2026-10-14 | [`s_55cca801`](session-s_55cca801.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 487 |
+| 2026-10-14 | [`s_a3e09e98`](session-s_a3e09e98.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 479 |
+| 2026-10-14 | [`s_b52ae367`](session-s_b52ae367.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 478 |
+| 2026-10-14 | [`s_7fe89c20`](session-s_7fe89c20.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 478 |
+| 2026-10-14 | [`s_bf3ab09b`](session-s_bf3ab09b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 468 |
+| 2026-10-14 | [`s_3c2edd6b`](session-s_3c2edd6b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 467 |
+| 2026-10-14 | [`s_8ef05bf8`](session-s_8ef05bf8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 463 |
+| 2026-10-14 | [`s_4bb3476d`](session-s_4bb3476d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 458 |
+| 2026-10-14 | [`s_6cb5b46b`](session-s_6cb5b46b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 456 |
+| 2026-10-14 | [`s_e748ade1`](session-s_e748ade1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 449 |
+| 2026-10-14 | [`s_efd88f2e`](session-s_efd88f2e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 445 |
+| 2026-10-14 | [`s_7e4c087f`](session-s_7e4c087f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 445 |
+| 2026-10-14 | [`s_09359bf8`](session-s_09359bf8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 445 |
+| 2026-10-14 | [`s_db7c8087`](session-s_db7c8087.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 443 |
+| 2026-10-14 | [`s_bc6fd3fb`](session-s_bc6fd3fb.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 440 |
+| 2026-10-14 | [`s_8b7bba24`](session-s_8b7bba24.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 440 |
+| 2026-10-14 | [`s_d6e0edd0`](session-s_d6e0edd0.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 436 |
+| 2026-10-14 | [`s_c616a421`](session-s_c616a421.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 433 |
+| 2026-10-14 | [`s_f4f29cdc`](session-s_f4f29cdc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 426 |
+| 2026-10-14 | [`s_82cf567d`](session-s_82cf567d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 420 |
+| 2026-10-14 | [`s_8bf61093`](session-s_8bf61093.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 412 |
+| 2026-10-14 | [`s_a6754170`](session-s_a6754170.md) | Нужно лично залогиниться в Chrome или Firefox в Gmail-аккаунт **[EMAIL]** и удалить любую… | 409 |
+| 2026-10-14 | [`s_fa3d6e5c`](session-s_fa3d6e5c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 407 |
+| 2026-10-14 | [`s_245a49c0`](session-s_245a49c0.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 400 |
+| 2026-10-14 | [`s_8a9c611e`](session-s_8a9c611e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 395 |
+| 2026-10-14 | [`s_f60a3a48`](session-s_f60a3a48.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 392 |
+| 2026-10-14 | [`s_38ac4ba5`](session-s_38ac4ba5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 390 |
+| 2026-10-14 | [`s_c24f7811`](session-s_c24f7811.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 389 |
+| 2026-10-14 | [`s_9e61ec1e`](session-s_9e61ec1e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 389 |
+| 2026-10-14 | [`s_dd6622c9`](session-s_dd6622c9.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 388 |
+| 2026-10-14 | [`s_86a25363`](session-s_86a25363.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 383 |
+| 2026-10-14 | [`s_30c58364`](session-s_30c58364.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 376 |
+| 2026-10-14 | [`s_6a0a1ed6`](session-s_6a0a1ed6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 374 |
+| 2026-10-14 | [`s_f88a1ff7`](session-s_f88a1ff7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 363 |
+| 2026-10-14 | [`s_86e8e598`](session-s_86e8e598.md) | Ты независимый судья выбора конференции. Используй только данные ниже и раздели факт от вы… | 340 |
+| 2026-10-14 | [`s_ba22d470`](session-s_ba22d470.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 334 |
+| 2026-10-14 | [`s_0e6ca80a`](session-s_0e6ca80a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 310 |
+| 2026-10-14 | [`s_0f6f6716`](session-s_0f6f6716.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 309 |
+| 2026-10-14 | [`s_93b3b84f`](session-s_93b3b84f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 304 |
+| 2026-10-14 | [`s_34524e33`](session-s_34524e33.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 304 |
+| 2026-10-14 | [`s_9c574bd5`](session-s_9c574bd5.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 302 |
+| 2026-10-14 | [`s_fd135722`](session-s_fd135722.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 301 |
+| 2026-10-14 | [`s_a502a059`](session-s_a502a059.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 293 |
+| 2026-10-14 | [`s_a31d9dad`](session-s_a31d9dad.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 292 |
+| 2026-10-14 | [`s_da472fb3`](session-s_da472fb3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 279 |
+| 2026-10-14 | [`s_5b29ec61`](session-s_5b29ec61.md) | Ты аналитик CRM. Ниже реплики людей из Signal-чатов, где состоит оператор (инженер | 266 |
+| 2026-10-14 | [`s_bf7e7997`](session-s_bf7e7997.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 261 |
+| 2026-10-14 | [`s_bb172b28`](session-s_bb172b28.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 246 |
+| 2026-10-14 | [`s_47b3f71d`](session-s_47b3f71d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 245 |
+| 2026-10-14 | [`s_1c72758f`](session-s_1c72758f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 243 |
+| 2026-10-14 | [`s_216cb059`](session-s_216cb059.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 236 |
+| 2026-10-14 | [`s_b5d09582`](session-s_b5d09582.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 231 |
+| 2026-10-14 | [`s_96a4f59f`](session-s_96a4f59f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 231 |
+| 2026-10-14 | [`s_88596b7c`](session-s_88596b7c.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 230 |
+| 2026-10-14 | [`s_85caaeb4`](session-s_85caaeb4.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 229 |
+| 2026-10-14 | [`s_38a76722`](session-s_38a76722.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 222 |
+| 2026-10-14 | [`s_5930eca2`](session-s_5930eca2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 210 |
+| 2026-10-14 | [`s_b89cce5d`](session-s_b89cce5d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 208 |
+| 2026-10-14 | [`s_2a9df92d`](session-s_2a9df92d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 207 |
+| 2026-10-14 | [`s_7d531fda`](session-s_7d531fda.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 206 |
+| 2026-10-14 | [`s_440e38ef`](session-s_440e38ef.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 202 |
+| 2026-10-14 | [`s_a8bd6a94`](session-s_a8bd6a94.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 199 |
+| 2026-10-14 | [`s_e9fe347b`](session-s_e9fe347b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 196 |
+| 2026-10-14 | [`s_3772d739`](session-s_3772d739.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 186 |
+| 2026-10-14 | [`s_6c3834ec`](session-s_6c3834ec.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 177 |
+| 2026-10-14 | [`s_d8561edc`](session-s_d8561edc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 176 |
+| 2026-10-14 | [`s_c830ce40`](session-s_c830ce40.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 173 |
+| 2026-10-14 | [`s_0e6c7683`](session-s_0e6c7683.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 122 |
+| 2026-10-14 | [`s_82a7ace3`](session-s_82a7ace3.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 93 |
+| 2026-10-14 | [`s_cf745cda`](session-s_cf745cda.md) | You are the ALPHA-JUDGE running unattended over the CHANNEL lane. UNATTENDED MEANS: there… | 89 |
+| 2026-10-14 | [`s_3d2a75f8`](session-s_3d2a75f8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 88 |
+| 2026-10-14 | [`s_3aa8df01`](session-s_3aa8df01.md) | Reply with exactly one word: OK | 21 |
+| 2026-10-14 | [`s_972b1eb4`](session-s_972b1eb4.md) | ok --- | 15 |
+| 2026-10-14 | [`s_ff749da9`](session-s_ff749da9.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_fbc42d08`](session-s_fbc42d08.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_f4de0b1a`](session-s_f4de0b1a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_f1e835a8`](session-s_f1e835a8.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_f08dc486`](session-s_f08dc486.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_ea8a718e`](session-s_ea8a718e.md) | Return exactly PONG and nothing else | 10 |
+| 2026-10-14 | [`s_e56ac0f9`](session-s_e56ac0f9.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_de6b2726`](session-s_de6b2726.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_d18d3d4e`](session-s_d18d3d4e.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_cab21c34`](session-s_cab21c34.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_c4221aed`](session-s_c4221aed.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_c37ff886`](session-s_c37ff886.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_b987e9d1`](session-s_b987e9d1.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_a988cf9a`](session-s_a988cf9a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_a4e4f803`](session-s_a4e4f803.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_9f84a4a9`](session-s_9f84a4a9.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_96b64252`](session-s_96b64252.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_8fb6c7ef`](session-s_8fb6c7ef.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_82d5e358`](session-s_82d5e358.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_7ee63db0`](session-s_7ee63db0.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_7c591bd5`](session-s_7c591bd5.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_7c53d5aa`](session-s_7c53d5aa.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_748f6aec`](session-s_748f6aec.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_73cc80f3`](session-s_73cc80f3.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_70ef13b5`](session-s_70ef13b5.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_6ff85e04`](session-s_6ff85e04.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_6bec5cc8`](session-s_6bec5cc8.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_6ab4b792`](session-s_6ab4b792.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_5f6f211a`](session-s_5f6f211a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_5a170f92`](session-s_5a170f92.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_58284004`](session-s_58284004.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_5576e3b2`](session-s_5576e3b2.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_53691010`](session-s_53691010.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_52343dbe`](session-s_52343dbe.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_4e15e6a9`](session-s_4e15e6a9.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_4ce2f6c4`](session-s_4ce2f6c4.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_459129ca`](session-s_459129ca.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_417fc1b6`](session-s_417fc1b6.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_3f40b840`](session-s_3f40b840.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_316b3051`](session-s_316b3051.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_28ffb911`](session-s_28ffb911.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_2786b04a`](session-s_2786b04a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_24992846`](session-s_24992846.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_033b29a9`](session-s_033b29a9.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-14 | [`s_db7c133d`](session-s_db7c133d.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-14 | [`s_93585493`](session-s_93585493.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-14 | [`s_89e9a755`](session-s_89e9a755.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-14 | [`s_2862ae42`](session-s_2862ae42.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-14 | [`s_d19d4857`](session-s_d19d4857.md) | ok --- | 7 |
+| 2026-10-14 | [`s_3e33b80d`](session-s_3e33b80d.md) | Return exactly OK | 7 |
 | 2026-10-13 | [`s_0cdd8c70`](session-s_0cdd8c70.md) | CONTENT_DRAIN_AUTORUN | 39,198 |
+| 2026-10-13 | [`s_add4a8be`](session-s_add4a8be.md) | Нужно проанализировать сайт Олега Сотникова: `olega.is.ru` — на английском и русском, без… | 27,061 |
+| 2026-10-13 | [`s_21d1bee7`](session-s_21d1bee7.md) | Scheduled run: pipe-a-apply-daily | 19,569 |
+| 2026-10-13 | [`s_763e2ed7`](session-s_763e2ed7.md) | Scheduled run: journey-day-close-morning | 11,364 |
+| 2026-10-13 | [`s_7868a684`](session-s_7868a684.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 9,241 |
+| 2026-10-13 | [`s_cbad658c`](session-s_cbad658c.md) | Scheduled run: lead-thread-reply | 8,451 |
+| 2026-10-13 | [`s_67285870`](session-s_67285870.md) | Scheduled run: auto-hub-260901-cv-rebuild-contacts | 8,248 |
+| 2026-10-13 | [`s_e42c6a01`](session-s_e42c6a01.md) | Scheduled run: share-fix-daily | 7,478 |
+| 2026-10-13 | [`s_3a149362`](session-s_3a149362.md) | Scheduled run: cv-outreach-executor | 7,104 |
+| 2026-10-13 | [`s_894c4956`](session-s_894c4956.md) | Scheduled run: auto-hub-260806-inbound-triage-daily | 7,058 |
+| 2026-10-13 | [`s_e11c260e`](session-s_e11c260e.md) | Scheduled run: auto-hub-260824-nsfw-dr-posts | 6,496 |
+| 2026-10-13 | [`s_ee50d427`](session-s_ee50d427.md) | Scheduled run: casebook-drip-daily | 6,332 |
+| 2026-10-13 | [`s_d2f264a6`](session-s_d2f264a6.md) | Scheduled run: voice-triage | 6,269 |
+| 2026-10-13 | [`s_56473104`](session-s_56473104.md) | Scheduled run: pipe-a-inbox-watch | 6,053 |
+| 2026-10-13 | [`s_33cea6e7`](session-s_33cea6e7.md) | Scheduled run: content-drain-live | 5,840 |
+| 2026-10-13 | [`s_63c1fc33`](session-s_63c1fc33.md) | FACEBOOK_DIARY_AUTORUN | 5,821 |
+| 2026-10-13 | [`s_6f71710d`](session-s_6f71710d.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 5,495 |
+| 2026-10-13 | [`s_4fb71c3d`](session-s_4fb71c3d.md) | Scheduled run: touchbase-daily-runner | 5,367 |
 | 2026-10-13 | [`s_06c8bf55`](session-s_06c8bf55.md) | Scheduled run: fb-reply-daily | 5,279 |
+| 2026-10-13 | [`s_d78a357b`](session-s_d78a357b.md) | Scheduled run: dr-teasers-daily | 5,242 |
+| 2026-10-13 | [`s_27daa3e7`](session-s_27daa3e7.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 5,058 |
+| 2026-10-13 | [`s_6a40cffd`](session-s_6a40cffd.md) | Scheduled run: shadow-harvest-daily | 4,679 |
+| 2026-10-13 | [`s_4cfc7844`](session-s_4cfc7844.md) | Scheduled run: content-lang-pairs-nightly | 4,462 |
+| 2026-10-13 | [`s_2705f076`](session-s_2705f076.md) | Scheduled run: claudeai-sync-daily | 4,396 |
+| 2026-10-13 | [`s_e2009238`](session-s_e2009238.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 4,362 |
+| 2026-10-13 | [`s_9e0c3e6a`](session-s_9e0c3e6a.md) | Scheduled run: five-whys-routine-runs-output-stale | 4,274 |
+| 2026-10-13 | [`s_81f00b50`](session-s_81f00b50.md) | Scheduled run: chatgpt-token-guard-nightly | 4,256 |
+| 2026-10-13 | [`s_fcd9c9e6`](session-s_fcd9c9e6.md) | Scheduled run: inbound-fb-messenger-daily | 4,235 |
+| 2026-10-13 | [`s_5e03aef9`](session-s_5e03aef9.md) | Scheduled run: teach-podcast-queue | 4,058 |
+| 2026-10-13 | [`s_d4ff178a`](session-s_d4ff178a.md) | Scheduled run: voice-dispatcher | 3,905 |
+| 2026-10-13 | [`s_c2d62f54`](session-s_c2d62f54.md) | Scheduled run: raise-outreach-daily | 3,753 |
+| 2026-10-13 | [`s_fae05f51`](session-s_fae05f51.md) | Scheduled run: registry-dispatcher-daily | 3,745 |
+| 2026-10-13 | [`s_366de4a4`](session-s_366de4a4.md) | Scheduled run: invite-autoconfirm-nightly | 3,422 |
+| 2026-10-13 | [`s_fd0c545c`](session-s_fd0c545c.md) | Scheduled run: day-summary-human-touch | 3,375 |
+| 2026-10-13 | [`s_ac2474e7`](session-s_ac2474e7.md) | Scheduled run: canon-writer-nightly | 3,372 |
+| 2026-10-13 | [`s_45be19af`](session-s_45be19af.md) | Scheduled run: preference-sweep-daily | 3,275 |
+| 2026-10-13 | [`s_c402e82f`](session-s_c402e82f.md) | Scheduled run: content-miner-nightly | 3,123 |
+| 2026-10-13 | [`s_a320ce90`](session-s_a320ce90.md) | Scheduled run: facebook-diary-daily | 3,030 |
+| 2026-10-13 | [`s_18d9a520`](session-s_18d9a520.md) | INTENTION_LANE_AUTORUN | 2,968 |
+| 2026-10-13 | [`s_2cdcf2db`](session-s_2cdcf2db.md) | Scheduled run: hub-deploy-unpack-daily | 2,867 |
+| 2026-10-13 | [`s_c916ae1e`](session-s_c916ae1e.md) | Scheduled run: robot-profile-scrub-nightly | 2,833 |
+| 2026-10-13 | [`s_45d81cda`](session-s_45d81cda.md) | Scheduled run: task-hygiene-shadow | 2,757 |
+| 2026-10-13 | [`s_63b7f28e`](session-s_63b7f28e.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 2,528 |
+| 2026-10-13 | [`s_2e2765a5`](session-s_2e2765a5.md) | Scheduled run: auto-hub-260811-rep-reply-daily | 2,478 |
+| 2026-10-13 | [`s_19fd846d`](session-s_19fd846d.md) | Scheduled run: jobs-tg-nightly | 2,424 |
+| 2026-10-13 | [`s_80f4d205`](session-s_80f4d205.md) | Scheduled run: day-ledger-nightly | 2,401 |
+| 2026-10-13 | [`s_4e996683`](session-s_4e996683.md) | Scheduled run: auto-hub-260811-retro-lost-nightly | 2,337 |
+| 2026-10-13 | [`s_8707c742`](session-s_8707c742.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 2,140 |
+| 2026-10-13 | [`s_6a2f3fff`](session-s_6a2f3fff.md) | You are the ALPHA-JUDGE running unattended over the CHANNEL lane. UNATTENDED MEANS: there… | 2,139 |
+| 2026-10-13 | [`s_6033eed8`](session-s_6033eed8.md) | Scheduled run: jobs-watch-daily | 2,121 |
+| 2026-10-13 | [`s_b2a367c8`](session-s_b2a367c8.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 2,093 |
+| 2026-10-13 | [`s_1364d3fe`](session-s_1364d3fe.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,811 |
+| 2026-10-13 | [`s_d0cf3427`](session-s_d0cf3427.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,604 |
+| 2026-10-13 | [`s_ba95615d`](session-s_ba95615d.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 1,571 |
+| 2026-10-13 | [`s_6b38f3ca`](session-s_6b38f3ca.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 835 |
+| 2026-10-13 | [`s_adc5ef7a`](session-s_adc5ef7a.md) | Scheduled run: youtube-publish-drip | 798 |
+| 2026-10-13 | [`s_4cdb0954`](session-s_4cdb0954.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 752 |
+| 2026-10-13 | [`s_a6e71559`](session-s_a6e71559.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 680 |
+| 2026-10-13 | [`s_8d4fbbd7`](session-s_8d4fbbd7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 597 |
+| 2026-10-13 | [`s_fb62fb38`](session-s_fb62fb38.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 595 |
+| 2026-10-13 | [`s_a3363ebc`](session-s_a3363ebc.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 568 |
 | 2026-10-13 | [`s_0405d4d4`](session-s_0405d4d4.md) | Shweta Gupta : 1-on-1 with Tony кто она такая с кем у оператора буднт созвон | 533 |
+| 2026-10-13 | [`s_f8f98fd1`](session-s_f8f98fd1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 517 |
+| 2026-10-13 | [`s_8736c413`](session-s_8736c413.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 516 |
+| 2026-10-13 | [`s_9f017d35`](session-s_9f017d35.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 503 |
+| 2026-10-13 | [`s_9f2d9a7d`](session-s_9f2d9a7d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 493 |
+| 2026-10-13 | [`s_1de5432b`](session-s_1de5432b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 490 |
+| 2026-10-13 | [`s_bd7f0e69`](session-s_bd7f0e69.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 468 |
 | 2026-10-13 | [`s_007f1c74`](session-s_007f1c74.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 458 |
+| 2026-10-13 | [`s_67653ac1`](session-s_67653ac1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 450 |
+| 2026-10-13 | [`s_1d805e7f`](session-s_1d805e7f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 445 |
+| 2026-10-13 | [`s_4a80d470`](session-s_4a80d470.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 434 |
+| 2026-10-13 | [`s_ebaa028a`](session-s_ebaa028a.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 428 |
+| 2026-10-13 | [`s_185d2d44`](session-s_185d2d44.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 428 |
+| 2026-10-13 | [`s_5a208ce4`](session-s_5a208ce4.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 421 |
+| 2026-10-13 | [`s_569e589b`](session-s_569e589b.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 397 |
+| 2026-10-13 | [`s_860d1d21`](session-s_860d1d21.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 390 |
+| 2026-10-13 | [`s_d814932e`](session-s_d814932e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 379 |
+| 2026-10-13 | [`s_10ba1b74`](session-s_10ba1b74.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 379 |
+| 2026-10-13 | [`s_8ad728ec`](session-s_8ad728ec.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 377 |
+| 2026-10-13 | [`s_1cde6138`](session-s_1cde6138.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 376 |
+| 2026-10-13 | [`s_d6f7df16`](session-s_d6f7df16.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 365 |
+| 2026-10-13 | [`s_3d207d57`](session-s_3d207d57.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 354 |
+| 2026-10-13 | [`s_a12fa843`](session-s_a12fa843.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 352 |
+| 2026-10-13 | [`s_faf2e8e1`](session-s_faf2e8e1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 344 |
+| 2026-10-13 | [`s_9f987acf`](session-s_9f987acf.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 340 |
+| 2026-10-13 | [`s_1d9aa496`](session-s_1d9aa496.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 331 |
+| 2026-10-13 | [`s_313acadd`](session-s_313acadd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 326 |
+| 2026-10-13 | [`s_d781d6a8`](session-s_d781d6a8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 317 |
+| 2026-10-13 | [`s_c341ed5f`](session-s_c341ed5f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 304 |
+| 2026-10-13 | [`s_e5ee8f9d`](session-s_e5ee8f9d.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 303 |
+| 2026-10-13 | [`s_b6e2bd8f`](session-s_b6e2bd8f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 301 |
+| 2026-10-13 | [`s_abbffdac`](session-s_abbffdac.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 301 |
+| 2026-10-13 | [`s_be029c24`](session-s_be029c24.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 299 |
+| 2026-10-13 | [`s_527b3ca9`](session-s_527b3ca9.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 295 |
+| 2026-10-13 | [`s_ac0902a6`](session-s_ac0902a6.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 284 |
+| 2026-10-13 | [`s_cd944c5f`](session-s_cd944c5f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 280 |
+| 2026-10-13 | [`s_660c22f1`](session-s_660c22f1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 279 |
+| 2026-10-13 | [`s_5bab6769`](session-s_5bab6769.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 279 |
+| 2026-10-13 | [`s_379bd3e2`](session-s_379bd3e2.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 277 |
+| 2026-10-13 | [`s_9e1e9d50`](session-s_9e1e9d50.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 263 |
+| 2026-10-13 | [`s_b6fe4089`](session-s_b6fe4089.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 257 |
+| 2026-10-13 | [`s_ed02d7bd`](session-s_ed02d7bd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 249 |
+| 2026-10-13 | [`s_7dd35ae1`](session-s_7dd35ae1.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 249 |
+| 2026-10-13 | [`s_0f6706f7`](session-s_0f6706f7.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 249 |
+| 2026-10-13 | [`s_5234a002`](session-s_5234a002.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 246 |
+| 2026-10-13 | [`s_be41dbdf`](session-s_be41dbdf.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 242 |
+| 2026-10-13 | [`s_18c930fd`](session-s_18c930fd.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 219 |
+| 2026-10-13 | [`s_81a0729e`](session-s_81a0729e.md) | Follow the instructions in C:\Users\dev/.claude/scripts/dr_robot_prompt.md EXACTLY, step b… | 203 |
+| 2026-10-13 | [`s_ba2a0421`](session-s_ba2a0421.md) | Reply with exactly one word: OK | 22 |
+| 2026-10-13 | [`s_f66d734a`](session-s_f66d734a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_eff56748`](session-s_eff56748.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_e8afca07`](session-s_e8afca07.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_e3abbaef`](session-s_e3abbaef.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_dfc35879`](session-s_dfc35879.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_da46300d`](session-s_da46300d.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_d9db6411`](session-s_d9db6411.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_d8762332`](session-s_d8762332.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_d704dcac`](session-s_d704dcac.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_c2cdd81b`](session-s_c2cdd81b.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_bf326a58`](session-s_bf326a58.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_b8607178`](session-s_b8607178.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_b8499398`](session-s_b8499398.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_b46e5911`](session-s_b46e5911.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_b44167e2`](session-s_b44167e2.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_a9cf4905`](session-s_a9cf4905.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_a5b39d45`](session-s_a5b39d45.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_92cf3405`](session-s_92cf3405.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_9045c71a`](session-s_9045c71a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_880e4445`](session-s_880e4445.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_830509f7`](session-s_830509f7.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_7e593256`](session-s_7e593256.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_73de0c2f`](session-s_73de0c2f.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_73d29e6a`](session-s_73d29e6a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_7278fa62`](session-s_7278fa62.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_712cef0f`](session-s_712cef0f.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_70fc54a7`](session-s_70fc54a7.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_5cfef3d7`](session-s_5cfef3d7.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_5bfbec04`](session-s_5bfbec04.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_57e13c93`](session-s_57e13c93.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_4efb64d6`](session-s_4efb64d6.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_4444be3a`](session-s_4444be3a.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_4128aa06`](session-s_4128aa06.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_3ec439e0`](session-s_3ec439e0.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_3bb8d543`](session-s_3bb8d543.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_3aeb5476`](session-s_3aeb5476.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_2e1e4782`](session-s_2e1e4782.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_2dde6201`](session-s_2dde6201.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_2c2b22aa`](session-s_2c2b22aa.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_2c2398cd`](session-s_2c2398cd.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_2a5d8ec7`](session-s_2a5d8ec7.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_1eb0f2a2`](session-s_1eb0f2a2.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_1dc38a46`](session-s_1dc38a46.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_11bfffd7`](session-s_11bfffd7.md) | Reply with exactly one word: OK | 10 |
 | 2026-10-13 | [`s_0a216717`](session-s_0a216717.md) | Reply with exactly one word: OK | 10 |
 | 2026-10-13 | [`s_06a9ac4b`](session-s_06a9ac4b.md) | Reply with exactly one word: OK | 10 |
 | 2026-10-13 | [`s_00c4c5f0`](session-s_00c4c5f0.md) | Reply with exactly one word: OK | 10 |
+| 2026-10-13 | [`s_b296f2b0`](session-s_b296f2b0.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-13 | [`s_64e77079`](session-s_64e77079.md) | reply with exactly: TOKSYNC_OK | 8 |
+| 2026-10-13 | [`s_0e1c3dc5`](session-s_0e1c3dc5.md) | reply with exactly: TOKSYNC_OK | 8 |
 | 2026-10-12 | [`s_98781416`](session-s_98781416.md) | CONTENT_DRAIN_AUTORUN | 39,454 |
 | 2026-10-12 | [`s_d9804bac`](session-s_d9804bac.md) | Мне нужно купить в европе с доставкой в синтру | 33,899 |
 | 2026-10-12 | [`s_912b792b`](session-s_912b792b.md) | Какую интересную особенность я нашел? Каждый раз, когда я хочу что-то найти, узнать и так… | 26,018 |
