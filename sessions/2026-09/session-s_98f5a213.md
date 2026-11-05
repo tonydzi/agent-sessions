@@ -1,0 +1,32 @@
+---
+session: s_98f5a213
+date: 2026-09-19
+words: 100
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-19 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_98f5a213` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: Nick
+username: nickpelecanos
+person_note: person-nick-pelecanos
+msg_sample: https://calendly.com/Kiel-pelecanos/30min | yeh lets do it | hey man | ill setup a group now | whats your project called | nice running into you last week | hey mate | Yo | Bris | Harley can handl that | Hi mate ask in the main chat | Yes lol
+
+---
+
+**Claude:**
+
+You've hit your weekly limit · resets Sep 20, 5am (Europe/London)

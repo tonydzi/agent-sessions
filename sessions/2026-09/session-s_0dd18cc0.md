@@ -1,0 +1,35 @@
+---
+session: s_0dd18cc0
+date: 2026-09-19
+words: 278
+turns: 2
+tools: ""
+license: CC-BY-4.0
+dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
+---
+
+# 2026-09-19 · Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram)
+
+_Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_0dd18cc0` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
+
+**User:**
+
+Ты разметчик. Ниже сырые улики про человека из нашей CRM (Telegram).
+Верни ТОЛЬКО JSON без пояснений:
+{"role":"...","company":"...","topics":["..."],"seniority":"junior|mid|senior|lead|exec|unknown"}
+Не выдумывай: чего нет в уликах -- пустая строка или "unknown".
+
+УЛИКИ:
+title: Zachary Lee
+username: ZachWallStreet
+crm_role: CTO
+crm_company: Pareto Technologies
+crm_category: service
+person_note: person-zachary-lee
+msg_sample: any assistance with meetings in asia with either HNWIs, FOs, Institutional crypto allocators, or quant traders / PM candidates would be appreciated as we are based in One World Trade Center Manhattan NYC but do not have as many connections in Asia yet | hey Tony! We are doing a capital raise trip in China + HK + SG in Q1 next year for our liquid hedge fund. we also are actively allocating to / investing in liquid portfolio managers / quant traders | hey Zachary long time!  NEED MONEY from LPs or VCs ?? - let me know  if you remember - ME »»» [ВОЗРАСТ] TONY ««« knows almost EVERYONE in crypto  all VCs, Angels, LPs , Builder etc etc « i have them in my AI CRM  need warm INTROs? » lmk! | sounds interesting -  just requested to join thanks | thanks for keeping us in mind!! | currently we do not do OTC deals but I will reach out if that changes | i just joined and sent an intro message i think the other party has not joined yet | hey thanks for the intro joining now | jumping on | Yep will be on in 20 mins | Awesome looking forward to | all good - feel free to schedule here- most times are EST aftns
+
+---
+
+**Claude:**
+
+You've hit your weekly limit · resets 4am (Europe/London)
