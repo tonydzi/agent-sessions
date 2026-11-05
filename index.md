@@ -1,6 +1,6 @@
 # Index
 
-Every session published so far. 11,520 sessions, 27,007,856 words.
+Every session published so far. 12,020 sessions, 28,592,775 words.
 
 Each row is one full working session with a coding agent. Sessions are grouped by the
 month of their last message; each month has its own full table.
@@ -9,7 +9,7 @@ month of their last message; each month has its own full table.
 
 | month | sessions | words |
 |:---|---:|---:|
-| [2026-10](sessions/2026-10/README.md) | 4,699 | 16,392,414 |
+| [2026-10](sessions/2026-10/README.md) | 5,199 | 17,977,333 |
 | [2026-09](sessions/2026-09/README.md) | 6,641 | 10,090,205 |
 | [2026-08](sessions/2026-08/README.md) | 180 | 525,237 |
 
@@ -17,56 +17,56 @@ month of their last message; each month has its own full table.
 
 | date | session | topic | words |
 |---|---|---|---|
-| 2026-10-23 | [`s_86c337cd`](sessions/2026-10/session-s_86c337cd.md) | CONTENT_DRAIN_AUTORUN | 41,436 |
-| 2026-10-23 | [`s_8ad44b1e`](sessions/2026-10/session-s_8ad44b1e.md) | Дорогие аудит, проведя аудит всего, что у нас сейчас есть, в плане того, у тебя работали л… | 36,112 |
-| 2026-10-23 | [`s_40d1b6d2`](sessions/2026-10/session-s_40d1b6d2.md) | https://t.me/+Z47lbRnNwHhjYjg0 | 33,961 |
-| 2026-10-23 | [`s_acf0d5ef`](sessions/2026-10/session-s_acf0d5ef.md) | Я только что был в звонок с [ИМЯ]. Поздравляю, пожалуйста, с Facebook-мессенджером, мы с н… | 30,684 |
-| 2026-10-23 | [`s_79174571`](sessions/2026-10/session-s_79174571.md) | This session is being continued from a previous conversation that ran out of context. The… | 25,266 |
-| 2026-10-23 | [`s_55c92ed5`](sessions/2026-10/session-s_55c92ed5.md) | This session is being continued from a previous conversation that ran out of context. The… | 24,605 |
-| 2026-10-23 | [`s_95e997fd`](sessions/2026-10/session-s_95e997fd.md) | This session is being continued from a previous conversation that ran out of context. The… | 24,526 |
-| 2026-10-23 | [`s_8b2c13e3`](sessions/2026-10/session-s_8b2c13e3.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,726 |
-| 2026-10-23 | [`s_5a6cbd53`](sessions/2026-10/session-s_5a6cbd53.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,722 |
-| 2026-10-23 | [`s_ac51dce7`](sessions/2026-10/session-s_ac51dce7.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,672 |
-| 2026-10-23 | [`s_9f3a466a`](sessions/2026-10/session-s_9f3a466a.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,576 |
-| 2026-10-23 | [`s_09d16f02`](sessions/2026-10/session-s_09d16f02.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,544 |
-| 2026-10-23 | [`s_3d3fbfc1`](sessions/2026-10/session-s_3d3fbfc1.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,504 |
-| 2026-10-23 | [`s_24e15b3d`](sessions/2026-10/session-s_24e15b3d.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,489 |
-| 2026-10-23 | [`s_e4525a36`](sessions/2026-10/session-s_e4525a36.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,477 |
-| 2026-10-23 | [`s_113c9347`](sessions/2026-10/session-s_113c9347.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,474 |
-| 2026-10-23 | [`s_87e66d31`](sessions/2026-10/session-s_87e66d31.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,471 |
-| 2026-10-23 | [`s_63b7311d`](sessions/2026-10/session-s_63b7311d.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,430 |
-| 2026-10-23 | [`s_1cbbb89c`](sessions/2026-10/session-s_1cbbb89c.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,415 |
-| 2026-10-23 | [`s_7f997a30`](sessions/2026-10/session-s_7f997a30.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,411 |
-| 2026-10-23 | [`s_956e64a1`](sessions/2026-10/session-s_956e64a1.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,404 |
-| 2026-10-23 | [`s_a02b8abf`](sessions/2026-10/session-s_a02b8abf.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,399 |
-| 2026-10-23 | [`s_e6673c0e`](sessions/2026-10/session-s_e6673c0e.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,360 |
-| 2026-10-23 | [`s_e24eb166`](sessions/2026-10/session-s_e24eb166.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,354 |
-| 2026-10-23 | [`s_8985fb9e`](sessions/2026-10/session-s_8985fb9e.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,345 |
-| 2026-10-23 | [`s_25e954ab`](sessions/2026-10/session-s_25e954ab.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,345 |
-| 2026-10-23 | [`s_a5940156`](sessions/2026-10/session-s_a5940156.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,344 |
-| 2026-10-23 | [`s_56976093`](sessions/2026-10/session-s_56976093.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,326 |
-| 2026-10-23 | [`s_419a63fb`](sessions/2026-10/session-s_419a63fb.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,316 |
-| 2026-10-23 | [`s_194252c0`](sessions/2026-10/session-s_194252c0.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,313 |
-| 2026-10-23 | [`s_0970528d`](sessions/2026-10/session-s_0970528d.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,310 |
-| 2026-10-23 | [`s_a7425667`](sessions/2026-10/session-s_a7425667.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,308 |
-| 2026-10-23 | [`s_28bcd411`](sessions/2026-10/session-s_28bcd411.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,298 |
-| 2026-10-23 | [`s_7444a893`](sessions/2026-10/session-s_7444a893.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,287 |
-| 2026-10-23 | [`s_8e968ded`](sessions/2026-10/session-s_8e968ded.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,261 |
-| 2026-10-23 | [`s_c0508fe3`](sessions/2026-10/session-s_c0508fe3.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,250 |
-| 2026-10-23 | [`s_5565d607`](sessions/2026-10/session-s_5565d607.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,249 |
-| 2026-10-23 | [`s_1cb1fa33`](sessions/2026-10/session-s_1cb1fa33.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,248 |
-| 2026-10-23 | [`s_46d2186b`](sessions/2026-10/session-s_46d2186b.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,244 |
-| 2026-10-23 | [`s_8dbb042d`](sessions/2026-10/session-s_8dbb042d.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,239 |
-| 2026-10-23 | [`s_7f10cdc6`](sessions/2026-10/session-s_7f10cdc6.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,228 |
-| 2026-10-23 | [`s_8799b6f0`](sessions/2026-10/session-s_8799b6f0.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,227 |
-| 2026-10-23 | [`s_9cadb2e1`](sessions/2026-10/session-s_9cadb2e1.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,207 |
-| 2026-10-23 | [`s_34beae3e`](sessions/2026-10/session-s_34beae3e.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,176 |
-| 2026-10-23 | [`s_79d65c25`](sessions/2026-10/session-s_79d65c25.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,097 |
-| 2026-10-23 | [`s_0559a651`](sessions/2026-10/session-s_0559a651.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,074 |
-| 2026-10-23 | [`s_55ba78a8`](sessions/2026-10/session-s_55ba78a8.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,059 |
-| 2026-10-23 | [`s_67d9f6c2`](sessions/2026-10/session-s_67d9f6c2.md) | This session is being continued from a previous conversation that ran out of context. The… | 22,992 |
-| 2026-10-23 | [`s_6ee888f7`](sessions/2026-10/session-s_6ee888f7.md) | This session is being continued from a previous conversation that ran out of context. The… | 22,935 |
-| 2026-10-23 | [`s_9b4d46bd`](sessions/2026-10/session-s_9b4d46bd.md) | Майкрофт, служебная проверка кода по поручению оператора. Только чтением проверьте C:/User… | 22,077 |
+| 2026-10-26 | [`s_09215ce0`](sessions/2026-10/session-s_09215ce0.md) | CONTENT_DRAIN_AUTORUN | 41,386 |
+| 2026-10-26 | [`s_38cc24c5`](sessions/2026-10/session-s_38cc24c5.md) | This session is being continued from a previous conversation that ran out of context. The… | 23,444 |
+| 2026-10-26 | [`s_31be83e9`](sessions/2026-10/session-s_31be83e9.md) | Нужно перенести сегодняшнее интервью с [ИМЯ] на неделю вперёд, желательно на следующий пон… | 18,431 |
+| 2026-10-26 | [`s_331a630e`](sessions/2026-10/session-s_331a630e.md) | Как делить на двузначные числа? Я Артушика, а Артушика сейчас тема. Артур мой сын, это тем… | 9,284 |
+| 2026-10-26 | [`s_0ed0fd2d`](sessions/2026-10/session-s_0ed0fd2d.md) | Нужно сделать recall всего, что уже изучали про то, как LLM думает на разных слоях, и на о… | 7,768 |
+| 2026-10-26 | [`s_4929784c`](sessions/2026-10/session-s_4929784c.md) | Scheduled run: day-summary-human-touch | 5,258 |
+| 2026-10-26 | [`s_3533b2fc`](sessions/2026-10/session-s_3533b2fc.md) | Scheduled run: teach-podcast-queue | 4,453 |
+| 2026-10-26 | [`s_5df23b57`](sessions/2026-10/session-s_5df23b57.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 4,326 |
+| 2026-10-26 | [`s_275bb4b1`](sessions/2026-10/session-s_275bb4b1.md) | Нужно проверить гипотезу от [ИМЯ] (познакомились в [ИМЯ] [ИМЯ]): [СКРЫТО]. Его тезис: если… | 3,911 |
+| 2026-10-26 | [`s_77047a7f`](sessions/2026-10/session-s_77047a7f.md) | Scheduled run: skill-gap-daily | 3,839 |
+| 2026-10-26 | [`s_00f63e27`](sessions/2026-10/session-s_00f63e27.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 3,782 |
+| 2026-10-26 | [`s_1abfe595`](sessions/2026-10/session-s_1abfe595.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 3,347 |
+| 2026-10-26 | [`s_49b27cae`](sessions/2026-10/session-s_49b27cae.md) | Scheduled run: five-whys-routine-runs-output-stale | 3,139 |
+| 2026-10-26 | [`s_1c86b2e6`](sessions/2026-10/session-s_1c86b2e6.md) | Ты аналитик CRM. Ниже реплики людей из Signal-чатов, где состоит оператор (инженер | 2,448 |
+| 2026-10-26 | [`s_301b1446`](sessions/2026-10/session-s_301b1446.md) | Сейчас выезжаем из Синтры в сторону Алгарве. Гостиница забронирована на 4 ночи, кажется Pi… | 2,378 |
+| 2026-10-26 | [`s_76617e49`](sessions/2026-10/session-s_76617e49.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,372 |
+| 2026-10-26 | [`s_46c88451`](sessions/2026-10/session-s_46c88451.md) | Нужно проанализировать за последние 6–12 месяцев чаты «Покупки» и «Ассистанс»: как обычно… | 2,221 |
+| 2026-10-26 | [`s_75d31468`](sessions/2026-10/session-s_75d31468.md) | Установить на эту штуку после этого - [ИМЯ] с [ИМЯ] | 2,153 |
+| 2026-10-26 | [`s_1c50174e`](sessions/2026-10/session-s_1c50174e.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 2,058 |
+| 2026-10-26 | [`s_5406295c`](sessions/2026-10/session-s_5406295c.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,028 |
+| 2026-10-26 | [`s_63e2e9cc`](sessions/2026-10/session-s_63e2e9cc.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 2,011 |
+| 2026-10-26 | [`s_113a76da`](sessions/2026-10/session-s_113a76da.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,971 |
+| 2026-10-26 | [`s_754e617d`](sessions/2026-10/session-s_754e617d.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,967 |
+| 2026-10-26 | [`s_1d460e8f`](sessions/2026-10/session-s_1d460e8f.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,934 |
+| 2026-10-26 | [`s_5247a21c`](sessions/2026-10/session-s_5247a21c.md) | You are a strict SIGNAL filter for a senior AI engineer building real | 1,899 |
+| 2026-10-26 | [`s_457756ec`](sessions/2026-10/session-s_457756ec.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,683 |
+| 2026-10-26 | [`s_38825b9a`](sessions/2026-10/session-s_38825b9a.md) | Scheduled run: raise-pearx-20261006 | 1,614 |
+| 2026-10-26 | [`s_6b5679b0`](sessions/2026-10/session-s_6b5679b0.md) | INTENTION_LANE_AUTORUN | 1,137 |
+| 2026-10-26 | [`s_5e67aae3`](sessions/2026-10/session-s_5e67aae3.md) | ⚙️ РЕЛЬСА: SONNET (грунт). Эта рутина = механика, авторского голоса и суждения в ней нет | 1,084 |
+| 2026-10-26 | [`s_26689639`](sessions/2026-10/session-s_26689639.md) | https://www.nvidia.com/en-us/startups/ | 976 |
+| 2026-10-26 | [`s_765bdc2f`](sessions/2026-10/session-s_765bdc2f.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 946 |
+| 2026-10-26 | [`s_203c9995`](sessions/2026-10/session-s_203c9995.md) | Дай Виталию конфу в сф куда я хочу поехать 10-12 ноября | 861 |
+| 2026-10-26 | [`s_600ba92e`](sessions/2026-10/session-s_600ba92e.md) | You are the ALPHA-JUDGE running unattended over the CHANNEL lane. UNATTENDED MEANS: there… | 859 |
+| 2026-10-26 | [`s_0c35f38e`](sessions/2026-10/session-s_0c35f38e.md) | Scheduled run: auto-hub-261006-voice001-asr-to-hub-gpu-rail | 850 |
+| 2026-10-26 | [`s_570a29a8`](sessions/2026-10/session-s_570a29a8.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 493 |
+| 2026-10-26 | [`s_1c5efa22`](sessions/2026-10/session-s_1c5efa22.md) | Follow the instructions in C:\Users\dev/.claude/scripts/robot_inbox_prompt.md EXACTLY, ste… | 447 |
+| 2026-10-26 | [`s_158df436`](sessions/2026-10/session-s_158df436.md) | Ты РАБОТНИК ветки диалога Майкрофта с Дмитрием Васильевым (VDAI). Тебя запустил сторож ОС… | 424 |
+| 2026-10-26 | [`s_6c289dfd`](sessions/2026-10/session-s_6c289dfd.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 416 |
+| 2026-10-26 | [`s_67ae646c`](sessions/2026-10/session-s_67ae646c.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 416 |
+| 2026-10-26 | [`s_610b26d0`](sessions/2026-10/session-s_610b26d0.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 415 |
+| 2026-10-26 | [`s_192b949e`](sessions/2026-10/session-s_192b949e.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 415 |
+| 2026-10-26 | [`s_6d93561f`](sessions/2026-10/session-s_6d93561f.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 412 |
+| 2026-10-26 | [`s_100f5362`](sessions/2026-10/session-s_100f5362.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 412 |
+| 2026-10-26 | [`s_06a20d96`](sessions/2026-10/session-s_06a20d96.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 412 |
+| 2026-10-26 | [`s_4f75b2ae`](sessions/2026-10/session-s_4f75b2ae.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 411 |
+| 2026-10-26 | [`s_180b5a86`](sessions/2026-10/session-s_180b5a86.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 411 |
+| 2026-10-26 | [`s_0f27c093`](sessions/2026-10/session-s_0f27c093.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 410 |
+| 2026-10-26 | [`s_3884d06e`](sessions/2026-10/session-s_3884d06e.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 409 |
+| 2026-10-26 | [`s_515e710c`](sessions/2026-10/session-s_515e710c.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 406 |
+| 2026-10-26 | [`s_41ba66c6`](sessions/2026-10/session-s_41ba66c6.md) | Classify this Claude Code session as HUMAN or SERVICE by its CONTENT | 406 |
 
 Selection, scrubbing and the known blind spots of the gate are described in
 [README.md](README.md).
