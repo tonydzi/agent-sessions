@@ -1,6 +1,6 @@
 # Index
 
-Every session published so far. 3,520 sessions, 6,332,575 words.
+Every session published so far. 4,020 sessions, 6,994,669 words.
 
 Each row is one full working session with a coding agent. Sessions are grouped by the
 month of their last message; each month has its own full table.
@@ -9,7 +9,7 @@ month of their last message; each month has its own full table.
 
 | month | sessions | words |
 |:---|---:|---:|
-| [2026-09](sessions/2026-09/README.md) | 3,340 | 5,807,338 |
+| [2026-09](sessions/2026-09/README.md) | 3,840 | 6,469,432 |
 | [2026-08](sessions/2026-08/README.md) | 180 | 525,237 |
 
 ## Latest 50
@@ -22,50 +22,50 @@ month of their last message; each month has its own full table.
 | 2026-09-23 | [`s_edbdc3a4`](sessions/2026-09/session-s_edbdc3a4.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,934 |
 | 2026-09-23 | [`s_98c478a5`](sessions/2026-09/session-s_98c478a5.md) | You are an INDEPENDENT senior code reviewer from a DIFFERENT vendor than the author | 9,876 |
 | 2026-09-23 | [`s_87284769`](sessions/2026-09/session-s_87284769.md) | Scheduled run: casebook-drip-daily | 7,830 |
+| 2026-09-22 | [`s_04a58ee2`](sessions/2026-09/session-s_04a58ee2.md) | Scheduled run: pipe-a-apply-daily | 18,945 |
+| 2026-09-22 | [`s_4de90103`](sessions/2026-09/session-s_4de90103.md) | Scheduled run: robot-audit-weekly | 13,756 |
+| 2026-09-22 | [`s_03afe973`](sessions/2026-09/session-s_03afe973.md) | в чате 00 Голос перестал транскрибироваться | 13,306 |
 | 2026-09-22 | [`7f48c0cc`](sessions/2026-09/session-7f48c0cc.md) | Scheduled run: draining the content funnel into finished posts | 10,060 |
+| 2026-09-22 | [`s_4b8bdb6b`](sessions/2026-09/session-s_4b8bdb6b.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 8,983 |
 | 2026-09-22 | [`d04e5af2`](sessions/2026-09/session-d04e5af2.md) | Scheduled run: nightly language pairs for content | 8,516 |
-| 2026-09-21 | [`s_07b48d25`](sessions/2026-09/session-s_07b48d25.md) | Another Claude session sent a message | 20,927 |
-| 2026-09-21 | [`s_01d88346`](sessions/2026-09/session-s_01d88346.md) | Another Claude session sent a message | 19,352 |
-| 2026-09-21 | [`s_06828de2`](sessions/2026-09/session-s_06828de2.md) | Твоя голосовая в 001 сегодня 05:18 UTC (06:18 по Лиссабону) была про звонок с Jason из Lon… | 16,009 |
-| 2026-09-21 | [`ec0417c4`](sessions/2026-09/session-ec0417c4.md) | Adversarial review of a scripts+hooks change, against frozen commits | 15,140 |
-| 2026-09-21 | [`s_5f19aaee`](sessions/2026-09/session-s_5f19aaee.md) | Another Claude session sent a message | 14,828 |
-| 2026-09-21 | [`250a2057`](sessions/2026-09/session-250a2057.md) | Cross-vendor review of a two-repository change written by Codex | 13,403 |
-| 2026-09-21 | [`s_36ea8714`](sessions/2026-09/session-s_36ea8714.md) | CONTENT_DRAIN_AUTORUN | 8,777 |
-| 2026-09-21 | [`s_1178d6a4`](sessions/2026-09/session-s_1178d6a4.md) | Scheduled run: lead-thread-reply | 7,548 |
-| 2026-09-21 | [`s_348842f7`](sessions/2026-09/session-s_348842f7.md) | Another Claude session sent a message | 6,699 |
-| 2026-09-21 | [`s_4f73dfb4`](sessions/2026-09/session-s_4f73dfb4.md) | Scheduled run: casebook-drip-daily | 6,296 |
-| 2026-09-21 | [`s_5bd1fac1`](sessions/2026-09/session-s_5bd1fac1.md) | Scheduled run: claudeai-sync-daily | 5,930 |
-| 2026-09-21 | [`s_488a1a1e`](sessions/2026-09/session-s_488a1a1e.md) | Scheduled run: raise-outreach-daily | 5,806 |
-| 2026-09-21 | [`s_24d5937e`](sessions/2026-09/session-s_24d5937e.md) | Scheduled run: auto-hub-260806-inbound-triage-daily | 5,765 |
-| 2026-09-21 | [`s_19c47849`](sessions/2026-09/session-s_19c47849.md) | Another Claude session sent a message | 5,006 |
-| 2026-09-21 | [`s_466445dd`](sessions/2026-09/session-s_466445dd.md) | Scheduled run: reality-show-health-weekly | 5,002 |
-| 2026-09-21 | [`s_2d87c127`](sessions/2026-09/session-s_2d87c127.md) | Scheduled run: voice-dispatcher | 4,418 |
-| 2026-09-21 | [`s_4e2e3662`](sessions/2026-09/session-s_4e2e3662.md) | Scheduled run: facebook-diary-daily | 4,210 |
-| 2026-09-21 | [`s_62780bcd`](sessions/2026-09/session-s_62780bcd.md) | Scheduled run: skill-gap-daily | 3,937 |
-| 2026-09-21 | [`s_4c96cbb3`](sessions/2026-09/session-s_4c96cbb3.md) | Scheduled run: auto-hub-260901-cv-rebuild-contacts | 3,843 |
-| 2026-09-21 | [`s_10498a27`](sessions/2026-09/session-s_10498a27.md) | Scheduled run: content-miner-nightly | 3,732 |
-| 2026-09-21 | [`s_1836c19e`](sessions/2026-09/session-s_1836c19e.md) | Another Claude session sent a message | 3,600 |
-| 2026-09-21 | [`s_41eac593`](sessions/2026-09/session-s_41eac593.md) | Scheduled run: auto-hub-260903-cli-reaper-routine | 3,505 |
-| 2026-09-21 | [`s_33a14ec5`](sessions/2026-09/session-s_33a14ec5.md) | Scheduled run: hanging-tasks-digest | 3,415 |
-| 2026-09-21 | [`s_16e1594c`](sessions/2026-09/session-s_16e1594c.md) | Scheduled run: shadow-harvest-daily | 2,913 |
-| 2026-09-21 | [`s_0c4850f0`](sessions/2026-09/session-s_0c4850f0.md) | You are an INDEPENDENT senior code reviewer. The diff below was written by a | 2,792 |
-| 2026-09-21 | [`s_5e9839a4`](sessions/2026-09/session-s_5e9839a4.md) | You are extracting structured deal-flow data from ONE verbatim call transcript (VC/startup… | 2,691 |
-| 2026-09-21 | [`s_5cce40db`](sessions/2026-09/session-s_5cce40db.md) | Run the /claudeai-sync skill now: incremental pull of new claude.ai web chats into the vau… | 2,619 |
-| 2026-09-21 | [`s_72a1ffab`](sessions/2026-09/session-s_72a1ffab.md) | Scheduled run: hub-deploy-unpack-daily | 2,419 |
-| 2026-09-21 | [`s_24c68cb5`](sessions/2026-09/session-s_24c68cb5.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,325 |
-| 2026-09-21 | [`s_3585a724`](sessions/2026-09/session-s_3585a724.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,313 |
-| 2026-09-21 | [`s_5d0fa5d0`](sessions/2026-09/session-s_5d0fa5d0.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,296 |
-| 2026-09-21 | [`s_1e7a870e`](sessions/2026-09/session-s_1e7a870e.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,296 |
-| 2026-09-21 | [`s_1223d555`](sessions/2026-09/session-s_1223d555.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,262 |
-| 2026-09-21 | [`s_4d1dae7c`](sessions/2026-09/session-s_4d1dae7c.md) | [СКРЫТО] --- | 2,223 |
-| 2026-09-21 | [`s_5713f12b`](sessions/2026-09/session-s_5713f12b.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,192 |
-| 2026-09-21 | [`s_600a7eb3`](sessions/2026-09/session-s_600a7eb3.md) | Scheduled run: jobs-watch-daily | 2,178 |
-| 2026-09-21 | [`s_3c61cb1c`](sessions/2026-09/session-s_3c61cb1c.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,135 |
-| 2026-09-21 | [`s_0d5f2e23`](sessions/2026-09/session-s_0d5f2e23.md) | You are an independent senior reviewer from a different vendor than the author. Review ONL… | 2,055 |
-| 2026-09-21 | [`s_1e00b7aa`](sessions/2026-09/session-s_1e00b7aa.md) | You are the independent cross-vendor reviewer for a safety-critical Windows Telegram doorb… | 1,899 |
-| 2026-09-21 | [`s_506f2b18`](sessions/2026-09/session-s_506f2b18.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 1,861 |
-| 2026-09-21 | [`s_1f7112b4`](sessions/2026-09/session-s_1f7112b4.md) | INTENTION_LANE_AUTORUN | 1,770 |
-| 2026-09-21 | [`s_59a12002`](sessions/2026-09/session-s_59a12002.md) | Ты — ассистент оператора (аккаунт @platinumvc1) в рабочем командном чате «All Assistant’s… | 1,549 |
+| 2026-09-22 | [`s_6ad1d1c1`](sessions/2026-09/session-s_6ad1d1c1.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 8,432 |
+| 2026-09-22 | [`s_608183e8`](sessions/2026-09/session-s_608183e8.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 8,188 |
+| 2026-09-22 | [`s_69c2e85e`](sessions/2026-09/session-s_69c2e85e.md) | Scheduled run: lead-thread-reply | 7,033 |
+| 2026-09-22 | [`s_0790cf65`](sessions/2026-09/session-s_0790cf65.md) | OUTPUT CONTRACT (read first, overrides any habit) | 6,755 |
+| 2026-09-22 | [`s_4178cf97`](sessions/2026-09/session-s_4178cf97.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 5,867 |
+| 2026-09-22 | [`s_4bafcce4`](sessions/2026-09/session-s_4bafcce4.md) | Scheduled run: auto-hub-260824-dr-runner-hiring | 5,021 |
+| 2026-09-22 | [`s_6ffee11f`](sessions/2026-09/session-s_6ffee11f.md) | OUTPUT CONTRACT (read first, overrides any habit) | 4,963 |
+| 2026-09-22 | [`s_6186ab66`](sessions/2026-09/session-s_6186ab66.md) | [Codex→Claude][workspace-write-guard][VERIFY] | 4,920 |
+| 2026-09-22 | [`s_0f2a5d57`](sessions/2026-09/session-s_0f2a5d57.md) | [Codex→Claude][workspace-write-guard][REVISE] | 4,821 |
+| 2026-09-22 | [`s_71fa89d6`](sessions/2026-09/session-s_71fa89d6.md) | Scheduled run: auto-hub-260811-retro-lost-nightly | 4,820 |
+| 2026-09-22 | [`s_3d8027b2`](sessions/2026-09/session-s_3d8027b2.md) | Scheduled run: auto-hub-260824-nsfw-dr-posts | 4,357 |
+| 2026-09-22 | [`s_042d191c`](sessions/2026-09/session-s_042d191c.md) | Another Claude session sent a message | 4,357 |
+| 2026-09-22 | [`s_4625ce9c`](sessions/2026-09/session-s_4625ce9c.md) | diff --git a/_test_lease_storm.py b/_test_lease_storm.py | 4,344 |
+| 2026-09-22 | [`s_649ef3ec`](sessions/2026-09/session-s_649ef3ec.md) | diff --git a/_test_lease_storm.py b/_test_lease_storm.py | 4,157 |
+| 2026-09-22 | [`s_47af6bb1`](sessions/2026-09/session-s_47af6bb1.md) | Scheduled run: auto-hub-260901-apply-batch2-today | 4,029 |
+| 2026-09-22 | [`s_3c73baf5`](sessions/2026-09/session-s_3c73baf5.md) | Scheduled run: auto-hub-260903-debt-voice-whisper-translate | 3,965 |
+| 2026-09-22 | [`s_21a2f49a`](sessions/2026-09/session-s_21a2f49a.md) | Another Claude session sent a message | 3,936 |
+| 2026-09-22 | [`s_17e6d968`](sessions/2026-09/session-s_17e6d968.md) | Scheduled run: voice-dispatcher | 3,576 |
+| 2026-09-22 | [`s_3bfd2da4`](sessions/2026-09/session-s_3bfd2da4.md) | Scheduled run: auto-hub-260901-apply-batch2-today | 3,572 |
+| 2026-09-22 | [`s_471f9591`](sessions/2026-09/session-s_471f9591.md) | Scheduled run: auto-hub-260903-warmth-lead-scale-delta | 3,332 |
+| 2026-09-22 | [`s_0e4b77e5`](sessions/2026-09/session-s_0e4b77e5.md) | Scheduled run: hub-deploy-unpack-daily | 3,314 |
+| 2026-09-22 | [`s_286dad88`](sessions/2026-09/session-s_286dad88.md) | Scheduled run: preference-sweep-daily | 3,302 |
+| 2026-09-22 | [`s_64f180de`](sessions/2026-09/session-s_64f180de.md) | Scheduled run: task-hygiene-shadow | 2,925 |
+| 2026-09-22 | [`s_1181150b`](sessions/2026-09/session-s_1181150b.md) | [Codex→Claude][workspace-write-guard-tests][ARTIFACT.PROPOSED] | 2,692 |
+| 2026-09-22 | [`s_3d2c16a2`](sessions/2026-09/session-s_3d2c16a2.md) | You are distilling a DEEP-RESEARCH report into a compact, searchable knowledge note | 2,524 |
+| 2026-09-22 | [`s_70d8babb`](sessions/2026-09/session-s_70d8babb.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,500 |
+| 2026-09-22 | [`s_693ed013`](sessions/2026-09/session-s_693ed013.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,493 |
+| 2026-09-22 | [`s_2c5fa8f3`](sessions/2026-09/session-s_2c5fa8f3.md) | Scheduled run: auto-hub-260824-dr-runner-crypto | 2,481 |
+| 2026-09-22 | [`s_18a1b113`](sessions/2026-09/session-s_18a1b113.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,446 |
+| 2026-09-22 | [`s_46635d2d`](sessions/2026-09/session-s_46635d2d.md) | [СКРЫТО] --- | 2,409 |
+| 2026-09-22 | [`s_05f58f0c`](sessions/2026-09/session-s_05f58f0c.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,384 |
+| 2026-09-22 | [`s_3953a76d`](sessions/2026-09/session-s_3953a76d.md) | Ты независимый старший ревьюер. Это второй проход после REQUEST_CHANGES. Проверь итоговый… | 2,380 |
+| 2026-09-22 | [`s_2535f7a7`](sessions/2026-09/session-s_2535f7a7.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,368 |
+| 2026-09-22 | [`s_5ab716cf`](sessions/2026-09/session-s_5ab716cf.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,320 |
+| 2026-09-22 | [`s_675165d2`](sessions/2026-09/session-s_675165d2.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,318 |
+| 2026-09-22 | [`s_3118787b`](sessions/2026-09/session-s_3118787b.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,244 |
+| 2026-09-22 | [`s_7120f0cb`](sessions/2026-09/session-s_7120f0cb.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,240 |
+| 2026-09-22 | [`s_07443e81`](sessions/2026-09/session-s_07443e81.md) | System prompt — бот-коуч ассистентов (Покупки + Assistance), v1 | 2,232 |
 
 Selection, scrubbing and the known blind spots of the gate are described in
 [README.md](README.md).
