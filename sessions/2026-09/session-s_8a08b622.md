@@ -8,7 +8,7 @@ license: CC-BY-4.0
 dataset: https://huggingface.co/datasets/TonyDzi/agent-sessions
 ---
 
-# 2026-09-22 · Act as an independent adversarial code reviewer. Read only; do not edit. In repo C:\Users\…
+# 2026-09-22 · Act as an independent adversarial code reviewer. Read only; do not edit. In repo C:\Users\dev
 
 _Full working session of an LLM coding agent, scrubbed by rule (names kept as stable pseudonyms; surnames, e-mails, phones, street addresses and ages replaced by [ФАМИЛИЯ], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ВОЗРАСТ]; hosts and keys replaced). Row `s_8a08b622` of the [dataset](https://huggingface.co/datasets/TonyDzi/agent-sessions)._
 
