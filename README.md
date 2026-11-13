@@ -1,5 +1,55 @@
 # agent-sessions
 
+A free collection of 12,840 real working sessions between a human and AI coding agents, published as plain text a week after they happened, with personal data removed.
+
+**Who it's for:** researchers, engineers and curious people who want to see what long agent sessions really look like, including the mistakes and corrections.
+**What you get:** one Markdown file per session (what was asked, what the agent did, which tools it called), grouped by month, free to read, quote and train on with credit (CC BY 4.0).
+
+## Quick start
+1. Open [index.md](index.md) to see the totals by month and the 50 latest sessions.
+2. Click any session link, for example one under `sessions/2026-10/`, and read it top to bottom.
+3. To get the files on your computer: `git clone --depth 1 https://github.com/tonydzi/agent-sessions` (the repo holds about 12,800 files, so it can take a while). A copy is also on [Hugging Face](https://huggingface.co/datasets/TonyDzi/agent-sessions).
+
+**Done when:** you have opened one session and can tell which lines are the human (`**Anton:**`), the agent (`**Claude:**`) and tool calls (lines starting with `>`).
+
+> Want an AI agent to do it for you? Paste this to Claude Code / Codex / Cursor:
+> "Read the 'For AI agents' section of https://github.com/tonydzi/agent-sessions and set it up for me."
+
+## For AI agents
+
+### Preconditions
+- `git`. No runtime, package or account is needed to read the files.
+- The corpus is large (12,840 session files, about 31.8 million words per `index.md`). Ask the human how much disk and bandwidth to use and whether to clone it all or fetch single files. Do not download everything by default.
+- The sessions are bilingual (mostly Russian and English) and are not translated.
+
+### Use
+```bash
+git clone --depth 1 https://github.com/tonydzi/agent-sessions
+cd agent-sessions
+```
+Layout (from the README): `sessions/YYYY-MM/session-<id>.md` is one session, `sessions/YYYY-MM/README.md` is that month's table, `index.md` has totals and the latest 50. Single files can be fetched from `https://github.com/tonydzi/agent-sessions/blob/main/sessions/<month>/session-<id>.md`. Use the Hugging Face copy (https://huggingface.co/datasets/TonyDzi/agent-sessions) for bulk machine reading, and follow its dataset card for the loading method; this repo does not document one.
+
+### Configure
+Nothing to configure. Ask the human what question they want answered from the sessions (for example tool-call errors, corrections, a topic) so you can search narrowly with `grep` instead of reading everything.
+
+### Verify
+```bash
+git ls-files "sessions/2026-08/session-*.md" | wc -l
+git ls-files "sessions/2026-09/session-*.md" | wc -l
+git ls-files "sessions/2026-10/session-*.md" | wc -l
+```
+Expected, as checked locally on a fresh clone: `180`, `6641`, `6019`, which sum to the 12,840 stated in `index.md`. Newer commits add sessions daily, so later counts can be higher.
+
+### Uninstall / rollback
+Delete the cloned folder. Nothing else is touched.
+
+### Rules for the agent
+- Do not try to identify people, companies or deals from the sessions, and do not cross-reference them with other sources. Names other than the author are pseudonyms by design.
+- If you find personal data or a secret that survived scrubbing, tell the human and point them to the issue process in "Found something that should not be here". Do not copy it elsewhere.
+- Keep attribution when quoting or training: the license is CC BY 4.0.
+
+## Details
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23712140.svg)](https://doi.org/10.5281/zenodo.23712140) [![Hugging Face](https://img.shields.io/badge/dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/TonyDzi/agent-sessions)
 
 An open corpus of full working sessions with a coding agent. Real transcripts from a
