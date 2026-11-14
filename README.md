@@ -10,7 +10,7 @@ A free collection of 12,840 real working sessions between a human and AI coding 
 2. Click any session link, for example one under `sessions/2026-10/`, and read it top to bottom.
 3. To get the files on your computer: `git clone --depth 1 https://github.com/tonydzi/agent-sessions` (the repo holds about 12,800 files, so it can take a while). A copy is also on [Hugging Face](https://huggingface.co/datasets/TonyDzi/agent-sessions).
 
-**Done when:** you have opened one session and can tell which lines are the human (`**Anton:**`), the agent (`**Claude:**`) and tool calls (lines starting with `>`).
+**Done when:** you have opened one session and can tell which lines are the human (`**User:**`), the agent (`**Claude:**`) and tool calls (lines starting with `>`).
 
 > Want an AI agent to do it for you? Paste this to Claude Code / Codex / Cursor:
 > "Read the 'For AI agents' section of https://github.com/tonydzi/agent-sessions and set it up for me."
@@ -38,7 +38,7 @@ git ls-files "sessions/2026-08/session-*.md" | wc -l
 git ls-files "sessions/2026-09/session-*.md" | wc -l
 git ls-files "sessions/2026-10/session-*.md" | wc -l
 ```
-Expected, as checked locally on a fresh clone: `180`, `6641`, `6019`, which sum to the 12,840 stated in `index.md`. Newer commits add sessions daily, so later counts can be higher.
+PowerShell: `(git ls-files "sessions/2026-08/session-*.md" | Measure-Object).Count`. Run these inside the cloned folder, otherwise they print `0`. Expected, as checked locally on a fresh clone: `180`, `6641`, `6019`, which sum to the 12,840 stated in `index.md`. Newer commits add sessions daily, so later counts can be higher. A count of 0 or far below these means the clone is incomplete (for example an interrupted download) or you are in the wrong folder. This proves the files arrived, not that they are readable: also open one session file and confirm it starts with a front matter block (`session:`, `date:`, `words:`) and contains `**User:**` and `**Claude:**` lines.
 
 ### Uninstall / rollback
 Delete the cloned folder. Nothing else is touched.
@@ -84,7 +84,7 @@ has to hold the whole corpus. Every file is plain markdown, well under GitHub's 
 file limit (the largest is a few hundred KB), so there is no Git LFS: Pages cannot
 serve LFS files, and readers should not need a special client to open a transcript.
 
-Each file is one session, start to finish. `**Anton:**` is the human (or the scheduled
+Each file is one session, start to finish. `**User:**` is the human (or the scheduled
 task that woke the agent), `**Claude:**` is the agent, and lines starting with `>` are
 tool calls with their arguments.
 
