@@ -702,7 +702,7 @@ POKRYTIE: nazval sobesednika 1 iz 10; NE MOGU SUDIT 9
 
 ---
 
-> `PowerShell` -- {"command": "$p = Get-Content 'E:\\!CLAUDE-HUBPC-June26\\secrets\\windows_hub.env' -ErrorAction SilentlyContinue | Select-String -Pattern 'PASS' | ForEach-Object { ($_ -split '=',2)[1].Trim() } | Select-Object -First 1\nif (-not $p) { $p = '590983' }\n$out = & schtasks.exe /change /tn \"Plaud C
+> `PowerShell` -- {"command": "$p = Get-Content 'E:\\!CLAUDE-HUBPC-June26\\secrets\\windows_hub.env' -ErrorAction SilentlyContinue | Select-String -Pattern 'PASS' | ForEach-Object { ($_ -split '=',2)[1].Trim() } | Select-Object -First 1\nif (-not $p) { $p = '[REDACTED]' }\n$out = & schtasks.exe /change /tn \"Plaud C
 
 ---
 
@@ -794,7 +794,7 @@ POKRYTIE: nazval sobesednika 1 iz 10; NE MOGU SUDIT 9
 
 ---
 
-> `PowerShell` -- {"command": "$p = '590983'\n$xml = & schtasks.exe /query /tn \"Plaud Cycle (8h)\" /xml ONE 2>&1 | Out-String\n$tmp = Join-Path $env:TEMP 'plaud_cycle_6h.xml'\nSet-Content -Path $tmp -Value $xml -Encoding Unicode\n$r1 = & schtasks.exe /create /tn \"Plaud Cycle (6h)\" /xml $tmp /ru dev /rp $p /f 2>&
+> `PowerShell` -- {"command": "$p = '[REDACTED]'\n$xml = & schtasks.exe /query /tn \"Plaud Cycle (8h)\" /xml ONE 2>&1 | Out-String\n$tmp = Join-Path $env:TEMP 'plaud_cycle_6h.xml'\nSet-Content -Path $tmp -Value $xml -Encoding Unicode\n$r1 = & schtasks.exe /create /tn \"Plaud Cycle (6h)\" /xml $tmp /ru dev /rp $p /f 2>&
 
 ---
 

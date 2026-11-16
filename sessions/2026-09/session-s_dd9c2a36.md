@@ -1060,7 +1060,7 @@ Stop hook feedback:
 
 ---
 
-> `Bash` -- {"command": "timeout 100 grep -rhoE \"TELEGRAM_SESSION_STRING_[A-Z0-9_]+\" /c/mcp /c/Users/dev/.claude 2>/dev/null | sort -u; echo \"--- .session файлы ---\"; timeout 60 find /c/mcp -name \"*.session*\" 2>/dev/null | head; echo \"--- anruva где-либо в конфигах ---\"; timeout 60 grep -ril \"anruva\
+> `Bash` -- {"command": "timeout 100 grep -rhoE \"TELEGRAM_SESSION_STRING_[A-Z0-9_]+\" /c/mcp /c/Users/dev/.claude 2>/dev/null | sort -u; echo \"--- .session файлы ---\"; timeout 60 find /c/mcp -name \"*.session*\" 2>/dev/null | head; echo \"--- @a*** где-либо в конфигах ---\"; timeout 60 grep -ril \"@a***\
 
 ---
 

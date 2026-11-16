@@ -492,7 +492,7 @@ Machine: HUB-01 (Хаб) · Agent: Codex · Operator: dev · 2026-10-16
 
 **User:**
 
-590983 это пин
+[REDACTED] это пин
 либо 5909
 пробуй
 

@@ -83,7 +83,7 @@ QUERY: Рита, срочно укажи в заявке любой отель �
 посты такие, это я пишу. Так что к автоматизации нам надо еще прийти."
 
 ## Голосовые 12.07: задачи Рите, паркинг FRA, вино, Core Master  [2026-07-12] (-) {note} rr=1.62
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-ruslane-parking-fra-vino-core-master.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-r***-parking-fra-vino-core-master.md -->
 erceNasty, Рита @teammate. - Опубликовано 12 голосовых: 8 в All Assistant's tasks и 4 в Покупки approve. Первый прошлый прогон скилла: 2026-07-09, 9 задач, сообщения 79491–79517. - Исправления ботов: «Виталий» и «Таня» в аудио это «Анаст
 
 ## INBOX ALL NODE-0X: лог оборвался, 26 посылок не применены  [2026-09-01] (-) {note} rr=1.10
@@ -91,7 +91,7 @@ erceNasty, Рита @teammate. - Опубликовано 12 голосовых:
 sboa`. Reply на 84213. В 06:47 она написала «Приняла в работу» на 84213. - Деньги в том чате от Риты, без итога в куске: 08:52 «Подтвердите пожалуйста оплату» и фото. 08:09 «Нам дизель нужно оплатить» и фото, сумма в тексте нет. 07:58 «Д
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=0.33
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 Денисовский (`chat_REDACTED`). - Индекс на тот момент: 21 116 чатов. «00 Архив ГОЛОСА и ТЕКСТА» чистый: 80 сообщений, 23 голосовых, сирот 0 (прогон 19:12, сторож `voice_backstop`). Это не он. - Хвост за 28.08, 17:48–18:06, 6 голосовых, до 
 
 ## Поездка SF 03–10.10.2026: митапы, маршрут, жильё, ноутбук  [2026-09-15] (-) {note} rr=-0.09

@@ -754,7 +754,7 @@ DR думает 10-40 мин. По каждой started-вкладке: гото
 
 ## ⭐ Поправка 02.10.2026 (NODE-0X, DR26-10-02-MACP-01-1407) — две грабли, обе замерены
 1. **agy вернул `status: SUCCESS` и ПУСТОЙ `response`**: агент полез в RunCommand, headless отбил (`denied_actions: command`), 89 с впустую. Лечение: первой строкой промпта ноги agy писать «Use ONLY web search and read_url tools. Do NOT run shell commands or write files. Return the full report as your final answer text.» Зачёт ноги по-прежнему: SUCCESS + непустой `response` + пустой `denied_actions`.
-2. **claude.ai: Send «не работает», а настоящая причина = исчерпан недельный лимит Fable** (модалка «Need more usage?» всплывает только после клика в поле; баннер «Use caution before running this prompt» висит рядом и сбивает с толку). Перед приговором «вендорская защита от вставки» сделать скриншот после клика в композер. Лимит Fable → переключить на Opus 5.5 + Effort Max + Research и отправлять; докупка кредитов = деньги, Tier-2. На NODE-0X claude.ai в Chrome = аккаунт оператора «Arthur Dzi» (590983a@, Max), пользоваться без вопроса (оператор 02.10).
+2. **claude.ai: Send «не работает», а настоящая причина = исчерпан недельный лимит Fable** (модалка «Need more usage?» всплывает только после клика в поле; баннер «Use caution before running this prompt» висит рядом и сбивает с толку). Перед приговором «вендорская защита от вставки» сделать скриншот после клика в композер. Лимит Fable → переключить на Opus 5.5 + Effort Max + Research и отправлять; докупка кредитов = деньги, Tier-2. На NODE-0X claude.ai в Chrome = аккаунт оператора «Arthur Dzi» (o***@g***.com, Max), пользоваться без вопроса (оператор 02.10).
 3. На macOS нет `timeout` (GNU): `rails_probe.py` и любые ноги запускать без него, у прибора свой предел.
 
 ## ⭐ Поправка 23.09.2026 — забор отчётов из живого Chrome-MCP (замер DR26-09-23-ZB-02-1231, NODE-0X, 4/6 собрано)
@@ -2609,7 +2609,7 @@ nats.exe на хабе. Живая проба end-to-end через Tailscale.
 
 ---
 
-> `Bash` -- {"command": "for h in NODE-0X-2023pal NODE-0X NODE-0X ruslanas-NODE-0X nataly-win-nb; do\n  r=$(timeout 14 ssh -o BatchMode=yes -o ConnectTimeout=8 -o StrictHostKeyChecking=accept-new \"$h\" \"uname -s 2>/dev/null || echo WIN; python3 -V 2>/dev/null || python -V 2>/dev/null || echo no-py
+> `Bash` -- {"command": "for h in NODE-0X-2023pal NODE-0X NODE-0X r***-NODE-0X nataly-win-nb; do\n  r=$(timeout 14 ssh -o BatchMode=yes -o ConnectTimeout=8 -o StrictHostKeyChecking=accept-new \"$h\" \"uname -s 2>/dev/null || echo WIN; python3 -V 2>/dev/null || python -V 2>/dev/null || echo no-py
 
 ---
 
@@ -4342,7 +4342,7 @@ Summary:
      Leak patterns block AWS keys, `ghp_`, `github_pat_`, `sk-`, `xox[baprs]-`, PRIVATE KEY blocks, Telegram bot tokens. Output: `1019 files, 5.8 MB, +1 ~3 -0, leak-scan clean, push OK`.
    - **`C:\Users\dev\.claude\scripts\vault_core_pull.py`** (created; later hardened on disk by another actor — now logs `event: "sync"` not `"read"`, refuses a dirty clone, aborts on git failure).
    - **`C:\Users\dev\.claude\scripts\_test_vault_core_export.py`** — 3 checks, red proof = planted fake `ghp_` token must abort with exit 3.
-   - **`C:\Users\dev\.claude\scripts\nats_fleet_install.py`** (created) — fleet rollout requiring a LIVE PROBE from each node (`nats_bus.py whoami` must name the node) rather than trusting `scp` exit 0; token sent over ssh **stdin**, never argv; unreachable nodes printed by name with a ready TASK line. Probe result: reachable = NODE-0X, NODE-0X-2023pal, mayak; UNREACHABLE = NODE-0X, ruslanas-NODE-0X, nataly-win-nb.
+   - **`C:\Users\dev\.claude\scripts\nats_fleet_install.py`** (created) — fleet rollout requiring a LIVE PROBE from each node (`nats_bus.py whoami` must name the node) rather than trusting `scp` exit 0; token sent over ssh **stdin**, never argv; unreachable nodes printed by name with a ready TASK line. Probe result: reachable = NODE-0X, NODE-0X-2023pal, mayak; UNREACHABLE = NODE-0X, r***-NODE-0X, nataly-win-nb.
    - **`C:\Users\dev\.claude\scripts\nats_bus.py`** (976 lines, written by workflow builder) — bus rail #6. Key design: `nats` CLI not nats-py; own cursor file `.nats-cursor__<ME>` instead of a durable consumer because `nats consumer next` acks on fetch; order = append-if-absent+fsync → `bus_seen.was_seen_then_mark` → advance cursor; subjects `fleet.dm.<node>.<sender>` (only wake-eligible), `fleet.all.<sender>`, `fleet.cap.<cap>.<sender>`, lowercase-guarded; mid widened to `os.urandom(5).hex()` (10 hex) capped by `inbox_debt.HDR = #([0-9a-f]{6,10})`; WAKE/SLEEP verbs parsed out of `tg_doorbell.py` by `ast`, no second copy.
    - **`C:\Users\dev\.claude\scripts\_test_nats_bus.py`** (749 lines) — grid went 92/92 then 97/0 green, yet reviewers' probes still lost messages; contains at least two proven FAKE assertions (line ~403 `>= 1` satisfied before `sync`; line ~688 "doctor never touches the nats CLI" structurally unfailable).
    - **`C:\Users\dev\.claude\scripts\nats_bus_doctor.py`** (340 lines) — freshness watchdog that must not ride the NATS engine; has a reproduced sticky-SICK defect.

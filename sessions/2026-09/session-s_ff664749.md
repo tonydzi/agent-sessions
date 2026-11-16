@@ -715,7 +715,7 @@ These techniques are part of systematic debugging and available in this director
 
 ---
 
-> `Bash` -- {"command": "python ~/.claude/scripts/bus_send.py --to all \"TASK: применить посылку spawn-queue-260902 (win: ZB+NAT · mac: MacAnton+MacRuslana). Класс: приложение (code 2.1.246, с 26.08) принудительно просит апрув на create/update_scheduled_task из РУТИННЫХ сессий, выше bypass/хуков (анти-clone-sto
+> `Bash` -- {"command": "python ~/.claude/scripts/bus_send.py --to all \"TASK: применить посылку spawn-queue-260902 (win: ZB+NAT · mac: MacAnton+Macr***). Класс: приложение (code 2.1.246, с 26.08) принудительно просит апрув на create/update_scheduled_task из РУТИННЫХ сессий, выше bypass/хуков (анти-clone-sto
 
 ---
 

@@ -121,7 +121,7 @@ QUERY: Добавить в календарь задачу — попробов�
      ▶ продолжить: python "D:\Vault\_imports\claude_sessions\continue_session.py" s_446ae547
 
  3. [rr= -4.75] 2026-07-10 · NODE-0X · Today's task review
-     ram_-1001859973669_79491..79517) — pre-existing whisper transcripts of dev's 9 July voice tasks; read to compile the task inventory. - `/Users/dev/Projec
+     ram_-100XXXXXXXXXX_79491..79517) — pre-existing whisper transcripts of dev's 9 July voice tasks; read to compile the task inventory. - `/Users/dev/Projec
      ▶ продолжить: python "D:\Vault\_imports\claude_sessions\continue_session.py" s_cd1f0bf8
 
 ## 🗂 Сырьё (чаты и переписки, НЕ дистиллировано -- топ-5)

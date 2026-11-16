@@ -77,7 +77,7 @@ QUERY: Переходники отдать Ханне на грузовую.
 === CONTEXT BUNDLE (paste to Claude) ===
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=0.79
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 не Долины, забрать вещи самому. Посмотреть, есть ли свой человек под отгрузку. SIM Google Fi, оформлена и отгружена на имя оператора. Связаться с Леной Кондричевой: она говорила, что по симке есть нюансы. Проверить долги по Google Fi. Боты слы
 
 ## Голосовые помощницам: билеты, брус, велик 16″, лазертаг в Брно  [2026-08-15] (-) {note} rr=0.75
@@ -89,7 +89,7 @@ QUERY: Переходники отдать Ханне на грузовую.
 нис не одобрил варианты кранов. Грузоподъёмность 150-300 кг он считает, скорее всего, неправдой. Свой кран поднимает около 100 кг. Смотреть высокую мощность двигателя и толстые крепления. Фраза про «вариант 1» в чате обрезана. Задача рядом:
 
 ## Голосовые 12.07: задачи Рите, паркинг FRA, вино, Core Master  [2026-07-12] (-) {note} rr=0.59
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-ruslane-parking-fra-vino-core-master.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-r***-parking-fra-vino-core-master.md -->
 erceNasty, Рита @teammate. - Опубликовано 12 голосовых: 8 в All Assistant's tasks и 4 в Покупки approve. Первый прошлый прогон скилла: 2026-07-09, 9 задач, сообщения 79491–79517. - Исправления ботов: «Виталий» и «Таня» в аудио это «Анаст
 
 ## Distilled: Vesely: 1-on-1 with Tony  [2026-09-04] (-) {note} rr=0.53

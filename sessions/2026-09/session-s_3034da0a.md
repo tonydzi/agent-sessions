@@ -102,7 +102,7 @@ QUERY: Нужно вернуться к задаче: найти почтовы�
 # Баг доски ON AIR: TTL вместо возраста таблички > [!info] Дистиллят сырого чата > Источник: `_session-md/PaloAlto-Desktop/s_14e99e44.md` (Claude-Code, 2026-07-17). Вердикт: Фикс применён локально и разослан на фло
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-7.56
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 нктов ESTA / адрес / Google Fi, как выше, плюс тот же футер. Остальные четыре лежали в приложенном файле, в тексте чата их нет. - Подключённые аккаунты Telegram: tonyssd, platinumvc1, t0x0aa, tonydzi. Сессии @teammate нет. Номер, который пр
 
 

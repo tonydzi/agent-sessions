@@ -160,7 +160,7 @@ QUERY: Нужно вернуться к задаче: найти почтовы�
 курьер, потом отнести. Насте взять у Оксаны задач минимум на 3 часа. Страховки и переоформление прицепа доделать, Оксана и Рита. Срочно спросить художницу, где куртка, которую ей отдали. - Поиск «тезис» по аккаунтам platinumvc1, t0x0aa и
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-7.24
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 нктов ESTA / адрес / Google Fi, как выше, плюс тот же футер. Остальные четыре лежали в приложенном файле, в тексте чата их нет. - Подключённые аккаунты Telegram: tonyssd, platinumvc1, t0x0aa, tonydzi. Сессии @teammate нет. Номер, который пр
 
 ## Правило: задачи Claude только через голосовые сообщения  [2026-08-06] (-) {note} rr=-7.43

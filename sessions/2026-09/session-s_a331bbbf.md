@@ -90,7 +90,7 @@ i-byt-maksimalno-proaktivnymi-vyzvanivat-kontragentov-oso.md` | | [[reglament-po
 раз, когда передаём оператору локацию, обязательно даём ссылку на Google]] - 🟢 [[reglament-vse-sobytiya-stavim-strogo-po-lokalnomu-vremeni-sootvet\|Все события ставим строго по локальному времени соответствующего города/места,]] - 🟢 [[reglamen
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-6.12
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 Денисовский (`chat_REDACTED`). - Индекс на тот момент: 21 116 чатов. «00 Архив ГОЛОСА и ТЕКСТА» чистый: 80 сообщений, 23 голосовых, сирот 0 (прогон 19:12, сторож `voice_backstop`). Это не он. - Хвост за 28.08, 17:48–18:06, 6 голосовых, до 
 
 ## Синтез ДР DR26-08-24-MACANTON-02-1025  [2026-08-31] (-) {insight} rr=-6.35

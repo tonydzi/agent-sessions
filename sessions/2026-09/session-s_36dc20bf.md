@@ -1142,7 +1142,7 @@ Write a clean note to `$OBSIDIAN_VAULT/01-Conversations/Claude/Retros/retro-<YYY
 
 ---
 
-> `Bash` -- {"command": "for H in fleet-anchor NODE-0X ruslanas-NODE-0X; do\n  echo \"════════ $H ════════\"\n  timeout 25 ssh -o BatchMode=yes -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new \"$H\" '\n    echo \"uname: $(uname -s) $(uname -r | cut -c1-12)\"\n    echo \"shell: $SHELL\"\n    e
+> `Bash` -- {"command": "for H in fleet-anchor NODE-0X r***-NODE-0X; do\n  echo \"════════ $H ════════\"\n  timeout 25 ssh -o BatchMode=yes -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new \"$H\" '\n    echo \"uname: $(uname -s) $(uname -r | cut -c1-12)\"\n    echo \"shell: $SHELL\"\n    e
 
 ---
 

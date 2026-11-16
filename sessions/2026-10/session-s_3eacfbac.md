@@ -713,7 +713,7 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 
 ---
 
-> `Bash` -- {"command": "TS=\"/c/Program Files/Tailscale/tailscale.exe\"; cd ~/.claude && timeout 90 \"$TS\" file cp scripts/voice001_peer.py scripts/_test_voice001_peer.py skills/voice001-peer/install_macos.sh skills/voice001-peer/n8n-voice001-peer-local.json skills/voice001-peer/SKILL.md ruslanas-NODE-0X:
+> `Bash` -- {"command": "TS=\"/c/Program Files/Tailscale/tailscale.exe\"; cd ~/.claude && timeout 90 \"$TS\" file cp scripts/voice001_peer.py scripts/_test_voice001_peer.py skills/voice001-peer/install_macos.sh skills/voice001-peer/n8n-voice001-peer-local.json skills/voice001-peer/SKILL.md r***-NODE-0X:
 
 ---
 

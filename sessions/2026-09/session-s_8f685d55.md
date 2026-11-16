@@ -80,7 +80,7 @@ QUERY: По поводу поездки во Франкфурт: билеты м
 a, Portugal Дата: 26.09.2026, 19:00–21:30 Бронирование: RGgSP, место 7 Меню: 2 × Classic Menu — 7 courses (€135/человек) Итого: €270 (оплачено €80, остаток €190 на месте) Парковка: подземная, €27/день (без valet) Ссылки: - [Google Maps](htt
 
 ## Голосовые 12.07: задачи Рите, паркинг FRA, вино, Core Master  [2026-07-12] (-) {note} rr=1.47
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-ruslane-parking-fra-vino-core-master.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-r***-parking-fra-vino-core-master.md -->
 , претензия поставщику уже отправлена, ждём ответ и замену (69119). Старые ветки: Оксана ведёт крючки и корпуса Honeywell, Настя ведёт виньетки. - Черновик Денису не отправлен, ждёт «+». Текст: билет во Франкфурт на пятницу 17.07, что удобн
 
 ## Смена 7-8 сентября: права, Villora, FLYONE, Facebook, Rocket  [2026-09-08] (-) {note} rr=1.28

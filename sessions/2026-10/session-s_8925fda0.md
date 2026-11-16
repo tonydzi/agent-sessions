@@ -444,7 +444,7 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 | **No Stupid Questions 119**, Angela Duckworth и Stephen Dubner, 16.10.2022 | [YouTube](https://www.youtube.com/watch?v=DC7utDPTTag) | EN | Живой человек говорит «хочу материться меньше». Не лекция про грех |
 | **Royal Institution: Swearing is Good for You**, лекция Emma Byrne, 20.06.2018 | [YouTube](https://www.youtube.com/watch?v=FjW8wcdAK24) | EN | Та же наука одним видео, если подкасты не идут |
 | **People Who Read People**, гость Timothy Jay, 30.07.2020 | [behavior-podcast.com](https://behavior-podcast.com/examining-factors-behind-offensive-speech-with-dr-timothy-jay/) | EN | Мат как разрядка против мата как сообщения другому. Разные задачи |
-| **Arzamas «Откуда взялся мат?»** (18+) | [YouTube](https://www.youtube.com/watch?v=Q3LezIHm59k) · [SoundCloud](https://soundcloud.com/arzamas-academy/otkuda-vzyalsya-mat-censoredpodkast-arzamas-o-russkom-yazyke) · [сайт](https://arzamas.academy/likbez/ruslang?e=2) | RU | Откуда взялся русский мат, эксперт Игорь Пильщиков |
+| **Arzamas «Откуда взялся мат?»** (18+) | [YouTube](https://www.youtube.com/watch?v=Q3LezIHm59k) · [SoundCloud](https://soundcloud.com/arzamas-academy/otkuda-vzyalsya-mat-censoredpodkast-arzamas-o-russkom-yazyke) · [сайт](https://arzamas.academy/likbez/r***?e=2) | RU | Откуда взялся русский мат, эксперт Игорь Пильщиков |
 | **Эмма Бирн «Ругаться полезно», глава 2** в переводе | [syg.ma](https://syg.ma/@paranteza/emma-birn-rughatsia-poliezno-chast-2-bolno-bliad-bol-i-rughan) | RU | Та книга по-русски, бесплатно |
 | **«Как правильно материться»**, разбор Бирн | [knife.media](https://knife.media/swearing-is-good/) | RU | Короткий русский пересказ |
 

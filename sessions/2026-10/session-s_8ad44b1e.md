@@ -853,7 +853,7 @@ Tailscale на хабе в состоянии NoState, это первый ко�
 
 ---
 
-> `Bash` -- {"command": "grep -n -iE \"Нора|natal|руслан|Rita|121\" ~/.claude/projects/P---WORKDIR-HUB/memory/hub-people-channels.md | head -12; grep -rn -iE \"Rita|руслан\" ~/.claude/projects/P---WORKDIR-HUB/memory/telegram-account-identities.md 2>/dev/null | head -4", "descript
+> `Bash` -- {"command": "grep -n -iE \"Нора|natal|Р***|Rita|121\" ~/.claude/projects/P---WORKDIR-HUB/memory/hub-people-channels.md | head -12; grep -rn -iE \"Rita|Р***\" ~/.claude/projects/P---WORKDIR-HUB/memory/telegram-account-identities.md 2>/dev/null | head -4", "descript
 
 ---
 

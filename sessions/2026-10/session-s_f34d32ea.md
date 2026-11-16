@@ -792,7 +792,7 @@ ARGUMENTS: найти существующие подкасты NotebookLM пр�
 
 ---
 
-> `Bash` -- {"command": "f=$(find \"D:/Vault/Vault-Knowledge/05-Resources/NotebookLM/_packets\" -name \"teach-2026-10-15-llm-distillation*.md\" | head -1); echo \"$f\"; wc -c \"$f\"; grep -n -i -E \"оператор|dev|Нора|руслан|@|crm|\\\\$|секрет|пароль|лид\" \"$f\" | head -20", "description": "Проверить наш пак
+> `Bash` -- {"command": "f=$(find \"D:/Vault/Vault-Knowledge/05-Resources/NotebookLM/_packets\" -name \"teach-2026-10-15-llm-distillation*.md\" | head -1); echo \"$f\"; wc -c \"$f\"; grep -n -i -E \"оператор|dev|Нора|Р***|@|crm|\\\\$|секрет|пароль|лид\" \"$f\" | head -20", "description": "Проверить наш пак
 
 ---
 

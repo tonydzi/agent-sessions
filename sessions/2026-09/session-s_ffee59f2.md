@@ -81,7 +81,7 @@ QUERY: Пожалуйста, пообщайся с Олегом: у него р�
 # Письма отца из Gmail: 623 письма Олега Стефановича 2015-2020 импортированы в волт > [!info] Дистиллят сырого чата > Источник: `_session-md/NODE-0X-NODE-0X/s_fbcc5501.md` (Claude-Code, 2026-06-15). Вердикт: письма извл
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=10.05
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 Денисовский (`chat_REDACTED`). - Индекс на тот момент: 21 116 чатов. «00 Архив ГОЛОСА и ТЕКСТА» чистый: 80 сообщений, 23 голосовых, сирот 0 (прогон 19:12, сторож `voice_backstop`). Это не он. - Хвост за 28.08, 17:48–18:06, 6 голосовых, до 
 
 ## Нужно добавить на сайт раздел «Люди» / «Intro» с идеей: «Инвестировать надо  [2026-05-30] (concept-personal-finance) {note} rr=10.02

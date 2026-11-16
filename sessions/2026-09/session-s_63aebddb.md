@@ -266,7 +266,7 @@ FINAL STEP (always run, even on a silent / no-op / nothing-new run -- determinis
 
 ---
 
-> `PowerShell` -- {"command": "Get-ChildItem \"E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_*.oga\" | Select-Object Name, @{n='MB';e={[math]::Round($_.Length/1MB,2)}} | Format-Table -AutoSize", "description": "Check downloaded voice sizes"}
+> `PowerShell` -- {"command": "Get-ChildItem \"E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_*.oga\" | Select-Object Name, @{n='MB';e={[math]::Round($_.Length/1MB,2)}} | Format-Table -AutoSize", "description": "Check downloaded voice sizes"}
 
 ---
 
@@ -604,7 +604,7 @@ GPU на 98% — расшифровка идёт. Готовлю выкладк�
 
 ---
 
-> `PowerShell` -- {"command": "$sc=\"$env:TEMP\\claude\\P---WORKDIR-HUB\\s_63aebddb\\scratchpad\"\npython -c \"\nimport subprocess,json,os\nd=r'E:\\!CLAUDE-HUBPC-June26\\downloads'\ntot=0\nfor f in os.listdir(d):\n    if f.startswith('telegram_-1002427790196_6') and f.endsw
+> `PowerShell` -- {"command": "$sc=\"$env:TEMP\\claude\\P---WORKDIR-HUB\\s_63aebddb\\scratchpad\"\npython -c \"\nimport subprocess,json,os\nd=r'E:\\!CLAUDE-HUBPC-June26\\downloads'\ntot=0\nfor f in os.listdir(d):\n    if f.startswith('telegram_-100XXXXXXXXXX_6') and f.endsw
 
 ---
 
@@ -663,7 +663,7 @@ If this event is something the user would act on now, send a PushNotification. R
 
 ---
 
-> `PowerShell` -- {"command": "python C:\\Users\\dev\\.claude\\scripts\\machine_bus.py send HUB-01 \"TASK: доразобрать 10 длинных записей встреч из бурста 05.09, которые бот-расшифровщик не осилил. Аудио уже скачано: E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_{6162,6164,6167,6169,6173,
+> `PowerShell` -- {"command": "python C:\\Users\\dev\\.claude\\scripts\\machine_bus.py send HUB-01 \"TASK: доразобрать 10 длинных записей встреч из бурста 05.09, которые бот-расшифровщик не осилил. Аудио уже скачано: E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_{6162,6164,6167,6169,6173,
 
 ---
 

@@ -155,7 +155,7 @@ WhatsApp-дубль сегодня невозможен честно: owner бр
 
 ---
 
-> `Bash` -- {"command": "cd ~/.claude/scripts 2>/dev/null\npython find_chat.py \"anruva\" 2>&1 | head -8\necho \"---\"\npython find_chat.py \"Рита\" 2>&1 | head -12", "description": "Look up Rita chat id in dialogs index"}
+> `Bash` -- {"command": "cd ~/.claude/scripts 2>/dev/null\npython find_chat.py \"@a***\" 2>&1 | head -8\necho \"---\"\npython find_chat.py \"Рита\" 2>&1 | head -12", "description": "Look up Rita chat id in dialogs index"}
 
 ---
 
@@ -163,7 +163,7 @@ WhatsApp-дубль сегодня невозможен честно: owner бр
 
 ---
 
-> `Bash` -- {"command": "cd /e/Obsidian/_imports/dialogs && python find_chat.py \"anruva\" 2>&1 | head -6; echo \"---\"; python find_chat.py \"Рита\" 2>&1 | head -10", "description": "Find Rita chat via dialogs index"}
+> `Bash` -- {"command": "cd /e/Obsidian/_imports/dialogs && python find_chat.py \"@a***\" 2>&1 | head -6; echo \"---\"; python find_chat.py \"Рита\" 2>&1 | head -10", "description": "Find Rita chat via dialogs index"}
 
 ---
 

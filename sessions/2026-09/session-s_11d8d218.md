@@ -128,7 +128,7 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 
 ---
 
-> `Bash` -- {"command": "cd \"E:/!CLAUDE-HUBPC-June26/migration-prep/\"; ls -la Nora-follower edita-follower; grep -rn -i \"memory\\|natal\" ../../[ИМЯ]/Vault-Knowledge 2>/dev/null | head -0; grep -n -i \"natal\\|руслан\\|Rita\" /c/[ИМЯ]/dev/.claude/projects/P---WORKDIR-HUB/memory/m
+> `Bash` -- {"command": "cd \"E:/!CLAUDE-HUBPC-June26/migration-prep/\"; ls -la Nora-follower edita-follower; grep -rn -i \"memory\\|natal\" ../../[ИМЯ]/Vault-Knowledge 2>/dev/null | head -0; grep -n -i \"natal\\|Р***\\|Rita\" /c/[ИМЯ]/dev/.claude/projects/P---WORKDIR-HUB/memory/m
 
 ---
 

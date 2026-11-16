@@ -109,7 +109,7 @@ QUERY: Рита, голосовые больше не переводить и н
  сварка Семёну, дерево Олегу. Пётр и Габриэль: текст EN+PT. Это расходится со стейтом по саду. - Робот «Покупки». Промпт `~/.claude/scheduled-tasks/translate-chats-Rita/SKILL.md`. Стейт `~/.claude/scripts/translate-chats-state.json`: 683
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=1.11
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 ход не делали. Вход в этот аккаунт открыл бы всю переписку, не только три чата. - Два обхода, которые остались на столе. Вариант 1: шесть текстов вставляешь реплаем сам, по слову «вставила» сносятся 12 ботовых. Вариант 2: логин один раз на 
 
 ## Закупки 22-23.09.2026: попкорн, шорты eBay, щиты, микрофоны  [2026-09-23] (-) {note} rr=1.07

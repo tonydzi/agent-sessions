@@ -99,7 +99,7 @@ Stop
 === CONTEXT BUNDLE (paste to Claude) ===
 
 ## Автоматический напоминатель о сне для Риты/оператора (Telegram)  [2026-09-02] (-) {note} rr=-8.12
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-02--avtomaticheskiy-napominatel-o-sne-dlya-ruslany-antona-telegram-2.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-02--avtomaticheskiy-napominatel-o-sne-dlya-r***-antona-telegram-2.md -->
 ночь скоро / уже ночь. ВСЁ, стоп. Задачи подождут до утра, я никуда не денусь. Спать — серьёзно 🛏️ (и это относится к обоим — и оператору, и Рите)» - Имя адресата: по умолчанию Рита, но если в свежих сообщениях видно, что активен оператор —
 
 ## Голосовые 14.08.2026: парковка, палеты, вилка Woom 3, Денис  [2026-08-14] (-) {note} rr=-8.27
@@ -119,7 +119,7 @@ Stop
 из 14 зелёная, сломанный мутант ловится. Саму команду не копирую. Plaud сам расшифровку не стартует. Нужен клик или включённый автопоток: язык русский, шаблон встречи. Короче примерно 5 минут автопоток не берёт. После включения забрали 7 за
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-8.46
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 ход не делали. Вход в этот аккаунт открыл бы всю переписку, не только три чата. - Два обхода, которые остались на столе. Вариант 1: шесть текстов вставляешь реплаем сам, по слову «вставила» сносятся 12 ботовых. Вариант 2: логин один раз на 
 
 ## DR-robot прогон 2026-09-11: collect/deliver без dispatch  [2026-09-11] (-) {note} rr=-9.00

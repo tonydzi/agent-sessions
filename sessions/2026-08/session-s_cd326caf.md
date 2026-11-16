@@ -225,7 +225,7 @@ This is an automated run of a scheduled task. The user is not present to answer 
 
 ---
 
-> `PowerShell` -- {"command": "$src='C:\\Users\\dev\\!CLAUDE-NODE-0X May26\\downloads'; $dst='E:\\!CLAUDE-HUBPC-June26\\downloads'\nforeach($n in @('telegram_-1001571208214_64235_1785138216.jpg','telegram_-1001571208214_64236_1785138217.jpg')){\n  Copy-Item (Join-Path $src $n) (Join-Path $dst $n) -Force\n  $a=(Ge
+> `PowerShell` -- {"command": "$src='C:\\Users\\dev\\!CLAUDE-NODE-0X May26\\downloads'; $dst='E:\\!CLAUDE-HUBPC-June26\\downloads'\nforeach($n in @('telegram_-100XXXXXXXXXX_64235_1785138216.jpg','telegram_-100XXXXXXXXXX_64236_1785138217.jpg')){\n  Copy-Item (Join-Path $src $n) (Join-Path $dst $n) -Force\n  $a=(Ge
 
 ---
 

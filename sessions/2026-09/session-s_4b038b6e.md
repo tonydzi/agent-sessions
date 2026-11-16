@@ -135,7 +135,7 @@ Paintings (Лиссабон)** - Дата: 26.09.2026, время: 19:00–21:30
 иск по волту на эту фразу дал планерку 21.07.2026: «Мерседес не разгоняется», запись на ремонт на завтра 9-10, фраза «не едет вообще, не разгоняется». Это не ответ, какие счета пришли 8 сентября. Остальные попадания к этой машине не относят
 
 ## Голосовые 12.07: задачи Рите, паркинг FRA, вино, Core Master  [2026-07-12] (-) {note} rr=-7.31
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-ruslane-parking-fra-vino-core-master.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-r***-parking-fra-vino-core-master.md -->
 –6,5 ч, приезд ~14:00–14:30, магазин до 17:00. Что брать: Coffret Brut Royal с бокалами, престижные кюве, мини-бутылки POP. Ссылки: https://www.reims-tourisme.com/maison-de-champagne-vranken-pommery/reims/deg0000000000198 , https://www.mais
 
 ## Оперсводка 8-9 сент 2026: BE, стекло, школы, моль, забор Артура  [2026-09-09] (-) {note} rr=-7.40

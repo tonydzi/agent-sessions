@@ -117,7 +117,7 @@ QUERY: Покупай
 i-byt-maksimalno-proaktivnymi-vyzvanivat-kontragentov-oso.md` | | [[reglament-pokupki-dlya-vhoda-v-lyuboy-akkaunt-antona-mycloud-pochty-i-dr]] | Для входа в любой аккаунт оператора (MyCloud, почты и др.) сначала позвон | dev | 2025-09-21 | `
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-5.94
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 не Долины, забрать вещи самому. Посмотреть, есть ли свой человек под отгрузку. SIM Google Fi, оформлена и отгружена на имя оператора. Связаться с Леной Кондричевой: она говорила, что по симке есть нюансы. Проверить долги по Google Fi. Боты слы
 
 ## Сатошкин @stepanin: P2P, BILLIONS, IBAN и Париматч  [2026-09-03] (-) {note} rr=-6.15

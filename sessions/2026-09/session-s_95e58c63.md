@@ -89,7 +89,7 @@ QUERY: Скажи, что я до 10 числа в Америке. Когда в
  сюда не копирую. ## Связи - сырьё остаётся в архиве чатов
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=9.87
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 Денисовский (`chat_REDACTED`). - Индекс на тот момент: 21 116 чатов. «00 Архив ГОЛОСА и ТЕКСТА» чистый: 80 сообщений, 23 голосовых, сирот 0 (прогон 19:12, сторож `voice_backstop`). Это не он. - Хвост за 28.08, 17:48–18:06, 6 голосовых, до 
 
 ## Distilled: Планерка вечер  [2026-09-09] (-) {note} rr=9.81

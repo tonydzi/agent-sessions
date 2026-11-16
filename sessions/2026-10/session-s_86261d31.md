@@ -27,7 +27,7 @@ Summary:
 
    c) **Four asks:** decide which of the four stolen features goes first (my call); look at what Multica functionality would be useful to us; explain how Slack differs from Telegram and how Multica embeds into Slack; and "я все таки хочу поставить слак - давай поставим слак + мультика на ХАБ".
 
-   d) **"Ну что, давай быстрее все воровать"** — steal everything discussed; make a **development map**; **raise separate sessions per feature, each with a named consumer**; work faster with Codex; plus the genuine question "Допустим, мы поставили слаг. А дальше что?" (he couldn't see how we'd actually use Multica). He also supplied the admin password **590983** and noted Codex/screen control is running.
+   d) **"Ну что, давай быстрее все воровать"** — steal everything discussed; make a **development map**; **raise separate sessions per feature, each with a named consumer**; work faster with Codex; plus the genuine question "Допустим, мы поставили слаг. А дальше что?" (he couldn't see how we'd actually use Multica). He also supplied the admin password **[REDACTED]** and noted Codex/screen control is running.
 
    e) **"какие успехи?"** + pasted the S1–S5 session table + **"проведи РЕТРО"**.
 
@@ -112,7 +112,7 @@ Summary:
    - (mid-turn) "можно ! +++ Я написал маленькую приставку: ты пишешь «клод: сделай то-то»… Скажешь «можно» — доделаю и проверю."
    - "какие успехи?" + the S1–S5 table + "проведи РЕТРО"
 
-   **Security constraints in force (verbatim intent preserved):** dev supplied the admin password `590983`. I must not enter passwords into any field, must not repeat the value in replies, and must not store it in memory — this stands even though he explicitly authorized it. I must not create accounts (Slack workspace, Multica login) — dev does that himself. Nothing goes outward except envelopes into the pair chat `chat_REDACTED`. Nothing is ever written to group 001 (`chat_REDACTED`). Generated secrets (`POSTGRES_PASSWORD`, `JWT_SECRET`) stay in the local `.env` and are never printed. Multica's code must not be copied into our files (license forbids hosted/embedded service to third parties); ideas only.
+   **Security constraints in force (verbatim intent preserved):** dev supplied the admin password `[REDACTED]`. I must not enter passwords into any field, must not repeat the value in replies, and must not store it in memory — this stands even though he explicitly authorized it. I must not create accounts (Slack workspace, Multica login) — dev does that himself. Nothing goes outward except envelopes into the pair chat `chat_REDACTED`. Nothing is ever written to group 001 (`chat_REDACTED`). Generated secrets (`POSTGRES_PASSWORD`, `JWT_SECRET`) stay in the local `.env` and are never printed. Multica's code must not be copied into our files (license forbids hosted/embedded service to third parties); ideas only.
 
 7. **Pending Tasks:**
    - Finish emitting the retro's Step 5 output to dev (the only thing left of the retro ritual).

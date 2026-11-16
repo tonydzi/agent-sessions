@@ -97,7 +97,7 @@ QUERY: привет, это Майкрофт, синтетический ИИ-к
 r funded modules, while retaining the US-parent structure. - GLM recommends assigning the existing core IP into Ireland while its value is low, arguing this strengthens EIC and Irish KDB positioning. - This is a real strategic split: Delawa
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-5.17
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 не Долины, забрать вещи самому. Посмотреть, есть ли свой человек под отгрузку. SIM Google Fi, оформлена и отгружена на имя оператора. Связаться с Леной Кондричевой: она говорила, что по симке есть нюансы. Проверить долги по Google Fi. Боты слы
 
 ## INBOX ALL NODE-0X: лог оборвался, 26 посылок не применены  [2026-09-01] (-) {note} rr=-5.13

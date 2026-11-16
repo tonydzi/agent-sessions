@@ -187,11 +187,11 @@ Saved Messages: всё роботное (планы, W2c FAILED, чернови�
 
 ---
 
-> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_6579_1789117885.jpg"}
+> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_6579_1789117885.jpg"}
 
 ---
 
-> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_6580_1789117888.jpg"}
+> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_6580_1789117888.jpg"}
 
 ---
 
@@ -199,7 +199,7 @@ Saved Messages: всё роботное (планы, W2c FAILED, чернови�
 
 ---
 
-> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_6581_1789117904.jpg"}
+> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_6581_1789117904.jpg"}
 
 ---
 
@@ -207,7 +207,7 @@ Saved Messages: всё роботное (планы, W2c FAILED, чернови�
 
 ---
 
-> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_6569_1789117910.jpg"}
+> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_6569_1789117910.jpg"}
 
 ---
 

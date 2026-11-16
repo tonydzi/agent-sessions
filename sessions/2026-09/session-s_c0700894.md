@@ -92,7 +92,7 @@ Stop
 === CONTEXT BUNDLE (paste to Claude) ===
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-5.69
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 не Долины, забрать вещи самому. Посмотреть, есть ли свой человек под отгрузку. SIM Google Fi, оформлена и отгружена на имя оператора. Связаться с Леной Кондричевой: она говорила, что по симке есть нюансы. Проверить долги по Google Fi. Боты слы
 
 ## Настройка Plaud: подписка, транскрипция, связь с CRM и follow-up  [2026-09-25] (-) {note} rr=-5.93
@@ -108,7 +108,7 @@ Stop
 24.09.2026, следующее списание 24.10.2026. - **Тарифы Plaud**: - Starter: бесплатно (300 мин/мес расшифровки). - Pro: 1200 мин/мес ($17.99/мес или $99.99/год). - Unlimited: до 24 часов расшифровки в сутки ($29.99/мес или $239.99/год). - **Б
 
 ## Рита Ром (@RitaRom): разбор по 36 сообщениям клуба  [2026-09-06] (-) {note} rr=-6.17
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-06--Rita-rom-ruslanrom-razbor-po-36-soobscheniyam-kluba.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-06--Rita-rom-r***-razbor-po-36-soobscheniyam-kluba.md -->
 далить eSIM, прописать на телефоне вне РФ. - 2026-05-30: чужая банковская карта, 187 УК РФ. Если друг дал погонять бесплатно и не для других преступлений, состава нет. По факту могут устроить проверку, бесплатно ли и не для преступлений ли.
 
 ## Настройка пайплайна Plaud: подписка, автотранскрипция, связка с лидами  [2026-09-28] (-) {note} rr=-6.61

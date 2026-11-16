@@ -397,7 +397,7 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 
 ---
 
-> `Bash` -- {"command": "NB=\"C:/Users/dev/notebooklm-cli/venv/Scripts/notebooklm.exe\"; for p in 590983a platinum-daily-meetings a dev-a2; do echo \"--- $p ---\"; \"$NB\" -p $p list 2>&1 | head -3; done", "description": "Probe remaining profiles for a live bucket"}
+> `Bash` -- {"command": "NB=\"C:/Users/dev/notebooklm-cli/venv/Scripts/notebooklm.exe\"; for p in [REDACTED]a platinum-daily-meetings a dev-a2; do echo \"--- $p ---\"; \"$NB\" -p $p list 2>&1 | head -3; done", "description": "Probe remaining profiles for a live bucket"}
 
 ---
 

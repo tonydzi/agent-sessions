@@ -100,7 +100,7 @@ t-construction-renovation]]
 , `felo-web`, `veoaifree-web`), и все три поисковые, не кодинг-LLM. Плюс фактически сработавший no-auth пул (`connectionId: "noauth"`). - `web-cookie` провайдеров **28**, из них **21 помечен `subscriptionRisk: true` самим проектом**. ## ⚠️ 
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=6.41
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 нктов ESTA / адрес / Google Fi, как выше, плюс тот же футер. Остальные четыре лежали в приложенном файле, в тексте чата их нет. - Подключённые аккаунты Telegram: tonyssd, platinumvc1, t0x0aa, tonydzi. Сессии @teammate нет. Номер, который пр
 
 ## Восстановление доступа к [EMAIL]: шаги и данные  [2026-09-11] (-) {note} rr=6.42
@@ -148,7 +148,7 @@ t-construction-renovation]]
     …завершения разработки продукта **18:03** 🟢 **оператор** > Евгений, [проверьте] [пожалуйста] фолоуап > Все ли основное учтено? **18:04** ⚪ **ProTechMaster…
     src: D:\Vault\Vault-Knowledge\01-Conversations\Telegram\Personal-DMs\conversations\protechmaster\protechmaster-2026.md
  5. [2023-06-14] Toth Korenyugin Коренюгин — DM 2023  {chat:Telegram}
-    …au > 590983Asd! > LINKED **09:32** 🟢 **оператор** > [зайди] в [мой] новый линкед **09:32** 🟢 **оператор** > я из…
+    …au > [REDACTED]Asd! > LINKED **09:32** 🟢 **оператор** > [зайди] в [мой] новый линкед **09:32** 🟢 **оператор** > я из…
     src: D:\Vault\Vault-Knowledge\01-Conversations\Telegram\Personal-DMs\conversations\Toth-korenyugin\Toth-korenyugin-2023.md
 
 === ПАМЯТЬ ОПЕРАЦИЙ (уже видели цены / висящие темы — ИСПОЛЬЗУЙ, не гоняй искать заново) ===

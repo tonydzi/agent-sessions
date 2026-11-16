@@ -24,7 +24,7 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 
 ---
 
-> `Grep` -- {"pattern": "(?i)руслан.*(n8n|workflow|воркфлоу)|Rita.*(n8n|workflow)", "path": "D:\\Vault", "output_mode": "files_with_matches", "head_limit": 40}
+> `Grep` -- {"pattern": "(?i)Р***.*(n8n|workflow|воркфлоу)|Rita.*(n8n|workflow)", "path": "D:\\Vault", "output_mode": "files_with_matches", "head_limit": 40}
 
 ---
 
@@ -341,4 +341,4 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 
 **Предлагаю починку.** Если OpenAI снова будет так тормозить, голосовые опять будут висеть по несколько минут. Можно поставить на расшифровку OpenAI предел в 30 секунд: не успел, тогда в чат уходит одна версия ElevenLabs. Это одна настройка в одном шаге n8n. Сделать?
 
-🧒 **Простыми словами:** почтальон n8n письмо донёс, просто один переводчик из двух три минуты пил чай. Перевод в чате уже лежит, а второй, «руслановский» шаг больше не появляется.
+🧒 **Простыми словами:** почтальон n8n письмо донёс, просто один переводчик из двух три минуты пил чай. Перевод в чате уже лежит, а второй, «Р***» шаг больше не появляется.

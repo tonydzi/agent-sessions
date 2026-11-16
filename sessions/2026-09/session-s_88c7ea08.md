@@ -1603,7 +1603,7 @@ PARCEL заявляет «сетка 34/34» — у автора на его у�
 
 ---
 
-> `Bash` -- {"command": "timeout 60 ssh -o ConnectTimeout=12 -o BatchMode=yes dev@ruslanas-NODE-0X \"hostname\" 2>&1 | head -4; echo \"Рита rc=$?\"", "description": "Test ssh to Rita mac", "timeout": 70000}
+> `Bash` -- {"command": "timeout 60 ssh -o ConnectTimeout=12 -o BatchMode=yes dev@r***-NODE-0X \"hostname\" 2>&1 | head -4; echo \"Рита rc=$?\"", "description": "Test ssh to Rita mac", "timeout": 70000}
 
 ---
 

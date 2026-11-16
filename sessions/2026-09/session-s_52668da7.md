@@ -89,7 +89,7 @@ QUERY: Рита, просьба: голосовые больше не перев
 0 символов режется. Новых заметок нет: в эту папку ничего не слать. - Шапка выкладки: «🗂️ ТРИАЖ <дата/окно> (N заметок → 📝<p> / 💎<a> / 🔧<t> · статусы: post / merge / series / bank / internal / suppress)». - Пинг в чат 03, chat_id `-35474891
 
 ## Робот перевода голосовых: регламент, WA Риты, denis_watch в DRY-RUN  [2026-07-15] (-) {note} rr=5.60
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-15--robot-perevoda-golosovyh-reglament-wa-ruslany-denis-watch-v-dry-run.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-15--robot-perevoda-golosovyh-reglament-wa-r***-denis-watch-v-dry-run.md -->
 # Робот перевода голосовых: регламент, WA Риты, denis_watch в DRY-RUN > [!info] Дистиллят сырого чата > Источник: `_session-md/NODE-0X/s_abddc210.md` (Claude-Code, 2026-07-15). Вердикт: Демон denis_watch
 
 ## Голос в текст: RU-turbo локально, ElevenLabs точечно, n8n открыт  [2026-06-27] (-) {note} rr=5.52
@@ -97,7 +97,7 @@ QUERY: Рита, просьба: голосовые больше не перев
 # Голос в текст: RU-turbo локально, ElevenLabs точечно, n8n открыт > [!info] Дистиллят сырого чата > Источник: `01-Conversations/Codex/NODE-0X-2023PAL/_external-agent-imports/2026-06-27-c-users-downloads-whisper-deep-research-019f0a6f.md` (
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=5.48
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 # Голосовые в трёх TG-чатах: формат Риты, блокер @teammate > [!info] Дистиллят сырого чата > Источник: `_session-md/PaloAlto-Desktop/s_942f72f1.md` (Claude-Code, 2026-08-28). Вердикт: Формат реплая Риты приня
 
 ## Задачи из чатов за 23-30 августа 2026: выполненные и невыполненные  [2026-09-01] (-) {note} rr=5.05

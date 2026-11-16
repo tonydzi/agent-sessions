@@ -156,7 +156,7 @@ lament-lyubaya-llm-ravnopravnyy-bezopasnyy-aktor-nad-vault]]. Ретро-син�
 оего shadow-замера. Практический потолок пользы: без регистрации у 40 провайдеров бесплатно доступен по сути один no-auth пул — это грунтовая рабочая лошадка, а не замена Opus. Связано: [[insight-omniroute-router-recon-2026-07-31]], [[prefe
 
 ## Голосовые в трёх TG-чатах: формат Риты, блокер @teammate  [2026-08-28] (-) {note} rr=-9.38
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-ruslany-bloker-teammate.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-08-28--golosovye-v-tryoh-tg-chatah-format-r***-bloker-teammate.md -->
 не Долины, забрать вещи самому. Посмотреть, есть ли свой человек под отгрузку. SIM Google Fi, оформлена и отгружена на имя оператора. Связаться с Леной Кондричевой: она говорила, что по симке есть нюансы. Проверить долги по Google Fi. Боты слы
 
 

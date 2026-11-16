@@ -70,7 +70,7 @@ QUERY: Рита, проверь, пожалуйста, обоих поставщ
 === CONTEXT BUNDLE (paste to Claude) ===
 
 ## Автоматизированный INBOX 23.08.2026: посылки, долги, задачи Риты  [2026-09-02] (-) {note} rr=6.63
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-02--avtomatizirovannyy-inbox-23-08-2026-posylki-dolgi-zadachi-ruslany.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-02--avtomatizirovannyy-inbox-23-08-2026-posylki-dolgi-zadachi-r***.md -->
 .path.expanduser;ts=[h(\"~/.claude/hooks/_test_av_spawn_guard.py\"),h(\"~/.claude/scripts/_test_dispatch_taskid_ascii.py\")];sys.exit(max(subprocess.run([sys.executable,t]).returncode for t in ts))"` - `selfheal-taskid-and-antiloop-20260822
 
 ## Закупки 9-10.09.2026: песок, плитка 40×40, микрозелень, отгрузки  [2026-09-10] (-) {note} rr=6.45

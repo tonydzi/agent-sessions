@@ -245,7 +245,7 @@ PDF ушли Рите в тред её вопросов. Теперь архив
 
 ---
 
-> `mcp__telegram__search_contacts` -- {"query": "anruva"}
+> `mcp__telegram__search_contacts` -- {"query": "@a***"}
 
 ---
 

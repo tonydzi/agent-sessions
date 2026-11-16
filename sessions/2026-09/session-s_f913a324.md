@@ -101,7 +101,7 @@ https://t.me/+Vn6YeY6rBe81ZTA0 представься как майкрофт
 
 ---
 
-> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-1002427790196_6569_1789063373.jpg"}
+> `Read` -- {"file_path": "E:\\!CLAUDE-HUBPC-June26\\downloads\\telegram_-100XXXXXXXXXX_6569_1789063373.jpg"}
 
 ---
 

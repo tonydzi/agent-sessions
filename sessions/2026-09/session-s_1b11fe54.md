@@ -76,7 +76,7 @@ QUERY: Рита, отключи автоматизацию, которая бе�
 # Рутина voice-triage: разбор голосовых хаба в контент > [!info] Дистиллят сырого чата > Источник: `01-Conversations/Codex/HUB-01/_external-agent-imports/2026-09-19-codex-1af5ad48696e.md` (Codex, 2026-09-19). Вердикт: В диалоге новог
 
 ## Робот перевода голосовых: регламент, WA Риты, denis_watch в DRY-RUN  [2026-07-15] (-) {note} rr=-0.14
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-15--robot-perevoda-golosovyh-reglament-wa-ruslany-denis-watch-v-dry-run.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-15--robot-perevoda-golosovyh-reglament-wa-r***-denis-watch-v-dry-run.md -->
 # Робот перевода голосовых: регламент, WA Риты, denis_watch в DRY-RUN > [!info] Дистиллят сырого чата > Источник: `_session-md/NODE-0X/s_abddc210.md` (Claude-Code, 2026-07-15). Вердикт: Демон denis_watch
 
 ## Доступ к папке n8n на хабе для настройки  [2026-09-02] (-) {note} rr=-0.41

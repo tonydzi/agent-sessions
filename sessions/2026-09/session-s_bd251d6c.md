@@ -1613,7 +1613,7 @@ Telethon уже последняя (1.45.0), дело не в версии. Ко
 
 ---
 
-> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\calls\\call_close.py", "old_string": "OUR_TOKENS = (\"dev\", \"tony\", \"mycroft\", \"майкрофт\", \"оператор\", \"Nora\", \"Nora\",\n              \"Нора\", \"Rita\", \"руслан\", \"paloalto\", \"palo alto\",\n              \"we \"
+> `Edit` -- {"replace_all": false, "file_path": "D:\\Vault\\_imports\\calls\\call_close.py", "old_string": "OUR_TOKENS = (\"dev\", \"tony\", \"mycroft\", \"майкрофт\", \"оператор\", \"Nora\", \"Nora\",\n              \"Нора\", \"Rita\", \"Р***\", \"paloalto\", \"palo alto\",\n              \"we \"
 
 ---
 

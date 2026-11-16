@@ -32,7 +32,7 @@ _Full working session of an LLM coding agent, scrubbed by rule (names kept as st
 
 ---
 
-> `Grep` -- {"pattern": "(Дятковск|[ФАМИЛИЯ]|[ФАМИЛИЯ]).{0,80}(педагог|образован|education|pedagog)", "path": "D:\\Vault\\Vault-Knowledge", "-i": true, "output_mode": "files_with_matches", "head_limit": 40}
+> `Grep` -- {"pattern": "(Д***|[ФАМИЛИЯ]|[ФАМИЛИЯ]).{0,80}(педагог|образован|education|pedagog)", "path": "D:\\Vault\\Vault-Knowledge", "-i": true, "output_mode": "files_with_matches", "head_limit": 40}
 
 ---
 

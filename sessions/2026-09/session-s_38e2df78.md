@@ -81,11 +81,11 @@ QUERY: Рита, нужно сегодня отгрузить бак и быст
 === CONTEXT BUNDLE (paste to Claude) ===
 
 ## Голосовые 12.07: задачи Рите, паркинг FRA, вино, Core Master  [2026-07-12] (-) {note} rr=10.78
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-ruslane-parking-fra-vino-core-master.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-12--golosovye-12-07-zadachi-r***-parking-fra-vino-core-master.md -->
 # Голосовые 12.07: задачи Рите, паркинг FRA, вино, Core Master > [!info] Дистиллят сырого чата > Источник: `_session-md/NODE-0X/s_c2a74d76.md` (Claude-Code, 2026-07-12). Вердикт: переводы опубликованы; р
 
 ## Задачи Риты 07-08.07: канал 01, 19 закрыто, хвост открыт  [2026-07-08] (-) {note} rr=10.75
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-08--zadachi-ruslany-07-08-07-kanal-01-19-zakryto-hvost-otkryt.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-07-08--zadachi-r***-07-08-07-kanal-01-19-zakryto-hvost-otkryt.md -->
 быт, закупки, логистика, уроки детей. В «Покупках» у неё только уже известные 4 покупки. ## Выводы и ограничения - В канал записано закрытие 10 пунктов (id 28) и добор находок (id 29). Предложение запостить утреннюю сводку выполнено этими п
 
 ## Distilled: Планерка утро  [2026-07-16] (-) {note} rr=10.73
@@ -97,11 +97,11 @@ QUERY: Рита, нужно сегодня отгрузить бак и быст
 курьер, потом отнести. Насте взять у Оксаны задач минимум на 3 часа. Страховки и переоформление прицепа доделать, Оксана и Рита. Срочно спросить художницу, где куртка, которую ей отдали. - Поиск «тезис» по аккаунтам platinumvc1, t0x0aa и
 
 ## Автоматизация утреннего плана для Риты через Telegram MCP  [2026-09-04] (-) {note} rr=10.70
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-04--avtomatizaciya-utrennego-plana-dlya-ruslany-cherez-telegram-mcp.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-04--avtomatizaciya-utrennego-plana-dlya-r***-cherez-telegram-mcp.md -->
 `/`limit` ## Выводы и ограничения - **Что выбрано**: Подход с последовательным чтением файла через `offset`/`limit` для обхода ограничения по объёму. - **Что отвергнуто**: Прямой парсинг всего файла за один запрос из-за превышения лимита то
 
 ## 13 голосовых подрядчикам без галочки Риты, 14-15.09.2026  [2026-09-15] (-) {note} rr=10.68
-<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-15--13-golosovyh-podryadchikam-bez-galochki-ruslany-14-15-09-2026.md -->
+<!-- src: D:\Vault\Vault-Knowledge\02-Decisions\_Inbox\2026-09-15--13-golosovyh-podryadchikam-bez-galochki-r***-14-15-09-2026.md -->
 аётся по `user_id id_3c5ffa62`. Пустая реакция приходит отдельной ошибкой Telegram, поэтому неотмеченные отделяются. - Ничего в Telegram и WhatsApp в этом логе не отправлено. Ссылок на сообщения нет. - **№25653, Денису.** По пятницам ставить
 
 ## Distilled: Планерка утро  [2026-09-09] (-) {note} rr=10.67
